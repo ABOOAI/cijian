@@ -1,0 +1,106 @@
+{
+  "version": "1.11.3",
+  "sourceCommit": "fbe2b6c1372c491d81daff42cb42556b5f774b5e",
+  "fileCount": 2273,
+  "audioMp3Count": 1023,
+  "archives": [
+    {
+      "file": "cijian-1.11.3-part-01.zip",
+      "bytes": 5808174,
+      "sha256": "3f1e5bf45e12f4a361c04f5f98a07e1811c71f53c25709117cf34fe4e3f4c9fc",
+      "fileCount": 137,
+      "gitBlobSha": "6c223d932bda3bf21ff0460a0fb7a1c16a9e01f2"
+    },
+    {
+      "file": "cijian-1.11.3-part-02.zip",
+      "bytes": 5786753,
+      "sha256": "00c48e3595c3a4d1e28529a65b14b43e361d6f914640cfa5aaec823d95b76e0b",
+      "fileCount": 68,
+      "gitBlobSha": "c1d5275d6c02e3b740f6139cccb6444685c985ca"
+    },
+    {
+      "file": "cijian-1.11.3-part-03.zip",
+      "bytes": 5799134,
+      "sha256": "11e5c3e1128f228070e153e98ff74e95ef0c9b581a2cfbca41b6d74a7b2e7de0",
+      "fileCount": 128,
+      "gitBlobSha": "c045c964ebee69b4f413f45d7a7730c2fff40c2f"
+    },
+    {
+      "file": "cijian-1.11.3-part-04.zip",
+      "bytes": 5887540,
+      "sha256": "35c06ea5ecdba12ca7fd7d964fccd4efdc959c1463c4e90edda6e633389e2ec5",
+      "fileCount": 234,
+      "gitBlobSha": "a4da8fc33c1542543facd71e3b82eb8536a965e7"
+    },
+    {
+      "file": "cijian-1.11.3-part-05.zip",
+      "bytes": 5864269,
+      "sha256": "58deb29201c958062565ee736d2727c0be3a260f64f4cf8ec00a72d01c8b3836",
+      "fileCount": 237,
+      "gitBlobSha": "83ef43287d3c3c9d68a7800765b292702cc137eb"
+    },
+    {
+      "file": "cijian-1.11.3-part-06.zip",
+      "bytes": 5875000,
+      "sha256": "ea07d4b491c0588d23622b7e92339eaf9a7e8e0f82bd4e53fe8e967f5dbfa9e2",
+      "fileCount": 218,
+      "gitBlobSha": "9fddb73b832b7811b1ba28eb97a807b6c1a5bdff"
+    },
+    {
+      "file": "cijian-1.11.3-part-07.zip",
+      "bytes": 2071091,
+      "sha256": "016b5e031cb0a53be1e2ec7e4d4550e242368c6dc0c402434ae87a1350c76f71",
+      "fileCount": 490,
+      "gitBlobSha": "888aa11dc767365182f65a9a5c17b28c70b941a5"
+    },
+    {
+      "file": "cijian-1.11.3-part-08.zip",
+      "bytes": 1956325,
+      "sha256": "99ff90c6c48bd72b6bf91082eb94e5f6c21e8134db725eca88549b120c090551",
+      "fileCount": 51,
+      "gitBlobSha": "c3b43963e706d93763a605c9e77c61c9d7729c59"
+    },
+    {
+      "file": "cijian-1.11.3-part-09.zip",
+      "bytes": 2145494,
+      "sha256": "f9c9625be588066cb3674d8c75a4b63edb8a6a9c5984148a958b46eb1e9bdb0c",
+      "fileCount": 104,
+      "gitBlobSha": "3d0152092550630fc25601b11e23039f3b9130d2"
+    },
+    {
+      "file": "cijian-1.11.3-part-10.zip",
+      "bytes": 2045262,
+      "sha256": "e98995f585d835c2cae9022a98af77f6af95a0287d5ecb1d73f276b3996a3d27",
+      "fileCount": 135,
+      "gitBlobSha": "889f65f694475adf7ca3574244d16951bcfad556"
+    },
+    {
+      "file": "cijian-1.11.3-part-11.zip",
+      "bytes": 2118343,
+      "sha256": "74a94f27bc37d76fc565c340f80d253d8f814e2bc9317deb41b6c14cbbce81c0",
+      "fileCount": 93,
+      "gitBlobSha": "77f6cfce0ba09e5648ce25da5b07f400d4e5b0c4"
+    },
+    {
+      "file": "cijian-1.11.3-part-12.zip",
+      "bytes": 1958880,
+      "sha256": "048bac0aaf93d7110f94da6c30f0431183440573d1248459aabadc583654d842",
+      "fileCount": 83,
+      "gitBlobSha": "ea145b860e9d480e7e8181f3d0892e26e0cb5f18"
+    },
+    {
+      "file": "cijian-1.11.3-part-13.zip",
+      "bytes": 2156866,
+      "sha256": "a0189cfc7965c7fcfce78a52f51208246ef9b2bc0c386124b955157998bcf55d",
+      "fileCount": 201,
+      "gitBlobSha": "b0a031c361865856f85eae5d496690e57a0c1f2f"
+    },
+    {
+      "file": "cijian-1.11.3-part-14.zip",
+      "bytes": 523250,
+      "sha256": "8a5b523d60b7488b35e6939a6cfab3978eb8aa0ff317e297028bce8da6de8ab1",
+      "fileCount": 94,
+      "gitBlobSha": "7b5d29cf91660d4999aba47005581e16ef032055"
+    }
+  ]
+}
