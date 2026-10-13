@@ -1,0 +1,1485 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "accent": "en-US",
+    "wordCount": 21,
+    "corpusSize": 711,
+    "uncoveredWordCount": 690,
+    "audioLabelZh": "美音合成分读 · 未经人工听审",
+    "audioEngine": "Kokoro-82M v1.0",
+    "license": "Apache-2.0",
+    "listeningReviewed": false,
+    "productionQualityClaim": false,
+    "fallbackZh": "该词尚未完成分音节校核，可听整词。",
+    "boundaryPolicyZh": "拼写教学块与IPA读音音节为平行辅助，不声称物理边界完全一致。不可从自动断词或词素推断音节。",
+    "coveredWordCount": 21,
+    "coverage": {
+      "words": 21,
+      "total": 711,
+      "unreviewedOrUncovered": 690,
+      "wholeMonosyllabicEntries": 15,
+      "multisyllabicWords": 5,
+      "monosyllabicWordPhrases": 1,
+      "audioClips": 29,
+      "generatedClips": 14,
+      "reusedClips": 15
+    },
+    "uiPolicyZh": "多音节词的可点击按钮显示IPA，拼写块另排；不要把bot或hob本身送给TTS。音频标注合成分读，未人工听审。"
+  },
+  "patternTypes": [
+    {
+      "id": "open",
+      "labelZh": "开音节拼写",
+      "descriptionZh": "这一类通常以单个元音字母结尾，常读长元音。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "closed",
+      "labelZh": "闭音节拼写",
+      "descriptionZh": "单个元音后有辅音收尾，常对应短元音。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "vowel-team",
+      "labelZh": "元音组合",
+      "descriptionZh": "多个字母共同表示元音，包括双元音；具体读音仍须核对。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "VCe",
+      "labelZh": "元音-辅音-不发音e",
+      "descriptionZh": "典型结构中前面的元音读长音，末尾e不另发音。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "r-controlled",
+      "labelZh": "元音+r",
+      "descriptionZh": "含ar、er、ir、or、ur等结构；元音读法受r影响。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "consonant-le",
+      "labelZh": "词尾辅音-le",
+      "descriptionZh": "词尾非重读结构，例如tle、cle；e不单独发音。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "schwa-exception",
+      "labelZh": "弱读／特殊",
+      "descriptionZh": "补充标签：用于弱读或不适合硬套六类的块；并非每个此类块都含/ə/。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "wordId": "starter1-001",
+      "text": "unit",
+      "accent": "en-US",
+      "ipa": "/ˈjuː.nɪt/",
+      "voice": "af_heart",
+      "syllableCount": 2,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter1-001-s1",
+          "text": "juː",
+          "displayKind": "ipa",
+          "ipa": "/juː/",
+          "audioFile": "audio/syllable-starter1-001-s1.mp3",
+          "boundaryAfter": "syllable",
+          "wordIndex": 0,
+          "stress": "primary",
+          "type": "open",
+          "voice": "af_heart",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        },
+        {
+          "id": "starter1-001-s2",
+          "text": "nɪt",
+          "displayKind": "ipa",
+          "ipa": "/nɪt/",
+          "audioFile": "audio/syllable-starter1-001-s2.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "unstressed",
+          "type": "closed",
+          "voice": "af_heart",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "u",
+          "type": "open",
+          "explanationZh": "u在这里读/juː/，与字母u的名称相同。"
+        },
+        {
+          "text": "nit",
+          "type": "closed",
+          "explanationZh": "这一拼写块以辅音结尾，i读/ɪ/。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": false,
+      "explanationZh": "两个音节，第一音节重读；u不是表示“你”的词根。",
+      "displayNoteZh": "彩色块帮助记拼写；音标按词典划分读音，两者边界不一定完全重合。",
+      "sources": [
+        {
+          "id": "cambridge-unit",
+          "title": "Cambridge Dictionary: unit (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/unit",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter1-001.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter1-004",
+      "text": "greet",
+      "accent": "en-US",
+      "ipa": "/ɡriːt/",
+      "voice": "am_michael",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter1-004-s1",
+          "text": "greet",
+          "displayKind": "word",
+          "ipa": "/ɡriːt/",
+          "audioFile": "audio/syllable-starter1-004-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "vowel-team",
+          "voice": "am_michael",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "greet",
+          "type": "vowel-team",
+          "explanationZh": "ee在这个词中合起来读/iː/；gr不要插入额外元音。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-greet",
+          "title": "Cambridge Dictionary: greet (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/greet",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter1-004.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter1-006",
+      "text": "start",
+      "accent": "en-US",
+      "ipa": "/stɑːrt/",
+      "voice": "af_heart",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter1-006-s1",
+          "text": "start",
+          "displayKind": "word",
+          "ipa": "/stɑːrt/",
+          "audioFile": "audio/syllable-starter1-006-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "r-controlled",
+          "voice": "af_heart",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "start",
+          "type": "r-controlled",
+          "explanationZh": "ar在所选美音中读/ɑːr/；st连读，不拆成两个音节。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-start",
+          "title": "Cambridge Dictionary: start (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/start",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter1-006.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter1-005",
+      "text": "spell",
+      "accent": "en-US",
+      "ipa": "/spel/",
+      "voice": "af_heart",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter1-005-s1",
+          "text": "spell",
+          "displayKind": "word",
+          "ipa": "/spel/",
+          "audioFile": "audio/syllable-starter1-005-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "closed",
+          "voice": "af_heart",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "spell",
+          "type": "closed",
+          "explanationZh": "e读/e/，词尾ll只对应一个/l/音。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-spell",
+          "title": "Cambridge Dictionary: spell (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/spell",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter1-005.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter1-009",
+      "text": "bell",
+      "accent": "en-US",
+      "ipa": "/bel/",
+      "voice": "am_michael",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter1-009-s1",
+          "text": "bell",
+          "displayKind": "word",
+          "ipa": "/bel/",
+          "audioFile": "audio/syllable-starter1-009-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "closed",
+          "voice": "am_michael",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "bell",
+          "type": "closed",
+          "explanationZh": "e读/e/；双写ll不增加音节。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-bell",
+          "title": "Cambridge Dictionary: bell (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/bell",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter1-009.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter2-001",
+      "text": "bottle",
+      "accent": "en-US",
+      "ipa": "/ˈbɑː.t̬əl/",
+      "voice": "am_michael",
+      "syllableCount": 2,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter2-001-s1",
+          "text": "bɑː",
+          "displayKind": "ipa",
+          "ipa": "/bɑː/",
+          "audioFile": "audio/syllable-starter2-001-s1.mp3",
+          "boundaryAfter": "syllable",
+          "wordIndex": 0,
+          "stress": "primary",
+          "type": "closed",
+          "voice": "am_michael",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        },
+        {
+          "id": "starter2-001-s2",
+          "text": "t̬əl",
+          "displayKind": "ipa",
+          "ipa": "/t̬əl/",
+          "audioFile": "audio/syllable-starter2-001-s2.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "unstressed",
+          "type": "consonant-le",
+          "voice": "am_michael",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "bot",
+          "type": "closed",
+          "explanationZh": "bot是闭音节拼写块；美音o读/ɑː/。拼读教学称“短o”，不等于IPA一定不标长度。"
+        },
+        {
+          "text": "tle",
+          "type": "consonant-le",
+          "explanationZh": "末尾tle是辅音-le拼写块，e不单独发音，第二音节轻读。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": false,
+      "explanationZh": "拼写教学用bot|tle，Cambridge所选美音音节为/bɑː/+/t̬əl/，两者边界不同。/t̬/表示美音的快速轻拍音；末尾可出现成音节的l。不要把两个t分别朗读。",
+      "displayNoteZh": "彩色块帮助记拼写；音标按词典划分读音，两者边界不一定完全重合。",
+      "sources": [
+        {
+          "id": "cambridge-bottle",
+          "title": "Cambridge Dictionary: bottle (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/bottle",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter2-001.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter2-003",
+      "text": "key",
+      "accent": "en-US",
+      "ipa": "/kiː/",
+      "voice": "am_michael",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter2-003-s1",
+          "text": "key",
+          "displayKind": "word",
+          "ipa": "/kiː/",
+          "audioFile": "audio/syllable-starter2-003-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "vowel-team",
+          "voice": "am_michael",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "key",
+          "type": "vowel-team",
+          "explanationZh": "ey在key中读/iː/；不能推广为所有ey都读同一个音。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-key",
+          "title": "Cambridge Dictionary: key (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/key",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter2-003.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter2-004",
+      "text": "thing",
+      "accent": "en-US",
+      "ipa": "/θɪŋ/",
+      "voice": "af_heart",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter2-004-s1",
+          "text": "thing",
+          "displayKind": "word",
+          "ipa": "/θɪŋ/",
+          "audioFile": "audio/syllable-starter2-004-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "closed",
+          "voice": "af_heart",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "thing",
+          "type": "closed",
+          "explanationZh": "i读/ɪ/；th读/θ/，ng合起来读/ŋ/，不是/n/再加/g/。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-thing",
+          "title": "Cambridge Dictionary: thing (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/thing",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter2-004.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter3-001",
+      "text": "fun",
+      "accent": "en-US",
+      "ipa": "/fʌn/",
+      "voice": "af_heart",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter3-001-s1",
+          "text": "fun",
+          "displayKind": "word",
+          "ipa": "/fʌn/",
+          "audioFile": "audio/syllable-starter3-001-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "closed",
+          "voice": "af_heart",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "fun",
+          "type": "closed",
+          "explanationZh": "u在这个闭音节词中读/ʌ/。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-fun",
+          "title": "Cambridge Dictionary: fun (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/fun",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter3-001.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter3-002",
+      "text": "yard",
+      "accent": "en-US",
+      "ipa": "/jɑːrd/",
+      "voice": "am_michael",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter3-002-s1",
+          "text": "yard",
+          "displayKind": "word",
+          "ipa": "/jɑːrd/",
+          "audioFile": "audio/syllable-starter3-002-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "r-controlled",
+          "voice": "am_michael",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "yard",
+          "type": "r-controlled",
+          "explanationZh": "ar读/ɑːr/；开头y读辅音/j/，不是字母名称。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-yard",
+          "title": "Cambridge Dictionary: yard (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/yard",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter3-002.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter3-004",
+      "text": "goose",
+      "accent": "en-US",
+      "ipa": "/ɡuːs/",
+      "voice": "am_michael",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter3-004-s1",
+          "text": "goose",
+          "displayKind": "word",
+          "ipa": "/ɡuːs/",
+          "audioFile": "audio/syllable-starter3-004-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "vowel-team",
+          "voice": "am_michael",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "goose",
+          "type": "vowel-team",
+          "explanationZh": "oo在这个词中读/uː/，末尾e不发音；这里用元音组合分析，不套单个元音的VCe规则。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-goose",
+          "title": "Cambridge Dictionary: goose (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/goose",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter3-004.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter3-005",
+      "text": "count",
+      "accent": "en-US",
+      "ipa": "/kaʊnt/",
+      "voice": "af_heart",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter3-005-s1",
+          "text": "count",
+          "displayKind": "word",
+          "ipa": "/kaʊnt/",
+          "audioFile": "audio/syllable-starter3-005-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "vowel-team",
+          "voice": "af_heart",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "count",
+          "type": "vowel-team",
+          "explanationZh": "ou读双元音/aʊ/，合起来仍只有一个音节。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-count",
+          "title": "Cambridge Dictionary: count (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/count",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter3-005.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter3-009",
+      "text": "circle",
+      "accent": "en-US",
+      "ipa": "/ˈsɝː.kəl/",
+      "voice": "am_michael",
+      "syllableCount": 2,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter3-009-s1",
+          "text": "sɝː",
+          "displayKind": "ipa",
+          "ipa": "/sɝː/",
+          "audioFile": "audio/syllable-starter3-009-s1.mp3",
+          "boundaryAfter": "syllable",
+          "wordIndex": 0,
+          "stress": "primary",
+          "type": "r-controlled",
+          "voice": "am_michael",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        },
+        {
+          "id": "starter3-009-s2",
+          "text": "kəl",
+          "displayKind": "ipa",
+          "ipa": "/kəl/",
+          "audioFile": "audio/syllable-starter3-009-s2.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "unstressed",
+          "type": "consonant-le",
+          "voice": "am_michael",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "cir",
+          "type": "r-controlled",
+          "explanationZh": "ir读/ɝː/；第一个c在i前读/s/。"
+        },
+        {
+          "text": "cle",
+          "type": "consonant-le",
+          "explanationZh": "cle是词尾辅音-le拼写块，读轻音节/kəl/，e不独立成音。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": false,
+      "explanationZh": "第一音节重读；末尾可用成音节的l实现，不能因此认定只有一个音节。",
+      "displayNoteZh": "彩色块帮助记拼写；音标按词典划分读音，两者边界不一定完全重合。",
+      "sources": [
+        {
+          "id": "cambridge-circle",
+          "title": "Cambridge Dictionary: circle (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/circle",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter3-009.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "unit1-003",
+      "text": "each",
+      "accent": "en-US",
+      "ipa": "/iːtʃ/",
+      "voice": "am_michael",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "unit1-003-s1",
+          "text": "each",
+          "displayKind": "word",
+          "ipa": "/iːtʃ/",
+          "audioFile": "audio/syllable-unit1-003-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "vowel-team",
+          "voice": "am_michael",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "each",
+          "type": "vowel-team",
+          "explanationZh": "ea在此读/iː/，ch合起来读/tʃ/。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-each",
+          "title": "Cambridge Dictionary: each (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/each",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/unit1-003.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "unit1-008",
+      "text": "grade",
+      "accent": "en-US",
+      "ipa": "/ɡreɪd/",
+      "voice": "af_heart",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "unit1-008-s1",
+          "text": "grade",
+          "displayKind": "word",
+          "ipa": "/ɡreɪd/",
+          "audioFile": "audio/syllable-unit1-008-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "VCe",
+          "voice": "af_heart",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "grade",
+          "type": "VCe",
+          "explanationZh": "a-d-e是VCe结构，a读/eɪ/，末尾e不发音。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-grade",
+          "title": "Cambridge Dictionary: grade (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/grade",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/unit1-008.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "unit1-015",
+      "text": "same",
+      "accent": "en-US",
+      "ipa": "/seɪm/",
+      "voice": "am_michael",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "unit1-015-s1",
+          "text": "same",
+          "displayKind": "word",
+          "ipa": "/seɪm/",
+          "audioFile": "audio/syllable-unit1-015-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "VCe",
+          "voice": "am_michael",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "same",
+          "type": "VCe",
+          "explanationZh": "a-m-e是VCe结构，a读/eɪ/，末尾e不发音。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-same",
+          "title": "Cambridge Dictionary: same (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/same",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/unit1-015.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "unit1-016",
+      "text": "twin",
+      "accent": "en-US",
+      "ipa": "/twɪn/",
+      "voice": "af_heart",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "unit1-016-s1",
+          "text": "twin",
+          "displayKind": "word",
+          "ipa": "/twɪn/",
+          "audioFile": "audio/syllable-unit1-016-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "closed",
+          "voice": "af_heart",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "twin",
+          "type": "closed",
+          "explanationZh": "i读/ɪ/；tw是辅音连缀，不能在t和w之间加一个元音。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-twin",
+          "title": "Cambridge Dictionary: twin (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/twin",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/unit1-016.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "starter2-005",
+      "text": "need",
+      "accent": "en-US",
+      "ipa": "/niːd/",
+      "voice": "am_michael",
+      "syllableCount": 1,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "starter2-005-s1",
+          "text": "need",
+          "displayKind": "word",
+          "ipa": "/niːd/",
+          "audioFile": "audio/syllable-starter2-005-s1.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "vowel-team",
+          "voice": "am_michael",
+          "audioKind": "whole-word-reused",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "need",
+          "type": "vowel-team",
+          "explanationZh": "ee在这个词中读/iː/，整个词只有一个音节。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。",
+      "displayNoteZh": "这是单音节词，整词读一拍。",
+      "sources": [
+        {
+          "id": "cambridge-need",
+          "title": "Cambridge Dictionary: need (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/need",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/starter2-005.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "unit1-031",
+      "text": "information",
+      "accent": "en-US",
+      "ipa": "/ˌɪn.fɚˈmeɪ.ʃən/",
+      "voice": "af_heart",
+      "syllableCount": 4,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "unit1-031-s1",
+          "text": "ɪn",
+          "displayKind": "ipa",
+          "ipa": "/ɪn/",
+          "audioFile": "audio/syllable-unit1-031-s1.mp3",
+          "boundaryAfter": "syllable",
+          "wordIndex": 0,
+          "stress": "secondary",
+          "type": "closed",
+          "voice": "af_heart",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        },
+        {
+          "id": "unit1-031-s2",
+          "text": "fɚ",
+          "displayKind": "ipa",
+          "ipa": "/fɚ/",
+          "audioFile": "audio/syllable-unit1-031-s2.mp3",
+          "boundaryAfter": "syllable",
+          "wordIndex": 0,
+          "stress": "unstressed",
+          "type": "schwa-exception",
+          "voice": "af_heart",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        },
+        {
+          "id": "unit1-031-s3",
+          "text": "meɪ",
+          "displayKind": "ipa",
+          "ipa": "/meɪ/",
+          "audioFile": "audio/syllable-unit1-031-s3.mp3",
+          "boundaryAfter": "syllable",
+          "wordIndex": 0,
+          "stress": "primary",
+          "type": "open",
+          "voice": "af_heart",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        },
+        {
+          "id": "unit1-031-s4",
+          "text": "ʃən",
+          "displayKind": "ipa",
+          "ipa": "/ʃən/",
+          "audioFile": "audio/syllable-unit1-031-s4.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "unstressed",
+          "type": "schwa-exception",
+          "voice": "af_heart",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "in",
+          "type": "closed",
+          "explanationZh": "in这一拼写块的i读/ɪ/，第一音节有次重音。"
+        },
+        {
+          "text": "for",
+          "type": "schwa-exception",
+          "explanationZh": "for在词中弱读/fɚ/，不要按独立单词for的强调读法硬拼。"
+        },
+        {
+          "text": "ma",
+          "type": "open",
+          "explanationZh": "ma以元音字母a结尾，这里读/meɪ/，也是主重音所在。"
+        },
+        {
+          "text": "tion",
+          "type": "schwa-exception",
+          "explanationZh": "tion在这里合起来读/ʃən/，不逐个念字母，也不机械拆成ti和on。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": false,
+      "explanationZh": "按所选词典有四个音节，主重音在第三个、次重音在第一个。in|for|ma|tion仅是帮助解码的拼写块，不是四个词根。for含弱读的r色彩元音；tion尾部的ə可很弱。",
+      "displayNoteZh": "彩色块帮助记拼写；音标按词典划分读音，两者边界不一定完全重合。",
+      "sources": [
+        {
+          "id": "cambridge-information",
+          "title": "Cambridge Dictionary: information (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/information",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/unit1-031.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "unit1-032",
+      "text": "hobby",
+      "accent": "en-US",
+      "ipa": "/ˈhɑː.bi/",
+      "voice": "am_michael",
+      "syllableCount": 2,
+      "wordCount": 1,
+      "syllables": [
+        {
+          "id": "unit1-032-s1",
+          "text": "hɑː",
+          "displayKind": "ipa",
+          "ipa": "/hɑː/",
+          "audioFile": "audio/syllable-unit1-032-s1.mp3",
+          "boundaryAfter": "syllable",
+          "wordIndex": 0,
+          "stress": "primary",
+          "type": "closed",
+          "voice": "am_michael",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        },
+        {
+          "id": "unit1-032-s2",
+          "text": "bi",
+          "displayKind": "ipa",
+          "ipa": "/bi/",
+          "audioFile": "audio/syllable-unit1-032-s2.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 0,
+          "stress": "unstressed",
+          "type": "schwa-exception",
+          "voice": "am_michael",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "hob",
+          "type": "closed",
+          "explanationZh": "hob是闭音节拼写块，美音o读/ɑː/；教学中的“短o”是拼写类别名。"
+        },
+        {
+          "text": "by",
+          "type": "schwa-exception",
+          "explanationZh": "这里词尾非重读y读/i/，不是字母y的名称，也不是schwa /ə/。归入“弱读/特殊”提示。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": false,
+      "explanationZh": "拼写教学用hob|by；所选Cambridge美音分为/hɑː/+/bi/，双写bb不读两次。by在这里不是介词by或词根。",
+      "displayNoteZh": "彩色块帮助记拼写；音标按词典划分读音，两者边界不一定完全重合。",
+      "sources": [
+        {
+          "id": "cambridge-hobby",
+          "title": "Cambridge Dictionary: hobby (US pronunciation)",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/hobby",
+          "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+          "accessed": "2026-10-04"
+        },
+        {
+          "id": "cambridge-ipa-guide",
+          "title": "Cambridge Dictionary: phonetic symbols and stress",
+          "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+          "use": "IPA、重音和读音音节符号说明",
+          "accessed": "2026-10-04"
+        }
+      ],
+      "wholeWordAudio": "audio/unit1-032.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    },
+    {
+      "wordId": "unit1-001",
+      "text": "make friends",
+      "accent": "en-US",
+      "ipa": "/meɪk frendz/",
+      "voice": "am_michael",
+      "syllableCount": 2,
+      "wordCount": 2,
+      "syllables": [
+        {
+          "id": "unit1-001-s1",
+          "text": "make",
+          "displayKind": "word",
+          "ipa": "/meɪk/",
+          "audioFile": "audio/syllable-unit1-001-s1.mp3",
+          "boundaryAfter": "word",
+          "wordIndex": 0,
+          "stress": "single",
+          "type": "VCe",
+          "voice": "am_michael",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        },
+        {
+          "id": "unit1-001-s2",
+          "text": "friends",
+          "displayKind": "word",
+          "ipa": "/frendz/",
+          "audioFile": "audio/syllable-unit1-001-s2.mp3",
+          "boundaryAfter": null,
+          "wordIndex": 1,
+          "stress": "single",
+          "type": "schwa-exception",
+          "voice": "am_michael",
+          "audioKind": "phoneme-controlled-synthesis",
+          "listeningReviewed": false
+        }
+      ],
+      "orthographicChunks": [
+        {
+          "text": "make",
+          "type": "VCe",
+          "explanationZh": "a读/eɪ/；词尾e不单独发音，make只有一个音节。"
+        },
+        {
+          "text": "friends",
+          "type": "schwa-exception",
+          "explanationZh": "ie在这里读/e/；词尾s读/z/，不另加一个音节。"
+        }
+      ],
+      "orthographicChunksArePhonologicalBoundaries": true,
+      "explanationZh": "make和friends各是一个音节。不要把make拆成ma-ke，也不要给friends的词尾另加元音。",
+      "displayNoteZh": "两个单词，各读一拍；中间保留空格。",
+      "sources": [
+        {
+          "id": "cambridge-make",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/make"
+        },
+        {
+          "id": "cambridge-friend",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/friend"
+        },
+        {
+          "id": "cambridge-make-friends",
+          "url": "https://assets.cambridge.org/97813166/31744/index/9781316631744_index.pdf"
+        }
+      ],
+      "wholeWordAudio": "audio/unit1-001.mp3",
+      "audioAudit": {
+        "phonemeInputChecked": true,
+        "technicalChecksPassed": true,
+        "listeningReviewed": false,
+        "pronunciationOutputVerified": false
+      },
+      "coverage": "dictionary-checked-text-with-unreviewed-synthetic-audio"
+    }
+  ]
+}

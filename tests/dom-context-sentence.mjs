@@ -1,0 +1,50 @@
+import * as phrasesModule from '../src/phrases.js';
+import * as phrasesUIModule from '../src/phrases-ui.js';
+import * as answerFocusModule from '../src/answer-focus.js';
+import * as spellingDiffModule from '../src/spelling-diff.js';
+import * as freshQuestionsModule from '../src/fresh-practice/generator.mjs';
+import * as practiceNoveltyModule from '../src/practice-novelty.js';
+import * as enterPracticeModule from '../src/enter-practice.js';
+import * as queuePolicyModule from '../src/queue-policy.js';
+import * as customSentencesModule from '../src/custom-sentences.js';
+import * as localTranslationModule from '../src/local-translation.js';
+import * as practiceTimerModule from '../src/practice-timer.js';
+import * as practiceTimeUIModule from '../src/practice-time-ui.js';
+import * as sentenceDictationModule from '../src/sentence-dictation.js';
+import {JSDOM,VirtualConsole} from 'jsdom';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';import path from 'node:path';import {webcrypto} from 'node:crypto';import assert from 'node:assert/strict';
+import * as reviewTimingModule from '../src/review-timing.js';
+import * as correctionModule from '../src/correction.js';
+import * as correctionUIModule from '../src/correction-ui.js';
+import * as masteryModule from '../src/mastery.js';
+import * as contextAudioModule from '../src/context-audio.js';
+import * as adaptiveModule from '../src/adaptive.js';
+import * as adaptiveUIModule from '../src/adaptive-ui.js';
+import * as interactionModule from '../src/interactions.js';
+import * as dictionaryModule from '../src/dictionary.js';
+import * as audioModule from '../src/audio.js';
+import * as scheduler from '../src/scheduler.js';import * as custom from '../src/custom-words.js';import {isCorrectAnswer} from '../src/engine.js';
+const root=path.resolve(import.meta.dirname,'..'),key='word-garden.workspace.v2',results=[],errors=[];
+globalThis.fetch=async url=>{const file=String(url).startsWith('file:')?new URL(url):path.join(root,'src',String(url).split('/').at(-1));return {ok:true,json:async()=>JSON.parse(await readFile(file,'utf8'))};};
+const vocab=await import('../src/vocabulary.js');const html=await readFile(path.join(root,'index.html'),'utf8');const source=(await readFile(path.join(root,'src/app.js'),'utf8')).replace(/^import .*;\n/gm,'').replaceAll('import.meta.url',JSON.stringify(new URL('../src/app.js',import.meta.url).href));
+const media=[];class AudioMock{constructor(src){this.src=src;this.paused=false;media.push(this)}async play(){}pause(){this.paused=true}}
+const intervals=[];let dom,w;
+async function boot(saved={},hash='#tasks'){
+ dom?.window.close();const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));dom=new JSDOM(html,{url:'https://test.invalid/'+hash,runScripts:'outside-only',virtualConsole:vc,pretendToBeVisual:true});w=dom.window;
+ Object.assign(w,{...phrasesModule,...phrasesUIModule,...answerFocusModule,...spellingDiffModule,...freshQuestionsModule,...practiceNoveltyModule,...enterPracticeModule,...queuePolicyModule,...customSentencesModule,...localTranslationModule,...practiceTimerModule,...practiceTimeUIModule,...sentenceDictationModule,...reviewTimingModule,...correctionModule,...correctionUIModule,...masteryModule,...contextAudioModule,...adaptiveModule,...adaptiveUIModule,...interactionModule,...dictionaryModule,...audioModule,...scheduler,...custom,isCorrectAnswer,BASE:vocab.WORDS,UNITS:vocab.UNITS,BOOK:vocab.BOOK,fetch:globalThis.fetch});w.Audio=AudioMock;w.crypto.randomUUID=()=>webcrypto.randomUUID();w.scrollTo=()=>{};intervals.length=0;w.setInterval=fn=>{intervals.push(fn);return intervals.length;};w.confirm=()=>true;w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialogElement.prototype.close=function(){this.open=false;};w.speechSynthesis={getVoices:()=>[],cancel(){},speak(){}};w.SpeechSynthesisUtterance=function(t){this.text=t;};
+ for(const[k,v]of Object.entries(saved))w.localStorage.setItem(k,v);
+ await w.eval('(async()=>{'+source+'\n})()');
+}
+const storage=()=>Object.fromEntries(Array.from({length:w.localStorage.length},(_,i)=>{const k=w.localStorage.key(i);return[k,w.localStorage.getItem(k)]}));
+const state=()=>JSON.parse(w.localStorage.getItem(key));const el=s=>{const e=w.document.querySelector(s);assert.ok(e,'missing '+s);return e;};
+const click=s=>{const e=el(s);assert.ok(!e.disabled,'disabled '+s);e.click();};const val=(s,v)=>{const e=el(s);e.value=v;e.dispatchEvent(new w.Event('input',{bubbles:true}));e.dispatchEvent(new w.Event('change',{bubbles:true}));};
+const text=()=>w.document.body.textContent;const check=(v,n)=>{assert.ok(v,n);results.push(n)};
+const safe=JSON.parse(await readFile(path.join(root,'src/context-audio-manifest.json'),'utf8'));let spoken=[];
+await boot({[key]:JSON.stringify({version:2,records:{},exposure:{},stars:0,results:{},settings:{steps:[1,5]},selectedUnit:'starter1',session:{id:'legacy-pilot',items:[{wordId:'starter1-004',skill:'usage'}],index:0,title:'已有语境练习',kind:'practice',manual:true,origin:{view:'context'},result:null,draft:'',startedAt:Date.now(),done:false}})},'#session');w.speechSynthesis.getVoices=()=>[{lang:'en-US',name:'Test'}];w.speechSynthesis.speak=u=>spoken.push(u.text);w.SpeechSynthesisUtterance=function(t){this.text=t;};
+const qid=state().session.questionId,spec=safe.entries.find(e=>e.id===qid);check(qid==='starter1-004-context-01','screenshot greet question reproduced');check(!w.document.querySelector('[data-action=audio]')&&text().includes('朗读例句'),'context exposes sentence button only');click('[data-action=context-audio]');check(media.at(-1).src===spec.file,'greet uses exact blank-safe sentence recording');check(!state().session.hint,'listening to task sentence is not an answer hint');let count=media.length;w.document.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Control',code:'ControlLeft',ctrlKey:true}));w.document.dispatchEvent(new w.KeyboardEvent('keyup',{key:'Control',code:'ControlLeft',ctrlKey:false}));check(media.length===count,'Ctrl cannot invoke hidden word audio in context');
+// Even a stale legacy action routes through the sentence guard.
+el('[data-action=context-audio]').dataset.action='audio';click('[data-action=audio]');check(media.at(-1).src===spec.file,'legacy word-audio action cannot bypass context protection');media.at(-1).onerror();check(!!w.document.querySelector('#context-speech-notice button'),'sentence failure offers safe retry');click('#context-speech-notice button:last-child');check(spoken.at(-1)===spec.spokenText&&!/\bgreet\b|\bcount\b|\bspell\b/i.test(spoken.at(-1)),'device fallback reads only masked sentence, never answers or options');
+click('[data-usage-choice="A"]');click('[data-action=context-audio]');check(media.at(-1).src===spec.file,'after grading button still reads masked sentence');click('[data-action=retry]');click('[data-action=context-audio]');check(media.at(-1).src===spec.file&&!state().session.hint,'corrective retry retains safe sentence audio');const prior=media.at(-1);click('[data-view=meaning]');check(prior.paused,'navigation stops context audio');click('[data-practice="starter1-004"]');click('[data-action=audio]');check(media.at(-1).src.endsWith('/audio/starter1-004.mp3'),'normal word training still reads the word');
+click('[data-view=context]');click('[data-adaptive=start]');const adaptiveId=el('[data-adaptive-question]').dataset.adaptiveQuestion;click('[data-read-context]');check(media.at(-1).src===safe.questionFiles[adaptiveId],'new context bank uses safe example recording');media.at(-1).onerror();click('[data-context-status] button:last-child');check(spoken.at(-1)===safe.entries.find(e=>e.id===adaptiveId).spokenText,'new bank fallback shares safe exact payload');
+await boot({'word-garden.custom.v1':JSON.stringify({version:1,words:[{id:'custom-repeat',english:'testling',chinese:'测试词',example:'I see a testling. The testling runs.',group:'测试'}]})});w.speechSynthesis.getVoices=()=>[{lang:'en-US',name:'Test'}];w.speechSynthesis.speak=u=>spoken.push(u.text);w.SpeechSynthesisUtterance=function(t){this.text=t;};click('[data-view=sentences]');val('#scope-select','custom');click('[data-context-word]');check(!el('.reading-text').textContent.includes('testling'),'custom context masks every occurrence');click('[data-action=context-audio]');check(spoken.at(-1)==='I see a ... . The ... runs.'&&!spoken.at(-1).includes('testling'),'custom speech never speaks the missing answer');check(text().includes('设备英语例句朗读'),'custom sentence voice source is honestly labeled');click('[data-action=context-stop]');check(el('#context-speech-notice').textContent.includes('停止'),'sentence stop control works');
+if(errors.length)console.error(errors);check(errors.length===0,'no DOM runtime errors');console.log(JSON.stringify({passed:results.length,checks:results},null,2));await writeFile(path.join(root,'evidence/context-sentence-dom-report.json'),JSON.stringify({passed:results.length,checks:results},null,2));dom.window.close();

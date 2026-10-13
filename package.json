@@ -1,0 +1,15 @@
+{
+  "name": "word-garden-local",
+  "version": "1.11.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-static.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/engine.test.mjs tests/vocabulary.test.mjs tests/scheduler-v4.test.mjs tests/audio.test.mjs tests/dictionary.test.mjs tests/interactions.test.mjs tests/adaptive.test.mjs tests/supplement.test.mjs tests/context-audio.test.mjs tests/mastery.test.mjs tests/instructions.test.mjs tests/correction.test.mjs tests/sentence-dictation.test.mjs tests/practice-timer.test.mjs tests/custom-sentences.test.mjs tests/queue-policy.test.mjs tests/practice-novelty.test.mjs tests/spelling-diff.test.mjs tests/answer-focus.test.mjs tests/phrases.test.mjs",
+    "test:browser": "node tests/browser-v4.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

@@ -1,0 +1,2607 @@
+{
+  "schemaVersion": 1,
+  "count": 289,
+  "byId": {
+    "starter1-001": {
+      "word": "unit",
+      "memory": {
+        "method": "情景联想",
+        "hint": "翻开课本找 Unit 1：一个大单元就是一个 unit，别和单节课混淆。",
+        "example": "This unit is fun.",
+        "exampleZh": "这个单元很有趣。"
+      }
+    },
+    "starter1-002": {
+      "word": "starter unit",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "start 是开始，starter unit 是正式单元前的入门热身，两个词分开写。",
+        "example": "This is a starter unit.",
+        "exampleZh": "这是一个过渡单元。"
+      }
+    },
+    "starter1-003": {
+      "word": "section",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把一个单元想成分格盒：Section A、Section B 各是其中一个部分。",
+        "example": "Read Section A.",
+        "exampleZh": "阅读A部分。"
+      }
+    },
+    "starter1-004": {
+      "word": "greet",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "meet 是见到，greet 是见面后问好；走进教室说 Hello 就是在 greet。",
+        "example": "I greet my teacher.",
+        "exampleZh": "我向老师问好。"
+      }
+    },
+    "starter1-008": {
+      "word": "oh",
+      "memory": {
+        "method": "情景联想",
+        "hint": "突然明白时说 Oh，原来如此！只有 o、h 两个字母，别漏掉末尾的 h。",
+        "example": "Oh, I see!",
+        "exampleZh": "哦，我明白了！"
+      }
+    },
+    "unit4-016": {
+      "word": "everyone",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "every（每个）加 one（人）合成 everyone；指每个人，作主语时常接 is。",
+        "example": "Everyone is here.",
+        "exampleZh": "每个人都在这里。"
+      }
+    },
+    "starter1-006": {
+      "word": "start",
+      "memory": {
+        "method": "情景联想",
+        "hint": "比赛开始、游戏启动都用 start；把起跑线旁的 START 标志记在脑中。",
+        "example": "Let's start the game.",
+        "exampleZh": "我们开始游戏吧。"
+      }
+    },
+    "starter1-007": {
+      "word": "conversation",
+      "memory": {
+        "method": "情景联想",
+        "hint": "两个人你一句、我一句就是 conversation；记搭配 have a conversation。",
+        "example": "We have a short conversation.",
+        "exampleZh": "我们简短地聊了聊。"
+      }
+    },
+    "starter1-005": {
+      "word": "spell",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "老师请你逐个说出字母，就是 spell；结尾有两个 l，可与 bell 一起记。",
+        "example": "Can you spell your name?",
+        "exampleZh": "你能拼出你的名字吗？"
+      }
+    },
+    "starter1-009": {
+      "word": "bell",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "上课铃 bell 和拼写 spell 都以 ell 结尾；想象铃响后开始拼单词。",
+        "example": "The bell is loud.",
+        "exampleZh": "铃声很响。"
+      }
+    },
+    "starter1-013": {
+      "word": "PRC",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "P、R、C 对应 People's、Republic、China；全称 People's Republic of China。",
+        "example": "Beijing is the capital of the PRC.",
+        "exampleZh": "北京是中华人民共和国的首都。"
+      }
+    },
+    "starter1-010": {
+      "word": "PLA",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "P、L、A 对应 People's、Liberation、Army，合起来就是中国人民解放军。",
+        "example": "PLA means People's Liberation Army.",
+        "exampleZh": "PLA指中国人民解放军。"
+      }
+    },
+    "starter1-011": {
+      "word": "VR",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "V 是 Virtual（虚拟的），R 是 Reality（现实）；戴上设备体验虚拟场景。",
+        "example": "This is a VR game.",
+        "exampleZh": "这是一款虚拟现实游戏。"
+      }
+    },
+    "starter1-015": {
+      "word": "WHO",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "W、H、O 对应 World、Health、Organization；全大写指组织，小写 who 才是“谁”。",
+        "example": "WHO means World Health Organization.",
+        "exampleZh": "WHO指世界卫生组织。"
+      }
+    },
+    "starter1-014": {
+      "word": "UN",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "U 是 United（联合的），N 是 Nations（国家）；两个大写字母表示联合国。",
+        "example": "UN means United Nations.",
+        "exampleZh": "UN指联合国。"
+      }
+    },
+    "starter2-001": {
+      "word": "bottle",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "拿起水瓶记 bottle：中间双写 tt；一瓶水是 a bottle of water。",
+        "example": "My bottle is blue.",
+        "exampleZh": "我的瓶子是蓝色的。"
+      }
+    },
+    "starter2-002": {
+      "word": "eraser",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "erase 是擦掉，eraser 是用来擦的橡皮；整块记 an eraser，注意前面用 an。",
+        "example": "I need an eraser.",
+        "exampleZh": "我需要一块橡皮。"
+      }
+    },
+    "starter2-003": {
+      "word": "key",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "钥匙能开门，也能打开难题；记 door key，复数直接加 s，写 keys。",
+        "example": "This is my key.",
+        "exampleZh": "这是我的钥匙。"
+      }
+    },
+    "starter2-004": {
+      "word": "thing",
+      "memory": {
+        "method": "情景联想",
+        "hint": "说不出物品的名字时可叫它 a thing；书包里的各种东西就是 things。",
+        "example": "What is that thing?",
+        "exampleZh": "那个东西是什么？"
+      }
+    },
+    "starter2-006": {
+      "word": "you're welcome",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "别人说 Thank you，你回答 You're welcome；you're 是 you are 的缩写。",
+        "example": "You're welcome!",
+        "exampleZh": "不用谢！"
+      }
+    },
+    "starter3-001": {
+      "word": "fun",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "fun 记开心、有乐趣；funny 常指逗人发笑。好玩的游戏有 fun，不一定滑稽。",
+        "example": "This game is fun.",
+        "exampleZh": "这个游戏很有趣。"
+      }
+    },
+    "starter3-002": {
+      "word": "yard",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象家门前围起来的小院子：孩子在里面玩，就是在 the yard。",
+        "example": "We play in the yard.",
+        "exampleZh": "我们在院子里玩。"
+      }
+    },
+    "starter3-003": {
+      "word": "carrot",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "carrot 胡萝卜和 parrot 鹦鹉只差首字母；想象鹦鹉啄胡萝卜，别漏双 r。",
+        "example": "The carrot is orange.",
+        "exampleZh": "这根胡萝卜是橙色的。"
+      }
+    },
+    "starter3-004": {
+      "word": "goose",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "一只鹅是 goose，多只鹅变 geese：中间 oo 换成 ee，不能直接加 s。",
+        "example": "I can see two geese.",
+        "exampleZh": "我能看见两只鹅。"
+      }
+    },
+    "starter3-005": {
+      "word": "count",
+      "memory": {
+        "method": "情景联想",
+        "hint": "伸出手指从一数到十就是 count；记 count to ten，数到十。",
+        "example": "Let's count the birds.",
+        "exampleZh": "我们数一数这些鸟吧。"
+      }
+    },
+    "starter3-006": {
+      "word": "another",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "拿了一个还想再要一个，就说 another；another book 中 book 用单数。",
+        "example": "May I have another apple?",
+        "exampleZh": "我可以再要一个苹果吗？"
+      }
+    },
+    "starter3-007": {
+      "word": "else",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "else 喜欢跟在疑问词后：what else 是还有什么，who else 是还有谁。",
+        "example": "What else do you need?",
+        "exampleZh": "你还需要什么？"
+      }
+    },
+    "starter3-009": {
+      "word": "circle",
+      "memory": {
+        "method": "情景联想",
+        "hint": "circle 既是圆圈，也能表示圈出；在答案外画个圆，就把两种用法记住了。",
+        "example": "Circle the right word.",
+        "exampleZh": "圈出正确的单词。"
+      }
+    },
+    "starter3-008": {
+      "word": "look at",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "look 表示看，后面说看什么时加 at；把 look at the board 整块记。",
+        "example": "Look at the picture.",
+        "exampleZh": "看这幅图片。"
+      }
+    },
+    "unit1-001": {
+      "word": "make friends",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "交朋友用 make friends，friends 保留 s；和某人交朋友再接 with。",
+        "example": "I want to make friends.",
+        "exampleZh": "我想交朋友。"
+      }
+    },
+    "unit1-002": {
+      "word": "get to know",
+      "memory": {
+        "method": "情景联想",
+        "hint": "从陌生到了解是 get to know；想象新同学每天聊一点，逐渐熟悉起来。",
+        "example": "I want to get to know you.",
+        "exampleZh": "我想了解你。"
+      }
+    },
+    "unit1-003": {
+      "word": "each",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "给同学逐个发书时强调每一个，用 each；each 后接单数，如 each student。",
+        "example": "Each student has a book.",
+        "exampleZh": "每个学生都有一本书。"
+      }
+    },
+    "unit1-004": {
+      "word": "other",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "other books 是其他的书；another book 是另一本书，用这两组对照记。",
+        "example": "Where are the other books?",
+        "exampleZh": "其他的书在哪里？"
+      }
+    },
+    "unit1-005": {
+      "word": "each other",
+      "memory": {
+        "method": "情景联想",
+        "hint": "你帮助我、我帮助你，就是 help each other；这个词组把动作连成双向箭头。",
+        "example": "We help each other.",
+        "exampleZh": "我们互相帮助。"
+      }
+    },
+    "unit1-006": {
+      "word": "full",
+      "memory": {
+        "method": "情景联想",
+        "hint": "杯子装满是 full，名字写完整也用 full；拼写末尾两个 l 都要留下。",
+        "example": "The bottle is full.",
+        "exampleZh": "瓶子是满的。"
+      }
+    },
+    "unit1-007": {
+      "word": "full name",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "full 是完整的；把名和姓都写上才是 full name，像登记表上的完整姓名。",
+        "example": "Please write your full name.",
+        "exampleZh": "请写下你的全名。"
+      }
+    },
+    "unit1-008": {
+      "word": "grade",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "用自己的年级记 Grade 7；grade 后面的数字告诉你是哪一个年级。",
+        "example": "I am in Grade 7.",
+        "exampleZh": "我上七年级。"
+      }
+    },
+    "unit1-009": {
+      "word": "last name",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "英文姓名 Mary Green 中，Green 是姓；放在最后，所以叫 last name。",
+        "example": "My last name is Green.",
+        "exampleZh": "我姓格林。"
+      }
+    },
+    "unit1-010": {
+      "word": "classmate",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "class（班级）加 mate（伙伴）合成 classmate：同一个班里的伙伴。",
+        "example": "Tom is my classmate.",
+        "exampleZh": "汤姆是我的同班同学。"
+      }
+    },
+    "unit1-011": {
+      "word": "class teacher",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "class 加 teacher，想象负责你们班的那位老师；两个词分开写，表示班主任。",
+        "example": "Our class teacher is kind.",
+        "exampleZh": "我们的班主任很亲切。"
+      }
+    },
+    "unit1-012": {
+      "word": "first name",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "英文姓名 Mary Green 中，Mary 是名；放在前面，记作 first name。",
+        "example": "My first name is Mary.",
+        "exampleZh": "我的名字叫玛丽。"
+      }
+    },
+    "unit1-013": {
+      "word": "mistake",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "犯错误记 make a mistake，改正错误记 correct a mistake；别把 make 换成 do。",
+        "example": "I made a spelling mistake.",
+        "exampleZh": "我犯了一个拼写错误。"
+      }
+    },
+    "unit1-014": {
+      "word": "country",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "一张世界地图对应许多 countries；country 变复数时把 y 改成 ies。",
+        "example": "China is a large country.",
+        "exampleZh": "中国是一个大国。"
+      }
+    },
+    "unit1-015": {
+      "word": "same",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "两个东西相同常用 the same，别漏 the；比如 in the same class，在同一个班。",
+        "example": "We are in the same class.",
+        "exampleZh": "我们在同一个班。"
+      }
+    },
+    "unit1-016": {
+      "word": "twin",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "双胞胎中的一个叫 a twin，两个人合起来叫 twins；用一张两人合照记。",
+        "example": "My brothers are twins.",
+        "exampleZh": "我的两个兄弟是双胞胎。"
+      }
+    },
+    "unit1-019": {
+      "word": "pot",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把 pot 放进 hot pot 里记：热热的锅就是火锅，pot 本身指锅。",
+        "example": "The pot is hot.",
+        "exampleZh": "这口锅很烫。"
+      }
+    },
+    "unit1-021": {
+      "word": "tofu",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象盘里白白软软的豆腐块，记 tofu；也可和 Mapo tofu 麻婆豆腐一起记。",
+        "example": "I like tofu.",
+        "exampleZh": "我喜欢豆腐。"
+      }
+    },
+    "starter2-005": {
+      "word": "need",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "需要东西用 need 加物品；需要做事用 need to 加动词，记住中间的 to。",
+        "example": "I need to go home.",
+        "exampleZh": "我需要回家。"
+      }
+    },
+    "unit1-022": {
+      "word": "parrot",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "parrot 鹦鹉和 carrot 胡萝卜共享 arrot；记一只鹦鹉旁放着一根胡萝卜。",
+        "example": "The parrot can say hello.",
+        "exampleZh": "这只鹦鹉会说你好。"
+      }
+    },
+    "unit1-023": {
+      "word": "guitar",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象六根琴弦和拨弦的手，连着记 play the guitar；开头的拼写是 gu。",
+        "example": "This guitar is brown.",
+        "exampleZh": "这把吉他是棕色的。"
+      }
+    },
+    "unit1-024": {
+      "word": "tennis",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "tennis 中间有两个 n；打网球记 play tennis，球类名称前不加 the。",
+        "example": "We play tennis after school.",
+        "exampleZh": "我们放学后打网球。"
+      }
+    },
+    "unit1-028": {
+      "word": "play the guitar",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "弹吉他记 play the guitar，中间有 the；和不加 the 的 play tennis 对照记。",
+        "example": "I can play the guitar.",
+        "exampleZh": "我会弹吉他。"
+      }
+    },
+    "unit1-029": {
+      "word": "would",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "用 Would you like ...? 记礼貌询问“你想要……吗”；would 后接动词原形。",
+        "example": "Would you like some water?",
+        "exampleZh": "你想喝点水吗？"
+      }
+    },
+    "unit1-030": {
+      "word": "would like to",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "想做某事用 would like to 加动词原形；想要某物则用 would like 加名词。",
+        "example": "I would like to join the club.",
+        "exampleZh": "我想加入这个社团。"
+      }
+    },
+    "unit1-031": {
+      "word": "information",
+      "memory": {
+        "method": "用法提醒",
+        "hint": "把信息想成汇在一起的资料；information 通常不可数，不写 an information。",
+        "example": "I need some information.",
+        "exampleZh": "我需要一些信息。"
+      }
+    },
+    "unit1-032": {
+      "word": "hobby",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "爱好 hobby 中间双写 b；有多个爱好时，把 y 改成 ies，写 hobbies。",
+        "example": "Reading is my hobby.",
+        "exampleZh": "阅读是我的爱好。"
+      }
+    },
+    "unit1-042": {
+      "word": "re",
+      "memory": {
+        "method": "情景联想",
+        "hint": "看到邮件主题前的 Re:，联想“关于这件事”；这里的 re 不要机械拆成单词首字母。",
+        "example": "Re: Our school trip",
+        "exampleZh": "关于：我们的学校旅行"
+      }
+    },
+    "unit1-033": {
+      "word": "UK",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "U、K 来自 United Kingdom；把 UK 和英国对应，两个字母都大写。",
+        "example": "She is from the UK.",
+        "exampleZh": "她来自英国。"
+      }
+    },
+    "unit1-034": {
+      "word": "US",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "U、S 来自 United States；大写 US 表示美国，小写 us 表示“我们”的宾格。",
+        "example": "He is from the US.",
+        "exampleZh": "他来自美国。"
+      }
+    },
+    "unit1-035": {
+      "word": "hot pot",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "hot 是热的，pot 是锅；想象围着热锅涮菜，两个词合起来就是火锅。",
+        "example": "We have hot pot for dinner.",
+        "exampleZh": "我们晚餐吃火锅。"
+      }
+    },
+    "unit1-036": {
+      "word": "Sydney",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把 Sydney 与悉尼歌剧院的帆形屋顶相连；这是城市名，首字母 S 大写。",
+        "example": "My friend lives in Sydney.",
+        "exampleZh": "我的朋友住在悉尼。"
+      }
+    },
+    "unit1-037": {
+      "word": "Australia",
+      "memory": {
+        "method": "情景联想",
+        "hint": "用地图上的澳大利亚和袋鼠联想 Australia；它是国家名，首字母大写。",
+        "example": "She lives in Australia.",
+        "exampleZh": "她住在澳大利亚。"
+      }
+    },
+    "unit1-038": {
+      "word": "Mapo tofu",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "Mapo 保留菜名“麻婆”，tofu 是豆腐；记住一盘麻婆豆腐，不必硬拆字母。",
+        "example": "Mapo tofu is delicious.",
+        "exampleZh": "麻婆豆腐很好吃。"
+      }
+    },
+    "unit1-039": {
+      "word": "Beijing roast duck",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "Beijing 是北京，roast 是烤制的，duck 是鸭；按地点、做法、食材顺序记。",
+        "example": "I like Beijing roast duck.",
+        "exampleZh": "我喜欢北京烤鸭。"
+      }
+    },
+    "unit1-040": {
+      "word": "Singapore",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把 Singapore 和新加坡鱼尾狮的形象相连；地名整体记，开头 S 要大写。",
+        "example": "My aunt lives in Singapore.",
+        "exampleZh": "我的阿姨住在新加坡。"
+      }
+    },
+    "unit1-043": {
+      "word": "the Great Wall",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "great 表示伟大的，wall 表示墙；长城专名写 the Great Wall，别漏 the。",
+        "example": "We visit the Great Wall.",
+        "exampleZh": "我们游览长城。"
+      }
+    },
+    "unit1-041": {
+      "word": "London",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象伦敦街头的红色双层巴士，把 London 与这座城市相连，首字母大写。",
+        "example": "My uncle lives in London.",
+        "exampleZh": "我的叔叔住在伦敦。"
+      }
+    },
+    "unit2-001": {
+      "word": "mean",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "问一个单词的词义，可说 What does this word mean?；does 后的 mean 用原形。",
+        "example": "What does this word mean?",
+        "exampleZh": "这个单词是什么意思？"
+      }
+    },
+    "unit2-002": {
+      "word": "husband",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "家庭关系成对记：husband 是丈夫，wife 是妻子；不要把它当作父亲的同义词。",
+        "example": "Her husband is a teacher.",
+        "exampleZh": "她的丈夫是一位老师。"
+      }
+    },
+    "unit2-003": {
+      "word": "bat",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把 bat 放在打球场景里：手里挥动的球棒或球拍；这里记的是体育用品。",
+        "example": "This bat is new.",
+        "exampleZh": "这个球拍是新的。"
+      }
+    },
+    "unit2-004": {
+      "word": "ping-pong bat",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "ping-pong 是乒乓球，bat 是球拍；把运动名放前面，就指出是哪一种球拍。",
+        "example": "I have a ping-pong bat.",
+        "exampleZh": "我有一个乒乓球拍。"
+      }
+    },
+    "unit2-005": {
+      "word": "play ping-pong",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "打乒乓球用 play ping-pong；运动名前不加 the，ping-pong 中间有连字符。",
+        "example": "Let's play ping-pong.",
+        "exampleZh": "我们打乒乓球吧。"
+      }
+    },
+    "unit2-007": {
+      "word": "together",
+      "memory": {
+        "method": "情景联想",
+        "hint": "一家人围着桌子吃饭，就是 eat together；把各自分开变成“在一起”的画面。",
+        "example": "We read together.",
+        "exampleZh": "我们一起读书。"
+      }
+    },
+    "unit2-006": {
+      "word": "every day",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "表示每天发生，every day 分开写；everyday 连写时表示日常的，常放在名词前。",
+        "example": "I read every day.",
+        "exampleZh": "我每天阅读。"
+      }
+    },
+    "unit2-009": {
+      "word": "spend",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "人花时间或钱用 spend；记 spend time on homework，把时间花在作业上。",
+        "example": "I spend an hour on homework.",
+        "exampleZh": "我花一个小时做作业。"
+      }
+    },
+    "unit2-010": {
+      "word": "a lot of",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "a lot of 后接事物：a lot of books 或 a lot of water；末尾的 of 别漏。",
+        "example": "We have a lot of books.",
+        "exampleZh": "我们有许多书。"
+      }
+    },
+    "unit1-027": {
+      "word": "hey",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想叫住熟悉的朋友时可说 Hey!；像挥手打招呼，适合随意的交流场景。",
+        "example": "Hey, look at this!",
+        "exampleZh": "嘿，看看这个！"
+      }
+    },
+    "unit2-011": {
+      "word": "really",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "real（真的）加 ly 成 really；单独问 Really? 是“真的吗”，放形容词前可表“很”。",
+        "example": "This book is really good.",
+        "exampleZh": "这本书真的很好。"
+      }
+    },
+    "unit2-032": {
+      "word": "member",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把班级或社团想成一张名单；名单里的每一个人都可以叫 a member。",
+        "example": "I am a member of the club.",
+        "exampleZh": "我是这个社团的一名成员。"
+      }
+    },
+    "unit2-012": {
+      "word": "activity",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "运动、游戏都是 activity；多种活动变 activities，把末尾 y 改成 ies。",
+        "example": "This activity is fun.",
+        "exampleZh": "这项活动很有趣。"
+      }
+    },
+    "unit2-013": {
+      "word": "chess",
+      "memory": {
+        "method": "情景联想",
+        "hint": "看到棋盘上的国王、王后，就联想 chess 国际象棋；下棋用 play chess。",
+        "example": "My father plays chess.",
+        "exampleZh": "我爸爸下国际象棋。"
+      }
+    },
+    "unit2-014": {
+      "word": "Chinese chess",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "chess 前加 Chinese 指中国象棋；想象写着“将、帅”的棋子来区分。",
+        "example": "My grandpa likes Chinese chess.",
+        "exampleZh": "我爷爷喜欢中国象棋。"
+      }
+    },
+    "unit1-020": {
+      "word": "a lot",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "like it a lot 表示很喜欢；后面不接名词。若说许多书，改用 a lot of books。",
+        "example": "I like this game a lot.",
+        "exampleZh": "我很喜欢这个游戏。"
+      }
+    },
+    "unit2-033": {
+      "word": "grandparent",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "parent 是父亲或母亲，grandparent 再往上一代；加 s 可统称祖父母或外祖父母。",
+        "example": "My grandparents live here.",
+        "exampleZh": "我的祖父母住在这里。"
+      }
+    },
+    "unit2-015": {
+      "word": "funny",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "funny 常让人发笑，也可指奇怪；想象小丑的滑稽帽子，别只记成“好玩”。",
+        "example": "That story is funny.",
+        "exampleZh": "那个故事很滑稽。"
+      }
+    },
+    "unit2-016": {
+      "word": "laugh",
+      "memory": {
+        "method": "情景联想",
+        "hint": "听完笑话哈哈笑，就把动作与 laugh 连起来；结尾的 gh 要写全。",
+        "example": "You make me laugh.",
+        "exampleZh": "你逗得我笑了。"
+      }
+    },
+    "unit2-017": {
+      "word": "different",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "把一红一蓝两支笔放一起：颜色 different；与表示相同的 same 成对记。",
+        "example": "The two bags are different.",
+        "exampleZh": "这两个书包不一样。"
+      }
+    },
+    "unit2-019": {
+      "word": "have fun",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把 have fun 整块记成玩得开心；fun 前不用 a，也可以接 doing 表示做事很开心。",
+        "example": "Have fun at the party!",
+        "exampleZh": "祝你在聚会上玩得开心！"
+      }
+    },
+    "unit2-021": {
+      "word": "hat",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象头顶一顶宽檐帽，把 hat 与帽子连起来；a hat 是一顶，two hats 是两顶。",
+        "example": "My hat is red.",
+        "exampleZh": "我的帽子是红色的。"
+      }
+    },
+    "unit2-022": {
+      "word": "handsome",
+      "memory": {
+        "method": "情景联想",
+        "hint": "照片中一位英俊的人可用 handsome 形容；整体记“英俊的”，别硬拆成手和一些。",
+        "example": "He looks handsome.",
+        "exampleZh": "他看起来很英俊。"
+      }
+    },
+    "unit2-023": {
+      "word": "knee",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "弯一弯膝盖记 knee：开头有不发音的 k，末尾有两个 e，写的时候都别漏。",
+        "example": "My knee hurts.",
+        "exampleZh": "我的膝盖疼。"
+      }
+    },
+    "unit2-024": {
+      "word": "at night",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "在夜间用 at night；与 in the morning 对照，night 前不加 the。",
+        "example": "I read at night.",
+        "exampleZh": "我在夜间阅读。"
+      }
+    },
+    "unit2-026": {
+      "word": "grandchild",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "child 是孩子，grandchild 是孙辈；复数跟 child 一起变，写 grandchildren。",
+        "example": "She has two grandchildren.",
+        "exampleZh": "她有两个孙辈。"
+      }
+    },
+    "unit2-027": {
+      "word": "son",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "son 是儿子，sun 是太阳，发音相同但中间字母不同；用家庭照和太阳图区分。",
+        "example": "Their son is ten.",
+        "exampleZh": "他们的儿子十岁。"
+      }
+    },
+    "unit4-013": {
+      "word": "listen to",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "专心听某人或某物用 listen to；把 listen to music 连在一起，别漏 to。",
+        "example": "Listen to your teacher.",
+        "exampleZh": "听老师讲。"
+      }
+    },
+    "unit2-028": {
+      "word": "next to",
+      "memory": {
+        "method": "情景联想",
+        "hint": "两张椅子紧紧挨着，就是 next to；记它表示相邻，中间不是隔着一条街。",
+        "example": "I sit next to my friend.",
+        "exampleZh": "我坐在朋友旁边。"
+      }
+    },
+    "unit2-031": {
+      "word": "Ireland",
+      "memory": {
+        "method": "情景联想",
+        "hint": "用地图和绿色三叶草联想 Ireland 爱尔兰；这是地名，开头 I 要大写。",
+        "example": "My friend is from Ireland.",
+        "exampleZh": "我的朋友来自爱尔兰。"
+      }
+    },
+    "unit3-001": {
+      "word": "hall",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象全校同学集合的大房间：举行集会的 hall 是礼堂，不是普通教室。",
+        "example": "We meet in the hall.",
+        "exampleZh": "我们在礼堂集合。"
+      }
+    },
+    "unit3-002": {
+      "word": "dining hall",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "dining 表示用餐，hall 是大厅；把吃饭和大厅连起来，就是学校食堂。",
+        "example": "Lunch is ready in the dining hall.",
+        "exampleZh": "食堂的午饭准备好了。"
+      }
+    },
+    "unit3-003": {
+      "word": "in front of",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "in front of 常指物体外部的前面；in the front of 常指内部靠前的位置。",
+        "example": "A tree is in front of the building.",
+        "exampleZh": "楼前有一棵树。"
+      }
+    },
+    "unit3-004": {
+      "word": "building",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "build 是建造，building 可指建造出来的建筑物；这里把它当名词记。",
+        "example": "That building is our library.",
+        "exampleZh": "那栋楼是我们的图书馆。"
+      }
+    },
+    "unit2-025": {
+      "word": "in the middle of",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象圆桌正中放着一瓶花：用 in the middle of 表示在中间，别漏 the。",
+        "example": "The flowers are in the middle of the table.",
+        "exampleZh": "花在桌子中间。"
+      }
+    },
+    "unit3-005": {
+      "word": "across",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把道路想成一条带子：从这一边横过到另一边，就是 across 的方向。",
+        "example": "We walk across the field.",
+        "exampleZh": "我们步行穿过那片场地。"
+      }
+    },
+    "unit3-006": {
+      "word": "across from",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "两栋楼隔路相对：across from 表示在对面，重点是位置，不是穿过的动作。",
+        "example": "The gym is across from the library.",
+        "exampleZh": "体育馆在图书馆对面。"
+      }
+    },
+    "unit3-040": {
+      "word": "centre",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "centre 是英式拼写，center 是美式拼写；意思相同，注意词尾 re 和 er 的顺序。",
+        "example": "There is a park in the town centre.",
+        "exampleZh": "镇中心有一个公园。"
+      }
+    },
+    "unit3-009": {
+      "word": "gym",
+      "memory": {
+        "method": "缩略记忆",
+        "hint": "gym 是 gymnasium 的简短形式；想象室内打球的场馆，记住体育馆这个意思。",
+        "example": "We play basketball in the gym.",
+        "exampleZh": "我们在体育馆打篮球。"
+      }
+    },
+    "unit3-007": {
+      "word": "field",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象一片开阔的地：种庄稼时是田地，踢球时是场地，都可以叫 field。",
+        "example": "The cows are in the field.",
+        "exampleZh": "奶牛在田里。"
+      }
+    },
+    "unit3-008": {
+      "word": "sports field",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "sports 表示体育运动，field 是场地；合起来是运动场，注意 sports 末尾的 s。",
+        "example": "We run on the sports field.",
+        "exampleZh": "我们在运动场上跑步。"
+      }
+    },
+    "unit3-010": {
+      "word": "office",
+      "memory": {
+        "method": "情景联想",
+        "hint": "老师备课、批改作业的房间是 office；记住 the teachers’ office（教师办公室）。",
+        "example": "Our teacher is in the office.",
+        "exampleZh": "我们的老师在办公室里。"
+      }
+    },
+    "unit3-011": {
+      "word": "large",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "large 强调整体大，tall 强调高；一间面积大的教室可以说 a large classroom。",
+        "example": "Our school has a large playground.",
+        "exampleZh": "我们学校有一个大操场。"
+      }
+    },
+    "unit3-012": {
+      "word": "special",
+      "memory": {
+        "method": "情景联想",
+        "hint": "在日历上圈出生日：它不是普通的一天，而是 a special day（特别的一天）。",
+        "example": "Today is a special day for me.",
+        "exampleZh": "今天对我来说是特别的一天。"
+      }
+    },
+    "unit3-013": {
+      "word": "smart",
+      "memory": {
+        "method": "一词多义",
+        "hint": "把两幅图放在一起记：聪明的学生和智能的白板，都可以用 smart 来形容。",
+        "example": "This smart board can show pictures.",
+        "exampleZh": "这块智能板可以显示图片。"
+      }
+    },
+    "unit3-014": {
+      "word": "whiteboard",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "white 是白色，board 是板；两个词合成 whiteboard，就成了可以写字的白板。",
+        "example": "Please write your name on the whiteboard.",
+        "exampleZh": "请把你的名字写在白板上。"
+      }
+    },
+    "unit3-015": {
+      "word": "put up",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把通知贴到墙上、把帐篷搭起来，都能用 put up；想象东西被放好或支起来。",
+        "example": "Let's put up this picture.",
+        "exampleZh": "我们把这幅画贴起来吧。"
+      }
+    },
+    "unit3-016": {
+      "word": "important",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把必须留意的事标一颗星：an important thing 是重要的事，把这个搭配整组记。",
+        "example": "Sleep is important for us.",
+        "exampleZh": "睡眠对我们很重要。"
+      }
+    },
+    "unit3-017": {
+      "word": "notice",
+      "memory": {
+        "method": "一词多义",
+        "hint": "公告栏上的一张通知是 a notice；作动词时，notice 又能表示注意到某件事。",
+        "example": "Please read the notice on the wall.",
+        "exampleZh": "请读一读墙上的通知。"
+      }
+    },
+    "unit3-018": {
+      "word": "locker",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "lock 是锁，locker 是带锁的储物柜；看到小柜门上的锁，就把两词联系起来。",
+        "example": "My bag is in my locker.",
+        "exampleZh": "我的书包在储物柜里。"
+      }
+    },
+    "unit3-019": {
+      "word": "drawer",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象从桌子里拉出装铅笔的小格子：能拉出来收纳东西的这一格就是 drawer。",
+        "example": "There are three pens in the drawer.",
+        "exampleZh": "抽屉里有三支笔。"
+      }
+    },
+    "unit3-020": {
+      "word": "at the back of",
+      "memory": {
+        "method": "方位记忆",
+        "hint": "把教室想成前后两端：at the back of 指靠后的一端，记住 back 前面的 the。",
+        "example": "The clock is at the back of the classroom.",
+        "exampleZh": "钟在教室后部。"
+      }
+    },
+    "unit3-021": {
+      "word": "corner",
+      "memory": {
+        "method": "情景联想",
+        "hint": "两面墙相接形成角落，两条街相接形成拐角；看见这样的转折处就想到 corner。",
+        "example": "A plant is in the corner of the room.",
+        "exampleZh": "房间角落里有一盆植物。"
+      }
+    },
+    "unit3-022": {
+      "word": "bookcase",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "book 是书，case 可指柜或箱；存放书的柜子就是 bookcase，把两部分连写。",
+        "example": "The dictionary is in the bookcase.",
+        "exampleZh": "词典在书柜里。"
+      }
+    },
+    "unit3-023": {
+      "word": "screen",
+      "memory": {
+        "method": "情景联想",
+        "hint": "手机、电脑上显示文字和图片的那一面都叫 screen；不是整部手机或电脑。",
+        "example": "Look at the words on the screen.",
+        "exampleZh": "看看屏幕上的单词。"
+      }
+    },
+    "unit3-024": {
+      "word": "at school",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "at school 整体记作在学校；说自己正在学校时，school 前通常不用 the。",
+        "example": "My sister is at school now.",
+        "exampleZh": "我妹妹现在在学校。"
+      }
+    },
+    "unit3-041": {
+      "word": "different from",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "different from 表示与……不同，可与 similar to 对照；两个短语的介词别混用。",
+        "example": "My bag is different from yours.",
+        "exampleZh": "我的书包和你的不同。"
+      }
+    },
+    "unit3-025": {
+      "word": "modern",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象装着新设备的现代校园：a modern school 中的 modern 强调现代的特点。",
+        "example": "This is a modern library.",
+        "exampleZh": "这是一座现代化图书馆。"
+      }
+    },
+    "unit3-026": {
+      "word": "do exercises",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "早操包含一组动作，用复数 exercises；把 do morning exercises（做早操）一起记。",
+        "example": "We do exercises before class.",
+        "exampleZh": "我们上课前做操。"
+      }
+    },
+    "unit3-027": {
+      "word": "amazing",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "amazing 形容让人惊叹的事物；amazed 形容人的惊讶感受，先看描述的是哪一方。",
+        "example": "The school show is amazing.",
+        "exampleZh": "学校的演出令人惊叹。"
+      }
+    },
+    "unit3-028": {
+      "word": "raise",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "raise 后常接被举起的东西，如 raise your hand；rise 常表示自己升起。",
+        "example": "Please raise your hand.",
+        "exampleZh": "请举手。"
+      }
+    },
+    "unit3-029": {
+      "word": "flag",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象旗杆顶端迎风飘动的布：它就是 flag；a flag 是一面旗，量词不用直译。",
+        "example": "The flag is red and white.",
+        "exampleZh": "这面旗是红白相间的。"
+      }
+    },
+    "unit3-030": {
+      "word": "most",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "most students 是大多数学生，前面不用 the；表示最多时常见 the most。",
+        "example": "Most students like this game.",
+        "exampleZh": "大多数学生喜欢这个游戏。"
+      }
+    },
+    "unit3-031": {
+      "word": "change",
+      "memory": {
+        "method": "情景联想",
+        "hint": "从旧座位换到新座位，位置发生改变：change seats 是换座位，把变化过程一起记。",
+        "example": "Can I change my seat?",
+        "exampleZh": "我可以换座位吗？"
+      }
+    },
+    "unit3-032": {
+      "word": "seat",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "seat 是名词座位，sit 是动词坐；take a seat 是请坐，不要把两个词写混。",
+        "example": "This seat is for you.",
+        "exampleZh": "这个座位是给你的。"
+      }
+    },
+    "unit3-033": {
+      "word": "delicious",
+      "memory": {
+        "method": "情景联想",
+        "hint": "咬一口喜欢的饺子，想到 delicious dumplings；用 delicious 夸食物好吃。",
+        "example": "These noodles are delicious.",
+        "exampleZh": "这些面条很好吃。"
+      }
+    },
+    "unit3-034": {
+      "word": "How about",
+      "memory": {
+        "method": "句型记忆",
+        "hint": "How about 后可接名词或动词的 -ing 形式，用来问意见或提出建议。",
+        "example": "How about playing tennis?",
+        "exampleZh": "打网球怎么样？"
+      }
+    },
+    "unit3-035": {
+      "word": "yours",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "your 后要接名词；yours 能独立表示你的那个，末尾有 s，但不加撇号。",
+        "example": "This blue pen is yours.",
+        "exampleZh": "这支蓝色钢笔是你的。"
+      }
+    },
+    "unit3-042": {
+      "word": "send",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "寄出或发出都可用 send；记住 send a photo to a friend，把照片发给朋友。",
+        "example": "Please send a message to Mum.",
+        "exampleZh": "请给妈妈发条消息。"
+      }
+    },
+    "unit3-036": {
+      "word": "similar",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "两件衣服颜色接近、图案略有差别，可以说 similar；相似不等于完全一样。",
+        "example": "The two pictures are similar.",
+        "exampleZh": "这两幅画很相似。"
+      }
+    },
+    "unit3-037": {
+      "word": "similar to",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "先说相似，再用 to 接比较对象：A is similar to B；这里不用 with。",
+        "example": "Your bike is similar to mine.",
+        "exampleZh": "你的自行车和我的相似。"
+      }
+    },
+    "unit3-038": {
+      "word": "sound",
+      "memory": {
+        "method": "句型记忆",
+        "hint": "sound 表示听起来时，后面常接形容词，如 sound good；用听到的感受来评价。",
+        "example": "Your idea sounds great.",
+        "exampleZh": "你的主意听起来很棒。"
+      }
+    },
+    "unit3-039": {
+      "word": "bye for now",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "for now 表示暂时；bye for now 是先告别的说法，适合聊天或书信结尾。",
+        "example": "Bye for now, Sam!",
+        "exampleZh": "萨姆，先说再见啦！"
+      }
+    },
+    "unit4-001": {
+      "word": "biology",
+      "memory": {
+        "method": "情景联想",
+        "hint": "观察植物怎么长、动物怎么生活，就想到 biology；把它放进研究生命的课堂。",
+        "example": "We learn about plants in biology.",
+        "exampleZh": "我们在生物课上学习植物知识。"
+      }
+    },
+    "unit4-002": {
+      "word": "IT",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "IT 是 information technology 的首字母缩写，意思是信息技术；两个字母都大写。",
+        "example": "We use computers in IT class.",
+        "exampleZh": "我们在信息技术课上使用电脑。"
+      }
+    },
+    "unit4-003": {
+      "word": "geography",
+      "memory": {
+        "method": "情景联想",
+        "hint": "打开地图，寻找河流、山脉和城市的位置；这幅画面可以帮你记住 geography。",
+        "example": "We look at maps in geography class.",
+        "exampleZh": "我们在地理课上看地图。"
+      }
+    },
+    "unit4-004": {
+      "word": "history",
+      "memory": {
+        "method": "情景联想",
+        "hint": "看着古老照片，追问过去发生过什么，就想到 history；它研究过去的人和事。",
+        "example": "I like reading history books.",
+        "exampleZh": "我喜欢读历史书。"
+      }
+    },
+    "unit4-005": {
+      "word": "boring",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "boring 描写让人无聊的事物；bored 描写感到无聊的人，注意两种不同角度。",
+        "example": "This game is boring.",
+        "exampleZh": "这个游戏很无聊。"
+      }
+    },
+    "unit4-006": {
+      "word": "useful",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "use 加 -ful 变成 useful，表示有用的；后缀 -ful 只有一个 l，别写成 full。",
+        "example": "This map is useful.",
+        "exampleZh": "这张地图很有用。"
+      }
+    },
+    "unit4-007": {
+      "word": "exciting",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "excite 去掉词尾 e，再加 -ing，成为 exciting，表示某事令人兴奋。",
+        "example": "The football game is exciting.",
+        "exampleZh": "这场足球赛令人兴奋。"
+      }
+    },
+    "unit4-008": {
+      "word": "past",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "在时间线上，past 位于现在以前，future 位于现在以后；in the past 表示在过去。",
+        "example": "We learn about the past.",
+        "exampleZh": "我们了解过去。"
+      }
+    },
+    "unit4-009": {
+      "word": "good with",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "good with 强调善于应对人或事物，如 children、numbers；把 with 和后面的对象一起记。",
+        "example": "She is good with children.",
+        "exampleZh": "她善于和孩子相处。"
+      }
+    },
+    "unit4-010": {
+      "word": "number",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "读号码时逐个报数字；phone number 是电话号码，number 既可指数字，也可指号码。",
+        "example": "What is your phone number?",
+        "exampleZh": "你的电话号码是多少？"
+      }
+    },
+    "unit4-011": {
+      "word": "help sb with",
+      "memory": {
+        "method": "句型记忆",
+        "hint": "sb 代表 somebody（某人）；写句子时换成 me 等，再用 with 接需要帮助的事情。",
+        "example": "Can you help me with maths?",
+        "exampleZh": "你能帮我学数学吗？"
+      }
+    },
+    "unit4-012": {
+      "word": "reason",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "问 Why（为什么），回答给出的就是 reason（原因）；可连着记 the reason for。",
+        "example": "What is the reason for the change?",
+        "exampleZh": "这次改变的原因是什么？"
+      }
+    },
+    "unit4-014": {
+      "word": "good at",
+      "memory": {
+        "method": "句型记忆",
+        "hint": "good at 表示擅长某项活动或学科；at 后接名词或动词的 -ing 形式。",
+        "example": "I am good at drawing.",
+        "exampleZh": "我擅长画画。"
+      }
+    },
+    "unit4-015": {
+      "word": "remember",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "把 remember 和 forget 成对记：前者是记得，后者是忘记；想象脑中的提醒卡。",
+        "example": "I remember your name.",
+        "exampleZh": "我记得你的名字。"
+      }
+    },
+    "unit4-017": {
+      "word": "as",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "as 表示作为时强调身份；work as a teacher 就是以教师的身份工作。",
+        "example": "He works as a teacher.",
+        "exampleZh": "他是一名教师。"
+      }
+    },
+    "unit4-018": {
+      "word": "AM",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "AM 来自拉丁语 ante meridiem，意思是正午前；8 AM 是上午八点。",
+        "example": "School starts at 8 AM.",
+        "exampleZh": "学校上午八点开始上课。"
+      }
+    },
+    "unit4-019": {
+      "word": "PM",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "PM 来自拉丁语 post meridiem，意思是正午后；也包括晚上，8 PM 是晚上八点。",
+        "example": "Dinner is at 6 PM.",
+        "exampleZh": "晚饭在傍晚六点。"
+      }
+    },
+    "unit4-020": {
+      "word": "French",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "France 是国家法国，French 是法语或法国的；这两个词的首字母都大写。",
+        "example": "I can speak a little French.",
+        "exampleZh": "我会说一点法语。"
+      }
+    },
+    "unit4-021": {
+      "word": "excellent",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "excellent 表示非常出色，比 good 语气更强；拼写中间有两个 l。",
+        "example": "Your drawing is excellent.",
+        "exampleZh": "你的画很出色。"
+      }
+    },
+    "unit4-022": {
+      "word": "instrument",
+      "memory": {
+        "method": "分类记忆",
+        "hint": "钢琴和小提琴都属于 musical instruments（乐器）；instrument 也可指工具。",
+        "example": "Can you play this instrument?",
+        "exampleZh": "你会演奏这种乐器吗？"
+      }
+    },
+    "unit4-023": {
+      "word": "singer",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "sing 是唱歌，加表示人的后缀 -er，变成 singer；唱歌的人就是歌手。",
+        "example": "My uncle is a singer.",
+        "exampleZh": "我叔叔是一名歌手。"
+      }
+    },
+    "unit4-024": {
+      "word": "future",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想到长大后的职业和生活：future 指还没到来的时间，my future 就是我的未来。",
+        "example": "We talk about the future.",
+        "exampleZh": "我们谈论未来。"
+      }
+    },
+    "unit4-025": {
+      "word": "in the future",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把时间推到几年后：in the future 表示在将来，把中间的 the 一起记住。",
+        "example": "I want to be a teacher in the future.",
+        "exampleZh": "我将来想当老师。"
+      }
+    },
+    "unit4-026": {
+      "word": "term",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把 school year（学年）分成几段，每一段就是一个 term（学期）。",
+        "example": "We have a new teacher this term.",
+        "exampleZh": "这学期我们有一位新老师。"
+      }
+    },
+    "unit4-027": {
+      "word": "work out",
+      "memory": {
+        "method": "句型记忆",
+        "hint": "一道题终于算出答案，就用 work out；宾语是 it 时，要放在中间，写 work it out。",
+        "example": "I can work out this problem.",
+        "exampleZh": "我能解出这道题。"
+      }
+    },
+    "unit4-028": {
+      "word": "problem",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "question 常指等人回答的提问，problem 常指等人解决的难题；想象一道待解的数学题。",
+        "example": "This problem is not easy.",
+        "exampleZh": "这道题不容易。"
+      }
+    },
+    "unit4-029": {
+      "word": "in class",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "in class 强调正在上课；记住 listen in class（上课听讲），中间不加 the。",
+        "example": "Please speak English in class.",
+        "exampleZh": "请在课堂上说英语。"
+      }
+    },
+    "unit4-030": {
+      "word": "magic",
+      "memory": {
+        "method": "一词多义",
+        "hint": "magic 既能指魔法，也可修饰名词；a magic box 是一个神奇的盒子。",
+        "example": "There is a rabbit in the magic box.",
+        "exampleZh": "魔术盒里有一只兔子。"
+      }
+    },
+    "unit4-031": {
+      "word": "life",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "life 是名词生命或生活，live 是动词生活或居住；说校园生活，用 school life。",
+        "example": "School life is fun.",
+        "exampleZh": "校园生活很有趣。"
+      }
+    },
+    "unit4-032": {
+      "word": "scientist",
+      "memory": {
+        "method": "词族记忆",
+        "hint": "把 science（科学）和 scientist（科学家）结对记；后者是研究科学的人。",
+        "example": "My aunt is a scientist.",
+        "exampleZh": "我姑姑是一名科学家。"
+      }
+    },
+    "unit1-017": {
+      "word": "both",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "both 专指两者都；三者或更多都如此时常用 all，使用前先数一数有几个对象。",
+        "example": "Both girls like music.",
+        "exampleZh": "这两个女孩都喜欢音乐。"
+      }
+    },
+    "unit4-033": {
+      "word": "Canada",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "Canada 是加拿大，国家名首字母 C 要大写；拼写中的三个元音字母都是 a。",
+        "example": "My friend lives in Canada.",
+        "exampleZh": "我的朋友住在加拿大。"
+      }
+    },
+    "unit5-001": {
+      "word": "club",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象放学后大家因同一种爱好聚在一起：读书社、音乐社都可以叫 club。",
+        "example": "Our school has a chess club.",
+        "exampleZh": "我们学校有一个国际象棋社。"
+      }
+    },
+    "unit5-002": {
+      "word": "join",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把 join 和 club 连着记：join a club 是加入社团，成为其中的一员。",
+        "example": "I want to join the art club.",
+        "exampleZh": "我想加入美术社。"
+      }
+    },
+    "unit5-003": {
+      "word": "choose",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "面对几个选项做选择就是 choose；中间有两个 o，词尾还有一个 e。",
+        "example": "Please choose a book.",
+        "exampleZh": "请选一本书。"
+      }
+    },
+    "unit5-004": {
+      "word": "drama",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把舞台、角色和台词放在同一幅画面里：学生排演的戏剧就是 drama。",
+        "example": "We enjoy the school drama.",
+        "exampleZh": "我们喜欢这部校园戏剧。"
+      }
+    },
+    "unit5-005": {
+      "word": "play Chinese chess",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "棋类前通常不加 the；play Chinese chess 整体记作下中国象棋。",
+        "example": "I play Chinese chess with my dad.",
+        "exampleZh": "我和爸爸下中国象棋。"
+      }
+    },
+    "unit5-006": {
+      "word": "feeling",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "feel 是感到，加上 -ing 成为 feeling，表示心里的感受或情感。",
+        "example": "It is a nice feeling.",
+        "exampleZh": "这是一种美好的感觉。"
+      }
+    },
+    "unit5-007": {
+      "word": "news",
+      "memory": {
+        "method": "用法提醒",
+        "hint": "news 虽然以 s 结尾，却不按复数处理；说一条消息可用 a piece of news。",
+        "example": "The news is good.",
+        "exampleZh": "这个消息很好。"
+      }
+    },
+    "unit5-008": {
+      "word": "musical",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "music 是音乐，接上 -al 变成 musical，可形容与音乐有关的事物。",
+        "example": "My brother is very musical.",
+        "exampleZh": "我弟弟很有音乐才能。"
+      }
+    },
+    "unit5-009": {
+      "word": "musical instrument",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把小提琴、鼓放进同一组，它们都是 musical instruments，也就是乐器。",
+        "example": "Can you play a musical instrument?",
+        "exampleZh": "你会演奏乐器吗？"
+      }
+    },
+    "unit5-010": {
+      "word": "exactly",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "exact 表示准确的，加 -ly 成为 exactly；单独回答时也可表示正是如此。",
+        "example": "That is exactly what I want.",
+        "exampleZh": "那正是我想要的。"
+      }
+    },
+    "unit2-018": {
+      "word": "violin",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把 violin 和弓弦画面联系起来；演奏小提琴常说 play the violin。",
+        "example": "She plays the violin after school.",
+        "exampleZh": "她放学后拉小提琴。"
+      }
+    },
+    "unit5-011": {
+      "word": "drum",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象双手拿鼓槌打节拍：那面发出咚咚声的鼓就是 drum。",
+        "example": "He has a small drum.",
+        "exampleZh": "他有一面小鼓。"
+      }
+    },
+    "unit5-012": {
+      "word": "ability",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "从会做什么想到能力；the ability to swim 就是游泳的能力。",
+        "example": "Most birds have the ability to fly.",
+        "exampleZh": "大多数鸟有飞翔的能力。"
+      }
+    },
+    "unit5-013": {
+      "word": "paint",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "paint 常让人想到颜料和画笔；用铅笔画线条则常用 draw。",
+        "example": "Let us paint a blue sky.",
+        "exampleZh": "我们用颜料画一片蓝天吧。"
+      }
+    },
+    "unit5-014": {
+      "word": "climb",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "想象爬树或爬山的动作；climb 词尾的 b 写出来，但不发音。",
+        "example": "The cat can climb the tree.",
+        "exampleZh": "这只猫会爬那棵树。"
+      }
+    },
+    "unit1-026": {
+      "word": "even",
+      "memory": {
+        "method": "情景联想",
+        "hint": "说出一个让人意外的程度时用 even：他甚至连周日也早起。",
+        "example": "He gets up early even on Sunday.",
+        "exampleZh": "他甚至星期日也早起。"
+      }
+    },
+    "unit5-015": {
+      "word": "more",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "more 表示在原有数量上再多一些；some water 后还想要，可说 more water。",
+        "example": "May I have more water?",
+        "exampleZh": "可以再给我一些水吗？"
+      }
+    },
+    "unit5-016": {
+      "word": "act",
+      "memory": {
+        "method": "词族记忆",
+        "hint": "act 是表演，actor 是演员；把一个舞台动作和台上的演员一起记住。",
+        "example": "She can sing and act.",
+        "exampleZh": "她会唱歌，也会表演。"
+      }
+    },
+    "unit5-017": {
+      "word": "act out",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把故事从纸上搬到动作和台词中，就是 act out，意思是把它表演出来。",
+        "example": "Let us act out the story.",
+        "exampleZh": "我们把这个故事表演出来吧。"
+      }
+    },
+    "unit5-018": {
+      "word": "at home",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "at home 是在家的固定搭配，home 前不用加 the，整组记最稳。",
+        "example": "My sister is at home.",
+        "exampleZh": "我姐姐在家。"
+      }
+    },
+    "unit5-019": {
+      "word": "interested",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "人感到有兴趣用 interested；事物令人感兴趣用 interesting，别把两者换反。",
+        "example": "I am interested, too.",
+        "exampleZh": "我也感兴趣。"
+      }
+    },
+    "unit5-020": {
+      "word": "interested in",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "记住 be interested in 后接感兴趣的事物，也可以接动词的 -ing 形式。",
+        "example": "I am interested in drawing.",
+        "exampleZh": "我对画画感兴趣。"
+      }
+    },
+    "unit5-021": {
+      "word": "nature",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把山、河、树木和动物放在一幅画中，这个自然世界就是 nature。",
+        "example": "We learn about nature in the park.",
+        "exampleZh": "我们在公园里了解大自然。"
+      }
+    },
+    "unit2-029": {
+      "word": "hike",
+      "memory": {
+        "method": "情景联想",
+        "hint": "背上小包，沿着山路走一段较长的路，想到这样的徒步旅行就想到 hike。",
+        "example": "We hike in the hills.",
+        "exampleZh": "我们在山间徒步。"
+      }
+    },
+    "unit5-022": {
+      "word": "beef",
+      "memory": {
+        "method": "分类记忆",
+        "hint": "按食物来源记：牛肉是 beef，猪肉是 pork；两种肉的英文别混淆。",
+        "example": "We have beef for lunch.",
+        "exampleZh": "我们午餐吃牛肉。"
+      }
+    },
+    "unit5-023": {
+      "word": "soon",
+      "memory": {
+        "method": "时间联想",
+        "hint": "soon 把时间放在离现在不远的将来；See you soon 表示不久再见。",
+        "example": "The bus will be here soon.",
+        "exampleZh": "公共汽车很快就到。"
+      }
+    },
+    "unit5-024": {
+      "word": "than",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "比较两者时用 than（比）；then 是然后，留意中间的 a 和 e。",
+        "example": "My bag is bigger than yours.",
+        "exampleZh": "我的书包比你的大。"
+      }
+    },
+    "unit5-025": {
+      "word": "more than",
+      "memory": {
+        "method": "数量联想",
+        "hint": "在数字前写 more than，好比放上大于号，表示超过这个数量。",
+        "example": "There are more than ten trees.",
+        "exampleZh": "那里的树超过十棵。"
+      }
+    },
+    "unit5-026": {
+      "word": "mind",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把头脑当作存放想法的地方；in my mind 表示在我的脑海里。",
+        "example": "I have a question in mind.",
+        "exampleZh": "我心里有一个问题。"
+      }
+    },
+    "unit5-027": {
+      "word": "fall",
+      "memory": {
+        "method": "多义联想",
+        "hint": "想象叶子落下：fall 可指落下，也可指秋天；不同意思靠句子判断。",
+        "example": "Leaves fall from the trees.",
+        "exampleZh": "树叶从树上落下来。"
+      }
+    },
+    "unit5-028": {
+      "word": "fall in love with",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把 fall in love with 当作一整组，表示爱上；后面可接人，也可接活动。",
+        "example": "You may fall in love with this song.",
+        "exampleZh": "你可能会爱上这首歌。"
+      }
+    },
+    "unit5-029": {
+      "word": "take photos",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "拍照用 take photos，别按中文写成 make photos；一张照片是 a photo。",
+        "example": "We take photos in the garden.",
+        "exampleZh": "我们在花园里拍照。"
+      }
+    },
+    "unit5-030": {
+      "word": "collect",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把一张张邮票放进同一本册子，这样慢慢收集起来的动作就是 collect。",
+        "example": "I collect old postcards.",
+        "exampleZh": "我收集旧明信片。"
+      }
+    },
+    "unit5-031": {
+      "word": "insect",
+      "memory": {
+        "method": "形象联想",
+        "hint": "用蚂蚁和蝴蝶作代表来记 insect；它们都是有六条腿的昆虫。",
+        "example": "An ant is a small insect.",
+        "exampleZh": "蚂蚁是一种小昆虫。"
+      }
+    },
+    "unit5-032": {
+      "word": "discover",
+      "memory": {
+        "method": "情景联想",
+        "hint": "原来没见到或不知道，后来发现了，就用 discover；想象找到一处新地方。",
+        "example": "We discover a small lake.",
+        "exampleZh": "我们发现了一个小湖。"
+      }
+    },
+    "unit5-033": {
+      "word": "wildlife",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "wild 是野生的，life 是生命；合成 wildlife，整体指野生生物。",
+        "example": "This park is home to wildlife.",
+        "exampleZh": "这座公园是野生生物的家园。"
+      }
+    },
+    "unit6-001": {
+      "word": "make use of",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "use 是使用，make use of 整组表示利用；后面接时间、物品等资源。",
+        "example": "Make use of your free time.",
+        "exampleZh": "利用好你的空闲时间。"
+      }
+    },
+    "unit6-038": {
+      "word": "quarter",
+      "memory": {
+        "method": "数量联想",
+        "hint": "一小时的四分之一是十五分钟；a quarter past eight 就是八点十五分。",
+        "example": "It is a quarter past eight.",
+        "exampleZh": "现在是八点十五分。"
+      }
+    },
+    "unit6-002": {
+      "word": "shower",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象水从淋浴头洒下来；shower 既可以指淋浴，也可以指淋浴器。",
+        "example": "The shower is in the bathroom.",
+        "exampleZh": "淋浴器在浴室里。"
+      }
+    },
+    "unit6-003": {
+      "word": "take a shower",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把 take a shower 整组记作洗淋浴，中间保留 a；可放进自己的晚间安排里。",
+        "example": "I take a shower before bed.",
+        "exampleZh": "我睡前洗淋浴。"
+      }
+    },
+    "unit6-004": {
+      "word": "get dressed",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "get dressed 强调穿好衣服这个动作；be dressed 则描述已经穿好衣服的状态。",
+        "example": "I get dressed at seven.",
+        "exampleZh": "我七点穿好衣服。"
+      }
+    },
+    "unit6-005": {
+      "word": "brush",
+      "memory": {
+        "method": "词性联想",
+        "hint": "brush 既是刷子，也是刷的动作；拿起刷子刷东西，把物品与动作一起记。",
+        "example": "Please brush your shoes.",
+        "exampleZh": "请刷一刷你的鞋。"
+      }
+    },
+    "unit6-006": {
+      "word": "tooth",
+      "memory": {
+        "method": "单复数对比",
+        "hint": "一颗牙是 tooth，多颗牙是 teeth；复数不是加 s，而是 oo 变 ee。",
+        "example": "The baby has one tooth.",
+        "exampleZh": "这个婴儿长了一颗牙。"
+      }
+    },
+    "unit6-007": {
+      "word": "duty",
+      "memory": {
+        "method": "情景联想",
+        "hint": "轮到你擦黑板，这就是当天的职责；想到值日任务，就能记住 duty。",
+        "example": "It is my duty to clean the board.",
+        "exampleZh": "擦黑板是我的职责。"
+      }
+    },
+    "unit6-008": {
+      "word": "on duty",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "看值日表，今天轮到谁就说谁 is on duty；on duty 整组表示值班或值日。",
+        "example": "Who is on duty today?",
+        "exampleZh": "今天谁值日？"
+      }
+    },
+    "unit6-009": {
+      "word": "usually",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "usual 是通常的，加 -ly 成为 usually；两部分相接后，词尾要有两个 l。",
+        "example": "I usually walk to school.",
+        "exampleZh": "我通常步行上学。"
+      }
+    },
+    "unit6-010": {
+      "word": "get up",
+      "memory": {
+        "method": "动作联想",
+        "hint": "闹钟响后，从床上起来就是 get up；也能表示从座位上站起来。",
+        "example": "I get up at six thirty.",
+        "exampleZh": "我六点半起床。"
+      }
+    },
+    "unit6-011": {
+      "word": "reporter",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "report 是报道，加表示人的 -er 成为 reporter，也就是做报道的记者。",
+        "example": "The reporter asks a question.",
+        "exampleZh": "记者问了一个问题。"
+      }
+    },
+    "unit6-012": {
+      "word": "around",
+      "memory": {
+        "method": "多义联想",
+        "hint": "记住两个画面：around the school 是学校周围，around six 是六点左右。",
+        "example": "We meet around five.",
+        "exampleZh": "我们五点左右见面。"
+      }
+    },
+    "unit6-013": {
+      "word": "homework",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "home 加 work 组成 homework，指家庭作业；它通常不可数，不加复数 s。",
+        "example": "I do my homework after dinner.",
+        "exampleZh": "我晚饭后做家庭作业。"
+      }
+    },
+    "unit6-014": {
+      "word": "go to bed",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "go to bed 整组表示上床睡觉，bed 前不加 the；想到一天结束时的动作。",
+        "example": "I go to bed at nine.",
+        "exampleZh": "我九点上床睡觉。"
+      }
+    },
+    "unit6-015": {
+      "word": "saying",
+      "memory": {
+        "method": "词族记忆",
+        "hint": "say 是说，saying 作名词可指人们常说、带有道理的一句话，即格言或谚语。",
+        "example": "This saying helps me a lot.",
+        "exampleZh": "这句格言对我很有帮助。"
+      }
+    },
+    "unit6-016": {
+      "word": "rise",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "rise 表示自己升起；raise 常表示把某物举起。太阳自己升起用 rise。",
+        "example": "The sun rises in the east.",
+        "exampleZh": "太阳从东方升起。"
+      }
+    },
+    "unit6-017": {
+      "word": "stay",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "stay 后接地点可表示停留，接形容词可表示保持；把 stay healthy 记作保持健康。",
+        "example": "We want to stay healthy.",
+        "exampleZh": "我们想保持健康。"
+      }
+    },
+    "unit6-018": {
+      "word": "routine",
+      "memory": {
+        "method": "情景联想",
+        "hint": "起床、刷牙、吃早饭，每天照常做的一串事情合起来就是 routine。",
+        "example": "This is my morning routine.",
+        "exampleZh": "这是我早上的常规安排。"
+      }
+    },
+    "unit6-019": {
+      "word": "restaurant",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "restaurant 指餐馆；拼写时看清中间的 au 和词尾的 ant，别漏掉字母。",
+        "example": "We eat at a small restaurant.",
+        "exampleZh": "我们在一家小餐馆吃饭。"
+      }
+    },
+    "unit6-020": {
+      "word": "housework",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "house 加 work 组成 housework，指打扫、洗碗等家务；homework 才是家庭作业。",
+        "example": "We share the housework.",
+        "exampleZh": "我们分担家务。"
+      }
+    },
+    "unit6-021": {
+      "word": "while",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "a while 表示一会儿；while 放在一个动作前，还能表示当这个动作发生时。",
+        "example": "Please wait a while.",
+        "exampleZh": "请等一会儿。"
+      }
+    },
+    "unit6-022": {
+      "word": "weekend",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "week 是星期，end 是末尾；合起来的 weekend 表示一周末尾的周末。",
+        "example": "Have a nice weekend!",
+        "exampleZh": "周末愉快！"
+      }
+    },
+    "unit6-039": {
+      "word": "at weekends",
+      "memory": {
+        "method": "用法提醒",
+        "hint": "at weekends 常见于英式英语，表示在周末；整组记住介词 at 和复数 s。",
+        "example": "We visit Grandma at weekends.",
+        "exampleZh": "我们周末去看奶奶。"
+      }
+    },
+    "unit6-023": {
+      "word": "daily",
+      "memory": {
+        "method": "词族记忆",
+        "hint": "把 day（一天）和 daily（每日的）成组记；a daily walk 就是每日的散步。",
+        "example": "A daily walk is good for us.",
+        "exampleZh": "每天散步对我们有好处。"
+      }
+    },
+    "unit6-024": {
+      "word": "daily routine",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "daily 表示每日的，routine 是常规；合起来就是从起床到睡觉的日常安排。",
+        "example": "Tell me about your daily routine.",
+        "exampleZh": "告诉我你的日常安排吧。"
+      }
+    },
+    "unit6-025": {
+      "word": "only",
+      "memory": {
+        "method": "数量联想",
+        "hint": "only 像一道小小的限制线，表示仅仅、只有；only one 就是只有一个。",
+        "example": "I have only one pencil.",
+        "exampleZh": "我只有一支铅笔。"
+      }
+    },
+    "unit6-026": {
+      "word": "break",
+      "memory": {
+        "method": "多义联想",
+        "hint": "break 可指弄坏，也可指休息；记住 take a break，就是暂时停下来休息。",
+        "example": "Let us take a short break.",
+        "exampleZh": "我们短暂休息一下吧。"
+      }
+    },
+    "unit6-027": {
+      "word": "Finnish",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "Finnish 比 finish 多一个 n，首字母也要大写；表示芬兰语或芬兰的。",
+        "example": "She can speak Finnish.",
+        "exampleZh": "她会说芬兰语。"
+      }
+    },
+    "unit6-028": {
+      "word": "finish",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "finish 后可接要完成的事情；接另一个动词时用 -ing，如 finish reading。",
+        "example": "I finish my homework at eight.",
+        "exampleZh": "我八点完成家庭作业。"
+      }
+    },
+    "unit6-029": {
+      "word": "hockey",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象球员拿弯头球棍传球；把球棍和球一起画出来，记住曲棍球 hockey。",
+        "example": "We play hockey after class.",
+        "exampleZh": "我们课后打曲棍球。"
+      }
+    },
+    "unit6-030": {
+      "word": "ice hockey",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "ice 是冰，hockey 是曲棍球；加上 ice，把运动场景搬到冰上，就是冰球。",
+        "example": "They play ice hockey in winter.",
+        "exampleZh": "他们冬天打冰球。"
+      }
+    },
+    "unit6-031": {
+      "word": "already",
+      "memory": {
+        "method": "时间对比",
+        "hint": "already 表示事情已经发生；yet 常在否定句中表示还没有，把时间状态对照着记。",
+        "example": "It is already ten o’clock.",
+        "exampleZh": "已经十点了。"
+      }
+    },
+    "unit6-032": {
+      "word": "dark",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "dark 可表示黑暗，也可表示颜色深；dark blue 是深蓝色，light blue 是浅蓝色。",
+        "example": "My bag is dark blue.",
+        "exampleZh": "我的书包是深蓝色的。"
+      }
+    },
+    "unit6-033": {
+      "word": "outside",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "out 是在外，side 是一边；outside 指外面，可与 inside（里面）对照着记。",
+        "example": "The children are playing outside.",
+        "exampleZh": "孩子们正在外面玩。"
+      }
+    },
+    "unit6-040": {
+      "word": "part",
+      "memory": {
+        "method": "整体对比",
+        "hint": "把完整披萨中的一块圈出来：整体是 whole，其中的一部分就是 part。",
+        "example": "This is my favourite part of the story.",
+        "exampleZh": "这是这个故事中我最喜欢的部分。"
+      }
+    },
+    "unit6-041": {
+      "word": "everyday",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "everyday 连写是日常的，常放在名词前；every day 分开写才表示每天。",
+        "example": "These are my everyday shoes.",
+        "exampleZh": "这些是我平时穿的鞋。"
+      }
+    },
+    "unit6-034": {
+      "word": "prepare",
+      "memory": {
+        "method": "情景联想",
+        "hint": "上学前整理书包、出门前备好水，这些提前做好准备的动作都可用 prepare。",
+        "example": "We prepare lunch together.",
+        "exampleZh": "我们一起准备午餐。"
+      }
+    },
+    "unit6-042": {
+      "word": "prepare sth for",
+      "memory": {
+        "method": "句型记忆",
+        "hint": "sth 代表 something（某物）；把要准备的东西放中间，for 后接接受者或用途。",
+        "example": "I prepare breakfast for my family.",
+        "exampleZh": "我为家人准备早餐。"
+      }
+    },
+    "unit6-035": {
+      "word": "Helsinki",
+      "memory": {
+        "method": "地理联想",
+        "hint": "把 Helsinki 和 Finland 成对记：赫尔辛基是芬兰的首都，地名首字母大写。",
+        "example": "Helsinki is the capital of Finland.",
+        "exampleZh": "赫尔辛基是芬兰的首都。"
+      }
+    },
+    "unit6-036": {
+      "word": "Finland",
+      "memory": {
+        "method": "地理联想",
+        "hint": "在欧洲地图上把 Finland 标成芬兰，再连到首都 Helsinki，组成一对地理词。",
+        "example": "My friend lives in Finland.",
+        "exampleZh": "我的朋友住在芬兰。"
+      }
+    },
+    "unit6-037": {
+      "word": "home economics",
+      "memory": {
+        "method": "课程联想",
+        "hint": "把做饭、料理家务等生活技能放进一门课：home economics 就是家政学。",
+        "example": "We learn to cook in home economics.",
+        "exampleZh": "我们在家政课上学做饭。"
+      }
+    },
+    "unit7-001": {
+      "word": "celebrate",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把 celebrate a birthday（庆祝生日）连起来记；唱生日歌、切蛋糕都是庆祝的动作。",
+        "example": "We celebrate her birthday at home.",
+        "exampleZh": "我们在家庆祝她的生日。"
+      }
+    },
+    "unit7-002": {
+      "word": "surprise",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象打开盒子，里面是没想到的礼物；a surprise 是“一件让人惊喜或意外的事”。",
+        "example": "This gift is a surprise.",
+        "exampleZh": "这份礼物是个惊喜。"
+      }
+    },
+    "unit7-003": {
+      "word": "something",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "some 加 thing，表示没具体说明的“某事或某物”；something nice 中形容词放后面。",
+        "example": "I have something for you.",
+        "exampleZh": "我有东西给你。"
+      }
+    },
+    "unit7-004": {
+      "word": "sale",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "sell 是动词“卖”，sale 是名词“出售”；看到 for sale，就知道这件东西在出售。",
+        "example": "This bike is for sale.",
+        "exampleZh": "这辆自行车正在出售。"
+      }
+    },
+    "unit7-005": {
+      "word": "kilo",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "kilo 是 kilogram 的简短说法，表示“千克”；买水果时可说 a kilo of apples。",
+        "example": "We need two kilos of apples.",
+        "exampleZh": "我们需要两千克苹果。"
+      }
+    },
+    "unit7-006": {
+      "word": "yogurt",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象早餐时用小勺吃的一杯酸奶；可搭配 fruit，记成 fruit yogurt（水果酸奶）。",
+        "example": "I have yogurt for breakfast.",
+        "exampleZh": "我早餐吃酸奶。"
+      }
+    },
+    "unit7-007": {
+      "word": "total",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把购物小票上所有金额加起来就是 total；in total 表示“总共”，用来报告合计数。",
+        "example": "There are ten balloons in total.",
+        "exampleZh": "一共有十个气球。"
+      }
+    },
+    "unit7-008": {
+      "word": "price",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "商品价签上的金额就是 price；问价格可用 What is the price of ...?",
+        "example": "What is the price of this cake?",
+        "exampleZh": "这个蛋糕的价格是多少？"
+      }
+    },
+    "unit7-009": {
+      "word": "balloon",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "中间先写两个 l，再写两个 o；可以把 oo 想成并排的两只气球，最后别漏 n。",
+        "example": "The red balloon is for you.",
+        "exampleZh": "这个红气球是给你的。"
+      }
+    },
+    "unit7-010": {
+      "word": "chocolate",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "把 chocolate cake（巧克力蛋糕）连起来记，想象蛋糕里浓浓的巧克力味。",
+        "example": "I want a small chocolate cake.",
+        "exampleZh": "我想要一个小巧克力蛋糕。"
+      }
+    },
+    "unit7-011": {
+      "word": "pizza",
+      "memory": {
+        "method": "拼写提醒",
+        "hint": "想象切成三角块的圆比萨饼；拼写中间有两个 z，结尾是 a，别漏写一个 z。",
+        "example": "We share a pizza.",
+        "exampleZh": "我们分享一个比萨饼。"
+      }
+    },
+    "unit7-012": {
+      "word": "list",
+      "memory": {
+        "method": "情景联想",
+        "hint": "把要买的东西一行一项写下来，就是 a shopping list；list 也能作动词“列出”。",
+        "example": "Milk is on my shopping list.",
+        "exampleZh": "我的购物清单上有牛奶。"
+      }
+    },
+    "unit7-013": {
+      "word": "own",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "my book 是“我的书”，my own book 强调“我自己的书”；own 常跟在物主代词后。",
+        "example": "I have my own desk.",
+        "exampleZh": "我有我自己的书桌。"
+      }
+    },
+    "unit7-014": {
+      "word": "example",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "example 是一个具体“例子”；老师讲完规则再给一个例子，可说 give an example。",
+        "example": "Please give me an example.",
+        "exampleZh": "请给我举个例子。"
+      }
+    },
+    "unit7-015": {
+      "word": "for example",
+      "memory": {
+        "method": "用法提醒",
+        "hint": "for example 用来引出具体例子；先说一个大类别，再用它举出其中一项。",
+        "example": "I like fruit, for example, apples.",
+        "exampleZh": "我喜欢水果，例如苹果。"
+      }
+    },
+    "unit7-016": {
+      "word": "language",
+      "memory": {
+        "method": "分类记忆",
+        "hint": "Chinese 和 English 都属于 language；用“一门语言、两门语言”记单复数变化。",
+        "example": "She can speak two languages.",
+        "exampleZh": "她会说两门语言。"
+      }
+    },
+    "unit7-017": {
+      "word": "international",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "inter- 表示“在……之间”，national 是“国家的”；联系不同国家，记住“国际的”。",
+        "example": "We have an international food festival.",
+        "exampleZh": "我们有一个国际美食节。"
+      }
+    },
+    "unit7-018": {
+      "word": "mark",
+      "memory": {
+        "method": "一词多义",
+        "hint": "纸上做记号、日历上标日期都可用 mark；记住“留下标记”，再联系“纪念某事”。",
+        "example": "Please mark your birthday on the calendar.",
+        "exampleZh": "请在日历上标出你的生日。"
+      }
+    },
+    "unit7-020": {
+      "word": "national",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "nation 是“国家”，加 -al 变成形容词 national；national flag 就是“国旗”。",
+        "example": "We draw a national flag.",
+        "exampleZh": "我们画一面国旗。"
+      }
+    },
+    "unit7-021": {
+      "word": "found",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "这里 found 是“创立”，过去式为 founded；别与 find 的过去式 found（找到）混淆。",
+        "example": "They want to found a music club.",
+        "exampleZh": "他们想创立一个音乐俱乐部。"
+      }
+    },
+    "unit7-022": {
+      "word": "meaningful",
+      "memory": {
+        "method": "构词记忆",
+        "hint": "meaning 是“意义”，-ful 表示“有……的”；合起来就是“有意义的”，如一次助人活动。",
+        "example": "Helping others is meaningful.",
+        "exampleZh": "帮助别人是有意义的。"
+      }
+    },
+    "unit7-023": {
+      "word": "make a wish",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象闭上眼睛，在生日蜡烛前许下心愿；“许愿”用 make a wish，别漏 a。",
+        "example": "Close your eyes and make a wish.",
+        "exampleZh": "闭上眼睛，许个愿。"
+      }
+    },
+    "unit7-036": {
+      "word": "celebration",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "celebrate 是动词“庆祝”，celebration 是名词“庆祝活动”；一场生日庆祝可用 a。",
+        "example": "Our birthday celebration starts at six.",
+        "exampleZh": "我们的生日庆祝活动六点开始。"
+      }
+    },
+    "unit1-025": {
+      "word": "post",
+      "memory": {
+        "method": "一词多义",
+        "hint": "想象把信息“发出去”：网上发布内容可用 post，邮寄信件也可用；a post 是一条帖子。",
+        "example": "I write a post about my birthday.",
+        "exampleZh": "我写了一条关于我生日的帖子。"
+      }
+    },
+    "unit7-037": {
+      "word": "contact",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "想要联系某人，用 contact 加人；它可以直接接宾语，如 contact me，中间不加 with。",
+        "example": "You can contact me by phone.",
+        "exampleZh": "你可以通过电话联系我。"
+      }
+    },
+    "unit7-038": {
+      "word": "symbol",
+      "memory": {
+        "method": "情景联想",
+        "hint": "看到心形图案就想到爱；能让人联想到某种意义的图案或事物，就是 symbol（象征）。",
+        "example": "A heart is a symbol of love.",
+        "exampleZh": "心形是爱的象征。"
+      }
+    },
+    "unit7-039": {
+      "word": "take a photo",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "按下快门“拍一张照片”用 take a photo；拍多张时换成 take photos，动词仍用 take。",
+        "example": "Let us take a photo together.",
+        "exampleZh": "让我们一起拍张照片吧。"
+      }
+    },
+    "unit7-024": {
+      "word": "village",
+      "memory": {
+        "method": "情景联想",
+        "hint": "想象田野旁的一小片房屋，那是 village（村庄）；与规模更大的 town（镇）对照记。",
+        "example": "My grandparents live in a village.",
+        "exampleZh": "我的祖父母住在一个村庄里。"
+      }
+    },
+    "unit7-025": {
+      "word": "grow",
+      "memory": {
+        "method": "情景联想",
+        "hint": "用小树越长越高的画面记 grow（生长）；孩子也会 grow，grow up 就是“长大”。",
+        "example": "These trees grow fast.",
+        "exampleZh": "这些树长得很快。"
+      }
+    },
+    "unit7-026": {
+      "word": "blow",
+      "memory": {
+        "method": "情景联想",
+        "hint": "嘴巴向外送气就是 blow；可以吹热汤、吹气球，风吹动东西时也能用这个词。",
+        "example": "Blow on the soup to cool it.",
+        "exampleZh": "吹一吹汤，让它凉下来。"
+      }
+    },
+    "unit7-027": {
+      "word": "blow out",
+      "memory": {
+        "method": "短语对比",
+        "hint": "blow 只表示“吹”；加 out 后强调火熄灭了，生日时吹灭蜡烛就用 blow out。",
+        "example": "Please blow out the candles.",
+        "exampleZh": "请吹灭蜡烛。"
+      }
+    },
+    "unit7-028": {
+      "word": "enjoy",
+      "memory": {
+        "method": "用法提醒",
+        "hint": "enjoy 表示喜欢或享受；后接活动时用动词的 -ing 形式，如 enjoy reading。",
+        "example": "I enjoy making birthday cards.",
+        "exampleZh": "我喜欢制作生日贺卡。"
+      }
+    },
+    "unit7-029": {
+      "word": "height",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "high 是形容词“高的”，height 是名词“高度、身高”；联想身高尺上记录的数字。",
+        "example": "We check his height every year.",
+        "exampleZh": "我们每年测量他的身高。"
+      }
+    },
+    "unit7-030": {
+      "word": "later",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "late 表示“迟的、迟到的”，later 常表示“稍后、后来”；See you later 是“回头见”。",
+        "example": "We can eat the cake later.",
+        "exampleZh": "我们可以稍后吃蛋糕。"
+      }
+    },
+    "unit7-031": {
+      "word": "next time",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "this time 是“这次”，next time 是“下次”；表达下一次再做某事，通常直接用 next time。",
+        "example": "Bring your sister next time.",
+        "exampleZh": "下次带你妹妹来。"
+      }
+    },
+    "unit7-032": {
+      "word": "whom",
+      "memory": {
+        "method": "对比记忆",
+        "hint": "who 常作主语，whom 是宾格，常见于较正式表达；介词后可用 whom，如 with whom。",
+        "example": "With whom do you live?",
+        "exampleZh": "你和谁一起住？"
+      }
+    },
+    "unit7-033": {
+      "word": "National Day",
+      "memory": {
+        "method": "搭配记忆",
+        "hint": "national 是“国家的”，Day 是“日”；合起来为“国庆节”，节日名中两个词首字母都大写。",
+        "example": "We fly flags on National Day.",
+        "exampleZh": "我们在国庆节悬挂旗帜。"
+      }
+    },
+    "unit7-034": {
+      "word": "CPC Founding Day",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "CPC = Communist Party of China（中国共产党）；Founding Day 表示成立纪念日。",
+        "example": "CPC Founding Day is on 1 July.",
+        "exampleZh": "中国共产党建党纪念日是七月一日。"
+      }
+    },
+    "unit7-035": {
+      "word": "PLA Day",
+      "memory": {
+        "method": "缩写展开",
+        "hint": "PLA = People’s Liberation Army（人民解放军）；PLA Day 是中国人民解放军建军节。",
+        "example": "PLA Day is on 1 August.",
+        "exampleZh": "中国人民解放军建军节是八月一日。"
+      }
+    }
+  }
+}

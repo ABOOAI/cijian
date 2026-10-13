@@ -1,0 +1,3883 @@
+{
+  "schemaVersion": 1,
+  "engine": "Kokoro-82M v1.0",
+  "accent": "en-US",
+  "speed": 0.9,
+  "sampleRate": 24000,
+  "codec": "MP3 128kbps mono",
+  "sourceSha256": "8c07b94beac894cdccce2c716277fc7e60155d420fc3eb86e27c94fe75feca46",
+  "license": "Apache-2.0",
+  "offlineGeneration": true,
+  "voicePolicy": "Preserve explicit per-entry input voice",
+  "gapPolicy": "Synthesize each exact nonempty input segment separately; insert 350 ms silence between segments. Never send underscores or filled answers to speech generation.",
+  "perceptualAudit": false,
+  "questionFiles": {
+    "starter1-001-context-01": "audio/context-safe-afd4bed62ba8f986f23b.mp3",
+    "starter1-001-context-02": "audio/context-safe-ac69764435f4acfa3564.mp3",
+    "starter1-004-context-01": "audio/context-safe-0481332bc37f90e0734c.mp3",
+    "starter1-004-context-02": "audio/context-safe-86557390f74be548993d.mp3",
+    "starter1-006-context-01": "audio/context-safe-89e42afc50951e883bb6.mp3",
+    "starter1-006-context-02": "audio/context-safe-07a26d87c45ac37f1ac0.mp3",
+    "starter1-005-context-01": "audio/context-safe-69e1cdcb5f835f2f266e.mp3",
+    "starter1-005-context-02": "audio/context-safe-a266192ef607028c33fc.mp3",
+    "starter1-009-context-01": "audio/context-safe-899de6f362dda877206e.mp3",
+    "starter1-009-context-02": "audio/context-safe-ed940841fc4384656d22.mp3",
+    "starter2-001-context-01": "audio/context-safe-66ba887ed8540613673a.mp3",
+    "starter2-001-context-02": "audio/context-safe-b6c30187fff9a6e9fb56.mp3",
+    "starter2-003-context-01": "audio/context-safe-e6b3c4d043c8e95cd746.mp3",
+    "starter2-003-context-02": "audio/context-safe-4c7dd38b4aee1627c45c.mp3",
+    "starter2-004-context-01": "audio/context-safe-35c1aa77dbd7440eecb5.mp3",
+    "starter2-004-context-02": "audio/context-safe-b3a1dc54c449a4a8665e.mp3",
+    "starter3-001-context-01": "audio/context-safe-a5ee8a13c5dce5839568.mp3",
+    "starter3-001-context-02": "audio/context-safe-e7c068bf6790390707a6.mp3",
+    "starter3-002-context-01": "audio/context-safe-f8bc4f80c2a77553eba7.mp3",
+    "starter3-002-context-02": "audio/context-safe-67514c31df2d0ec89b3a.mp3",
+    "starter3-004-context-01": "audio/context-safe-bd4ffb5065b83455c7aa.mp3",
+    "starter3-004-context-02": "audio/context-safe-d7229b1691ccc16ef2d7.mp3",
+    "starter3-005-context-01": "audio/context-safe-ee52ba8011b586e9491d.mp3",
+    "starter3-005-context-02": "audio/context-safe-b6e8ace72184d95531b7.mp3",
+    "starter3-009-context-01": "audio/context-safe-50b18ea9ff1ab981678b.mp3",
+    "starter3-009-context-02": "audio/context-safe-a98d363c5ffa5636bed5.mp3",
+    "unit1-003-context-01": "audio/context-safe-2b13d7292b32dbf3c6a1.mp3",
+    "unit1-003-context-02": "audio/context-safe-a4e04dc9d57f66024efa.mp3",
+    "unit1-008-context-01": "audio/context-safe-8f3aa6dab9b112c079a2.mp3",
+    "unit1-008-context-02": "audio/context-safe-97ffaeef80e12969bbbf.mp3",
+    "unit1-015-context-01": "audio/context-safe-3b2757c9d40d7eea1065.mp3",
+    "unit1-015-context-02": "audio/context-safe-7b0195e169d38d717efc.mp3",
+    "unit1-016-context-01": "audio/context-safe-45571b05aa9c5d36405c.mp3",
+    "unit1-016-context-02": "audio/context-safe-60da4168681714575cc0.mp3",
+    "starter2-005-context-01": "audio/context-safe-4df0fbc513d83c384476.mp3",
+    "starter2-005-context-02": "audio/context-safe-d8e60c72b0bf3f9dd2a3.mp3",
+    "unit1-031-context-01": "audio/context-safe-d237ba13839c8841cd77.mp3",
+    "unit1-031-context-02": "audio/context-safe-9cfe6772d46ebac27643.mp3",
+    "unit1-032-context-01": "audio/context-safe-f84cc989674d2c28b6ba.mp3",
+    "unit1-032-context-02": "audio/context-safe-101298b7948eeaec71a5.mp3",
+    "ctx-preposition-01": "audio/context-safe-90d4197f2a933bcb8516.mp3",
+    "ctx-preposition-02": "audio/context-safe-ab3a436ae998a2a92c63.mp3",
+    "ctx-preposition-03": "audio/context-safe-293e4ec32fdb3bdcf276.mp3",
+    "ctx-preposition-04": "audio/context-safe-1f1e26d3e68191428abf.mp3",
+    "ctx-preposition-05": "audio/context-safe-a904488dbff39dd09d41.mp3",
+    "ctx-verb-01": "audio/context-safe-cc5081a92bd066213a6c.mp3",
+    "ctx-verb-02": "audio/context-safe-257b452a271e830bcb13.mp3",
+    "ctx-verb-03": "audio/context-safe-28d8c68491f50704fcb1.mp3",
+    "ctx-verb-04": "audio/context-safe-25c549cbe512e3d22dcc.mp3",
+    "ctx-verb-05": "audio/context-safe-5b110403acb0505501e0.mp3",
+    "ctx-verb-06": "audio/context-safe-fe00a200c8cb0f1e1000.mp3",
+    "ctx-subject-01": "audio/context-safe-425479ace6ca536d6460.mp3",
+    "ctx-subject-02": "audio/context-safe-2b26f8ed2197a7860041.mp3",
+    "ctx-subject-03": "audio/context-safe-6a826d20a275d53d4169.mp3",
+    "ctx-subject-04": "audio/context-safe-d90fa46c5335bc3452a4.mp3",
+    "ctx-subject-05": "audio/context-safe-27e1b3990a059ba9b97c.mp3",
+    "ctx-subject-06": "audio/context-safe-9366462e3c7baabe200d.mp3",
+    "ctx-location-01": "audio/context-safe-7ba391d3de3ed6f9b2bf.mp3",
+    "ctx-location-02": "audio/context-safe-db2d84d99a979fe679cb.mp3",
+    "ctx-location-03": "audio/context-safe-6dae97348783873f24a4.mp3",
+    "ctx-location-04": "audio/context-safe-e4ee02dc90cf87bec536.mp3",
+    "ctx-location-05": "audio/context-safe-308130e9272be9a6df32.mp3",
+    "ctx-location-06": "audio/context-safe-1c67aaa6f11956e5f694.mp3"
+  },
+  "entries": [
+    {
+      "id": "starter1-001-context-01",
+      "text": "Our book has eight parts. We study the first ___ today.",
+      "spokenText": "Our book has eight parts. We study the first ... today.",
+      "segments": [
+        "Our book has eight parts. We study the first",
+        "today."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-afd4bed62ba8f986f23b.mp3",
+      "synthesisSha256": "afd4bed62ba8f986f23b462d56223979e2e64171edb03ae1498263b22425ceaf",
+      "sha256": "323f883eb71f82a5b21cc02a7e765791ab710f21f4e7948c67076bd0ef26a0e8",
+      "duration": 5.125,
+      "segmentAudit": [
+        {
+          "text": "Our book has eight parts. We study the first",
+          "voice": "af_heart",
+          "seed": 42,
+          "sampleStart": 0,
+          "samples": 78600,
+          "duration": 3.275,
+          "phonemes": [
+            "ˌWəɹ bˈʊk hæz ˈAt pˈɑɹts. wˌi stˈʌdi ðə fˈɜɹst"
+          ],
+          "rms": 0.04885868728160858,
+          "peak": 0.39885827898979187
+        },
+        {
+          "text": "today.",
+          "voice": "af_heart",
+          "seed": 43,
+          "sampleStart": 87000,
+          "samples": 36000,
+          "duration": 1.5,
+          "phonemes": [
+            "tədˈA."
+          ],
+          "rms": 0.04260027036070824,
+          "peak": 0.3033742606639862
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 78600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04534993693232536,
+        "peak": 0.39885827898979187,
+        "decodedRms": 0.04305970296263695,
+        "decodedPeak": 0.3789404034614563,
+        "decodedSamples": 123000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-001-context-02",
+      "text": "We finish Unit 2 today. Unit 3 is our next lesson.",
+      "spokenText": "We finish Unit 2 today. Unit 3 is our next lesson.",
+      "segments": [
+        "We finish Unit 2 today. Unit 3 is our next lesson."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-ac69764435f4acfa3564.mp3",
+      "synthesisSha256": "ac69764435f4acfa356493ac59b66d2f1f55006d147c6a2685eb3840790b3952",
+      "sha256": "2e13f8fbee1a017add9449efd2d486cf54f6e01dad398b6a0db0ab95416acb12",
+      "duration": 4.3,
+      "segmentAudit": [
+        {
+          "text": "We finish Unit 2 today. Unit 3 is our next lesson.",
+          "voice": "af_heart",
+          "seed": 52,
+          "sampleStart": 0,
+          "samples": 103200,
+          "duration": 4.3,
+          "phonemes": [
+            "wˌi fˈɪnəʃ jˈunət tˈu tədˈA. jˈunət θɹˈi ɪz ˌWəɹ nˈɛkst lˈɛsən."
+          ],
+          "rms": 0.05012204125523567,
+          "peak": 0.4246693253517151
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.05012204125523567,
+        "peak": 0.4246693253517151,
+        "decodedRms": 0.047584809362888336,
+        "decodedPeak": 0.4044860899448395,
+        "decodedSamples": 103200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-004-context-01",
+      "text": "My new friend is at the door. I smile and ___ him.",
+      "spokenText": "My new friend is at the door. I smile and ... him.",
+      "segments": [
+        "My new friend is at the door. I smile and",
+        "him."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-0481332bc37f90e0734c.mp3",
+      "synthesisSha256": "0481332bc37f90e0734cb90538946d87c24ed49faed88a957b4517ecdb06b188",
+      "sha256": "d61d6dfaaba17860af4904287180c3cbc97a586daf73179db13b73a1f247a816",
+      "duration": 5.5,
+      "segmentAudit": [
+        {
+          "text": "My new friend is at the door. I smile and",
+          "voice": "am_michael",
+          "seed": 62,
+          "sampleStart": 0,
+          "samples": 90000,
+          "duration": 3.75,
+          "phonemes": [
+            "mˌI nˈu fɹˈɛnd ɪz æt ðə dˈɔɹ. ˌI smˈIl ænd"
+          ],
+          "rms": 0.04078297317028046,
+          "peak": 0.39190474152565
+        },
+        {
+          "text": "him.",
+          "voice": "am_michael",
+          "seed": 63,
+          "sampleStart": 98400,
+          "samples": 33600,
+          "duration": 1.4,
+          "phonemes": [
+            "hˌɪm."
+          ],
+          "rms": 0.043234337121248245,
+          "peak": 0.42148301005363464
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 90000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04012272506952286,
+        "peak": 0.42148301005363464,
+        "decodedRms": 0.038112156093120575,
+        "decodedPeak": 0.4002823829650879,
+        "decodedSamples": 132000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-004-context-02",
+      "text": "I greet Mia and say, \"Good morning!\"",
+      "spokenText": "I greet Mia and say, \"Good morning!\"",
+      "segments": [
+        "I greet Mia and say, \"Good morning!\""
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-86557390f74be548993d.mp3",
+      "synthesisSha256": "86557390f74be548993d844e2393027c1e09536fd8d5dfcf27400dbebbbcee9e",
+      "sha256": "d529eb444581e08524cc826ee7003606a8a693a66e4daf715590aac9e6fe186e",
+      "duration": 3.35,
+      "segmentAudit": [
+        {
+          "text": "I greet Mia and say, \"Good morning!\"",
+          "voice": "am_michael",
+          "seed": 72,
+          "sampleStart": 0,
+          "samples": 80400,
+          "duration": 3.35,
+          "phonemes": [
+            "ˌI ɡɹˈit mˈiə ænd sˈA, “ɡˈʊd mˈɔɹnɪŋ!”"
+          ],
+          "rms": 0.0458478145301342,
+          "peak": 0.5808431506156921
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.0458478145301342,
+        "peak": 0.5808431506156921,
+        "decodedRms": 0.0435565784573555,
+        "decodedPeak": 0.5475081205368042,
+        "decodedSamples": 80400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-006-context-01",
+      "text": "The lesson begins at nine. Please be ready when we ___ at nine.",
+      "spokenText": "The lesson begins at nine. Please be ready when we ... at nine.",
+      "segments": [
+        "The lesson begins at nine. Please be ready when we",
+        "at nine."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-89e42afc50951e883bb6.mp3",
+      "synthesisSha256": "89e42afc50951e883bb65fd0c0c7562e799c01c490c8892a59df004aabe2fdb4",
+      "sha256": "a0a83bbef64b41405e8b7853c071f3dafe30b3a1d859320a7e7c04edbe1a44f5",
+      "duration": 5.775,
+      "segmentAudit": [
+        {
+          "text": "The lesson begins at nine. Please be ready when we",
+          "voice": "af_heart",
+          "seed": 82,
+          "sampleStart": 0,
+          "samples": 91200,
+          "duration": 3.8,
+          "phonemes": [
+            "ðə lˈɛsən bəɡˈɪnz æt nˈIn. plˈiz bi ɹˈɛdi wˌɛn wi"
+          ],
+          "rms": 0.048615891486406326,
+          "peak": 0.5298402309417725
+        },
+        {
+          "text": "at nine.",
+          "voice": "af_heart",
+          "seed": 83,
+          "sampleStart": 99600,
+          "samples": 39000,
+          "duration": 1.625,
+          "phonemes": [
+            "æt nˈIn."
+          ],
+          "rms": 0.04253062233328819,
+          "peak": 0.3732481002807617
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 91200,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.045433372259140015,
+        "peak": 0.5298402309417725,
+        "decodedRms": 0.04310797527432442,
+        "decodedPeak": 0.5064316987991333,
+        "decodedSamples": 138600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-006-context-02",
+      "text": "We start the game at three and finish it at four.",
+      "spokenText": "We start the game at three and finish it at four.",
+      "segments": [
+        "We start the game at three and finish it at four."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-07a26d87c45ac37f1ac0.mp3",
+      "synthesisSha256": "07a26d87c45ac37f1ac004432f7c74a8fae801993d7ee2eb6dadf3074d9376b6",
+      "sha256": "5fbe9aca3d1471edb08724f27855eba092f100fca2b3a0b22853f214fbd2c1c1",
+      "duration": 3.4,
+      "segmentAudit": [
+        {
+          "text": "We start the game at three and finish it at four.",
+          "voice": "af_heart",
+          "seed": 92,
+          "sampleStart": 0,
+          "samples": 81600,
+          "duration": 3.4,
+          "phonemes": [
+            "wˌi stˈɑɹt ðə ɡˈAm æt θɹˈi ænd fˈɪnəʃ ɪt æt fˈɔɹ."
+          ],
+          "rms": 0.048337116837501526,
+          "peak": 0.4412708282470703
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.048337116837501526,
+        "peak": 0.4412708282470703,
+        "decodedRms": 0.04586516693234444,
+        "decodedPeak": 0.42028647661209106,
+        "decodedSamples": 81600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-005-context-01",
+      "text": "I know the word, but I cannot write its letters. Can you ___ it for me?",
+      "spokenText": "I know the word, but I cannot write its letters. Can you ... it for me?",
+      "segments": [
+        "I know the word, but I cannot write its letters. Can you",
+        "it for me?"
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-69e1cdcb5f835f2f266e.mp3",
+      "synthesisSha256": "69e1cdcb5f835f2f266e028165c79cf2ea33604867f8ca60bae11cb3b99034bd",
+      "sha256": "9c407ead438e3605905519dfcdc0e3eb1b99b06d11a99b8a9037d16f65aba9c4",
+      "duration": 5.975,
+      "segmentAudit": [
+        {
+          "text": "I know the word, but I cannot write its letters. Can you",
+          "voice": "af_heart",
+          "seed": 102,
+          "sampleStart": 0,
+          "samples": 96600,
+          "duration": 4.025,
+          "phonemes": [
+            "ˌI nˈO ðə wˈɜɹd, bˌʌt ˌI kənˈɑt ɹˈIt ɪts lˈɛTəɹz. kˌæn ju"
+          ],
+          "rms": 0.04899834096431732,
+          "peak": 0.5593927502632141
+        },
+        {
+          "text": "it for me?",
+          "voice": "af_heart",
+          "seed": 103,
+          "sampleStart": 105000,
+          "samples": 38400,
+          "duration": 1.6,
+          "phonemes": [
+            "ɪt fɔɹ mˌi?"
+          ],
+          "rms": 0.04682242125272751,
+          "peak": 0.3613143563270569
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 96600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.046950723975896835,
+        "peak": 0.5593927502632141,
+        "decodedRms": 0.044533621519804,
+        "decodedPeak": 0.5313996076583862,
+        "decodedSamples": 143400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-005-context-02",
+      "text": "The teacher asks me to spell cat. I say, \"C-A-T.\"",
+      "spokenText": "The teacher asks me to spell cat. I say, \"C-A-T.\"",
+      "segments": [
+        "The teacher asks me to spell cat. I say, \"C-A-T.\""
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-a266192ef607028c33fc.mp3",
+      "synthesisSha256": "a266192ef607028c33fc93a6c1ab4e557ec5980cd33c091060920a412de117e8",
+      "sha256": "9370f15668286d2956080b24726a0bfb97f0092e3b2a779d55cd81e6f6fcf332",
+      "duration": 4.05,
+      "segmentAudit": [
+        {
+          "text": "The teacher asks me to spell cat. I say, \"C-A-T.\"",
+          "voice": "af_heart",
+          "seed": 112,
+          "sampleStart": 0,
+          "samples": 97200,
+          "duration": 4.05,
+          "phonemes": [
+            "ðə tˈiʧəɹ ˈæsks mˌi tə spˈɛl kˈæt. ˌI sˈA, “sˌiˈAtˈi”"
+          ],
+          "rms": 0.0480620302259922,
+          "peak": 0.46567967534065247
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.0480620302259922,
+        "peak": 0.46567967534065247,
+        "decodedRms": 0.045623522251844406,
+        "decodedPeak": 0.4437487721443176,
+        "decodedSamples": 97200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-009-context-01",
+      "text": "It is time for class. We hear the school ___ ring.",
+      "spokenText": "It is time for class. We hear the school ... ring.",
+      "segments": [
+        "It is time for class. We hear the school",
+        "ring."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-899de6f362dda877206e.mp3",
+      "synthesisSha256": "899de6f362dda877206ebfbe8a79f160b4c92bc730697846618b08ea53850909",
+      "sha256": "1f1ed05ab98d43fb6e3dbb2b9bfdd328e9713e767d8fe0a5bd0483b7d88364d4",
+      "duration": 5.325,
+      "segmentAudit": [
+        {
+          "text": "It is time for class. We hear the school",
+          "voice": "am_michael",
+          "seed": 122,
+          "sampleStart": 0,
+          "samples": 84600,
+          "duration": 3.525,
+          "phonemes": [
+            "ˌɪt ɪz tˈIm fɔɹ klˈæs. wˌi hˈɪɹ ðə skˈul"
+          ],
+          "rms": 0.04101290553808212,
+          "peak": 0.2874223291873932
+        },
+        {
+          "text": "ring.",
+          "voice": "am_michael",
+          "seed": 123,
+          "sampleStart": 93000,
+          "samples": 34800,
+          "duration": 1.45,
+          "phonemes": [
+            "ɹˈɪŋ."
+          ],
+          "rms": 0.04499652236700058,
+          "peak": 0.3949911892414093
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 84600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.040801942348480225,
+        "peak": 0.3949911892414093,
+        "decodedRms": 0.03876352682709694,
+        "decodedPeak": 0.37488532066345215,
+        "decodedSamples": 127800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter1-009-context-02",
+      "text": "The bell rings, and we go into the classroom.",
+      "spokenText": "The bell rings, and we go into the classroom.",
+      "segments": [
+        "The bell rings, and we go into the classroom."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-ed940841fc4384656d22.mp3",
+      "synthesisSha256": "ed940841fc4384656d2283a81b0090a51fd5a10ffd68fd1e2d262b45984d7198",
+      "sha256": "f0861b4fa34932d02e55c62b37dd2a9b9449737d26a9cbf2bfc0039fa843809e",
+      "duration": 3.85,
+      "segmentAudit": [
+        {
+          "text": "The bell rings, and we go into the classroom.",
+          "voice": "am_michael",
+          "seed": 132,
+          "sampleStart": 0,
+          "samples": 92400,
+          "duration": 3.85,
+          "phonemes": [
+            "ðə bˈɛl ɹˈɪŋz, ænd wi ɡˌO ˈɪntu ðə klˈæsɹˌum."
+          ],
+          "rms": 0.04519924521446228,
+          "peak": 0.39044174551963806
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04519924521446228,
+        "peak": 0.39044174551963806,
+        "decodedRms": 0.04294079542160034,
+        "decodedPeak": 0.37229329347610474,
+        "decodedSamples": 92400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter2-001-context-01",
+      "text": "I am thirsty. Please give me a ___ of water.",
+      "spokenText": "I am thirsty. Please give me a ... of water.",
+      "segments": [
+        "I am thirsty. Please give me a",
+        "of water."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-66ba887ed8540613673a.mp3",
+      "synthesisSha256": "66ba887ed8540613673a6684dcd607cd7b80c80eaaa6922441f773ef5ef032b4",
+      "sha256": "0caf781e1b077cd629abf35008f63607fa0010d3a44a60ebd35958da173b1d39",
+      "duration": 5.25,
+      "segmentAudit": [
+        {
+          "text": "I am thirsty. Please give me a",
+          "voice": "am_michael",
+          "seed": 142,
+          "sampleStart": 0,
+          "samples": 75000,
+          "duration": 3.125,
+          "phonemes": [
+            "ˌI ɐm θˈɜɹsti. plˈiz ɡˈɪv mˌi ɐ"
+          ],
+          "rms": 0.045490484684705734,
+          "peak": 0.552754282951355
+        },
+        {
+          "text": "of water.",
+          "voice": "am_michael",
+          "seed": 143,
+          "sampleStart": 83400,
+          "samples": 42600,
+          "duration": 1.775,
+          "phonemes": [
+            "ʌv wˈɔTəɹ."
+          ],
+          "rms": 0.045914214104413986,
+          "peak": 0.48693719506263733
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 75000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04409671202301979,
+        "peak": 0.552754282951355,
+        "decodedRms": 0.04189431667327881,
+        "decodedPeak": 0.5261098146438599,
+        "decodedSamples": 126000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter2-001-context-02",
+      "text": "There is water in the bottle, and its lid is blue.",
+      "spokenText": "There is water in the bottle, and its lid is blue.",
+      "segments": [
+        "There is water in the bottle, and its lid is blue."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-b6c30187fff9a6e9fb56.mp3",
+      "synthesisSha256": "b6c30187fff9a6e9fb56045111d8eade7415d358cdf075f8c3fc67d769dba88e",
+      "sha256": "88c686c0e1ec1c6f110969f11624cbd97eb16f068071039aaa65fe224cc03a8b",
+      "duration": 4.025,
+      "segmentAudit": [
+        {
+          "text": "There is water in the bottle, and its lid is blue.",
+          "voice": "am_michael",
+          "seed": 152,
+          "sampleStart": 0,
+          "samples": 96600,
+          "duration": 4.025,
+          "phonemes": [
+            "ðˌɛɹ ɪz wˈɔTəɹ ɪn ðə bˈɑTəl, ænd ɪts lˈɪd ɪz blˈu."
+          ],
+          "rms": 0.0434110090136528,
+          "peak": 0.41215944290161133
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.0434110090136528,
+        "peak": 0.41215944290161133,
+        "decodedRms": 0.0412515252828598,
+        "decodedPeak": 0.391435444355011,
+        "decodedSamples": 96600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter2-003-context-01",
+      "text": "The door is locked. I use my ___ to open it.",
+      "spokenText": "The door is locked. I use my ... to open it.",
+      "segments": [
+        "The door is locked. I use my",
+        "to open it."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-e6b3c4d043c8e95cd746.mp3",
+      "synthesisSha256": "e6b3c4d043c8e95cd746fe71b36fa8f6674c18c9be0996313e543635435a3b4d",
+      "sha256": "5ce54a02d1371d4b644f516e8fc6a837c4c93c8d07f3979035e34ba1ad15749c",
+      "duration": 5.1,
+      "segmentAudit": [
+        {
+          "text": "The door is locked. I use my",
+          "voice": "am_michael",
+          "seed": 162,
+          "sampleStart": 0,
+          "samples": 70200,
+          "duration": 2.925,
+          "phonemes": [
+            "ðə dˈɔɹ ɪz lˈɑkt. ˌI jˈuz mˈI"
+          ],
+          "rms": 0.04280274733901024,
+          "peak": 0.44433844089508057
+        },
+        {
+          "text": "to open it.",
+          "voice": "am_michael",
+          "seed": 163,
+          "sampleStart": 78600,
+          "samples": 43800,
+          "duration": 1.825,
+          "phonemes": [
+            "tʊ ˈOpᵊn ɪt."
+          ],
+          "rms": 0.046879809349775314,
+          "peak": 0.4745965898036957
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 70200,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.0428624153137207,
+        "peak": 0.4745965898036957,
+        "decodedRms": 0.04072624817490578,
+        "decodedPeak": 0.45119255781173706,
+        "decodedSamples": 122400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter2-003-context-02",
+      "text": "The key is in my hand. I put it in the lock and open the door.",
+      "spokenText": "The key is in my hand. I put it in the lock and open the door.",
+      "segments": [
+        "The key is in my hand. I put it in the lock and open the door."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-4c7dd38b4aee1627c45c.mp3",
+      "synthesisSha256": "4c7dd38b4aee1627c45ceddfe4a8fca032af6765acc6fb096d0f582d9a6267e2",
+      "sha256": "d4e7325099c36aa217aff0d02d5887773d3b44edb284ccf33ba3f8313646b8a3",
+      "duration": 5.1,
+      "segmentAudit": [
+        {
+          "text": "The key is in my hand. I put it in the lock and open the door.",
+          "voice": "am_michael",
+          "seed": 172,
+          "sampleStart": 0,
+          "samples": 122400,
+          "duration": 5.1,
+          "phonemes": [
+            "ðə kˈi ɪz ɪn mI hˈænd. ˌI pˌʊt ɪt ɪn ðə lˈɑk ænd ˈOpᵊn ðə dˈɔɹ."
+          ],
+          "rms": 0.04105294495820999,
+          "peak": 0.592647135257721
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04105294495820999,
+        "peak": 0.592647135257721,
+        "decodedRms": 0.03900141268968582,
+        "decodedPeak": 0.5640292167663574,
+        "decodedSamples": 122400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter2-004-context-01",
+      "text": "A pencil is one ___. Two pencils are two things.",
+      "spokenText": "A pencil is one ... . Two pencils are two things.",
+      "segments": [
+        "A pencil is one",
+        ". Two pencils are two things."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-35c1aa77dbd7440eecb5.mp3",
+      "synthesisSha256": "35c1aa77dbd7440eecb5623ea1a5aeb8fd7821ab26800ff1c68f1072b240cb80",
+      "sha256": "da6a221863765077338c9dac887de7df6e0fb258f8d876fae45fce65fdba2a9e",
+      "duration": 4.625,
+      "segmentAudit": [
+        {
+          "text": "A pencil is one",
+          "voice": "af_heart",
+          "seed": 182,
+          "sampleStart": 0,
+          "samples": 46200,
+          "duration": 1.925,
+          "phonemes": [
+            "ɐ pˈɛnsᵊl ɪz wˈʌn"
+          ],
+          "rms": 0.04442267864942551,
+          "peak": 0.5373924374580383
+        },
+        {
+          "text": ". Two pencils are two things.",
+          "voice": "af_heart",
+          "seed": 183,
+          "sampleStart": 54600,
+          "samples": 56400,
+          "duration": 2.35,
+          "phonemes": [
+            ". tˈu pˈɛnsᵊlz ɑɹ tˈu θˈɪŋz."
+          ],
+          "rms": 0.04545971751213074,
+          "peak": 0.40853583812713623
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 46200,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04325967654585838,
+        "peak": 0.5373924374580383,
+        "decodedRms": 0.041039373725652695,
+        "decodedPeak": 0.5076764822006226,
+        "decodedSamples": 111000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter2-004-context-02",
+      "text": "My things are on the desk: a book, a pen, and a ruler.",
+      "spokenText": "My things are on the desk: a book, a pen, and a ruler.",
+      "segments": [
+        "My things are on the desk: a book, a pen, and a ruler."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-b3a1dc54c449a4a8665e.mp3",
+      "synthesisSha256": "b3a1dc54c449a4a8665e379af81c27d640ae38f9c24c008577e4d5b4b8f309a3",
+      "sha256": "a90fd1618064a607e47d56cf78577ba51d3fdaf9384b3c83e349a4b88869a6b3",
+      "duration": 4.15,
+      "segmentAudit": [
+        {
+          "text": "My things are on the desk: a book, a pen, and a ruler.",
+          "voice": "af_heart",
+          "seed": 192,
+          "sampleStart": 0,
+          "samples": 99600,
+          "duration": 4.15,
+          "phonemes": [
+            "mˌI θˈɪŋz ɑɹ ˌɔn ðə dˈɛsk: ɐ bˈʊk, ɐ pˈɛn, ænd ɐ ɹˈuləɹ."
+          ],
+          "rms": 0.04821095988154411,
+          "peak": 0.3462992310523987
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04821095988154411,
+        "peak": 0.3462992310523987,
+        "decodedRms": 0.04575582966208458,
+        "decodedPeak": 0.32741257548332214,
+        "decodedSamples": 99600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-001-context-01",
+      "text": "We laugh and enjoy the game. We have a lot of ___.",
+      "spokenText": "We laugh and enjoy the game. We have a lot of ... .",
+      "segments": [
+        "We laugh and enjoy the game. We have a lot of",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-a5ee8a13c5dce5839568.mp3",
+      "synthesisSha256": "a5ee8a13c5dce58395685d9c46b8910cbff586e3ec75af5fbf80fc5a9508f594",
+      "sha256": "358c7e36df603f6355240e6947e851949b9f8ab07832d80f084b5048668847c9",
+      "duration": 4.3,
+      "segmentAudit": [
+        {
+          "text": "We laugh and enjoy the game. We have a lot of",
+          "voice": "af_heart",
+          "seed": 202,
+          "sampleStart": 0,
+          "samples": 81000,
+          "duration": 3.375,
+          "phonemes": [
+            "wˌi lˈæf ænd ɪnʤˈY ðə ɡˈAm. wˌi hæv ɐ lˈɑt ʌv"
+          ],
+          "rms": 0.04546063393354416,
+          "peak": 0.38876691460609436
+        },
+        {
+          "text": ".",
+          "voice": "af_heart",
+          "seed": 203,
+          "sampleStart": 89400,
+          "samples": 13800,
+          "duration": 0.575,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.024459436535835266,
+          "peak": 0.24086885154247284
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 81000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.041256461292505264,
+        "peak": 0.38876691460609436,
+        "decodedRms": 0.03918912634253502,
+        "decodedPeak": 0.36870384216308594,
+        "decodedSamples": 103200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-001-context-02",
+      "text": "The game is fun. We smile and want to play again.",
+      "spokenText": "The game is fun. We smile and want to play again.",
+      "segments": [
+        "The game is fun. We smile and want to play again."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-e7c068bf6790390707a6.mp3",
+      "synthesisSha256": "e7c068bf6790390707a6853459f2b28539bc4e83c6756f11449a670e96033df3",
+      "sha256": "ce056782f2d61668e9eb504cf6b4596522fdee1230b18537606d8a00ee84f21d",
+      "duration": 3.725,
+      "segmentAudit": [
+        {
+          "text": "The game is fun. We smile and want to play again.",
+          "voice": "af_heart",
+          "seed": 212,
+          "sampleStart": 0,
+          "samples": 89400,
+          "duration": 3.725,
+          "phonemes": [
+            "ðə ɡˈAm ɪz fˈʌn. wˌi smˈIl ænd wˈɑnt tə plˈA əɡˈɛn."
+          ],
+          "rms": 0.04806312546133995,
+          "peak": 0.3503260910511017
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04806312546133995,
+        "peak": 0.3503260910511017,
+        "decodedRms": 0.04559410363435745,
+        "decodedPeak": 0.3327294588088989,
+        "decodedSamples": 89400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-002-context-01",
+      "text": "We are outside the house. We play in the ___ beside it.",
+      "spokenText": "We are outside the house. We play in the ... beside it.",
+      "segments": [
+        "We are outside the house. We play in the",
+        "beside it."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-f8bc4f80c2a77553eba7.mp3",
+      "synthesisSha256": "f8bc4f80c2a77553eba7bbf27f2ef2ac85a5989a199f3cb711b8b21f7c8f294f",
+      "sha256": "d32bdc47b61d8c0cdd91e7dcac468facc1d6315e228d421f632b522ea401c14d",
+      "duration": 5.775,
+      "segmentAudit": [
+        {
+          "text": "We are outside the house. We play in the",
+          "voice": "am_michael",
+          "seed": 222,
+          "sampleStart": 0,
+          "samples": 87600,
+          "duration": 3.65,
+          "phonemes": [
+            "wˌi ɑɹ ˌWtsˈId ðə hˈWs. wˌi plˈA ɪn ðə"
+          ],
+          "rms": 0.04136138781905174,
+          "peak": 0.30453982949256897
+        },
+        {
+          "text": "beside it.",
+          "voice": "am_michael",
+          "seed": 223,
+          "sampleStart": 96000,
+          "samples": 42600,
+          "duration": 1.775,
+          "phonemes": [
+            "bəsˈId ɪt."
+          ],
+          "rms": 0.04383646696805954,
+          "peak": 0.32702043652534485
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 87600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04088881239295006,
+        "peak": 0.32702043652534485,
+        "decodedRms": 0.03884314373135567,
+        "decodedPeak": 0.31060510873794556,
+        "decodedSamples": 138600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-002-context-02",
+      "text": "The dog runs in the yard behind our house.",
+      "spokenText": "The dog runs in the yard behind our house.",
+      "segments": [
+        "The dog runs in the yard behind our house."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-67514c31df2d0ec89b3a.mp3",
+      "synthesisSha256": "67514c31df2d0ec89b3a7c8c5c8832a88d929700e6c1f921a5c25ad49854459e",
+      "sha256": "81a04d6a4f0c56b70590b961a5af1a522227f920f54cfad76eea2141416b83f9",
+      "duration": 3.7,
+      "segmentAudit": [
+        {
+          "text": "The dog runs in the yard behind our house.",
+          "voice": "am_michael",
+          "seed": 232,
+          "sampleStart": 0,
+          "samples": 88800,
+          "duration": 3.7,
+          "phonemes": [
+            "ðə dˈɔɡ ɹˈʌnz ɪn ðə jˈɑɹd bəhˈInd ˌWəɹ hˈWs."
+          ],
+          "rms": 0.04148828238248825,
+          "peak": 0.3509199023246765
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04148828238248825,
+        "peak": 0.3509199023246765,
+        "decodedRms": 0.03940647467970848,
+        "decodedPeak": 0.3323485851287842,
+        "decodedSamples": 88800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-004-context-01",
+      "text": "This large water bird has a long neck. It is a ___.",
+      "spokenText": "This large water bird has a long neck. It is a ... .",
+      "segments": [
+        "This large water bird has a long neck. It is a",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-bd4ffb5065b83455c7aa.mp3",
+      "synthesisSha256": "bd4ffb5065b83455c7aa452f2a221dcbe9187e06d168e53147de68a25ec8536e",
+      "sha256": "057788aeafaeed56ea59d2dc45525dbdf97443dbb45794162baeb3286a7dfe70",
+      "duration": 5.325,
+      "segmentAudit": [
+        {
+          "text": "This large water bird has a long neck. It is a",
+          "voice": "am_michael",
+          "seed": 242,
+          "sampleStart": 0,
+          "samples": 106200,
+          "duration": 4.425,
+          "phonemes": [
+            "ðˌɪs lˈɑɹʤ wˈɔTəɹ bˈɜɹd hæz ɐ lˈɔŋ nˈɛk. ˌɪt ɪz ɐ"
+          ],
+          "rms": 0.038902584463357925,
+          "peak": 0.33685302734375
+        },
+        {
+          "text": ".",
+          "voice": "am_michael",
+          "seed": 243,
+          "sampleStart": 114600,
+          "samples": 13200,
+          "duration": 0.55,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.0349314846098423,
+          "peak": 0.32631611824035645
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 106200,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.037197504192590714,
+        "peak": 0.33685302734375,
+        "decodedRms": 0.0353284552693367,
+        "decodedPeak": 0.3162105977535248,
+        "decodedSamples": 127800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-004-context-02",
+      "text": "One goose walks beside the pond. It has white feathers.",
+      "spokenText": "One goose walks beside the pond. It has white feathers.",
+      "segments": [
+        "One goose walks beside the pond. It has white feathers."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-d7229b1691ccc16ef2d7.mp3",
+      "synthesisSha256": "d7229b1691ccc16ef2d79b240f8c08c4305601bb60dc052c8314cb7bb6d7101e",
+      "sha256": "fc0de90de56d8452aecef7cb3d0fcb1416929127ad330cb7b0ad3c9431e421f6",
+      "duration": 4.675,
+      "segmentAudit": [
+        {
+          "text": "One goose walks beside the pond. It has white feathers.",
+          "voice": "am_michael",
+          "seed": 252,
+          "sampleStart": 0,
+          "samples": 112200,
+          "duration": 4.675,
+          "phonemes": [
+            "wˈʌn ɡˈus wˈɔks bəsˈId ðə pˈɑnd. ˌɪt hæz wˈIt fˈɛðəɹz."
+          ],
+          "rms": 0.042978715151548386,
+          "peak": 0.4117206931114197
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.042978715151548386,
+        "peak": 0.4117206931114197,
+        "decodedRms": 0.040834203362464905,
+        "decodedPeak": 0.391640841960907,
+        "decodedSamples": 112200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-005-context-01",
+      "text": "I say \"one, two, three\" as I look at the books. I ___ them.",
+      "spokenText": "I say \"one, two, three\" as I look at the books. I ... them.",
+      "segments": [
+        "I say \"one, two, three\" as I look at the books. I",
+        "them."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-ee52ba8011b586e9491d.mp3",
+      "synthesisSha256": "ee52ba8011b586e9491d69b76eff9c303ff1155eee31beacba95f6d970b91614",
+      "sha256": "ad581c0c710b13412dc797461af52f5437a563efb7266d28af58d47c6454aaad",
+      "duration": 5.425,
+      "segmentAudit": [
+        {
+          "text": "I say \"one, two, three\" as I look at the books. I",
+          "voice": "af_heart",
+          "seed": 262,
+          "sampleStart": 0,
+          "samples": 88800,
+          "duration": 3.7,
+          "phonemes": [
+            "ˌI sˈA “wˈʌn, tˈu, θɹˈi” æz ˌI lˈʊk æt ðə bˈʊks. ˌI"
+          ],
+          "rms": 0.04708050936460495,
+          "peak": 0.4707247018814087
+        },
+        {
+          "text": "them.",
+          "voice": "af_heart",
+          "seed": 263,
+          "sampleStart": 97200,
+          "samples": 33000,
+          "duration": 1.375,
+          "phonemes": [
+            "ðˌɛm."
+          ],
+          "rms": 0.0437287800014019,
+          "peak": 0.3691946268081665
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 88800,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.044681377708911896,
+        "peak": 0.4707247018814087,
+        "decodedRms": 0.04241325706243515,
+        "decodedPeak": 0.4465178847312927,
+        "decodedSamples": 130223,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-005-context-02",
+      "text": "Please count the red cards. Tell me how many there are.",
+      "spokenText": "Please count the red cards. Tell me how many there are.",
+      "segments": [
+        "Please count the red cards. Tell me how many there are."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-b6e8ace72184d95531b7.mp3",
+      "synthesisSha256": "b6e8ace72184d95531b71e01748893291d9f35422fc0d6f65e1f4bdea641087e",
+      "sha256": "b5777ad4cbb69b8c45a068aec95a1636d4fb0a6dbb67f2408abd80b16722bc1f",
+      "duration": 3.675,
+      "segmentAudit": [
+        {
+          "text": "Please count the red cards. Tell me how many there are.",
+          "voice": "af_heart",
+          "seed": 272,
+          "sampleStart": 0,
+          "samples": 88200,
+          "duration": 3.675,
+          "phonemes": [
+            "plˈiz kˈWnt ðə ɹˈɛd kˈɑɹdz. tˈɛl mˌi hˌW mˈɛni ðɛɹ ɑɹ."
+          ],
+          "rms": 0.04830906540155411,
+          "peak": 0.3124268352985382
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04830906540155411,
+        "peak": 0.3124268352985382,
+        "decodedRms": 0.0458374060690403,
+        "decodedPeak": 0.29765939712524414,
+        "decodedSamples": 88200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-009-context-01",
+      "text": "This shape is round and has no corners. It is a ___.",
+      "spokenText": "This shape is round and has no corners. It is a ... .",
+      "segments": [
+        "This shape is round and has no corners. It is a",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-50b18ea9ff1ab981678b.mp3",
+      "synthesisSha256": "50b18ea9ff1ab981678bdd0888fce30aa21d6db4ce7c10ceeb6a8fb2874398d4",
+      "sha256": "38aecf02b993a642e79d76e9f0e836801d8d74d6a16bb498d3afcb33507431ce",
+      "duration": 5.15,
+      "segmentAudit": [
+        {
+          "text": "This shape is round and has no corners. It is a",
+          "voice": "am_michael",
+          "seed": 282,
+          "sampleStart": 0,
+          "samples": 102000,
+          "duration": 4.25,
+          "phonemes": [
+            "ðˌɪs ʃˈAp ɪz ɹˈWnd ænd hæz nˈO kˈɔɹnəɹz. ˌɪt ɪz ɐ"
+          ],
+          "rms": 0.0396946482360363,
+          "peak": 0.2975294888019562
+        },
+        {
+          "text": ".",
+          "voice": "am_michael",
+          "seed": 283,
+          "sampleStart": 110400,
+          "samples": 13200,
+          "duration": 0.55,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.03523135930299759,
+          "peak": 0.3441728353500366
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 102000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.03785322234034538,
+        "peak": 0.3441728353500366,
+        "decodedRms": 0.035951461642980576,
+        "decodedPeak": 0.32677626609802246,
+        "decodedSamples": 123600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter3-009-context-02",
+      "text": "There are three answers. Please circle B with your pencil.",
+      "spokenText": "There are three answers. Please circle B with your pencil.",
+      "segments": [
+        "There are three answers. Please circle B with your pencil."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-a98d363c5ffa5636bed5.mp3",
+      "synthesisSha256": "a98d363c5ffa5636bed5aa298b7fd7e8df0b53f9aae4da1bf4a08e2c191fe87f",
+      "sha256": "36d1929323f7bb7168bc549a1b13879a5dee7e90a0780173aa1ba4d04b82df40",
+      "duration": 4.625,
+      "segmentAudit": [
+        {
+          "text": "There are three answers. Please circle B with your pencil.",
+          "voice": "am_michael",
+          "seed": 292,
+          "sampleStart": 0,
+          "samples": 111000,
+          "duration": 4.625,
+          "phonemes": [
+            "ðˌɛɹ ɑɹ θɹˈi ˈænsəɹz. plˈiz sˈɜɹkᵊl bˈi wɪð jʊɹ pˈɛnsᵊl."
+          ],
+          "rms": 0.04209676384925842,
+          "peak": 0.4632788598537445
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04209676384925842,
+        "peak": 0.4632788598537445,
+        "decodedRms": 0.03999538719654083,
+        "decodedPeak": 0.4401654303073883,
+        "decodedSamples": 111000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-003-context-01",
+      "text": "There are four students and four cards, one card for ___ student.",
+      "spokenText": "There are four students and four cards, one card for ... student.",
+      "segments": [
+        "There are four students and four cards, one card for",
+        "student."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-2b13d7292b32dbf3c6a1.mp3",
+      "synthesisSha256": "2b13d7292b32dbf3c6a141c404e88d814e77a737a15857a15943c5c7cf87e851",
+      "sha256": "cde0564a6a7d90e42e0959abccc7fed88dabf4031dc86646bc6d6fd4d6e9c36f",
+      "duration": 6.3,
+      "segmentAudit": [
+        {
+          "text": "There are four students and four cards, one card for",
+          "voice": "am_michael",
+          "seed": 302,
+          "sampleStart": 0,
+          "samples": 105000,
+          "duration": 4.375,
+          "phonemes": [
+            "ðˌɛɹ ɑɹ fˈɔɹ stˈudᵊnts ænd fˈɔɹ kˈɑɹdz, wˈʌn kˈɑɹd fɔɹ"
+          ],
+          "rms": 0.04086987301707268,
+          "peak": 0.3730170428752899
+        },
+        {
+          "text": "student.",
+          "voice": "am_michael",
+          "seed": 303,
+          "sampleStart": 113400,
+          "samples": 37800,
+          "duration": 1.575,
+          "phonemes": [
+            "stˈudᵊnt."
+          ],
+          "rms": 0.044032495468854904,
+          "peak": 0.3263159692287445
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 105000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.040554627776145935,
+        "peak": 0.3730170428752899,
+        "decodedRms": 0.038516510277986526,
+        "decodedPeak": 0.3536585867404938,
+        "decodedSamples": 151200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-003-context-02",
+      "text": "Each student has one apple. There are five students.",
+      "spokenText": "Each student has one apple. There are five students.",
+      "segments": [
+        "Each student has one apple. There are five students."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-a4e04dc9d57f66024efa.mp3",
+      "synthesisSha256": "a4e04dc9d57f66024efae970e05684a18a9595b39714988d9b1d188a314546c9",
+      "sha256": "adf2b524060e747bee3e8b3434c28ec310d01818ed5b9945d2d1844bdf7f5dab",
+      "duration": 4.225,
+      "segmentAudit": [
+        {
+          "text": "Each student has one apple. There are five students.",
+          "voice": "am_michael",
+          "seed": 312,
+          "sampleStart": 0,
+          "samples": 101400,
+          "duration": 4.225,
+          "phonemes": [
+            "ˈiʧ stˈudᵊnt hæz wˈʌn ˈæpᵊl. ðˌɛɹ ɑɹ fˈIv stˈudᵊnts."
+          ],
+          "rms": 0.04025490954518318,
+          "peak": 0.35302677750587463
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04025490954518318,
+        "peak": 0.35302677750587463,
+        "decodedRms": 0.038227975368499756,
+        "decodedPeak": 0.3352065086364746,
+        "decodedSamples": 101423,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-008-context-01",
+      "text": "I am a student in the seventh ___ at this school.",
+      "spokenText": "I am a student in the seventh ... at this school.",
+      "segments": [
+        "I am a student in the seventh",
+        "at this school."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-8f3aa6dab9b112c079a2.mp3",
+      "synthesisSha256": "8f3aa6dab9b112c079a2fb396d5f6a16d828895df4a445c3598324a39171ffda",
+      "sha256": "e5c14e0b7c41edb40c3db0bae6114c7bd975d43958b2eb9f9931ef37f4bf143f",
+      "duration": 4.375,
+      "segmentAudit": [
+        {
+          "text": "I am a student in the seventh",
+          "voice": "af_heart",
+          "seed": 322,
+          "sampleStart": 0,
+          "samples": 54600,
+          "duration": 2.275,
+          "phonemes": [
+            "ˌI ɐm ɐ stˈudᵊnt ɪn ðə sˈɛvənθ"
+          ],
+          "rms": 0.04709332063794136,
+          "peak": 0.477042555809021
+        },
+        {
+          "text": "at this school.",
+          "voice": "af_heart",
+          "seed": 323,
+          "sampleStart": 63000,
+          "samples": 42000,
+          "duration": 1.75,
+          "phonemes": [
+            "æt ðɪs skˈul."
+          ],
+          "rms": 0.04623929411172867,
+          "peak": 0.569500744342804
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 54600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04481601342558861,
+        "peak": 0.569500744342804,
+        "decodedRms": 0.04252730682492256,
+        "decodedPeak": 0.54741370677948,
+        "decodedSamples": 105000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-008-context-02",
+      "text": "My brother is in Grade 7, and I am in Grade 8.",
+      "spokenText": "My brother is in Grade 7, and I am in Grade 8.",
+      "segments": [
+        "My brother is in Grade 7, and I am in Grade 8."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-97ffaeef80e12969bbbf.mp3",
+      "synthesisSha256": "97ffaeef80e12969bbbf737b912efbc94927b55b50968f1fa27c70f2b208f3ef",
+      "sha256": "2c8fb2304299cb54e3fedbe94feee34c7cc0b52328642fb8b0f4a896085d69f0",
+      "duration": 3.775,
+      "segmentAudit": [
+        {
+          "text": "My brother is in Grade 7, and I am in Grade 8.",
+          "voice": "af_heart",
+          "seed": 332,
+          "sampleStart": 0,
+          "samples": 90600,
+          "duration": 3.775,
+          "phonemes": [
+            "mˌI bɹˈʌðəɹ ɪz ɪn ɡɹˈAd sˈɛvən, ænd ˌI ɐm ɪn ɡɹˈAd ˈAt."
+          ],
+          "rms": 0.04770204797387123,
+          "peak": 0.44910216331481934
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04770204797387123,
+        "peak": 0.44910216331481934,
+        "decodedRms": 0.045245662331581116,
+        "decodedPeak": 0.42348265647888184,
+        "decodedSamples": 90600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-015-context-01",
+      "text": "My bag is blue. Your bag is blue too. Our bags are the ___ color.",
+      "spokenText": "My bag is blue. Your bag is blue too. Our bags are the ... color.",
+      "segments": [
+        "My bag is blue. Your bag is blue too. Our bags are the",
+        "color."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-3b2757c9d40d7eea1065.mp3",
+      "synthesisSha256": "3b2757c9d40d7eea1065af5c089bb7418ce56bc1f8a18335e35c6eb25d89c5e5",
+      "sha256": "958c534b803f62376aec284d46025905cee99586b204aa49d290670086ce5abf",
+      "duration": 6.5,
+      "segmentAudit": [
+        {
+          "text": "My bag is blue. Your bag is blue too. Our bags are the",
+          "voice": "am_michael",
+          "seed": 342,
+          "sampleStart": 0,
+          "samples": 113400,
+          "duration": 4.725,
+          "phonemes": [
+            "mˌI bˈæɡ ɪz blˈu. jˌʊɹ bˈæɡ ɪz blˈu tˈu. ˌWəɹ bˈæɡz ɑɹ ðə"
+          ],
+          "rms": 0.038528092205524445,
+          "peak": 0.4106699824333191
+        },
+        {
+          "text": "color.",
+          "voice": "am_michael",
+          "seed": 343,
+          "sampleStart": 121800,
+          "samples": 34200,
+          "duration": 1.425,
+          "phonemes": [
+            "kˈʌləɹ."
+          ],
+          "rms": 0.04914553835988045,
+          "peak": 0.572614848613739
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 113400,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04010684788227081,
+        "peak": 0.572614848613739,
+        "decodedRms": 0.03809838742017746,
+        "decodedPeak": 0.5444905161857605,
+        "decodedSamples": 156000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-015-context-02",
+      "text": "Leo and I are in the same class, Class 2.",
+      "spokenText": "Leo and I are in the same class, Class 2.",
+      "segments": [
+        "Leo and I are in the same class, Class 2."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-7b0195e169d38d717efc.mp3",
+      "synthesisSha256": "7b0195e169d38d717efc3a185600b2c0d9669ec44e8f7914b7525db1728d15e1",
+      "sha256": "f575649570728a8cdc9590ff729b21b9bf975ba3dbe3fba50246a03b825777e1",
+      "duration": 3.7,
+      "segmentAudit": [
+        {
+          "text": "Leo and I are in the same class, Class 2.",
+          "voice": "am_michael",
+          "seed": 352,
+          "sampleStart": 0,
+          "samples": 88800,
+          "duration": 3.7,
+          "phonemes": [
+            "lˈiO ænd ˌI ɑɹ ɪn ðə sˈAm klˈæs, klˈæs tˈu."
+          ],
+          "rms": 0.03579005226492882,
+          "peak": 0.2454477697610855
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.03579005226492882,
+        "peak": 0.2454477697610855,
+        "decodedRms": 0.033991165459156036,
+        "decodedPeak": 0.23351337015628815,
+        "decodedSamples": 88800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-016-context-01",
+      "text": "My sister and I have the same parents and were born on the same day. She is my ___ sister.",
+      "spokenText": "My sister and I have the same parents and were born on the same day. She is my ... sister.",
+      "segments": [
+        "My sister and I have the same parents and were born on the same day. She is my",
+        "sister."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-45571b05aa9c5d36405c.mp3",
+      "synthesisSha256": "45571b05aa9c5d36405cf07cb6cdff65565325feb37a78132efca23fc51bbabe",
+      "sha256": "d8c1e4169a0704b14a63c92dbbac99ce1888c957b403c895c613e2e93d97a7f1",
+      "duration": 7.4,
+      "segmentAudit": [
+        {
+          "text": "My sister and I have the same parents and were born on the same day. She is my",
+          "voice": "af_heart",
+          "seed": 362,
+          "sampleStart": 0,
+          "samples": 132000,
+          "duration": 5.5,
+          "phonemes": [
+            "mˌI sˈɪstəɹ ænd ˌI hæv ðə sˈAm pˈɛɹᵊnts ænd wɜɹ bˈɔɹn ˌɔn ðə sˈAm dˈA. ʃˌi ɪz mˈI"
+          ],
+          "rms": 0.04775054752826691,
+          "peak": 0.41026198863983154
+        },
+        {
+          "text": "sister.",
+          "voice": "af_heart",
+          "seed": 363,
+          "sampleStart": 140400,
+          "samples": 37200,
+          "duration": 1.55,
+          "phonemes": [
+            "sˈɪstəɹ."
+          ],
+          "rms": 0.04261251911520958,
+          "peak": 0.4619368314743042
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 132000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04555240646004677,
+        "peak": 0.4619368314743042,
+        "decodedRms": 0.0432378351688385,
+        "decodedPeak": 0.4403519034385681,
+        "decodedSamples": 177600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-016-context-02",
+      "text": "Ben and Dan are twins. They have the same mother and birthday.",
+      "spokenText": "Ben and Dan are twins. They have the same mother and birthday.",
+      "segments": [
+        "Ben and Dan are twins. They have the same mother and birthday."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-60da4168681714575cc0.mp3",
+      "synthesisSha256": "60da4168681714575cc018c5d7f2698a3e41beebcac953e91d5745ea8343a228",
+      "sha256": "ee2e52dcce696debb7229e71cf2cd435e7d748b5a1e20c780440e4951b92a645",
+      "duration": 4.375,
+      "segmentAudit": [
+        {
+          "text": "Ben and Dan are twins. They have the same mother and birthday.",
+          "voice": "af_heart",
+          "seed": 372,
+          "sampleStart": 0,
+          "samples": 105000,
+          "duration": 4.375,
+          "phonemes": [
+            "bˈɛn ænd dˈæn ɑɹ twˈɪnz. ðˌA hæv ðə sˈAm mˈʌðəɹ ænd bˈɜɹθdˌA."
+          ],
+          "rms": 0.047828711569309235,
+          "peak": 0.49349427223205566
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.047828711569309235,
+        "peak": 0.49349427223205566,
+        "decodedRms": 0.045397911220788956,
+        "decodedPeak": 0.4690915644168854,
+        "decodedSamples": 105000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter2-005-context-01",
+      "text": "I cannot finish this work alone. I ___ your help.",
+      "spokenText": "I cannot finish this work alone. I ... your help.",
+      "segments": [
+        "I cannot finish this work alone. I",
+        "your help."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-4df0fbc513d83c384476.mp3",
+      "synthesisSha256": "4df0fbc513d83c3844769bca27c61973d9d288471c14004b8982f63e6e2b452c",
+      "sha256": "0c30205d9bf8d7b3a118e37f315a8646764e3e56effeca8193d2bee1df78b227",
+      "duration": 5.35,
+      "segmentAudit": [
+        {
+          "text": "I cannot finish this work alone. I",
+          "voice": "am_michael",
+          "seed": 382,
+          "sampleStart": 0,
+          "samples": 81600,
+          "duration": 3.4,
+          "phonemes": [
+            "ˌI kənˈɑt fˈɪnəʃ ðɪs wˈɜɹk əlˈOn. ˌI"
+          ],
+          "rms": 0.0416937954723835,
+          "peak": 0.4659852981567383
+        },
+        {
+          "text": "your help.",
+          "voice": "am_michael",
+          "seed": 383,
+          "sampleStart": 90000,
+          "samples": 38400,
+          "duration": 1.6,
+          "phonemes": [
+            "jʊɹ hˈɛlp."
+          ],
+          "rms": 0.04562767967581749,
+          "peak": 0.3794914186000824
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 81600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.041561760008335114,
+        "peak": 0.4659852981567383,
+        "decodedRms": 0.03946344181895256,
+        "decodedPeak": 0.44270163774490356,
+        "decodedSamples": 128400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "starter2-005-context-02",
+      "text": "I need a pen because I want to write my name.",
+      "spokenText": "I need a pen because I want to write my name.",
+      "segments": [
+        "I need a pen because I want to write my name."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-d8e60c72b0bf3f9dd2a3.mp3",
+      "synthesisSha256": "d8e60c72b0bf3f9dd2a31120815372fe049a3fe65cbea461acc6fd1693d72900",
+      "sha256": "b3ab1fac9afe96441e63741e34cd653111841ff1d0d86985d0abaae1132190ae",
+      "duration": 3.875,
+      "segmentAudit": [
+        {
+          "text": "I need a pen because I want to write my name.",
+          "voice": "am_michael",
+          "seed": 392,
+          "sampleStart": 0,
+          "samples": 93000,
+          "duration": 3.875,
+          "phonemes": [
+            "ˌI nˈid ɐ pˈɛn bəkˈʌz ˌI wˈɑnt tə ɹˈIt mI nˈAm."
+          ],
+          "rms": 0.03964900225400925,
+          "peak": 0.5118139982223511
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.03964900225400925,
+        "peak": 0.5118139982223511,
+        "decodedRms": 0.03767050430178642,
+        "decodedPeak": 0.4873473048210144,
+        "decodedSamples": 93000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-031-context-01",
+      "text": "This page tells us the club name and meeting time. It gives us ___ about the club.",
+      "spokenText": "This page tells us the club name and meeting time. It gives us ... about the club.",
+      "segments": [
+        "This page tells us the club name and meeting time. It gives us",
+        "about the club."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-d237ba13839c8841cd77.mp3",
+      "synthesisSha256": "d237ba13839c8841cd774dc1a7a24df8fb7a6bb32a3c3e16537e073f3feea92e",
+      "sha256": "1c39102c7a06cfbfe49de9c20b8d5ffd0e3cba4e7e72b2b1733d18c82d045ca1",
+      "duration": 6.5,
+      "segmentAudit": [
+        {
+          "text": "This page tells us the club name and meeting time. It gives us",
+          "voice": "af_heart",
+          "seed": 402,
+          "sampleStart": 0,
+          "samples": 106800,
+          "duration": 4.45,
+          "phonemes": [
+            "ðˌɪs pˈAʤ tˈɛlz ˌʌs ðə klˈʌb nˈAm ænd mˈiTɪŋ tˈIm. ˌɪt ɡˈɪvz ˌʌs"
+          ],
+          "rms": 0.048577699810266495,
+          "peak": 0.39772844314575195
+        },
+        {
+          "text": "about the club.",
+          "voice": "af_heart",
+          "seed": 403,
+          "sampleStart": 115200,
+          "samples": 40800,
+          "duration": 1.7,
+          "phonemes": [
+            "əbˈWt ðə klˈʌb."
+          ],
+          "rms": 0.04484714940190315,
+          "peak": 0.38432592153549194
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 106800,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04627714678645134,
+        "peak": 0.39772844314575195,
+        "decodedRms": 0.043903302401304245,
+        "decodedPeak": 0.37609028816223145,
+        "decodedSamples": 156000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-031-context-02",
+      "text": "The notice gives us information about the trip: its date, time, and place.",
+      "spokenText": "The notice gives us information about the trip: its date, time, and place.",
+      "segments": [
+        "The notice gives us information about the trip: its date, time, and place."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": false,
+      "file": "audio/context-safe-9cfe6772d46ebac27643.mp3",
+      "synthesisSha256": "9cfe6772d46ebac27643686b327fa1cec9361388ec795d67f8c4a139481adb82",
+      "sha256": "292d3972ebed9dbc7e153816de2debf4fa28e256266c83f46a610160f9b5f8d4",
+      "duration": 5.425,
+      "segmentAudit": [
+        {
+          "text": "The notice gives us information about the trip: its date, time, and place.",
+          "voice": "af_heart",
+          "seed": 412,
+          "sampleStart": 0,
+          "samples": 130200,
+          "duration": 5.425,
+          "phonemes": [
+            "ðə nˈOTəs ɡˈɪvz ˌʌs ˌɪnfəɹmˈAʃən əbˈWt ðə tɹˈɪp: ɪts dˈAt, tˈIm, ænd plˈAs."
+          ],
+          "rms": 0.05065048485994339,
+          "peak": 0.3401670455932617
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.05065048485994339,
+        "peak": 0.3401670455932617,
+        "decodedRms": 0.0480634942650795,
+        "decodedPeak": 0.32304471731185913,
+        "decodedSamples": 130223,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-032-context-01",
+      "text": "I draw pictures in my free time because I enjoy it. Drawing is my ___.",
+      "spokenText": "I draw pictures in my free time because I enjoy it. Drawing is my ... .",
+      "segments": [
+        "I draw pictures in my free time because I enjoy it. Drawing is my",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-f84cc989674d2c28b6ba.mp3",
+      "synthesisSha256": "f84cc989674d2c28b6badf496a08e38a3fbdfe866bcece75915585a74d97845a",
+      "sha256": "42fb056aa012b2933aa9f3d29c9f4c89d4753492c1b711eab5a36e5f28bb9bbd",
+      "duration": 6.275,
+      "segmentAudit": [
+        {
+          "text": "I draw pictures in my free time because I enjoy it. Drawing is my",
+          "voice": "am_michael",
+          "seed": 422,
+          "sampleStart": 0,
+          "samples": 129000,
+          "duration": 5.375,
+          "phonemes": [
+            "ˌI dɹˈɔ pˈɪkʧəɹz ɪn mI fɹˈi tˈIm bəkˈʌz ˌI ɪnʤˈY ɪt. dɹˈYŋ ɪz mˈI"
+          ],
+          "rms": 0.040720317512750626,
+          "peak": 0.44319894909858704
+        },
+        {
+          "text": ".",
+          "voice": "am_michael",
+          "seed": 423,
+          "sampleStart": 137400,
+          "samples": 13200,
+          "duration": 0.55,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.03490210324525833,
+          "peak": 0.3344625234603882
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 129000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.03907804563641548,
+        "peak": 0.44319894909858704,
+        "decodedRms": 0.03711126372218132,
+        "decodedPeak": 0.42155370116233826,
+        "decodedSamples": 150600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "unit1-032-context-02",
+      "text": "Sara has a hobby. She makes small paper animals after school for fun.",
+      "spokenText": "Sara has a hobby. She makes small paper animals after school for fun.",
+      "segments": [
+        "Sara has a hobby. She makes small paper animals after school for fun."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": false,
+      "file": "audio/context-safe-101298b7948eeaec71a5.mp3",
+      "synthesisSha256": "101298b7948eeaec71a550e822e81897a05c9361a1dd2781b7f93d00c1817147",
+      "sha256": "afaf55dcff52aae48541f40f624f88921169f757061ae905d2cc46be1dd530e5",
+      "duration": 5.725,
+      "segmentAudit": [
+        {
+          "text": "Sara has a hobby. She makes small paper animals after school for fun.",
+          "voice": "am_michael",
+          "seed": 432,
+          "sampleStart": 0,
+          "samples": 137400,
+          "duration": 5.725,
+          "phonemes": [
+            "sˈɛɹə hæz ɐ hˈɑbi. ʃˌi mˌAks smˈɔl pˈApəɹ ˈænəmᵊlz ˈæftəɹ skˈul fɔɹ fˈʌn."
+          ],
+          "rms": 0.04139389097690582,
+          "peak": 0.45043087005615234
+        }
+      ],
+      "insertedPauses": [],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04139389097690582,
+        "peak": 0.45043087005615234,
+        "decodedRms": 0.03933018818497658,
+        "decodedPeak": 0.4287843406200409,
+        "decodedSamples": 137400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-preposition-01",
+      "text": "Mia is good ___ chess. She often wins.",
+      "spokenText": "Mia is good ... chess. She often wins.",
+      "segments": [
+        "Mia is good",
+        "chess. She often wins."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-90d4197f2a933bcb8516.mp3",
+      "synthesisSha256": "90d4197f2a933bcb8516b54ba11d08baf63ca637ae5f7867e8f501fef079a843",
+      "sha256": "96ff96aad0090f0d9fb441a12bd21da983d11336ba3d832db7471cd73da876eb",
+      "duration": 4.4,
+      "segmentAudit": [
+        {
+          "text": "Mia is good",
+          "voice": "af_heart",
+          "seed": 442,
+          "sampleStart": 0,
+          "samples": 43800,
+          "duration": 1.825,
+          "phonemes": [
+            "mˈiə ɪz ɡˈʊd"
+          ],
+          "rms": 0.04846591502428055,
+          "peak": 0.3852612376213074
+        },
+        {
+          "text": "chess. She often wins.",
+          "voice": "af_heart",
+          "seed": 443,
+          "sampleStart": 52200,
+          "samples": 53400,
+          "duration": 2.225,
+          "phonemes": [
+            "ʧˈɛs. ʃˌi ˈɔfᵊn wˈɪnz."
+          ],
+          "rms": 0.045029837638139725,
+          "peak": 0.36485323309898376
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 43800,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04471736028790474,
+        "peak": 0.3852612376213074,
+        "decodedRms": 0.042444512248039246,
+        "decodedPeak": 0.36570167541503906,
+        "decodedSamples": 105600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-preposition-02",
+      "text": "Ben is interested ___ wildlife. He reads about insects.",
+      "spokenText": "Ben is interested ... wildlife. He reads about insects.",
+      "segments": [
+        "Ben is interested",
+        "wildlife. He reads about insects."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-ab3a436ae998a2a92c63.mp3",
+      "synthesisSha256": "ab3a436ae998a2a92c6314f19b5f5dc6f42ef5341cccfcc812767b20ffa1a4ff",
+      "sha256": "81188144a5e7f5825b6325b14a354becf180dc58d5ff73884ca280a6c464a208",
+      "duration": 5.925,
+      "segmentAudit": [
+        {
+          "text": "Ben is interested",
+          "voice": "am_michael",
+          "seed": 452,
+          "sampleStart": 0,
+          "samples": 53400,
+          "duration": 2.225,
+          "phonemes": [
+            "bˈɛn ɪz ˈɪntɹəstᵻd"
+          ],
+          "rms": 0.04671085625886917,
+          "peak": 0.49308010935783386
+        },
+        {
+          "text": "wildlife. He reads about insects.",
+          "voice": "am_michael",
+          "seed": 453,
+          "sampleStart": 61800,
+          "samples": 80400,
+          "duration": 3.35,
+          "phonemes": [
+            "wˈIldlˌIf. hˌi ɹˈidz əbˈWt ˈɪnsˌɛkts."
+          ],
+          "rms": 0.043072380125522614,
+          "peak": 0.4872794449329376
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 53400,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.043223991990089417,
+        "peak": 0.49308010935783386,
+        "decodedRms": 0.041062578558921814,
+        "decodedPeak": 0.46912747621536255,
+        "decodedSamples": 142200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-preposition-03",
+      "text": "Can you help me ___ my geography homework?",
+      "spokenText": "Can you help me ... my geography homework?",
+      "segments": [
+        "Can you help me",
+        "my geography homework?"
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-293e4ec32fdb3bdcf276.mp3",
+      "synthesisSha256": "293e4ec32fdb3bdcf276c657e1adb2da13662cfd8f8a247bdb52e5e8b46e113a",
+      "sha256": "9deed8e0c1bbc35cd64030f4e46f5e460a5b04ba65b649075159c9d5fdd948cc",
+      "duration": 4.2,
+      "segmentAudit": [
+        {
+          "text": "Can you help me",
+          "voice": "af_heart",
+          "seed": 462,
+          "sampleStart": 0,
+          "samples": 42000,
+          "duration": 1.75,
+          "phonemes": [
+            "kˌæn ju hˈɛlp mˌi"
+          ],
+          "rms": 0.048307858407497406,
+          "peak": 0.4306822419166565
+        },
+        {
+          "text": "my geography homework?",
+          "voice": "af_heart",
+          "seed": 463,
+          "sampleStart": 50400,
+          "samples": 50400,
+          "duration": 2.1,
+          "phonemes": [
+            "mI ʤiˈɑɡɹəfi hˈOmwˌɜɹk?"
+          ],
+          "rms": 0.04677838459610939,
+          "peak": 0.29635360836982727
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 42000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.0454583577811718,
+        "peak": 0.4306822419166565,
+        "decodedRms": 0.0431695431470871,
+        "decodedPeak": 0.4089600443840027,
+        "decodedSamples": 100800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-preposition-04",
+      "text": "Please listen ___ the teacher before you start.",
+      "spokenText": "Please listen ... the teacher before you start.",
+      "segments": [
+        "Please listen",
+        "the teacher before you start."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-1f1e26d3e68191428abf.mp3",
+      "synthesisSha256": "1f1e26d3e68191428abfe88064a1ba34c19bbe654df11c4f1fe57b7efa44f2c9",
+      "sha256": "dfa5a989e03f70711ee44dcf4fb68aa50d6bafb0ba9e87171834d77424883c59",
+      "duration": 4.375,
+      "segmentAudit": [
+        {
+          "text": "Please listen",
+          "voice": "af_heart",
+          "seed": 472,
+          "sampleStart": 0,
+          "samples": 42000,
+          "duration": 1.75,
+          "phonemes": [
+            "plˈiz lˈɪsᵊn"
+          ],
+          "rms": 0.044306423515081406,
+          "peak": 0.2933306396007538
+        },
+        {
+          "text": "the teacher before you start.",
+          "voice": "af_heart",
+          "seed": 473,
+          "sampleStart": 50400,
+          "samples": 54600,
+          "duration": 2.275,
+          "phonemes": [
+            "ðə tˈiʧəɹ bəfˈɔɹ ju stˈɑɹt."
+          ],
+          "rms": 0.045580048114061356,
+          "peak": 0.3297945261001587
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 42000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.043191954493522644,
+        "peak": 0.3297945261001587,
+        "decodedRms": 0.040987659245729446,
+        "decodedPeak": 0.31432220339775085,
+        "decodedSamples": 105000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-preposition-05",
+      "text": "Our new classroom is different ___ the old one.",
+      "spokenText": "Our new classroom is different ... the old one.",
+      "segments": [
+        "Our new classroom is different",
+        "the old one."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-a904488dbff39dd09d41.mp3",
+      "synthesisSha256": "a904488dbff39dd09d41eb7c4af9701f3c07afe5c01cc16d9f5ce07f6498e3a4",
+      "sha256": "d222ef6a06b89cb34768b6e932ccb9bb6fc044bccf3797a0a63b5b536fb49acd",
+      "duration": 4.975,
+      "segmentAudit": [
+        {
+          "text": "Our new classroom is different",
+          "voice": "am_michael",
+          "seed": 482,
+          "sampleStart": 0,
+          "samples": 64800,
+          "duration": 2.7,
+          "phonemes": [
+            "ˌWəɹ nˈu klˈæsɹˌum ɪz dˈɪfəɹənt"
+          ],
+          "rms": 0.04243701696395874,
+          "peak": 0.4491408169269562
+        },
+        {
+          "text": "the old one.",
+          "voice": "am_michael",
+          "seed": 483,
+          "sampleStart": 73200,
+          "samples": 46200,
+          "duration": 1.925,
+          "phonemes": [
+            "ði ˈOld wˈʌn."
+          ],
+          "rms": 0.04660928249359131,
+          "peak": 0.4172942042350769
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 64800,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04263753816485405,
+        "peak": 0.4491408169269562,
+        "decodedRms": 0.04051141440868378,
+        "decodedPeak": 0.4266551733016968,
+        "decodedSamples": 119400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-verb-01",
+      "text": "We have a camera. Let’s ___ photos of the village.",
+      "spokenText": "We have a camera. Let’s ... photos of the village.",
+      "segments": [
+        "We have a camera. Let’s",
+        "photos of the village."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-cc5081a92bd066213a6c.mp3",
+      "synthesisSha256": "cc5081a92bd066213a6c86e7c47f1ccca5729fb885dd05efc571b30c0ceb31c3",
+      "sha256": "40a2202f8177362d7fedfe1a6d9e1a6d9fdf5b99cdcd95dc60a6723787f2ca7d",
+      "duration": 5.2,
+      "segmentAudit": [
+        {
+          "text": "We have a camera. Let’s",
+          "voice": "am_michael",
+          "seed": 492,
+          "sampleStart": 0,
+          "samples": 58800,
+          "duration": 2.45,
+          "phonemes": [
+            "wˌi hæv ɐ kˈæməɹə. lˈɛts"
+          ],
+          "rms": 0.04152919724583626,
+          "peak": 0.3932548463344574
+        },
+        {
+          "text": "photos of the village.",
+          "voice": "am_michael",
+          "seed": 493,
+          "sampleStart": 67200,
+          "samples": 57600,
+          "duration": 2.4,
+          "phonemes": [
+            "fˈOTOz ʌv ðə vˈɪlɪʤ."
+          ],
+          "rms": 0.04543021693825722,
+          "peak": 0.5687682032585144
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 58800,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04201378673315048,
+        "peak": 0.5687682032585144,
+        "decodedRms": 0.03991299122571945,
+        "decodedPeak": 0.5408524870872498,
+        "decodedSamples": 124800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-verb-02",
+      "text": "Before breakfast, I ___ my teeth.",
+      "spokenText": "Before breakfast, I ... my teeth.",
+      "segments": [
+        "Before breakfast, I",
+        "my teeth."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-257b452a271e830bcb13.mp3",
+      "synthesisSha256": "257b452a271e830bcb13ef07c87ed93c849a3a0d73a369935d54e5ee31397f77",
+      "sha256": "f97d487f2522fd64efac50971411e0d021da9acd6c790bc3f93e52b435daebbd",
+      "duration": 4.45,
+      "segmentAudit": [
+        {
+          "text": "Before breakfast, I",
+          "voice": "am_michael",
+          "seed": 502,
+          "sampleStart": 0,
+          "samples": 57000,
+          "duration": 2.375,
+          "phonemes": [
+            "bəfˈɔɹ bɹˈɛkfəst, ˌI"
+          ],
+          "rms": 0.04399414360523224,
+          "peak": 0.39167913794517517
+        },
+        {
+          "text": "my teeth.",
+          "voice": "am_michael",
+          "seed": 503,
+          "sampleStart": 65400,
+          "samples": 41400,
+          "duration": 1.725,
+          "phonemes": [
+            "mI tˈiθ."
+          ],
+          "rms": 0.046114977449178696,
+          "peak": 0.6502367258071899
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 57000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04309682175517082,
+        "peak": 0.6502367258071899,
+        "decodedRms": 0.04094001278281212,
+        "decodedPeak": 0.618089497089386,
+        "decodedSamples": 106800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-verb-03",
+      "text": "The birthday candles are burning. Make a wish, then ___ them out.",
+      "spokenText": "The birthday candles are burning. Make a wish, then ... them out.",
+      "segments": [
+        "The birthday candles are burning. Make a wish, then",
+        "them out."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-28d8c68491f50704fcb1.mp3",
+      "synthesisSha256": "28d8c68491f50704fcb18660030178193093a18de2228701fd1e0badd1f761e4",
+      "sha256": "aa0ff664b7659fd9aa58ae7f08c0c3007b1483f70154a567de6e68eaa31aab5c",
+      "duration": 5.525,
+      "segmentAudit": [
+        {
+          "text": "The birthday candles are burning. Make a wish, then",
+          "voice": "af_heart",
+          "seed": 512,
+          "sampleStart": 0,
+          "samples": 87000,
+          "duration": 3.625,
+          "phonemes": [
+            "ðə bˈɜɹθdˌA kˈændᵊlz ɑɹ bˈɜɹnɪŋ. mˌAk ɐ wˈɪʃ, ðˈɛn"
+          ],
+          "rms": 0.047711849212646484,
+          "peak": 0.37550511956214905
+        },
+        {
+          "text": "them out.",
+          "voice": "af_heart",
+          "seed": 513,
+          "sampleStart": 95400,
+          "samples": 37200,
+          "duration": 1.55,
+          "phonemes": [
+            "ðˌɛm ˈWt."
+          ],
+          "rms": 0.04636358469724655,
+          "peak": 0.3237195611000061
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 87000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.0457889661192894,
+        "peak": 0.37550511956214905,
+        "decodedRms": 0.0434810109436512,
+        "decodedPeak": 0.3575703799724579,
+        "decodedSamples": 132600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-verb-04",
+      "text": "The music club needs new members. I want to ___ it.",
+      "spokenText": "The music club needs new members. I want to ... it.",
+      "segments": [
+        "The music club needs new members. I want to",
+        "it."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-25c549cbe512e3d22dcc.mp3",
+      "synthesisSha256": "25c549cbe512e3d22dcca0aab49ec7fc3560cff17bdec49a989ff0403240484f",
+      "sha256": "e889ad940b0730f759cc2d74b1c5c07bd806070b1c3b950afbc60cfd3173fad6",
+      "duration": 5.2,
+      "segmentAudit": [
+        {
+          "text": "The music club needs new members. I want to",
+          "voice": "am_michael",
+          "seed": 522,
+          "sampleStart": 0,
+          "samples": 93000,
+          "duration": 3.875,
+          "phonemes": [
+            "ðə mjˈuzɪk klˈʌb nˈidz nˈu mˈɛmbəɹz. ˌI wˈɑnt tu"
+          ],
+          "rms": 0.04199273884296417,
+          "peak": 0.3961256444454193
+        },
+        {
+          "text": "it.",
+          "voice": "am_michael",
+          "seed": 523,
+          "sampleStart": 101400,
+          "samples": 23400,
+          "duration": 0.975,
+          "phonemes": [
+            "ɪt."
+          ],
+          "rms": 0.040445078164339066,
+          "peak": 0.3558211028575897
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 93000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04025888815522194,
+        "peak": 0.3961256444454193,
+        "decodedRms": 0.0382222980260849,
+        "decodedPeak": 0.3763025999069214,
+        "decodedSamples": 124800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-verb-05",
+      "text": "I cannot open the door without my key. I ___ to find it.",
+      "spokenText": "I cannot open the door without my key. I ... to find it.",
+      "segments": [
+        "I cannot open the door without my key. I",
+        "to find it."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-5b110403acb0505501e0.mp3",
+      "synthesisSha256": "5b110403acb0505501e01d9cd979c516d91355db3c8fad99327fb5980d481417",
+      "sha256": "d033dda20cb7df192ca771457c6927836e77b7dcede2dc6065f6ae087bfae365",
+      "duration": 5.825,
+      "segmentAudit": [
+        {
+          "text": "I cannot open the door without my key. I",
+          "voice": "am_michael",
+          "seed": 532,
+          "sampleStart": 0,
+          "samples": 88200,
+          "duration": 3.675,
+          "phonemes": [
+            "ˌI kənˈɑt ˈOpᵊn ðə dˈɔɹ wɪðˈWt mI kˈi. ˌI"
+          ],
+          "rms": 0.04069047421216965,
+          "peak": 0.4633239507675171
+        },
+        {
+          "text": "to find it.",
+          "voice": "am_michael",
+          "seed": 533,
+          "sampleStart": 96600,
+          "samples": 43200,
+          "duration": 1.8,
+          "phonemes": [
+            "tə fˈInd ɪt."
+          ],
+          "rms": 0.04564853757619858,
+          "peak": 0.5568379759788513
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 88200,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04109148308634758,
+        "peak": 0.5568379759788513,
+        "decodedRms": 0.03903775289654732,
+        "decodedPeak": 0.5292161703109741,
+        "decodedSamples": 139800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-verb-06",
+      "text": "There are many names on the list. Please ___ your own name with a pen.",
+      "spokenText": "There are many names on the list. Please ... your own name with a pen.",
+      "segments": [
+        "There are many names on the list. Please",
+        "your own name with a pen."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-fe00a200c8cb0f1e1000.mp3",
+      "synthesisSha256": "fe00a200c8cb0f1e1000e1d4dbb076173bb30a2d59c568e38e44e450c0c296c3",
+      "sha256": "824095f7eed67ce9def450de4998fcc6da2783d3c99e42146264c1573d8bd897",
+      "duration": 6.4,
+      "segmentAudit": [
+        {
+          "text": "There are many names on the list. Please",
+          "voice": "am_michael",
+          "seed": 542,
+          "sampleStart": 0,
+          "samples": 85200,
+          "duration": 3.55,
+          "phonemes": [
+            "ðˌɛɹ ɑɹ mˈɛni nˈAmz ˌɔn ðə lˈɪst. plˈiz"
+          ],
+          "rms": 0.04297640547156334,
+          "peak": 0.489753395318985
+        },
+        {
+          "text": "your own name with a pen.",
+          "voice": "am_michael",
+          "seed": 543,
+          "sampleStart": 93600,
+          "samples": 60000,
+          "duration": 2.5,
+          "phonemes": [
+            "jʊɹ ˈOn nˈAm wɪð ɐ pˈɛn."
+          ],
+          "rms": 0.042372170835733414,
+          "peak": 0.4696204364299774
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 85200,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04154299572110176,
+        "peak": 0.489753395318985,
+        "decodedRms": 0.039464838802814484,
+        "decodedPeak": 0.46409857273101807,
+        "decodedSamples": 153600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-subject-01",
+      "text": "We learn about plants and animals in ___.",
+      "spokenText": "We learn about plants and animals in ... .",
+      "segments": [
+        "We learn about plants and animals in",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-425479ace6ca536d6460.mp3",
+      "synthesisSha256": "425479ace6ca536d6460d8dae1bd00ee3ad46d1312166cebfcf1eba086e64e42",
+      "sha256": "2ad2a24397a60c2d36d01931ef1b6ad415905cf1c77cd0f8b14753d6e3fef9f5",
+      "duration": 3.85,
+      "segmentAudit": [
+        {
+          "text": "We learn about plants and animals in",
+          "voice": "am_michael",
+          "seed": 552,
+          "sampleStart": 0,
+          "samples": 70800,
+          "duration": 2.95,
+          "phonemes": [
+            "wˌi lˈɜɹn əbˈWt plˈænts ænd ˈænəmᵊlz ˈɪn"
+          ],
+          "rms": 0.04089747369289398,
+          "peak": 0.3768184185028076
+        },
+        {
+          "text": ".",
+          "voice": "am_michael",
+          "seed": 553,
+          "sampleStart": 79200,
+          "samples": 13200,
+          "duration": 0.55,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.03531040996313095,
+          "peak": 0.3157564103603363
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 70800,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.038206323981285095,
+        "peak": 0.3768184185028076,
+        "decodedRms": 0.036288511008024216,
+        "decodedPeak": 0.35867881774902344,
+        "decodedSamples": 92400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-subject-02",
+      "text": "We use maps to learn about countries in ___.",
+      "spokenText": "We use maps to learn about countries in ... .",
+      "segments": [
+        "We use maps to learn about countries in",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-2b26f8ed2197a7860041.mp3",
+      "synthesisSha256": "2b26f8ed2197a786004192f6772b9e6c2b05996f1139998b2091366fa925c81a",
+      "sha256": "faa8ad0e30f923deaaeef73082cd13e51e9ebbddae37383c0bdcfce6b2f1dad6",
+      "duration": 3.575,
+      "segmentAudit": [
+        {
+          "text": "We use maps to learn about countries in",
+          "voice": "af_heart",
+          "seed": 562,
+          "sampleStart": 0,
+          "samples": 63600,
+          "duration": 2.65,
+          "phonemes": [
+            "wˌi jˈuz mˈæps tə lˈɜɹn əbˈWt kˈʌntɹiz ˈɪn"
+          ],
+          "rms": 0.04541461169719696,
+          "peak": 0.29841649532318115
+        },
+        {
+          "text": ".",
+          "voice": "af_heart",
+          "seed": 563,
+          "sampleStart": 72000,
+          "samples": 13800,
+          "duration": 0.575,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.024237409234046936,
+          "peak": 0.24115419387817383
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 63600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.0402904637157917,
+        "peak": 0.29841649532318115,
+        "decodedRms": 0.038232944905757904,
+        "decodedPeak": 0.28469133377075195,
+        "decodedSamples": 85800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-subject-03",
+      "text": "We learn about life hundreds of years ago in ___.",
+      "spokenText": "We learn about life hundreds of years ago in ... .",
+      "segments": [
+        "We learn about life hundreds of years ago in",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-6a826d20a275d53d4169.mp3",
+      "synthesisSha256": "6a826d20a275d53d416960d343e41b2b44e91e64bc895e46119c090b54b89231",
+      "sha256": "63e66ea369a0213e842ccc53a5ce795f71013cadf076ee79f2962239df888748",
+      "duration": 4.55,
+      "segmentAudit": [
+        {
+          "text": "We learn about life hundreds of years ago in",
+          "voice": "am_michael",
+          "seed": 572,
+          "sampleStart": 0,
+          "samples": 87600,
+          "duration": 3.65,
+          "phonemes": [
+            "wˌi lˈɜɹn əbˈWt lˈIf hˈʌndɹədz ʌv jˈɪɹz əɡˈO ˈɪn"
+          ],
+          "rms": 0.037310075014829636,
+          "peak": 0.35589975118637085
+        },
+        {
+          "text": ".",
+          "voice": "am_michael",
+          "seed": 573,
+          "sampleStart": 96000,
+          "samples": 13200,
+          "duration": 0.55,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.03523273020982742,
+          "peak": 0.31945908069610596
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 87600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.03559137135744095,
+        "peak": 0.35589975118637085,
+        "decodedRms": 0.033810582011938095,
+        "decodedPeak": 0.33846020698547363,
+        "decodedSamples": 109200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-subject-04",
+      "text": "Today we learn to write a simple computer program in ___.",
+      "spokenText": "Today we learn to write a simple computer program in ... .",
+      "segments": [
+        "Today we learn to write a simple computer program in",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-d90fa46c5335bc3452a4.mp3",
+      "synthesisSha256": "d90fa46c5335bc3452a4a376341efdf494b6da61e1a770b12f88dd42bf711ea9",
+      "sha256": "0bdc6fa6dca274bf5ae5522e79478f6cf08cc6d271fe284a2373ca98e36197ec",
+      "duration": 4.85,
+      "segmentAudit": [
+        {
+          "text": "Today we learn to write a simple computer program in",
+          "voice": "af_heart",
+          "seed": 582,
+          "sampleStart": 0,
+          "samples": 94200,
+          "duration": 3.925,
+          "phonemes": [
+            "tədˈA wi lˈɜɹn tə ɹˈIt ɐ sˈɪmpəl kəmpjˈuTəɹ pɹˈOɡɹˌæm ˈɪn"
+          ],
+          "rms": 0.045691363513469696,
+          "peak": 0.3201037347316742
+        },
+        {
+          "text": ".",
+          "voice": "af_heart",
+          "seed": 583,
+          "sampleStart": 102600,
+          "samples": 13800,
+          "duration": 0.575,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.024763787165284157,
+          "peak": 0.23514465987682343
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 94200,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04197898879647255,
+        "peak": 0.3201037347316742,
+        "decodedRms": 0.03983039781451225,
+        "decodedPeak": 0.3031258285045624,
+        "decodedSamples": 116400,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-subject-05",
+      "text": "Our teacher says “Bonjour” and teaches us to speak ___.",
+      "spokenText": "Our teacher says “Bonjour” and teaches us to speak ... .",
+      "segments": [
+        "Our teacher says “Bonjour” and teaches us to speak",
+        "."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-27e1b3990a059ba9b97c.mp3",
+      "synthesisSha256": "27e1b3990a059ba9b97c0eefe530e7fe99bbbac85aee63368e83b63580fe4576",
+      "sha256": "9bb40c157cb38aabc2a8b84a7a6edb5c9fe82b402d348c61b031cfe91fac5269",
+      "duration": 4.8,
+      "segmentAudit": [
+        {
+          "text": "Our teacher says “Bonjour” and teaches us to speak",
+          "voice": "am_michael",
+          "seed": 592,
+          "sampleStart": 0,
+          "samples": 93600,
+          "duration": 3.9,
+          "phonemes": [
+            "ˌWəɹ tˈiʧəɹ sˈɛz “bɑnʒˈʊɹ” ænd tˈiʧᵻz ˌʌs tə spˈik"
+          ],
+          "rms": 0.03926904499530792,
+          "peak": 0.569261372089386
+        },
+        {
+          "text": ".",
+          "voice": "am_michael",
+          "seed": 593,
+          "sampleStart": 102000,
+          "samples": 13200,
+          "duration": 0.55,
+          "phonemes": [
+            "."
+          ],
+          "rms": 0.03496876358985901,
+          "peak": 0.3391435444355011
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 93600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.037323400378227234,
+        "peak": 0.569261372089386,
+        "decodedRms": 0.03546415641903877,
+        "decodedPeak": 0.542553722858429,
+        "decodedSamples": 115200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-subject-06",
+      "text": "We practise with a violin and drums in ___ class.",
+      "spokenText": "We practise with a violin and drums in ... class.",
+      "segments": [
+        "We practise with a violin and drums in",
+        "class."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-9366462e3c7baabe200d.mp3",
+      "synthesisSha256": "9366462e3c7baabe200dee0a034fdebccdd3589b351bd36041fc92d9828b839b",
+      "sha256": "9f1314fb61b94be71ee240151234e697ee2faf4a2295e5b41fd4d3b4939cbf9b",
+      "duration": 4.9,
+      "segmentAudit": [
+        {
+          "text": "We practise with a violin and drums in",
+          "voice": "af_heart",
+          "seed": 602,
+          "sampleStart": 0,
+          "samples": 72600,
+          "duration": 3.025,
+          "phonemes": [
+            "wˌi pɹˈæktəs wɪð ɐ vˌIəlˈɪn ænd dɹˈʌmz ˈɪn"
+          ],
+          "rms": 0.04449031874537468,
+          "peak": 0.33463460206985474
+        },
+        {
+          "text": "class.",
+          "voice": "af_heart",
+          "seed": 603,
+          "sampleStart": 81000,
+          "samples": 36600,
+          "duration": 1.525,
+          "phonemes": [
+            "klˈæs."
+          ],
+          "rms": 0.04290661960840225,
+          "peak": 0.31320804357528687
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 72600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.042366575449705124,
+        "peak": 0.33463460206985474,
+        "decodedRms": 0.04019779711961746,
+        "decodedPeak": 0.3178984820842743,
+        "decodedSamples": 117600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-location-01",
+      "text": "The library is ___ the gym.",
+      "spokenText": "The library is ... the gym.",
+      "segments": [
+        "The library is",
+        "the gym."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-7ba391d3de3ed6f9b2bf.mp3",
+      "synthesisSha256": "7ba391d3de3ed6f9b2bfbaf1d86966316955d2b3c134dce6b458384cb10b89c2",
+      "sha256": "1f6d5167d88b867efcec993673ea816e41de3f4528c5bd7ac0a9c6bb7afd11b2",
+      "duration": 4.125,
+      "segmentAudit": [
+        {
+          "text": "The library is",
+          "voice": "am_michael",
+          "seed": 612,
+          "sampleStart": 0,
+          "samples": 52200,
+          "duration": 2.175,
+          "phonemes": [
+            "ðə lˈIbɹˌɛɹi ɪz"
+          ],
+          "rms": 0.04312014579772949,
+          "peak": 0.43051111698150635
+        },
+        {
+          "text": "the gym.",
+          "voice": "am_michael",
+          "seed": 613,
+          "sampleStart": 60600,
+          "samples": 38400,
+          "duration": 1.6,
+          "phonemes": [
+            "ðə ʤˈɪm."
+          ],
+          "rms": 0.047404587268829346,
+          "peak": 0.3748643100261688
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 52200,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.043035127222537994,
+        "peak": 0.43051111698150635,
+        "decodedRms": 0.04088206961750984,
+        "decodedPeak": 0.409123957157135,
+        "decodedSamples": 99000,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-location-02",
+      "text": "My seat is ___ the window.",
+      "spokenText": "My seat is ... the window.",
+      "segments": [
+        "My seat is",
+        "the window."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-db2d84d99a979fe679cb.mp3",
+      "synthesisSha256": "db2d84d99a979fe679cbe12ef1822bfea1f4f794fabc0788df430f8b2babb7be",
+      "sha256": "b845e80a77c5f4496739248cea1cd3208695f3f98d4200baa36cc836c7d772fd",
+      "duration": 3.775,
+      "segmentAudit": [
+        {
+          "text": "My seat is",
+          "voice": "af_heart",
+          "seed": 622,
+          "sampleStart": 0,
+          "samples": 42000,
+          "duration": 1.75,
+          "phonemes": [
+            "mˌI sˈit ɪz"
+          ],
+          "rms": 0.04845642298460007,
+          "peak": 0.4468139708042145
+        },
+        {
+          "text": "the window.",
+          "voice": "af_heart",
+          "seed": 623,
+          "sampleStart": 50400,
+          "samples": 40200,
+          "duration": 1.675,
+          "phonemes": [
+            "ðə wˈɪndO."
+          ],
+          "rms": 0.04719562828540802,
+          "peak": 0.3497464954853058
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 42000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04557210952043533,
+        "peak": 0.4468139708042145,
+        "decodedRms": 0.04327687993645668,
+        "decodedPeak": 0.42447561025619507,
+        "decodedSamples": 90600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-location-03",
+      "text": "The flagpole is ___ the sports field.",
+      "spokenText": "The flagpole is ... the sports field.",
+      "segments": [
+        "The flagpole is",
+        "the sports field."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-6dae97348783873f24a4.mp3",
+      "synthesisSha256": "6dae97348783873f24a425713a4e2bfb1cf5e5fae251ad4640668db68e259fc3",
+      "sha256": "935bea2d39e50abd2cf442ebb249fb161113e7c9d6a4eacb797447538dda8454",
+      "duration": 4.575,
+      "segmentAudit": [
+        {
+          "text": "The flagpole is",
+          "voice": "am_michael",
+          "seed": 632,
+          "sampleStart": 0,
+          "samples": 51600,
+          "duration": 2.15,
+          "phonemes": [
+            "ðə flˈæɡpˌOl ɪz"
+          ],
+          "rms": 0.04154141992330551,
+          "peak": 0.4251500070095062
+        },
+        {
+          "text": "the sports field.",
+          "voice": "am_michael",
+          "seed": 633,
+          "sampleStart": 60000,
+          "samples": 49800,
+          "duration": 2.075,
+          "phonemes": [
+            "ðə spˈɔɹts fˈild."
+          ],
+          "rms": 0.045840367674827576,
+          "peak": 0.5775733590126038
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 51600,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04200055077672005,
+        "peak": 0.5775733590126038,
+        "decodedRms": 0.03988173231482506,
+        "decodedPeak": 0.5489009022712708,
+        "decodedSamples": 109800,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-location-04",
+      "text": "The teacher is ___ the class.",
+      "spokenText": "The teacher is ... the class.",
+      "segments": [
+        "The teacher is",
+        "the class."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-e4ee02dc90cf87bec536.mp3",
+      "synthesisSha256": "e4ee02dc90cf87bec536c2ea078c31549d0867b9320ba470291e7082e0232f34",
+      "sha256": "15e09d6148a734d32206b9e718d0fc5d7e8360b0ecff2fe1295319f43fa3f0aa",
+      "duration": 3.675,
+      "segmentAudit": [
+        {
+          "text": "The teacher is",
+          "voice": "af_heart",
+          "seed": 642,
+          "sampleStart": 0,
+          "samples": 42000,
+          "duration": 1.75,
+          "phonemes": [
+            "ðə tˈiʧəɹ ɪz"
+          ],
+          "rms": 0.04224829375743866,
+          "peak": 0.4105678200721741
+        },
+        {
+          "text": "the class.",
+          "voice": "af_heart",
+          "seed": 643,
+          "sampleStart": 50400,
+          "samples": 37800,
+          "duration": 1.575,
+          "phonemes": [
+            "ðə klˈæs."
+          ],
+          "rms": 0.04654422774910927,
+          "peak": 0.46317052841186523
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 42000,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04217112064361572,
+        "peak": 0.46317052841186523,
+        "decodedRms": 0.04003234580159187,
+        "decodedPeak": 0.4368479251861572,
+        "decodedSamples": 88200,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-location-05",
+      "text": "The schoolbag is ___ the desk.",
+      "spokenText": "The schoolbag is ... the desk.",
+      "segments": [
+        "The schoolbag is",
+        "the desk."
+      ],
+      "gapPauseMs": 350,
+      "voice": "am_michael",
+      "hasGap": true,
+      "file": "audio/context-safe-308130e9272be9a6df32.mp3",
+      "synthesisSha256": "308130e9272be9a6df32668bb86fb5c2a16efcda6be7f6f2dbd1ad843595f338",
+      "sha256": "42e8eb08051ee6ecfdb415d729a2e5514261810dc1b7ed4a34d7dbe25e82fd53",
+      "duration": 4.025,
+      "segmentAudit": [
+        {
+          "text": "The schoolbag is",
+          "voice": "am_michael",
+          "seed": 652,
+          "sampleStart": 0,
+          "samples": 50400,
+          "duration": 2.1,
+          "phonemes": [
+            "ðə skˈulbæɡ ɪz"
+          ],
+          "rms": 0.042168788611888885,
+          "peak": 0.2905164957046509
+        },
+        {
+          "text": "the desk.",
+          "voice": "am_michael",
+          "seed": 653,
+          "sampleStart": 58800,
+          "samples": 37800,
+          "duration": 1.575,
+          "phonemes": [
+            "ðə dˈɛsk."
+          ],
+          "rms": 0.05179474875330925,
+          "peak": 0.45187902450561523
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 50400,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.044469207525253296,
+        "peak": 0.45187902450561523,
+        "decodedRms": 0.0422329343855381,
+        "decodedPeak": 0.42891064286231995,
+        "decodedSamples": 96600,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "ctx-location-06",
+      "text": "The lockers are ___ the classroom.",
+      "spokenText": "The lockers are ... the classroom.",
+      "segments": [
+        "The lockers are",
+        "the classroom."
+      ],
+      "gapPauseMs": 350,
+      "voice": "af_heart",
+      "hasGap": true,
+      "file": "audio/context-safe-1c67aaa6f11956e5f694.mp3",
+      "synthesisSha256": "1c67aaa6f11956e5f694a122e04189d1446bb9678a3ec55ccc09f183b37d2b78",
+      "sha256": "fb6a48617183e2024486191d5176444e2e884c0191a688c2894897fdcf2e1935",
+      "duration": 3.9,
+      "segmentAudit": [
+        {
+          "text": "The lockers are",
+          "voice": "af_heart",
+          "seed": 662,
+          "sampleStart": 0,
+          "samples": 43800,
+          "duration": 1.825,
+          "phonemes": [
+            "ðə lˈɑkəɹz ɑɹ"
+          ],
+          "rms": 0.046092189848423004,
+          "peak": 0.3147899806499481
+        },
+        {
+          "text": "the classroom.",
+          "voice": "af_heart",
+          "seed": 663,
+          "sampleStart": 52200,
+          "samples": 41400,
+          "duration": 1.725,
+          "phonemes": [
+            "ðə klˈæsɹˌum."
+          ],
+          "rms": 0.04593119025230408,
+          "peak": 0.46742966771125793
+        }
+      ],
+      "insertedPauses": [
+        {
+          "sampleStart": 43800,
+          "samples": 8400,
+          "durationMs": 350,
+          "digitalSilence": true
+        }
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "exactInputSegments": true,
+        "explicitVoicePreserved": true,
+        "gapSilenceVerified": true,
+        "rms": 0.04390076920390129,
+        "peak": 0.46742966771125793,
+        "decodedRms": 0.04166845604777336,
+        "decodedPeak": 0.443060964345932,
+        "decodedSamples": 93600,
+        "listeningReviewed": false
+      }
+    }
+  ],
+  "failed": []
+}

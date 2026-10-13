@@ -1,0 +1,827 @@
+{
+  "version": 2,
+  "metadata": {
+    "titleZh": "分单元句子听写",
+    "coverageZh": "覆盖教材起始单元1–3和正式单元1–7；每单元5句：听力文本精选2句、B部分1b阅读精选1句、原创拓展2句，共50句。教材原文仍为有限精选，不是各栏目全文。",
+    "unitCount": 10,
+    "groupCount": 10,
+    "itemCount": 50,
+    "quotedEnglishWordCount": 162,
+    "selectionType": "limited_representative_excerpts_with_original_extensions",
+    "source": {
+      "title": "国家中小学智慧教育平台：人教版英语七年级上册官方电子课本",
+      "url": "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=33f98190-ed21-f303-9657-d29d792f27a9&catalogType=tchMaterial&subCatalog=tchMaterial",
+      "use": "所选句子的来源、单元归属与页码"
+    },
+    "sourceFingerprint": {
+      "algorithm": "SHA-256",
+      "sha256": "e416106aff7f95db4903ade2826a662d7dae871caac5df43425c0d408356b09a",
+      "pdfPageCount": 138,
+      "vocabularyPrintedPages": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "vocabularyPdfPages": [
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "pdfMetadataCreationDate": "2026-07-16T08:49:30+08:00",
+      "pdfMetadataModificationDate": "2026-07-16T08:49:30+08:00"
+    },
+    "sourceLibraryFileId": "libfile_193a9aac27c88191a41cd6dffbf10437",
+    "sourceLibraryVersion": 1,
+    "sourcePageConvention": "sourcePage 为教材印刷页码；sourcePdfPage 为从 1 开始计数的 PDF 页码。",
+    "translationNoteZh": "中文为独立编写的简明译文。",
+    "audioNoteZh": "音频为合成朗读，并非教材原声音频。",
+    "scopeNoteZh": "30句教材精选保留原文与来源；20句原创拓展依据单元主题独立编写，并非教材原文。B部分1b原为阅读材料，这里将其中完整句子用于听写。",
+    "visualVerification": "Applies only to the 30 verbatim excerpts: selected source pages were rendered and visually checked. The 20 original extensions have no textbook source page.",
+    "duplicatePolicy": "Selected English sentences are unique; no duplicate items across source groups.",
+    "quotedItemCount": 30,
+    "originalItemCount": 20
+  },
+  "groups": [
+    {
+      "id": "unit-sentences-starter1",
+      "unitId": "starter1",
+      "unitLabelZh": "教材起始单元1",
+      "titleZh": "教材起始单元1 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-starter1-listening-01",
+          "english": "Sit down, please.",
+          "chinese": "请坐。",
+          "sourcePage": 82,
+          "sourcePdfPage": 91,
+          "sourceLocator": "教材第82页 · 部分 A 2c, 对话 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-9e52a9031d3695e400df.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-starter1-listening-02",
+          "english": "Can you say hi to the class?",
+          "chinese": "你能和全班同学打个招呼吗？",
+          "sourcePage": 82,
+          "sourcePdfPage": 91,
+          "sourceLocator": "教材第82页 · 部分 A 2c, 对话 2",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-e8c46c4d600252e90bc0.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-starter1-b1b-01",
+          "english": "How do you spell your name?",
+          "chinese": "你的名字怎么拼写？",
+          "sourcePage": 4,
+          "sourcePdfPage": 13,
+          "sourceLocator": "教材第4页 · 对话 1, Teng Fei",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-84b6da4695d40b37457e.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-starter1-original-01",
+          "english": "Please spell the word hello.",
+          "chinese": "请拼写 hello 这个词。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "spell"
+          ],
+          "audioFile": "audio/sentence-dictation-37c35c41265242d10270.mp3"
+        },
+        {
+          "id": "sentence-starter1-original-02",
+          "english": "I greet everyone in my class.",
+          "chinese": "我和班上的每一位同学打招呼。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "greet",
+            "everyone"
+          ],
+          "audioFile": "audio/sentence-dictation-d39927401fbc7af8ad0a.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-starter2",
+      "unitId": "starter2",
+      "unitLabelZh": "教材起始单元2",
+      "titleZh": "教材起始单元2 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-starter2-listening-01",
+          "english": "I have a new schoolbag.",
+          "chinese": "我有一个新书包。",
+          "sourcePage": 82,
+          "sourcePdfPage": 91,
+          "sourceLocator": "教材第82页 · 部分 A 2c and 2d, 对话 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-0dd7b0d05d21a4a6dbe9.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-starter2-listening-02",
+          "english": "Blue is my favourite colour.",
+          "chinese": "蓝色是我最喜欢的颜色。",
+          "sourcePage": 82,
+          "sourcePdfPage": 91,
+          "sourceLocator": "教材第82页 · 部分 A 2c and 2d, 对话 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-701e789df8b87f0d20f0.mp3",
+          "acceptedAnswers": [
+            "Blue is my favorite color."
+          ],
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-starter2-b1b-01",
+          "english": "Is it in your schoolbag?",
+          "chinese": "它在你的书包里吗？",
+          "sourcePage": 10,
+          "sourcePdfPage": 19,
+          "sourceLocator": "教材第10页 · 对话 1, Mum",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-81bca04165ac54994cc7.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-starter2-original-01",
+          "english": "My water bottle is on the desk.",
+          "chinese": "我的水瓶在书桌上。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "bottle"
+          ],
+          "audioFile": "audio/sentence-dictation-1fee1ba8472372a63848.mp3"
+        },
+        {
+          "id": "sentence-starter2-original-02",
+          "english": "Your eraser is next to my keys.",
+          "chinese": "你的橡皮在我的钥匙旁边。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "eraser",
+            "key"
+          ],
+          "audioFile": "audio/sentence-dictation-b57ac20844bd099af915.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-starter3",
+      "unitId": "starter3",
+      "unitLabelZh": "教材起始单元3",
+      "titleZh": "教材起始单元3 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-starter3-listening-01",
+          "english": "Welcome to my house.",
+          "chinese": "欢迎来我家。",
+          "sourcePage": 83,
+          "sourcePdfPage": 92,
+          "sourceLocator": "教材第83页 · 部分 A 2c, 对话 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-8d86d90b7f7b51420712.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-starter3-listening-02",
+          "english": "How many apple trees do you have?",
+          "chinese": "你有多少棵苹果树？",
+          "sourcePage": 83,
+          "sourcePdfPage": 92,
+          "sourceLocator": "教材第83页 · 部分 A 2c, 对话 3",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-f887d382c62d8a437291.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-starter3-b1b-01",
+          "english": "Another duck is behind the big tree.",
+          "chinese": "另一只鸭子在那棵大树后面。",
+          "sourcePage": 16,
+          "sourcePdfPage": 25,
+          "sourceLocator": "教材第16页 · Farm introduction, paragraph 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-c5a3c97a7fc3a781b29b.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-starter3-original-01",
+          "english": "Three geese are in the yard.",
+          "chinese": "三只鹅在院子里。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "goose",
+            "yard"
+          ],
+          "audioFile": "audio/sentence-dictation-d4e96bed45f96370f464.mp3"
+        },
+        {
+          "id": "sentence-starter3-original-02",
+          "english": "Look at the carrots under the tree.",
+          "chinese": "看看树下的胡萝卜。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "look at",
+            "carrot"
+          ],
+          "audioFile": "audio/sentence-dictation-a13bbe0832a15d05ea5e.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-unit1",
+      "unitId": "unit1",
+      "unitLabelZh": "第1单元",
+      "titleZh": "第1单元 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-unit1-listening-01",
+          "english": "Where are you from?",
+          "chinese": "你来自哪里？",
+          "sourcePage": 84,
+          "sourcePdfPage": 93,
+          "sourceLocator": "教材第84页 · 部分 A 1b and 1c, 对话 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-3f8a6f8bb18b4ab479f6.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit1-listening-02",
+          "english": "What class are you in?",
+          "chinese": "你在哪个班？",
+          "sourcePage": 84,
+          "sourcePdfPage": 93,
+          "sourceLocator": "教材第84页 · 部分 A 1b and 1c, 对话 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-ea3400d7f63071b79315.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit1-b1b-01",
+          "english": "My favourite sport is tennis.",
+          "chinese": "我最喜欢的运动是网球。",
+          "sourcePage": 24,
+          "sourcePdfPage": 33,
+          "sourceLocator": "教材第24页 · Pauline Lee post",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-91818f364c2cfd46eb20.mp3",
+          "acceptedAnswers": [
+            "My favorite sport is tennis."
+          ],
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-unit1-original-01",
+          "english": "My new classmate is from Australia.",
+          "chinese": "我的新同班同学来自澳大利亚。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "classmate",
+            "Australia"
+          ],
+          "audioFile": "audio/sentence-dictation-d2f3f39cc819be9c5b0e.mp3"
+        },
+        {
+          "id": "sentence-unit1-original-02",
+          "english": "We play tennis and get to know each other.",
+          "chinese": "我们打网球，逐渐了解彼此。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "tennis",
+            "get to know",
+            "each other"
+          ],
+          "audioFile": "audio/sentence-dictation-52cdde4ebf6cb6e90c30.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-unit2",
+      "unitId": "unit2",
+      "unitLabelZh": "第2单元",
+      "titleZh": "第2单元 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-unit2-listening-01",
+          "english": "Are these your parents?",
+          "chinese": "这两位是你的父母吗？",
+          "sourcePage": 85,
+          "sourcePdfPage": 94,
+          "sourceLocator": "教材第85页 · 部分 A 1b and 1c, 对话 2",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-f5420a86479cb9e4a8bf.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit2-listening-02",
+          "english": "My grandpa loves sport.",
+          "chinese": "我爷爷喜欢运动。",
+          "sourcePage": 85,
+          "sourcePdfPage": 94,
+          "sourceLocator": "教材第85页 · 部分 A 2a and 2c, Teng Fei",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-7a0a40bcafb61b20091b.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit2-b1b-01",
+          "english": "She always reads with me at night.",
+          "chinese": "她总是在晚上和我一起读书。",
+          "sourcePage": 32,
+          "sourcePdfPage": 41,
+          "sourceLocator": "教材第32页 · Family introduction, paragraph 2",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-1a3318c4384de552c1d8.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-unit2-original-01",
+          "english": "My grandparents play chess together every day.",
+          "chinese": "我的祖父母每天一起下棋。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "grandparent",
+            "chess",
+            "together",
+            "every day"
+          ],
+          "audioFile": "audio/sentence-dictation-8a6cc83bdd24dc8a9742.mp3"
+        },
+        {
+          "id": "sentence-unit2-original-02",
+          "english": "My brother listens to music at night.",
+          "chinese": "我哥哥在晚上听音乐。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "listen to",
+            "at night"
+          ],
+          "audioFile": "audio/sentence-dictation-26dc022f8ab46b62348a.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-unit3",
+      "unitId": "unit3",
+      "unitLabelZh": "第3单元",
+      "titleZh": "第3单元 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-unit3-listening-01",
+          "english": "It’s between the library and the gym.",
+          "chinese": "它在图书馆和体育馆之间。",
+          "sourcePage": 86,
+          "sourcePdfPage": 95,
+          "sourceLocator": "教材第86页 · 部分 A 1b and 1c, 对话 3",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-6101378ed7155e51bfe4.mp3",
+          "acceptedAnswers": [
+            "It is between the library and the gym."
+          ],
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit3-listening-02",
+          "english": "Where do you sit?",
+          "chinese": "你坐在哪里？",
+          "sourcePage": 86,
+          "sourcePdfPage": 95,
+          "sourceLocator": "教材第86页 · 部分 A 2a and 2d, Mum",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-e2f6acdcce02a1fee579.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit3-b1b-01",
+          "english": "Every week, we change seats.",
+          "chinese": "我们每周换一次座位。",
+          "sourcePage": 40,
+          "sourcePdfPage": 49,
+          "sourceLocator": "教材第40页 · Peter’s email, paragraph 3",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-b02ba337782d41039222.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-unit3-original-01",
+          "english": "Our dining hall is across from the gym.",
+          "chinese": "我们的餐厅在体育馆对面。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "dining hall",
+            "across from",
+            "gym"
+          ],
+          "audioFile": "audio/sentence-dictation-e03f2b68429efcb471bb.mp3"
+        },
+        {
+          "id": "sentence-unit3-original-02",
+          "english": "There is a bookcase at the back of the classroom.",
+          "chinese": "教室后面有一个书柜。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "bookcase",
+            "at the back of"
+          ],
+          "audioFile": "audio/sentence-dictation-24079fdf0d7be2497f50.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-unit4",
+      "unitId": "unit4",
+      "unitLabelZh": "第4单元",
+      "titleZh": "第4单元 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-unit4-listening-01",
+          "english": "I have history on Tuesday mornings.",
+          "chinese": "我星期二上午有历史课。",
+          "sourcePage": 87,
+          "sourcePdfPage": 96,
+          "sourceLocator": "教材第87页 · 部分 A 1b and 1c, 对话 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-907fef843f8eee64e276.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit4-listening-02",
+          "english": "Why do you like it?",
+          "chinese": "你为什么喜欢它？",
+          "sourcePage": 87,
+          "sourcePdfPage": 96,
+          "sourceLocator": "教材第87页 · 部分 A 2a and 2c, Binbin",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-810a4f7cae6e0c103a93.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit4-b1b-01",
+          "english": "Music always makes me happy.",
+          "chinese": "音乐总能让我开心。",
+          "sourcePage": 48,
+          "sourcePdfPage": 57,
+          "sourceLocator": "教材第48页 · Mike Davis post",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-88ce2578c287d12ba232.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-unit4-original-01",
+          "english": "Geography is my favourite subject.",
+          "chinese": "地理是我最喜欢的学科。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [
+            "Geography is my favorite subject."
+          ],
+          "focusWords": [
+            "geography"
+          ],
+          "audioFile": "audio/sentence-dictation-02fffac6d4c96a8c402a.mp3"
+        },
+        {
+          "id": "sentence-unit4-original-02",
+          "english": "Our teacher helps us with maths problems.",
+          "chinese": "我们的老师帮助我们解数学题。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [
+            "Our teacher helps us with math problems."
+          ],
+          "focusWords": [
+            "help sb with",
+            "problem"
+          ],
+          "audioFile": "audio/sentence-dictation-9ed1233af2f7c5b2c0a9.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-unit5",
+      "unitId": "unit5",
+      "unitLabelZh": "第5单元",
+      "titleZh": "第5单元 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-unit5-listening-01",
+          "english": "Can you play Chinese chess?",
+          "chinese": "你会下中国象棋吗？",
+          "sourcePage": 88,
+          "sourcePdfPage": 97,
+          "sourceLocator": "教材第88页 · 部分 A 1b and 1c, 对话 2",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-457f527094fe61e070ec.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit5-listening-02",
+          "english": "I can play the guitar.",
+          "chinese": "我会弹吉他。",
+          "sourcePage": 88,
+          "sourcePdfPage": 97,
+          "sourceLocator": "教材第88页 · 部分 A 2a and 2c, Peter",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-0fbee4ff1ebeaaefec7f.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit5-b1b-01",
+          "english": "We also visit nature parks.",
+          "chinese": "我们还会参观自然公园。",
+          "sourcePage": 56,
+          "sourcePdfPage": 65,
+          "sourceLocator": "教材第56页 · Nature Club advertisement",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-1cb3a59cfa8c95a2ce96.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-unit5-original-01",
+          "english": "I want to join the nature club.",
+          "chinese": "我想加入自然俱乐部。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "join",
+            "nature",
+            "club"
+          ],
+          "audioFile": "audio/sentence-dictation-ef777cd74a3220c280a9.mp3"
+        },
+        {
+          "id": "sentence-unit5-original-02",
+          "english": "My sister can play the violin and paint.",
+          "chinese": "我姐姐会拉小提琴，也会画画。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "violin",
+            "paint"
+          ],
+          "audioFile": "audio/sentence-dictation-434e34ad79e7e1c91d1d.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-unit6",
+      "unitId": "unit6",
+      "unitLabelZh": "第6单元",
+      "titleZh": "第6单元 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-unit6-listening-01",
+          "english": "When do you have breakfast?",
+          "chinese": "你什么时候吃早饭？",
+          "sourcePage": 89,
+          "sourcePdfPage": 98,
+          "sourceLocator": "教材第89页 · 部分 A 1b, 1c, and 1d, 对话 2",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-2b5ce41712aa4e9538a9.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit6-listening-02",
+          "english": "I have dinner at half past six.",
+          "chinese": "我六点半吃晚饭。",
+          "sourcePage": 89,
+          "sourcePdfPage": 98,
+          "sourceLocator": "教材第89页 · 部分 A 2a and 2d, Tom",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-321dd92bbe1061877ef9.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit6-b1b-01",
+          "english": "After breakfast, I walk to school.",
+          "chinese": "早饭后，我步行去学校。",
+          "sourcePage": 64,
+          "sourcePdfPage": 73,
+          "sourceLocator": "教材第64页 · Timo’s daily routine, paragraph 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-7c2eaabc133d10038bc6.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-unit6-original-01",
+          "english": "I usually brush my teeth after breakfast.",
+          "chinese": "我通常在早饭后刷牙。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "usually",
+            "brush",
+            "tooth"
+          ],
+          "audioFile": "audio/sentence-dictation-7cb1b5f5f173ab16bbbb.mp3"
+        },
+        {
+          "id": "sentence-unit6-original-02",
+          "english": "We do our homework before dinner.",
+          "chinese": "我们晚饭前做家庭作业。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "homework"
+          ],
+          "audioFile": "audio/sentence-dictation-30da611c669e97af14a9.mp3"
+        }
+      ]
+    },
+    {
+      "id": "unit-sentences-unit7",
+      "unitId": "unit7",
+      "unitLabelZh": "第7单元",
+      "titleZh": "第7单元 · 句子听写",
+      "sourceKind": "mixed",
+      "sourceLabel": "教材精选 + 原创拓展",
+      "items": [
+        {
+          "id": "sentence-unit7-listening-01",
+          "english": "When is your birthday?",
+          "chinese": "你的生日是什么时候？",
+          "sourcePage": 90,
+          "sourcePdfPage": 99,
+          "sourceLocator": "教材第90页 · 部分 A 1b and 1c, 对话 1",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-59c4b254b6c8f7e1e921.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit7-listening-02",
+          "english": "You can make a card for him.",
+          "chinese": "你可以为他做一张卡片。",
+          "sourcePage": 90,
+          "sourcePdfPage": 99,
+          "sourceLocator": "教材第90页 · 部分 A 1b and 1c, 对话 2",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-4f0d35d3592fa255bcb8.mp3",
+          "sourceKind": "listening-script",
+          "sourceLabel": "听力文本精选"
+        },
+        {
+          "id": "sentence-unit7-b1b-01",
+          "english": "Long noodles are a symbol of long life.",
+          "chinese": "长长的面条象征长寿。",
+          "sourcePage": 72,
+          "sourcePdfPage": 81,
+          "sourceLocator": "教材第72页 · Yu Xiaoming post",
+          "verbatim": true,
+          "audioFile": "audio/sentence-dictation-52d101b8306016475471.mp3",
+          "sourceKind": "section-b-1b",
+          "sourceLabel": "B部分1b阅读精选"
+        },
+        {
+          "id": "sentence-unit7-original-01",
+          "english": "We need some balloons for the birthday party.",
+          "chinese": "我们需要一些气球来布置生日聚会。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "balloon"
+          ],
+          "audioFile": "audio/sentence-dictation-c02c8d6debe01f1d9b1d.mp3"
+        },
+        {
+          "id": "sentence-unit7-original-02",
+          "english": "Close your eyes and make a wish.",
+          "chinese": "闭上眼睛，许个愿吧。",
+          "sourceKind": "original-extension",
+          "sourceLabel": "原创拓展",
+          "sourceLocator": "原创练习，非教材原文",
+          "verbatim": false,
+          "acceptedAnswers": [],
+          "focusWords": [
+            "make a wish"
+          ],
+          "audioFile": "audio/sentence-dictation-c2784e35d4ef6779a5f3.mp3"
+        }
+      ]
+    }
+  ]
+}

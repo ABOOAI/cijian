@@ -1,0 +1,2315 @@
+{
+  "schemaVersion": 1,
+  "phraseFiles": {
+    "col-001": "audio/collocation-col-001-phrase-fcedab0b729735f6c495.mp3",
+    "col-002": "audio/collocation-col-002-phrase-32d7913ddd5e3ac3bbe5.mp3",
+    "col-003": "audio/collocation-col-003-phrase-6839c471322d09c300fd.mp3",
+    "col-004": "audio/collocation-col-004-phrase-c0c17c6897272767a7cd.mp3",
+    "col-005": "audio/collocation-col-005-phrase-408b766cfc4e097357a3.mp3",
+    "col-006": "audio/collocation-col-006-phrase-9eaaf6732f9ef7541104.mp3",
+    "col-007": "audio/collocation-col-007-phrase-6450c33dab3a888472dd.mp3",
+    "col-008": "audio/collocation-col-008-phrase-50723615423af6c2fb64.mp3",
+    "col-009": "audio/collocation-col-009-phrase-992945fb905a1e03906c.mp3",
+    "col-010": "audio/collocation-col-010-phrase-791f2f444bac578144b1.mp3",
+    "col-011": "audio/collocation-col-011-phrase-4b27a60eeaa38529f8fc.mp3",
+    "col-012": "audio/collocation-col-012-phrase-9f5c3a17bfcc712d28e6.mp3",
+    "col-013": "audio/collocation-col-013-phrase-0575b9518d0a82aed9f2.mp3",
+    "col-014": "audio/collocation-col-014-phrase-609259fa01a65b3486e0.mp3",
+    "col-015": "audio/collocation-col-015-phrase-5a720fdc31102d2f459e.mp3",
+    "col-016": "audio/collocation-col-016-phrase-25504cc7dcae13b92af5.mp3",
+    "col-017": "audio/collocation-col-017-phrase-b80c789d8806b15d57c1.mp3",
+    "col-018": "audio/collocation-col-018-phrase-075b6612a82d9c4e5b3c.mp3",
+    "col-019": "audio/collocation-col-019-phrase-c4d960906131637aaa00.mp3",
+    "col-020": "audio/collocation-col-020-phrase-63c8c48d706129cc6029.mp3",
+    "col-021": "audio/collocation-col-021-phrase-eb7c41d813a6c2fbad51.mp3",
+    "col-022": "audio/collocation-col-022-phrase-8000aff7eccad890245a.mp3",
+    "col-023": "audio/collocation-col-023-phrase-f09db58a95f4b531739a.mp3",
+    "col-024": "audio/collocation-col-024-phrase-af382ab7444fca2d49c7.mp3",
+    "col-025": "audio/collocation-col-025-phrase-47c239e5570d78054ff9.mp3",
+    "col-026": "audio/collocation-col-026-phrase-3074d8971b978338e784.mp3",
+    "col-027": "audio/collocation-col-027-phrase-2d7fa6c54c585b6af6d4.mp3",
+    "col-028": "audio/collocation-col-028-phrase-86194aba94f93982394a.mp3",
+    "col-029": "audio/collocation-col-029-phrase-4fa9894c3124248282dc.mp3",
+    "col-030": "audio/collocation-col-030-phrase-8eccac4c71c313f9eda0.mp3",
+    "col-031": "audio/collocation-col-031-phrase-3da5671c21a8be677f1b.mp3",
+    "col-032": "audio/collocation-col-032-phrase-8aaf2d4ac5c42d9a354d.mp3",
+    "col-033": "audio/collocation-col-033-phrase-fcf3bce20edbf0ef32c0.mp3",
+    "col-034": "audio/collocation-col-034-phrase-a8deb41bc96289563e9c.mp3",
+    "col-035": "audio/collocation-col-035-phrase-4508b929d8013f8962d4.mp3",
+    "col-036": "audio/collocation-col-036-phrase-f1a11598db96c5a22525.mp3",
+    "col-037": "audio/collocation-col-037-phrase-6c47d62554e2602aaed9.mp3",
+    "col-038": "audio/collocation-col-038-phrase-e781baac424eb8ec3de4.mp3",
+    "col-039": "audio/collocation-col-039-phrase-073a97ca792cb9bdb8b2.mp3",
+    "col-040": "audio/collocation-col-040-phrase-7af958386265f8612399.mp3",
+    "col-041": "audio/collocation-col-041-phrase-f4318d1f2af5ce011624.mp3",
+    "col-042": "audio/collocation-col-042-phrase-48dfba2d7d58d224346d.mp3",
+    "col-043": "audio/collocation-col-043-phrase-eaf47f7928c3a5b8626e.mp3",
+    "col-044": "audio/collocation-col-044-phrase-9fc3dfa3c3c38e55b090.mp3",
+    "col-045": "audio/collocation-col-045-phrase-13a282102b948dab1b93.mp3",
+    "col-046": "audio/collocation-col-046-phrase-6e38d8a25c75d5695e61.mp3",
+    "col-047": "audio/collocation-col-047-phrase-c8f3266970d86e27d453.mp3",
+    "col-048": "audio/collocation-col-048-phrase-831f7ce77ce997200217.mp3",
+    "col-049": "audio/collocation-col-049-phrase-be1601248ac9a78fcc28.mp3",
+    "col-050": "audio/collocation-col-050-phrase-d3b1c3393dc684d48f82.mp3",
+    "col-051": "audio/collocation-col-051-phrase-4ccac63251ecbb6ad9ee.mp3",
+    "col-052": "audio/collocation-col-052-phrase-dbbc522ad3de6ff8ada4.mp3",
+    "col-053": "audio/collocation-col-053-phrase-b45116f690c48b750266.mp3",
+    "col-054": "audio/collocation-col-054-phrase-13443b81186ed29cb1b3.mp3",
+    "col-055": "audio/collocation-col-055-phrase-f599680502ac4f173dd0.mp3",
+    "col-056": "audio/collocation-col-056-phrase-ae014349be143e92f439.mp3",
+    "col-057": "audio/collocation-col-057-phrase-bd12f6bff54e0ceea2a1.mp3",
+    "col-058": "audio/collocation-col-058-phrase-aad4787b0625dd94aebd.mp3",
+    "col-059": "audio/collocation-col-059-phrase-2db1dce504f29bbc5132.mp3",
+    "col-060": "audio/collocation-col-060-phrase-f52339b196ab10a1e30a.mp3"
+  },
+  "exampleFiles": {
+    "col-001": "audio/collocation-col-001-example-2889e8e0c33e95de7ec0.mp3",
+    "col-002": "audio/collocation-col-002-example-9df5d5478dc3d94f0e67.mp3",
+    "col-003": "audio/collocation-col-003-example-a8ac9ae7832f7ed1a57f.mp3",
+    "col-004": "audio/collocation-col-004-example-67e4a4406ce7521e849a.mp3",
+    "col-005": "audio/collocation-col-005-example-d9d8151bb4767438e232.mp3",
+    "col-006": "audio/collocation-col-006-example-9f521ca4808815f33485.mp3",
+    "col-007": "audio/collocation-col-007-example-f5add39db6d37787f0a8.mp3",
+    "col-008": "audio/collocation-col-008-example-33c6b08e611390071592.mp3",
+    "col-009": "audio/collocation-col-009-example-71fcd413065425c8d84c.mp3",
+    "col-010": "audio/collocation-col-010-example-87b84e745fce71ff79f2.mp3",
+    "col-011": "audio/collocation-col-011-example-ea58ce6b2f3817779eb8.mp3",
+    "col-012": "audio/collocation-col-012-example-fbfbf75758c2576e7c0a.mp3",
+    "col-013": "audio/collocation-col-013-example-301fd6df45fb34f38bd0.mp3",
+    "col-014": "audio/collocation-col-014-example-e5b164382cc20577916f.mp3",
+    "col-015": "audio/collocation-col-015-example-0383dae5b6d741807726.mp3",
+    "col-016": "audio/collocation-col-016-example-33377e49c6e86db577a3.mp3",
+    "col-017": "audio/collocation-col-017-example-876f0e688f408b97eb48.mp3",
+    "col-018": "audio/collocation-col-018-example-4f266561984393043a4e.mp3",
+    "col-019": "audio/collocation-col-019-example-5d5ed92c00ab7a84fb88.mp3",
+    "col-020": "audio/collocation-col-020-example-7e489bc5c8ed5db0c1b0.mp3",
+    "col-021": "audio/collocation-col-021-example-b0b1faf165874d7a6e1e.mp3",
+    "col-022": "audio/collocation-col-022-example-c3c47d55d41566d8c351.mp3",
+    "col-023": "audio/collocation-col-023-example-8e42dbc34238a34a2361.mp3",
+    "col-024": "audio/collocation-col-024-example-5231e7277060f0e67744.mp3",
+    "col-025": "audio/collocation-col-025-example-123fa172d8ed5537f1c2.mp3",
+    "col-026": "audio/collocation-col-026-example-f1e0cd8c3413f231a69e.mp3",
+    "col-027": "audio/collocation-col-027-example-a56c8239c93609393efa.mp3",
+    "col-028": "audio/collocation-col-028-example-3023a98cb81cdcc08276.mp3",
+    "col-029": "audio/collocation-col-029-example-13e1a5c54e03d0d9cfc5.mp3",
+    "col-030": "audio/collocation-col-030-example-cb05971dd2108d6c9aaf.mp3",
+    "col-031": "audio/collocation-col-031-example-0f7ee838e06df7315b3b.mp3",
+    "col-032": "audio/collocation-col-032-example-2b55e46ca65424cfebe6.mp3",
+    "col-033": "audio/collocation-col-033-example-42343de5cd99f7f4a3e8.mp3",
+    "col-034": "audio/collocation-col-034-example-f85c129f58328f83e9f8.mp3",
+    "col-035": "audio/collocation-col-035-example-936aa28b1ede0c05506b.mp3",
+    "col-036": "audio/collocation-col-036-example-e191b929b6a4f6be8e6b.mp3",
+    "col-037": "audio/collocation-col-037-example-e54b2d83022dc0f6e2ff.mp3",
+    "col-038": "audio/collocation-col-038-example-d175a6069cb2ad4c9f73.mp3",
+    "col-039": "audio/collocation-col-039-example-a894e274963da37702f9.mp3",
+    "col-040": "audio/collocation-col-040-example-ea847b95384eab4e1677.mp3",
+    "col-041": "audio/collocation-col-041-example-1ad58815c144ad3dcf61.mp3",
+    "col-042": "audio/collocation-col-042-example-a967f2a1c2d47b663c6e.mp3",
+    "col-043": "audio/collocation-col-043-example-e37236f7330ad15890a8.mp3",
+    "col-044": "audio/collocation-col-044-example-63b370a931ec4c2ac6a9.mp3",
+    "col-045": "audio/collocation-col-045-example-16058cd6dc755685c204.mp3",
+    "col-046": "audio/collocation-col-046-example-a2ed3c67dbcef354d657.mp3",
+    "col-047": "audio/collocation-col-047-example-6667afb1ebcd6d67d141.mp3",
+    "col-048": "audio/collocation-col-048-example-3dcdbf65ab64fd77ae49.mp3",
+    "col-049": "audio/collocation-col-049-example-1a20b95f86de6e39de41.mp3",
+    "col-050": "audio/collocation-col-050-example-6606f286ca2b9d6291af.mp3",
+    "col-051": "audio/collocation-col-051-example-efd13053b2e0b6a164de.mp3",
+    "col-052": "audio/collocation-col-052-example-e3b25aae97725d0a45e2.mp3",
+    "col-053": "audio/collocation-col-053-example-e939ca4c9922563424c6.mp3",
+    "col-054": "audio/collocation-col-054-example-60a58d685d7fe8bffe54.mp3",
+    "col-055": "audio/collocation-col-055-example-5a7677f3e44e9cd2b03b.mp3",
+    "col-056": "audio/collocation-col-056-example-df8ff7a3bc55904e1856.mp3",
+    "col-057": "audio/collocation-col-057-example-4ad0b2f2755a3bfd2ac5.mp3",
+    "col-058": "audio/collocation-col-058-example-4b665b22e1ba25f58d11.mp3",
+    "col-059": "audio/collocation-col-059-example-55bfccdc1bb02b715a36.mp3",
+    "col-060": "audio/collocation-col-060-example-6009fa8eab66d722a8d0.mp3"
+  },
+  "entries": [
+    {
+      "id": "col-001",
+      "kind": "phrase",
+      "text": "be good at doing something",
+      "speakText": "be good at doing something",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-001-phrase-fcedab0b729735f6c495.mp3",
+      "sha256": "750d2bc05f3cac78b94af9390a90270438604eeef14173cdb5a022f99c91a556",
+      "textSha256": "e8df654f996261966fac6fae462f53b86fc0c134db0e25d16536e6cfe3fced17",
+      "durationSeconds": 2.088,
+      "bytes": 33836,
+      "decodeValid": true,
+      "peakAmplitude": 0.31126946210861206,
+      "phonemes": [
+        "bi ɡˈʊd æt dˈuɪŋ sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-001",
+      "kind": "example",
+      "text": "Mia is good at drawing animals.",
+      "speakText": "Mia is good at drawing animals.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-001-example-2889e8e0c33e95de7ec0.mp3",
+      "sha256": "0016c31519ae0b09bac4d9f4ebb7b1e79b69b0f8b2039b2ad63b50690bdac343",
+      "textSha256": "c5616c4e91970a16cde7965dd9558cfecd1f39217a645e853a89abcd7e6187bb",
+      "durationSeconds": 2.592,
+      "bytes": 41900,
+      "decodeValid": true,
+      "peakAmplitude": 0.23135602474212646,
+      "phonemes": [
+        "mˈiə ɪz ɡˈʊd æt dɹˈYŋ ˈænəmᵊlz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-002",
+      "kind": "phrase",
+      "text": "be interested in something",
+      "speakText": "be interested in something",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-002-phrase-32d7913ddd5e3ac3bbe5.mp3",
+      "sha256": "89ecc4def8c56fd5a143a1970daed1a69c3889fa46e659b4e5e13d9dfbb905c1",
+      "textSha256": "79b2c77604874024e63174f6d7d7a77320d04e17ccc6c84a35163e17cad3c8ad",
+      "durationSeconds": 2.64,
+      "bytes": 42668,
+      "decodeValid": true,
+      "peakAmplitude": 0.4511628746986389,
+      "phonemes": [
+        "bi ˈɪntɹəstᵻd ɪn sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-002",
+      "kind": "example",
+      "text": "I am interested in space.",
+      "speakText": "I am interested in space.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-002-example-9df5d5478dc3d94f0e67.mp3",
+      "sha256": "2cea67ccf98907f940faa9b57af10b7086ea731ed1d036feb58a03f01f114155",
+      "textSha256": "a73d0c834affd18ddcb4f67354cbdc5a8c83ed96fe241fe40cb868d8ace492ed",
+      "durationSeconds": 2.784,
+      "bytes": 44972,
+      "decodeValid": true,
+      "peakAmplitude": 0.6008324027061462,
+      "phonemes": [
+        "ˌI ɐm ˈɪntɹəstᵻd ɪn spˈAs."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-003",
+      "kind": "phrase",
+      "text": "spend time doing something",
+      "speakText": "spend time doing something",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-003-phrase-6839c471322d09c300fd.mp3",
+      "sha256": "5062b6e20b1ef208b73f338c96f4e6bc4fa8b04a33cc465520b790ce3a7ec63f",
+      "textSha256": "56baae20f1052f37675e9dfc1c4e3f49ccb3fcb4bbefd763d2c24e6543e3f673",
+      "durationSeconds": 2.208,
+      "bytes": 35756,
+      "decodeValid": true,
+      "peakAmplitude": 0.3210654854774475,
+      "phonemes": [
+        "spˈɛnd tˈIm dˈuɪŋ sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-003",
+      "kind": "example",
+      "text": "I spend ten minutes reading every morning.",
+      "speakText": "I spend ten minutes reading every morning.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-003-example-a8ac9ae7832f7ed1a57f.mp3",
+      "sha256": "1e65956cd172a7e46221aec0aea8e48dd89157dffbfea3d009915f4bab548b1c",
+      "textSha256": "1bad408f803cb36ad8c06c6a5173ddaa4955c34fa620b69e53977255c77ee34b",
+      "durationSeconds": 3.048,
+      "bytes": 49196,
+      "decodeValid": true,
+      "peakAmplitude": 0.4523704946041107,
+      "phonemes": [
+        "ˌI spˈɛnd tˈɛn mˈɪnəts ɹˈidɪŋ ˈɛvəɹi mˈɔɹnɪŋ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-004",
+      "kind": "phrase",
+      "text": "listen to",
+      "speakText": "listen to",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-004-phrase-c0c17c6897272767a7cd.mp3",
+      "sha256": "5e5e73cf99b6b31c268af777b59968150cb73a918d1a043f1bafb4863a706020",
+      "textSha256": "f05aa0395754a45e640c42192ad2ebb5b8b740f4febe5ef52bb944e4c1658865",
+      "durationSeconds": 1.992,
+      "bytes": 32300,
+      "decodeValid": true,
+      "peakAmplitude": 0.44146227836608887,
+      "phonemes": [
+        "lˈɪsᵊn tu"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-004",
+      "kind": "example",
+      "text": "We listen to a short story after lunch.",
+      "speakText": "We listen to a short story after lunch.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-004-example-67e4a4406ce7521e849a.mp3",
+      "sha256": "4d3de9da3d4dc4a4434ec83a4d402de50dd35d3c2f4296924e7c0af1e2bcc2bc",
+      "textSha256": "ec73ff259ca1204f1f337a4123576433474741ac42c6fe05560c16ab7ac39116",
+      "durationSeconds": 3.336,
+      "bytes": 53804,
+      "decodeValid": true,
+      "peakAmplitude": 0.37601789832115173,
+      "phonemes": [
+        "wˌi lˈɪsᵊn tə ɐ ʃˈɔɹt stˈɔɹi ˈæftəɹ lˈʌnʧ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-005",
+      "kind": "phrase",
+      "text": "look at",
+      "speakText": "look at",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-005-phrase-408b766cfc4e097357a3.mp3",
+      "sha256": "31d6736ca93991d9bbd237c0c43990e0ff7e69c44b45fd26b80e7a952c37aaaf",
+      "textSha256": "2cc56642d9a6a07288b198b0e9961007e75d268746d420a08df4921f60c478ce",
+      "durationSeconds": 1.512,
+      "bytes": 24620,
+      "decodeValid": true,
+      "peakAmplitude": 0.2912757396697998,
+      "phonemes": [
+        "lˈʊk æt"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-005",
+      "kind": "example",
+      "text": "Please look at the green sign.",
+      "speakText": "Please look at the green sign.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-005-example-d9d8151bb4767438e232.mp3",
+      "sha256": "c2aa4c438b608bc18abb953943c306de12fb173219adb894314db49ca64f1e07",
+      "textSha256": "e4b41215a90a22ce021c4f15848fc02c5db87bc1413546b037b2e512caa9c47d",
+      "durationSeconds": 2.376,
+      "bytes": 38444,
+      "decodeValid": true,
+      "peakAmplitude": 0.36852899193763733,
+      "phonemes": [
+        "plˈiz lˈʊk æt ðə ɡɹˈin sˈIn."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-006",
+      "kind": "phrase",
+      "text": "make friends",
+      "speakText": "make friends",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-006-phrase-9eaaf6732f9ef7541104.mp3",
+      "sha256": "cfdd0878caefa07afd0401bf731b8d0a8c9552c23d1b902dd85eb838d4fee8ae",
+      "textSha256": "6b4282d907ac4b283b7713ed20527e3e8153195f693844d7fa579f42667b8c68",
+      "durationSeconds": 1.92,
+      "bytes": 31148,
+      "decodeValid": true,
+      "peakAmplitude": 0.376661479473114,
+      "phonemes": [
+        "mˌAk fɹˈɛndz"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-006",
+      "kind": "example",
+      "text": "It is easy to make friends in our club.",
+      "speakText": "It is easy to make friends in our club.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-006-example-9f521ca4808815f33485.mp3",
+      "sha256": "4ac630180d10085e29ac9a4c53996923672abca752cc7e00d74a682eaa859bad",
+      "textSha256": "85cce738976ba6f23be44717b1fcb4ca383427b70da63e9bccc02ee41b93f23d",
+      "durationSeconds": 3.408,
+      "bytes": 54956,
+      "decodeValid": true,
+      "peakAmplitude": 0.41618120670318604,
+      "phonemes": [
+        "ˌɪt ɪz ˈizi tə mˌAk fɹˈɛndz ɪn ˌWəɹ klˈʌb."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-007",
+      "kind": "phrase",
+      "text": "get to know",
+      "speakText": "get to know",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-007-phrase-6450c33dab3a888472dd.mp3",
+      "sha256": "9732b39bfecdc36e575a3f8677471e469780dd10f575619af523d8f12b10adc2",
+      "textSha256": "ba58e5519f64d78eb6e57330b0db5a673123d41f8c2f5675aae70298e502abd0",
+      "durationSeconds": 1.776,
+      "bytes": 28844,
+      "decodeValid": true,
+      "peakAmplitude": 0.3559267520904541,
+      "phonemes": [
+        "ɡɛt tə nˈO"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-007",
+      "kind": "example",
+      "text": "Group games help us get to know each other.",
+      "speakText": "Group games help us get to know each other.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-007-example-f5add39db6d37787f0a8.mp3",
+      "sha256": "b4c7bc534af07cbfa4433f9581c25f0f10b452fbaa7069883669e4bbbd28f858",
+      "textSha256": "a4adef690ca9079dfd962cb7e125073d33198076e3ccca477d927b78ed0e8c40",
+      "durationSeconds": 2.952,
+      "bytes": 47660,
+      "decodeValid": true,
+      "peakAmplitude": 0.3186507225036621,
+      "phonemes": [
+        "ɡɹˈup ɡˈAmz hˈɛlp ˌʌs ɡɛt tə nˈO ˈiʧ ˈʌðəɹ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-008",
+      "kind": "phrase",
+      "text": "play the guitar",
+      "speakText": "play the guitar",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-008-phrase-50723615423af6c2fb64.mp3",
+      "sha256": "9b916adeb96374b207c3ccf08a4ecdf5d7bd3896e2496d379f11206c1bae76a1",
+      "textSha256": "eb5394ea6f65bc23847ab39cc7a12e83b83c302123ff3d18ef1af0012744e117",
+      "durationSeconds": 1.944,
+      "bytes": 31532,
+      "decodeValid": true,
+      "peakAmplitude": 0.4326138496398926,
+      "phonemes": [
+        "plˈA ðə ɡətˈɑɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-008",
+      "kind": "example",
+      "text": "My aunt can play the guitar.",
+      "speakText": "My aunt can play the guitar.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-008-example-33c6b08e611390071592.mp3",
+      "sha256": "5100352d4c89b7b04d2f2e7b67798d8d3e5e1c83ed51e18b41bdabbc78ba4b21",
+      "textSha256": "7d0352a69e901d88f0068c2285b52668ad58776425002b92b6349bb55684283f",
+      "durationSeconds": 2.832,
+      "bytes": 45740,
+      "decodeValid": true,
+      "peakAmplitude": 0.4015347957611084,
+      "phonemes": [
+        "mˌI ˈænt kæn plˈA ðə ɡətˈɑɹ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-009",
+      "kind": "phrase",
+      "text": "would like to do something",
+      "speakText": "would like to do something",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-009-phrase-992945fb905a1e03906c.mp3",
+      "sha256": "dcc0b05a1ba2eb5488ab661aabd1a39a0a1e640967e6f8c0c03b035989e21821",
+      "textSha256": "9ee248afa8529e895f703994af3f38030a395923d76e07ce2fbc5fca68464843",
+      "durationSeconds": 2.112,
+      "bytes": 34220,
+      "decodeValid": true,
+      "peakAmplitude": 0.38546693325042725,
+      "phonemes": [
+        "wʊd lˈIk tə dˈu sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-009",
+      "kind": "example",
+      "text": "I would like to join the art club.",
+      "speakText": "I would like to join the art club.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-009-example-71fcd413065425c8d84c.mp3",
+      "sha256": "3659a8be5c884e04cb15d4595a132704a2569f9af4997e767d3f79774f8017d5",
+      "textSha256": "aaa56ec761a76c520dda9d6bcb6ff1bcf4a5db1d03a7d7bb2b10d339fbeca261",
+      "durationSeconds": 2.52,
+      "bytes": 40748,
+      "decodeValid": true,
+      "peakAmplitude": 0.35546422004699707,
+      "phonemes": [
+        "ˌI wʊd lˈIk tə ʤˈYn ði ˈɑɹt klˈʌb."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-010",
+      "kind": "phrase",
+      "text": "play ping-pong",
+      "speakText": "play ping-pong",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-010-phrase-791f2f444bac578144b1.mp3",
+      "sha256": "053e0ca78903f7370863707c61946b2b465ff5131922252fe09b26cb726ca4ca",
+      "textSha256": "05c92b43d3c0a5e2a8151e285e4c7cb65e44125eec550a7dea53e488b03479d5",
+      "durationSeconds": 1.92,
+      "bytes": 31148,
+      "decodeValid": true,
+      "peakAmplitude": 0.43521419167518616,
+      "phonemes": [
+        "plˈA pˈɪŋpˌɔŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-010",
+      "kind": "example",
+      "text": "We play ping-pong in the park.",
+      "speakText": "We play ping-pong in the park.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-010-example-87b84e745fce71ff79f2.mp3",
+      "sha256": "aa2653ab1842911c2c3b7bf3e61bedfb7f83ad361dd0ba7393918482a7430b6a",
+      "textSha256": "c167fefd946ebbf8e9fe88012683caedc367276f7af0d1bb6dccab77758f6769",
+      "durationSeconds": 2.736,
+      "bytes": 44204,
+      "decodeValid": true,
+      "peakAmplitude": 0.5117015838623047,
+      "phonemes": [
+        "wˌi plˈA pˈɪŋpˌɔŋ ɪn ðə pˈɑɹk."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-011",
+      "kind": "phrase",
+      "text": "a lot of",
+      "speakText": "a lot of",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-011-phrase-4b27a60eeaa38529f8fc.mp3",
+      "sha256": "b5b5535dd04aee9c96900b8e0d493886183b3a19b873cbd3dfe6ddaa706153c0",
+      "textSha256": "f2f0174164005261ccc9320b29854abb711490089038846307861e94e21712bb",
+      "durationSeconds": 1.56,
+      "bytes": 25388,
+      "decodeValid": true,
+      "peakAmplitude": 0.3039751946926117,
+      "phonemes": [
+        "ɐ lˈɑt ʌv"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-011",
+      "kind": "example",
+      "text": "There are a lot of books in this room.",
+      "speakText": "There are a lot of books in this room.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-011-example-ea58ce6b2f3817779eb8.mp3",
+      "sha256": "2911440802abbbfd1b607518a96686310d99bad40c346ab01ca1854ad813aa17",
+      "textSha256": "a365c2eb014039626fbb108368152906cff4c52738053df1ebae77cd3ba86045",
+      "durationSeconds": 2.424,
+      "bytes": 39212,
+      "decodeValid": true,
+      "peakAmplitude": 0.26345720887184143,
+      "phonemes": [
+        "ðˌɛɹ ɑɹ ɐ lˈɑt ʌv bˈʊks ɪn ðɪs ɹˈum."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-012",
+      "kind": "phrase",
+      "text": "have fun",
+      "speakText": "have fun",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-012-phrase-9f5c3a17bfcc712d28e6.mp3",
+      "sha256": "eb5b43b73392b59c1f68e7769ac7f87b42e468f47a78d73cf4ed9cc551843854",
+      "textSha256": "9aa3e52bffcea6dc491aff9b77862780146acae27a22f451eb650e053f8abf71",
+      "durationSeconds": 1.68,
+      "bytes": 27308,
+      "decodeValid": true,
+      "peakAmplitude": 0.4380689263343811,
+      "phonemes": [
+        "hæv fˈʌn"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-012",
+      "kind": "example",
+      "text": "The children have fun in the garden.",
+      "speakText": "The children have fun in the garden.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-012-example-fbfbf75758c2576e7c0a.mp3",
+      "sha256": "e67a18c9def704a94b3696546c1762e9a023e8f3004043c32ca373c99409d9c7",
+      "textSha256": "864ff7598fb175c22cc8b705c247b4274de1e9a37ea79c19bc50059f53c7fe79",
+      "durationSeconds": 2.976,
+      "bytes": 48044,
+      "decodeValid": true,
+      "peakAmplitude": 0.413877010345459,
+      "phonemes": [
+        "ðə ʧˈɪldɹᵊn hæv fˈʌn ɪn ðə ɡˈɑɹdən."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-013",
+      "kind": "phrase",
+      "text": "at night",
+      "speakText": "at night",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-013-phrase-0575b9518d0a82aed9f2.mp3",
+      "sha256": "395cf11b9fce6e6d652ade6bbe6f4ce64813a68cdab00e55b9e0b5ed0d6d608b",
+      "textSha256": "71c3ba883305b1df38701060478c86ec958116494492d0c5ca0b4eed1cde0266",
+      "durationSeconds": 1.632,
+      "bytes": 26540,
+      "decodeValid": true,
+      "peakAmplitude": 0.4501270651817322,
+      "phonemes": [
+        "æt nˈIt"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-013",
+      "kind": "example",
+      "text": "Some animals look for food at night.",
+      "speakText": "Some animals look for food at night.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-013-example-301fd6df45fb34f38bd0.mp3",
+      "sha256": "4f7e9a37f14b452da33e1c8ecf3fb3a94342cc8930aa65745b6334e68a9354d7",
+      "textSha256": "af75e3063df736a9db4c0a53a54e6f9373308d84492379d8db15751b316c334a",
+      "durationSeconds": 2.736,
+      "bytes": 44204,
+      "decodeValid": true,
+      "peakAmplitude": 0.3292448818683624,
+      "phonemes": [
+        "sˌʌm ˈænəmᵊlz lˈʊk fɔɹ fˈud æt nˈIt."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-014",
+      "kind": "phrase",
+      "text": "next to",
+      "speakText": "next to",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-014-phrase-609259fa01a65b3486e0.mp3",
+      "sha256": "26d12576dc11a3ac46377bf8a3b3145b8b6f670f4c2c8252689b2ecfa1bcec3c",
+      "textSha256": "b032a8abd93a9cb1816c8dc4b793888891fb2157895435fed9f4ca1ed77576cd",
+      "durationSeconds": 1.776,
+      "bytes": 28844,
+      "decodeValid": true,
+      "peakAmplitude": 0.46478721499443054,
+      "phonemes": [
+        "nˈɛkst tu"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-014",
+      "kind": "example",
+      "text": "The lamp is next to my bed.",
+      "speakText": "The lamp is next to my bed.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-014-example-e5b164382cc20577916f.mp3",
+      "sha256": "c4f3dbe24970dca786f3771526f3bcc818ab6305af45e3b9073157394e68d30d",
+      "textSha256": "a71f938b7980b609dddf456d7d31b223cf00d41e800c61cf48e562e7327e28f4",
+      "durationSeconds": 2.712,
+      "bytes": 43820,
+      "decodeValid": true,
+      "peakAmplitude": 0.29038387537002563,
+      "phonemes": [
+        "ðə lˈæmp ɪz nˈɛkst tə mI bˈɛd."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-015",
+      "kind": "phrase",
+      "text": "in front of",
+      "speakText": "in front of",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-015-phrase-5a720fdc31102d2f459e.mp3",
+      "sha256": "a8e3fe0236c45481e73e957b2a4938c8e483d6ba50b3e153a40cce0758e2544e",
+      "textSha256": "4d8ec8b91d6e8ec1b5eccc87ac6ea504ab0e6200a1688d128d2ec9d0e47e77ee",
+      "durationSeconds": 1.656,
+      "bytes": 26924,
+      "decodeValid": true,
+      "peakAmplitude": 0.4219461679458618,
+      "phonemes": [
+        "ɪn fɹˈʌnt ʌv"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-015",
+      "kind": "example",
+      "text": "There is a tree in front of our house.",
+      "speakText": "There is a tree in front of our house.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-015-example-0383dae5b6d741807726.mp3",
+      "sha256": "d12b6c34cebfe4bd6515b2489edc95ccfab48d15e046f41ef35ebbfc62ba3d66",
+      "textSha256": "f6e97e7ebd4d3029ecfaff1914106538ff9b402efaccc028a9a32fbe895e6df7",
+      "durationSeconds": 2.664,
+      "bytes": 43052,
+      "decodeValid": true,
+      "peakAmplitude": 0.29833167791366577,
+      "phonemes": [
+        "ðˌɛɹ ɪz ɐ tɹˈi ɪn fɹˈʌnt ʌv ˌWəɹ hˈWs."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-016",
+      "kind": "phrase",
+      "text": "in the middle of",
+      "speakText": "in the middle of",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-016-phrase-25504cc7dcae13b92af5.mp3",
+      "sha256": "824a525074299caae21e5544fb93cf0078c6b8f32e006043fbdfdce7ab2fde4f",
+      "textSha256": "f4ce2522775afacaed5b009ed22a4b2c6c2c6135f1f16c4b293a1f1dce4b744f",
+      "durationSeconds": 2.016,
+      "bytes": 32684,
+      "decodeValid": true,
+      "peakAmplitude": 0.35082337260246277,
+      "phonemes": [
+        "ɪn ðə mˈɪdᵊl ʌv"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-016",
+      "kind": "example",
+      "text": "A round table stands in the middle of the room.",
+      "speakText": "A round table stands in the middle of the room.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-016-example-33377e49c6e86db577a3.mp3",
+      "sha256": "36c8dde3850327e890d847adf7ca49cd4ec513316b0ea176a10f5283b1d59282",
+      "textSha256": "ffa4a04e99a05d53296a97331c843740ca3d4e313af9395f682ef510af9b95d9",
+      "durationSeconds": 3.72,
+      "bytes": 59948,
+      "decodeValid": true,
+      "peakAmplitude": 0.3539494574069977,
+      "phonemes": [
+        "ɐ ɹˈWnd tˈAbᵊl stˈændz ɪn ðə mˈɪdᵊl ʌv ðə ɹˈum."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-017",
+      "kind": "phrase",
+      "text": "across from",
+      "speakText": "across from",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-017-phrase-b80c789d8806b15d57c1.mp3",
+      "sha256": "ed7a84aaefa1679092548aa44174491ffbc3d78241878117e91f5eef2d84d0ca",
+      "textSha256": "f0b3e619501e3c960b84cd8a247c6635d36e74d35d6a8bdca7944db245196b6c",
+      "durationSeconds": 1.824,
+      "bytes": 29612,
+      "decodeValid": true,
+      "peakAmplitude": 0.4196026921272278,
+      "phonemes": [
+        "əkɹˈɔs fɹʌm"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-017",
+      "kind": "example",
+      "text": "The bakery is across from the bank.",
+      "speakText": "The bakery is across from the bank.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-017-example-876f0e688f408b97eb48.mp3",
+      "sha256": "35f7df5945b2dc5c1e45d89fc65e5a837fb4b88037f7bd1ca3b8e6d6258bf066",
+      "textSha256": "949d3ffdd59c7e2a446c264f8bf63d3e30368ba2f2465d93fe0f6af0aad5192e",
+      "durationSeconds": 2.808,
+      "bytes": 45356,
+      "decodeValid": true,
+      "peakAmplitude": 0.3307569622993469,
+      "phonemes": [
+        "ðə bˈAkəɹi ɪz əkɹˈɔs fɹʌm ðə bˈæŋk."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-018",
+      "kind": "phrase",
+      "text": "put up",
+      "speakText": "put up",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-018-phrase-075b6612a82d9c4e5b3c.mp3",
+      "sha256": "aee4242c02b196973bddbedf253f6d49adbfb08c840e8f077696f9f6315145a6",
+      "textSha256": "0e48febf0efadd5bb2893159557f3a276d05ad8124cf8c77507a4ff978bbe7df",
+      "durationSeconds": 1.416,
+      "bytes": 23084,
+      "decodeValid": true,
+      "peakAmplitude": 0.3321431875228882,
+      "phonemes": [
+        "pˌʊt ˌʌp"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-018",
+      "kind": "example",
+      "text": "We put up a new notice near the door.",
+      "speakText": "We put up a new notice near the door.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-018-example-4f266561984393043a4e.mp3",
+      "sha256": "9ee24b87069ef849c49e017b27be3c7ac039fe999a139d9bb9bad13242a3b7b5",
+      "textSha256": "cbbc6667dc5b2719b66b169871b183c88f8cd464bf77f503b690827ac90bea36",
+      "durationSeconds": 3.408,
+      "bytes": 54956,
+      "decodeValid": true,
+      "peakAmplitude": 0.4809483289718628,
+      "phonemes": [
+        "wˌi pˌʊt ˌʌp ɐ nˈu nˈOTəs nˌɪɹ ðə dˈɔɹ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-019",
+      "kind": "phrase",
+      "text": "at the back of",
+      "speakText": "at the back of",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-019-phrase-c4d960906131637aaa00.mp3",
+      "sha256": "d64ff395d4e64cc39ee6a628f870b88221af9ccd6446522d9936db2eec1bd2ea",
+      "textSha256": "8509fb90828fd29d7e04562b9e5911a8ede5cb4cc07a65af6129826fc1369451",
+      "durationSeconds": 1.752,
+      "bytes": 28460,
+      "decodeValid": true,
+      "peakAmplitude": 0.3341746926307678,
+      "phonemes": [
+        "æt ðə bˈæk ʌv"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-019",
+      "kind": "example",
+      "text": "The spare chairs are at the back of the hall.",
+      "speakText": "The spare chairs are at the back of the hall.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-019-example-5d5ed92c00ab7a84fb88.mp3",
+      "sha256": "d67ec6d4e2ee0935393f56614a2e73ef3bca11fb240ad9f7e0905df59bccf605",
+      "textSha256": "7db31141724d994a63fb01f25910a6e4b5fe677c7a34a6c80c43bfd8fab5350f",
+      "durationSeconds": 2.904,
+      "bytes": 46892,
+      "decodeValid": true,
+      "peakAmplitude": 0.30117547512054443,
+      "phonemes": [
+        "ðə spˈɛɹ ʧˈɛɹz ɑɹ æt ðə bˈæk ʌv ðə hˈɔl."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-020",
+      "kind": "phrase",
+      "text": "at school",
+      "speakText": "at school",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-020-phrase-63c8c48d706129cc6029.mp3",
+      "sha256": "c2c23f97d86da1bb24956696e15254a545bb7fc9d98d5fa5f37ab7f9ca194e8a",
+      "textSha256": "0a9c1b69fb9cd906e1f05241f34d9b775d7f7624cd108bd9c38901c7b269335d",
+      "durationSeconds": 1.776,
+      "bytes": 28844,
+      "decodeValid": true,
+      "peakAmplitude": 0.41027432680130005,
+      "phonemes": [
+        "æt skˈul"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-020",
+      "kind": "example",
+      "text": "We eat lunch at school on weekdays.",
+      "speakText": "We eat lunch at school on weekdays.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-020-example-7e489bc5c8ed5db0c1b0.mp3",
+      "sha256": "50f06ba39c96facd3e8a98f2bb63c602d60f6eb32d2f860dc3e92c603edb688a",
+      "textSha256": "bebebceb634d05c2fd8d576f5bab679116ee96815298e0e83cd4a8e34c3f2f1d",
+      "durationSeconds": 3.264,
+      "bytes": 52652,
+      "decodeValid": true,
+      "peakAmplitude": 0.4854496717453003,
+      "phonemes": [
+        "wˌi ˈit lˈʌnʧ æt skˈul ˌɔn wˈikdˌAz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-021",
+      "kind": "phrase",
+      "text": "do exercises",
+      "speakText": "do exercises",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-021-phrase-eb7c41d813a6c2fbad51.mp3",
+      "sha256": "be44d9938a1acdef84c5d2a13e422b23ea73026aa0ed59ff6ed69012eda5ef00",
+      "textSha256": "f5bbcaae364accb101bf4ac2903f15bb6dad944721ba5b65218c13435095c815",
+      "durationSeconds": 2.112,
+      "bytes": 34220,
+      "decodeValid": true,
+      "peakAmplitude": 0.7446058392524719,
+      "phonemes": [
+        "dˈu ˈɛksəɹsˌIzᵻz"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-021",
+      "kind": "example",
+      "text": "We do exercises in the playground each morning.",
+      "speakText": "We do exercises in the playground each morning.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-021-example-b0b1faf165874d7a6e1e.mp3",
+      "sha256": "89d8792a6bd5d319d586deb371c61395f65b5f905a8bbb3359dc26f7d12d79ae",
+      "textSha256": "ece705cf8c73d53feeec7dee9a173ec06aac41ccd0042e25b731f6e65ac93ad1",
+      "durationSeconds": 3.792,
+      "bytes": 61100,
+      "decodeValid": true,
+      "peakAmplitude": 0.706933319568634,
+      "phonemes": [
+        "wˌi dˈu ˈɛksəɹsˌIzᵻz ɪn ðə plˈAɡɹˌWnd ˈiʧ mˈɔɹnɪŋ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-022",
+      "kind": "phrase",
+      "text": "how about doing something",
+      "speakText": "how about doing something",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-022-phrase-8000aff7eccad890245a.mp3",
+      "sha256": "0cdb17f62faa480aa23b498128e6c0404383eebafc68c37933e0ddeae9c45834",
+      "textSha256": "891910e4b2bb3ad244a8bb541bcd13145d76217d05432a65d94725eb3cff308f",
+      "durationSeconds": 2.376,
+      "bytes": 38444,
+      "decodeValid": true,
+      "peakAmplitude": 0.36367326974868774,
+      "phonemes": [
+        "hˌW əbˈWt dˈuɪŋ sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-022",
+      "kind": "example",
+      "text": "How about making a birthday card?",
+      "speakText": "How about making a birthday card?",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-022-example-c3c47d55d41566d8c351.mp3",
+      "sha256": "db1f3d9ab0304f07a00037967c8cecb28848282d953ea859eed7d9c24f5a9ed0",
+      "textSha256": "233b4330a6a5e5429fb3db1032834d72e56e0b9e8f24542c5968872221141521",
+      "durationSeconds": 3.096,
+      "bytes": 49964,
+      "decodeValid": true,
+      "peakAmplitude": 0.35894620418548584,
+      "phonemes": [
+        "hˌW əbˈWt mˈAkɪŋ ɐ bˈɜɹθdˌA kˈɑɹd?"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-023",
+      "kind": "phrase",
+      "text": "help somebody with something",
+      "speakText": "help somebody with something",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-023-phrase-f09db58a95f4b531739a.mp3",
+      "sha256": "58b14ea41bfcbe766d006ca5d6f4352df66ea8b0e7a3468f7d2bf0eb41cb3ed4",
+      "textSha256": "a01f3a8d49d671aed6cba764ca205536ba09caa4ad51b79821652f0ed30014d9",
+      "durationSeconds": 2.232,
+      "bytes": 36140,
+      "decodeValid": true,
+      "peakAmplitude": 0.316656231880188,
+      "phonemes": [
+        "hˈɛlp sˈʌmbədi wɪð sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-023",
+      "kind": "example",
+      "text": "My brother helps me with my maths.",
+      "speakText": "My brother helps me with my maths.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-023-example-8e42dbc34238a34a2361.mp3",
+      "sha256": "73fef1ab9c3f67f6e06f6943ecc48d2a37c03e2c1cdf4036fe3c951fbd8c38d3",
+      "textSha256": "036a9e329d5e1e0cd9b60d5935bfd71e8bc46a7a88e0f1c53a5bdf0d7be9cd83",
+      "durationSeconds": 2.64,
+      "bytes": 42668,
+      "decodeValid": true,
+      "peakAmplitude": 0.26734820008277893,
+      "phonemes": [
+        "mˌI bɹˈʌðəɹ hˈɛlps mˌi wɪð mI mˈæθs."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-024",
+      "kind": "phrase",
+      "text": "be good with",
+      "speakText": "be good with",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-024-phrase-af382ab7444fca2d49c7.mp3",
+      "sha256": "99d720f2c6b8c3bfe82f70b6fe92aceb0a5952c7f80abf0afbb18dd1b9896962",
+      "textSha256": "1dbf7ff18e65e9e9d2f449ffe03ef064d44c04f21344003d360bd7ad29ee1f3a",
+      "durationSeconds": 1.8,
+      "bytes": 29228,
+      "decodeValid": true,
+      "peakAmplitude": 0.44213366508483887,
+      "phonemes": [
+        "bi ɡˈʊd wɪð"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-024",
+      "kind": "example",
+      "text": "Our coach is good with children.",
+      "speakText": "Our coach is good with children.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-024-example-5231e7277060f0e67744.mp3",
+      "sha256": "37602d7563dbf8ebfba58e86f480c0e567c24035821f322a648ebd7f81ca4434",
+      "textSha256": "9bc5a9a4c0bb0080d2b82b5fb12360484fca935fdc9dc3f24a65e9ef3d62a1a7",
+      "durationSeconds": 2.976,
+      "bytes": 48044,
+      "decodeValid": true,
+      "peakAmplitude": 0.5121293663978577,
+      "phonemes": [
+        "ˌWəɹ kˈOʧ ɪz ɡˈʊd wɪð ʧˈɪldɹᵊn."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-025",
+      "kind": "phrase",
+      "text": "in the future",
+      "speakText": "in the future",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-025-phrase-47c239e5570d78054ff9.mp3",
+      "sha256": "d7f5dc708adce998935dd170c3426ca75187ee0593992a41bb9eaad065ed446e",
+      "textSha256": "ff0e77455f41ca6b59fc4c0714b4e7d022d5ed499905420ec79ad8bd90f4f449",
+      "durationSeconds": 1.8,
+      "bytes": 29228,
+      "decodeValid": true,
+      "peakAmplitude": 0.30069220066070557,
+      "phonemes": [
+        "ɪn ðə fjˈuʧəɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-025",
+      "kind": "example",
+      "text": "I hope to design bridges in the future.",
+      "speakText": "I hope to design bridges in the future.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-025-example-123fa172d8ed5537f1c2.mp3",
+      "sha256": "a664f020c096e1c400af64f3a19994ca90916dd75b13022490ccc5a7ca90f570",
+      "textSha256": "730a009c8589bb0e475a71b2bf4e9ff27b7b941298db8c76d9d2b9bffc78477e",
+      "durationSeconds": 2.904,
+      "bytes": 46892,
+      "decodeValid": true,
+      "peakAmplitude": 0.588512659072876,
+      "phonemes": [
+        "ˌI hˈOp tə dəzˈIn bɹˈɪʤɪz ɪn ðə fjˈuʧəɹ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-026",
+      "kind": "phrase",
+      "text": "work out",
+      "speakText": "work out",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-026-phrase-3074d8971b978338e784.mp3",
+      "sha256": "a8569ad820d11b109de9441fe075b7deb81d25a873141d412a9677bbe6a04978",
+      "textSha256": "2b7c8b878550c34df9784fc7de4ec867ad17e3baa96e67a8c73527906502befa",
+      "durationSeconds": 1.632,
+      "bytes": 26540,
+      "decodeValid": true,
+      "peakAmplitude": 0.36060792207717896,
+      "phonemes": [
+        "wˈɜɹk ˈWt"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-026",
+      "kind": "example",
+      "text": "We can work out this problem together.",
+      "speakText": "We can work out this problem together.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-026-example-f1e0cd8c3413f231a69e.mp3",
+      "sha256": "18cbeff17cc9a6764f5d5fc47fddf078f793423bd0517960d55dd73bc6c39370",
+      "textSha256": "bf1f333dcfc136d9bd360ec4cabd4f6f45b69f0474f11eead1201db61348d0c8",
+      "durationSeconds": 3.168,
+      "bytes": 51116,
+      "decodeValid": true,
+      "peakAmplitude": 0.3524671792984009,
+      "phonemes": [
+        "wˌi kæn wˈɜɹk ˈWt ðɪs pɹˈɑbləm təɡˈɛðəɹ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-027",
+      "kind": "phrase",
+      "text": "in class",
+      "speakText": "in class",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-027-phrase-2d7fa6c54c585b6af6d4.mp3",
+      "sha256": "303f30071b67e875cb791233a1c498bbdf59e6bdf8ffc96b447f9378e7093733",
+      "textSha256": "9b6011c3ea0e89ab921c27b90b13b2b32c6d2c00cce78ace879a39ef87b5ec3c",
+      "durationSeconds": 1.68,
+      "bytes": 27308,
+      "decodeValid": true,
+      "peakAmplitude": 0.29690033197402954,
+      "phonemes": [
+        "ɪn klˈæs"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-027",
+      "kind": "example",
+      "text": "We ask questions in class.",
+      "speakText": "We ask questions in class.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-027-example-a56c8239c93609393efa.mp3",
+      "sha256": "fffb1407c1999d7a46e44f077e6929a10deb12c02b7d22f0abbb896596c364f6",
+      "textSha256": "5cc46918194b1c835fd863d498e5c0a565c1a3c04da93fb657d0c1edea4a7b0a",
+      "durationSeconds": 2.424,
+      "bytes": 39212,
+      "decodeValid": true,
+      "peakAmplitude": 0.34215497970581055,
+      "phonemes": [
+        "wˌi ˈæsk kwˈɛsʧᵊnz ɪn klˈæs."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-028",
+      "kind": "phrase",
+      "text": "play Chinese chess",
+      "speakText": "play Chinese chess",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-028-phrase-86194aba94f93982394a.mp3",
+      "sha256": "95aa6cfaa387fcd0936e29a87969704c256d49def0fc9972287a9c4a435f4d51",
+      "textSha256": "62f4cce1181eafe8c05c7f59bb59800db7e19d4b0a40457072bc1a784acf2d17",
+      "durationSeconds": 2.232,
+      "bytes": 36140,
+      "decodeValid": true,
+      "peakAmplitude": 0.41146183013916016,
+      "phonemes": [
+        "plˈA ʧˌInˈiz ʧˈɛs"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-028",
+      "kind": "example",
+      "text": "My grandpa likes to play Chinese chess.",
+      "speakText": "My grandpa likes to play Chinese chess.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-028-example-3023a98cb81cdcc08276.mp3",
+      "sha256": "c088fc205d0c90a898a386b8fd31ee3daade1b8ddb85f5886eb4b93396fe3405",
+      "textSha256": "70bc7db1f377154b8116f53e386cc7817a381d0eda68538e825600727ddb1ea6",
+      "durationSeconds": 3.384,
+      "bytes": 54572,
+      "decodeValid": true,
+      "peakAmplitude": 0.4029998183250427,
+      "phonemes": [
+        "mˌI ɡɹˈændpˌɑ lˈIks tə plˈA ʧˌInˈiz ʧˈɛs."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-029",
+      "kind": "phrase",
+      "text": "act out",
+      "speakText": "act out",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-029-phrase-4fa9894c3124248282dc.mp3",
+      "sha256": "ee67324239fa582225a19024a141349fb8d877f663557c6a8219a3918ea88b21",
+      "textSha256": "92814032cf61631c11ed6457560d03c59886c1a3da63739bd7f14c275ecd0b93",
+      "durationSeconds": 1.728,
+      "bytes": 28076,
+      "decodeValid": true,
+      "peakAmplitude": 0.36916470527648926,
+      "phonemes": [
+        "ˈækt ˈWt"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-029",
+      "kind": "example",
+      "text": "Our group will act out the story.",
+      "speakText": "Our group will act out the story.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-029-example-13e1a5c54e03d0d9cfc5.mp3",
+      "sha256": "89d2fcc6532c56aacf77fbe15ca0fad462becad9730357bcef745b7896b9aee7",
+      "textSha256": "441b1ff3a22a9c7019bd0c64bbef9338c31b15b434ff15ba15aa73849a81a915",
+      "durationSeconds": 2.52,
+      "bytes": 40748,
+      "decodeValid": true,
+      "peakAmplitude": 0.534660816192627,
+      "phonemes": [
+        "ˌWəɹ ɡɹˈup wɪl ˈækt ˈWt ðə stˈɔɹi."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-030",
+      "kind": "phrase",
+      "text": "at home",
+      "speakText": "at home",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-030-phrase-8eccac4c71c313f9eda0.mp3",
+      "sha256": "8a9f3852dfd23a3bb32e8f2b19a32e89bf1cca658b6931998b297ed4dd11bdfc",
+      "textSha256": "53d6cb30e7fc6f12a91f61382456e7f97eb51a31dfac2aedc1f073f25ea732e6",
+      "durationSeconds": 1.752,
+      "bytes": 28460,
+      "decodeValid": true,
+      "peakAmplitude": 0.38864871859550476,
+      "phonemes": [
+        "æt hˈOm"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-030",
+      "kind": "example",
+      "text": "We cook dinner at home on Sundays.",
+      "speakText": "We cook dinner at home on Sundays.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-030-example-cb05971dd2108d6c9aaf.mp3",
+      "sha256": "27a61fb6bca1006ea7f778c46a9c94c59795eb625bb97d0bcd9c6dbd4725a0da",
+      "textSha256": "ceacc51c6c0242ba1368a24b59943a83c00fa3503cd38822f8f49173af850e12",
+      "durationSeconds": 3.264,
+      "bytes": 52652,
+      "decodeValid": true,
+      "peakAmplitude": 0.40219300985336304,
+      "phonemes": [
+        "wˌi kˈʊk dˈɪnəɹ æt hˈOm ˌɔn sˈʌndˌAz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-031",
+      "kind": "phrase",
+      "text": "more than",
+      "speakText": "more than",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-031-phrase-3da5671c21a8be677f1b.mp3",
+      "sha256": "7e754a24da233201bc43f056a893bfcb7b0780bbf8b91f076cda1d219e450f72",
+      "textSha256": "7b6d26a261f2aa672176d9d77781f82513273212a7be69200c1dbce01821d3f1",
+      "durationSeconds": 1.632,
+      "bytes": 26540,
+      "decodeValid": true,
+      "peakAmplitude": 0.30368179082870483,
+      "phonemes": [
+        "mˈɔɹ ðən"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-031",
+      "kind": "example",
+      "text": "Our club has more than twenty members.",
+      "speakText": "Our club has more than twenty members.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-031-example-0f7ee838e06df7315b3b.mp3",
+      "sha256": "69ce3a5fe88decfd8147e41ea2e523ee31d6f05c1c97353bfaabf5bcb1c8e63b",
+      "textSha256": "35ce46c9de54d7d98c5d5546550d2029a2cb710c711be51b1ff284501e56813c",
+      "durationSeconds": 2.784,
+      "bytes": 44972,
+      "decodeValid": true,
+      "peakAmplitude": 0.4263310730457306,
+      "phonemes": [
+        "ˌWəɹ klˈʌb hæz mˈɔɹ ðən twˈɛnti mˈɛmbəɹz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-032",
+      "kind": "phrase",
+      "text": "fall in love with",
+      "speakText": "fall in love with",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-032-phrase-8aaf2d4ac5c42d9a354d.mp3",
+      "sha256": "77a10457fd272027e0316076d0fa3631155d52f9ac27fd0c70833e1a3b1da8ef",
+      "textSha256": "b5bc7f001202cf151279daf7ef54e463ac60570f288d9d4f3c199b9a72d47ca7",
+      "durationSeconds": 2.088,
+      "bytes": 33836,
+      "decodeValid": true,
+      "peakAmplitude": 0.5313014388084412,
+      "phonemes": [
+        "fˈɔl ɪn lˈʌv wɪð"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-032",
+      "kind": "example",
+      "text": "You may fall in love with this quiet village.",
+      "speakText": "You may fall in love with this quiet village.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-032-example-2b55e46ca65424cfebe6.mp3",
+      "sha256": "bff737ede22e61b72cbbf7597d188b0d027d019527025ddd2e323a873631be07",
+      "textSha256": "c40c95e10db33a6c59f3f6e065d49cb9c9b7e83dbeb6774207344ca6bcecc20b",
+      "durationSeconds": 3.552,
+      "bytes": 57260,
+      "decodeValid": true,
+      "peakAmplitude": 0.324000746011734,
+      "phonemes": [
+        "jˌu mˈA fˈɔl ɪn lˈʌv wɪð ðɪs kwˈIət vˈɪlɪʤ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-033",
+      "kind": "phrase",
+      "text": "take photos",
+      "speakText": "take photos",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-033-phrase-fcf3bce20edbf0ef32c0.mp3",
+      "sha256": "36bcd09e254e181d90a8106f804668d623e3abf12b0b200faa0fffb9b33d683f",
+      "textSha256": "0f69f5e9568921d746ce73ad73747baf1529b3aaca7006b614b48255eee167a6",
+      "durationSeconds": 1.776,
+      "bytes": 28844,
+      "decodeValid": true,
+      "peakAmplitude": 0.37183457612991333,
+      "phonemes": [
+        "tˈAk fˈOTOz"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-033",
+      "kind": "example",
+      "text": "We take photos of flowers in spring.",
+      "speakText": "We take photos of flowers in spring.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-033-example-42343de5cd99f7f4a3e8.mp3",
+      "sha256": "68f996f563ffc733da33f1cdc9f24d804c00125c16233e000c9d0ec54d242117",
+      "textSha256": "799333fbe608123b92a614cc4eb6d4bcf9d7b986943c9e887b79f89cf460a997",
+      "durationSeconds": 2.784,
+      "bytes": 44972,
+      "decodeValid": true,
+      "peakAmplitude": 0.3097692131996155,
+      "phonemes": [
+        "wˌi tˈAk fˈOTOz ʌv flˈWəɹz ɪn spɹˈɪŋ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-034",
+      "kind": "phrase",
+      "text": "make use of",
+      "speakText": "make use of",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-034-phrase-a8deb41bc96289563e9c.mp3",
+      "sha256": "6bf33fe268df788628b85ce1406348b3a96c18caf1257b401b50c3920f0b1c68",
+      "textSha256": "ef1370ea94c41a0cf5c62e4eb83837f5e8661bb7eddb04b8d855e8b97df374fd",
+      "durationSeconds": 1.944,
+      "bytes": 31532,
+      "decodeValid": true,
+      "peakAmplitude": 0.4460388422012329,
+      "phonemes": [
+        "mˌAk jˈus ʌv"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-034",
+      "kind": "example",
+      "text": "We can make use of these old boxes.",
+      "speakText": "We can make use of these old boxes.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-034-example-f85c129f58328f83e9f8.mp3",
+      "sha256": "01c34b229c38c34f66f676c6cbad6d8e0fe115001643530a6eac5c9db81f66ba",
+      "textSha256": "41fb7cec47361b62970f416cb1822d0a022c72a815a0c1c41d92bf0fe5e3c895",
+      "durationSeconds": 3.384,
+      "bytes": 54572,
+      "decodeValid": true,
+      "peakAmplitude": 0.47734999656677246,
+      "phonemes": [
+        "wˌi kæn mˌAk jˈus ʌv ðiz ˈOld bˈɑksᵻz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-035",
+      "kind": "phrase",
+      "text": "take a shower",
+      "speakText": "take a shower",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-035-phrase-4508b929d8013f8962d4.mp3",
+      "sha256": "cb3ee715dcb7ec123fbaa27613803ade13127e8b7f9066e6530f46fd98560bae",
+      "textSha256": "dd4714ef7d83f8271155cdb51b8f1abc4a0600fdb4f363c307be7dd7c2cbb92d",
+      "durationSeconds": 1.752,
+      "bytes": 28460,
+      "decodeValid": true,
+      "peakAmplitude": 0.3066287636756897,
+      "phonemes": [
+        "tˈAk ɐ ʃˈWəɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-035",
+      "kind": "example",
+      "text": "I take a shower after football practice.",
+      "speakText": "I take a shower after football practice.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-035-example-936aa28b1ede0c05506b.mp3",
+      "sha256": "6271ebfd833fc390b7b0c250c455a085258a61dd0b6c6459ae68a97110c0e4e9",
+      "textSha256": "1584269b00a26619415271aed39d8018ab0b6e4f91265d0ade98b83ef8ae5c1e",
+      "durationSeconds": 3.168,
+      "bytes": 51116,
+      "decodeValid": true,
+      "peakAmplitude": 0.3384481966495514,
+      "phonemes": [
+        "ˌI tˈAk ɐ ʃˈWəɹ ˈæftəɹ fˈʊtbˌɔl pɹˈæktəs."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-036",
+      "kind": "phrase",
+      "text": "get dressed",
+      "speakText": "get dressed",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-036-phrase-f1a11598db96c5a22525.mp3",
+      "sha256": "cf4692c173aa492b3840601ecbe5facf971ae04680d902897e8980c164178c72",
+      "textSha256": "1d8dc9c2e4fefd76e97f1893a76b01f86ad28f33eac43ff21df48e3e539d1b0e",
+      "durationSeconds": 1.752,
+      "bytes": 28460,
+      "decodeValid": true,
+      "peakAmplitude": 0.416978657245636,
+      "phonemes": [
+        "ɡɛt dɹˈɛst"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-036",
+      "kind": "example",
+      "text": "I get dressed before breakfast.",
+      "speakText": "I get dressed before breakfast.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-036-example-e191b929b6a4f6be8e6b.mp3",
+      "sha256": "fe01d67a730e8d1a98210941ab8f4a6ba6ac01deb01f90c55cd57ff8e9cf6601",
+      "textSha256": "722836e5e29e5556c3142513db17b61047a625d5cb6657a6d67728934ef7e18f",
+      "durationSeconds": 2.832,
+      "bytes": 45740,
+      "decodeValid": true,
+      "peakAmplitude": 0.41169512271881104,
+      "phonemes": [
+        "ˌI ɡɛt dɹˈɛst bəfˈɔɹ bɹˈɛkfəst."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-037",
+      "kind": "phrase",
+      "text": "on duty",
+      "speakText": "on duty",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-037-phrase-6c47d62554e2602aaed9.mp3",
+      "sha256": "c3c63bb9a4fec6a71e49915b7990704ee72b3d60a9f2c71f13421ec13443732d",
+      "textSha256": "9d042b55dcbe2c0499a3010039e45d20fce1180e61449a07e616590e94a72ed1",
+      "durationSeconds": 1.824,
+      "bytes": 29612,
+      "decodeValid": true,
+      "peakAmplitude": 0.43573224544525146,
+      "phonemes": [
+        "ˌɔn dˈuTi"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-037",
+      "kind": "example",
+      "text": "We are on duty this Friday.",
+      "speakText": "We are on duty this Friday.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-037-example-e54b2d83022dc0f6e2ff.mp3",
+      "sha256": "0ef33a4a41bd8a5b37d699c268b1707ea28b7cb0d29c5e8fb3552d56bf362f57",
+      "textSha256": "87f898ec1add6cccb6e5ecb03f964d305b228a07cb569b73cea70d44b9d598c4",
+      "durationSeconds": 2.304,
+      "bytes": 37292,
+      "decodeValid": true,
+      "peakAmplitude": 0.3043505549430847,
+      "phonemes": [
+        "wˌi ɑɹ ˌɔn dˈuTi ðɪs fɹˈIdˌA."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-038",
+      "kind": "phrase",
+      "text": "get up",
+      "speakText": "get up",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-038-phrase-e781baac424eb8ec3de4.mp3",
+      "sha256": "57b4aab5b60f60efdcbe42cfe66a39182703b81bf36c57ec2c1a5cea95ee22fb",
+      "textSha256": "4553dee862f05c9fe2faf567ad7091c216f5dc538f0d6a79bd58fbb4e05afdb9",
+      "durationSeconds": 1.44,
+      "bytes": 23468,
+      "decodeValid": true,
+      "peakAmplitude": 0.3571932315826416,
+      "phonemes": [
+        "ɡɛt ˌʌp"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-038",
+      "kind": "example",
+      "text": "I get up early on school days.",
+      "speakText": "I get up early on school days.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-038-example-d175a6069cb2ad4c9f73.mp3",
+      "sha256": "0db229fe14c6e5ad53d555eb61fbf0523e4c942cf094d1a6b6671a52dea3b253",
+      "textSha256": "064fb8fd98998157202430cabada1cf9fe37fd34222d95e36a0def2776b4986a",
+      "durationSeconds": 2.952,
+      "bytes": 47660,
+      "decodeValid": true,
+      "peakAmplitude": 0.48301368951797485,
+      "phonemes": [
+        "ˌI ɡɛt ˌʌp ˈɜɹli ˌɔn skˈul dˈAz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-039",
+      "kind": "phrase",
+      "text": "go to bed",
+      "speakText": "go to bed",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-039-phrase-073a97ca792cb9bdb8b2.mp3",
+      "sha256": "50c4ac2b08a0cc9b261191b659f3f6f29aa37b83f42549942419107addf0d281",
+      "textSha256": "108b0bd76496457e4e7793e5a01deace0680472672050447f47cf7198af3c1da",
+      "durationSeconds": 1.68,
+      "bytes": 27308,
+      "decodeValid": true,
+      "peakAmplitude": 0.3587675392627716,
+      "phonemes": [
+        "ɡˌO tə bˈɛd"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-039",
+      "kind": "example",
+      "text": "I go to bed at nine on school nights.",
+      "speakText": "I go to bed at nine on school nights.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-039-example-a894e274963da37702f9.mp3",
+      "sha256": "9c7aa2d4ce2b1497d9918e29867066c2e8fdd7fce587496f83b118c752c22df9",
+      "textSha256": "7fff6eb9eaa26f4ef326745729d8bb16c75cfd5f68e9626bc89cdaf28f37d319",
+      "durationSeconds": 2.616,
+      "bytes": 42284,
+      "decodeValid": true,
+      "peakAmplitude": 0.454315185546875,
+      "phonemes": [
+        "ˌI ɡˌO tə bˈɛd æt nˈIn ˌɔn skˈul nˈIts."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-040",
+      "kind": "phrase",
+      "text": "prepare something for somebody",
+      "speakText": "prepare something for somebody",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-040-phrase-7af958386265f8612399.mp3",
+      "sha256": "858a6ba95546c31ec18cb4a71163b8c1fb8ab776c4ec4b13813ca8ccff045330",
+      "textSha256": "477aa955bc15cf6d01abaf2fa9f0a0421873ff8a2fa25f578d2fcd76f8931415",
+      "durationSeconds": 2.688,
+      "bytes": 43436,
+      "decodeValid": true,
+      "peakAmplitude": 0.35485875606536865,
+      "phonemes": [
+        "pɹipˈɛɹ sˈʌmθˌɪŋ fɔɹ sˈʌmbədi"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-040",
+      "kind": "example",
+      "text": "We prepare a warm meal for Grandma.",
+      "speakText": "We prepare a warm meal for Grandma.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-040-example-ea847b95384eab4e1677.mp3",
+      "sha256": "6971f85b7fa3c592744bbdabfe5bf7562fc51efe96175256f61e939f096dbf51",
+      "textSha256": "fe2fc6bd4b3ed0d4e1ba74ea6564836b3bd624f61453db2fe09330a5a56185db",
+      "durationSeconds": 3.408,
+      "bytes": 54956,
+      "decodeValid": true,
+      "peakAmplitude": 0.2649936079978943,
+      "phonemes": [
+        "wˌi pɹipˈɛɹ ɐ wˈɔɹm mˈil fɔɹ ɡɹˈændmˌɑ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-041",
+      "kind": "phrase",
+      "text": "look after",
+      "speakText": "look after",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-041-phrase-f4318d1f2af5ce011624.mp3",
+      "sha256": "87345ab4470d48290cecada29f852b32a744ac3505b05ae6316a97a8922c9e10",
+      "textSha256": "2f68f7a0fa3b500c79210db4f147b8a5333c7c3656067af46087b6c44a6b627b",
+      "durationSeconds": 1.752,
+      "bytes": 28460,
+      "decodeValid": true,
+      "peakAmplitude": 0.3532610833644867,
+      "phonemes": [
+        "lˈʊk ˈæftəɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-041",
+      "kind": "example",
+      "text": "I look after our dog every day.",
+      "speakText": "I look after our dog every day.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-041-example-1ad58815c144ad3dcf61.mp3",
+      "sha256": "421a6ae9f05e86f802077a34fadc3ce46ac51696583b068694c24f0c14e8a64f",
+      "textSha256": "e2edcae2ef267588b7386869b0e7bacbef39630577bd6def0d3b9a8f5a798365",
+      "durationSeconds": 2.664,
+      "bytes": 43052,
+      "decodeValid": true,
+      "peakAmplitude": 0.3851875066757202,
+      "phonemes": [
+        "ˌI lˈʊk ˈæftəɹ ˌWəɹ dˈɔɡ ˈɛvəɹi dˈA."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-042",
+      "kind": "phrase",
+      "text": "look for",
+      "speakText": "look for",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-042-phrase-48dfba2d7d58d224346d.mp3",
+      "sha256": "10bd22adf538a82c46ae156b19aef767a78dc7b321d4aee74ba1f26ff231ae80",
+      "textSha256": "49252bab0827135f3d85095a5d389b31d274d1520cec1fa445ffa646db7a66b7",
+      "durationSeconds": 1.68,
+      "bytes": 27308,
+      "decodeValid": true,
+      "peakAmplitude": 0.477882444858551,
+      "phonemes": [
+        "lˈʊk fɔɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-042",
+      "kind": "example",
+      "text": "I am looking for my keys.",
+      "speakText": "I am looking for my keys.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-042-example-a967f2a1c2d47b663c6e.mp3",
+      "sha256": "a5835b845f71def9043320eed0ae9bf42ceb1abadaaba5b85473a9af9e16b16b",
+      "textSha256": "0db8bc3f3a4d7e7bebc7f748da770a55fb117fde53ba87ea1bd951befd0602f4",
+      "durationSeconds": 2.616,
+      "bytes": 42284,
+      "decodeValid": true,
+      "peakAmplitude": 0.5016392469406128,
+      "phonemes": [
+        "ˌI ɐm lˈʊkɪŋ fɔɹ mI kˈiz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-043",
+      "kind": "phrase",
+      "text": "wait for",
+      "speakText": "wait for",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-043-phrase-eaf47f7928c3a5b8626e.mp3",
+      "sha256": "873a877bbe107cb2109abd9c9c33dc235725d5b482fee6f8b29d258be0b72a9a",
+      "textSha256": "8dbb27d2dbab6cebe84014fc7c6df84085fd661642ff4546c36e90db1aa0f936",
+      "durationSeconds": 1.632,
+      "bytes": 26540,
+      "decodeValid": true,
+      "peakAmplitude": 0.39470523595809937,
+      "phonemes": [
+        "wˈAt fɔɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-043",
+      "kind": "example",
+      "text": "We are waiting for the bus.",
+      "speakText": "We are waiting for the bus.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-043-example-e37236f7330ad15890a8.mp3",
+      "sha256": "0663f99c88b5d7369a7b6c43f7125913f3b52c96aa595fbd22035c01634c39a1",
+      "textSha256": "fa93a99fd153014eac7bb117d1b9810a4dc2e1e99c393d99b710fd4feaebfb56",
+      "durationSeconds": 2.112,
+      "bytes": 34220,
+      "decodeValid": true,
+      "peakAmplitude": 0.2604089677333832,
+      "phonemes": [
+        "wˌi ɑɹ wˈATɪŋ fɔɹ ðə bˈʌs."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-044",
+      "kind": "phrase",
+      "text": "be late for",
+      "speakText": "be late for",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-044-phrase-9fc3dfa3c3c38e55b090.mp3",
+      "sha256": "e05a739705e0b05ceb4383c5f2c91d49cbb3e87fb01725eb1b6ccbe259034edf",
+      "textSha256": "2241f6d03e48d7ad2edfdee9288b78a6920f8e0e50b1e62d662efab250ab3a46",
+      "durationSeconds": 1.8,
+      "bytes": 29228,
+      "decodeValid": true,
+      "peakAmplitude": 0.3434687852859497,
+      "phonemes": [
+        "bi lˈAt fɔɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-044",
+      "kind": "example",
+      "text": "Sam was late for school this morning.",
+      "speakText": "Sam was late for school this morning.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-044-example-63b370a931ec4c2ac6a9.mp3",
+      "sha256": "286644bc33c883cd5798455dcbf6ed1db3852559ba65f5e800610179ac11d1f4",
+      "textSha256": "40c5885d791a6d9d4e4e8faedb71ef4bd5d85c7a1a56eb6493b0c13d33f60520",
+      "durationSeconds": 3.216,
+      "bytes": 51884,
+      "decodeValid": true,
+      "peakAmplitude": 0.3743676543235779,
+      "phonemes": [
+        "sˈæm wʌz lˈAt fɔɹ skˈul ðɪs mˈɔɹnɪŋ."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-045",
+      "kind": "phrase",
+      "text": "be ready for",
+      "speakText": "be ready for",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-045-phrase-13a282102b948dab1b93.mp3",
+      "sha256": "ea23cd6e079d3d3aa00ab7bfdc9c146f47218eba52cbeae52bb98b8030fddf66",
+      "textSha256": "62e6fd1c6b400b8f712ece2aa6ace3db06c0334ed0c11fd71330384e507b0944",
+      "durationSeconds": 1.824,
+      "bytes": 29612,
+      "decodeValid": true,
+      "peakAmplitude": 0.3627398610115051,
+      "phonemes": [
+        "bi ɹˈɛdi fɔɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-045",
+      "kind": "example",
+      "text": "We are ready for the test.",
+      "speakText": "We are ready for the test.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-045-example-16058cd6dc755685c204.mp3",
+      "sha256": "889344bad7cfb1c712030049a6e63158245ce204a074b0ea64e2b427b9ba07fe",
+      "textSha256": "d574e868fdccf2599f15a13a0926015ea13a7fb48a065463b68b26fdcfce9414",
+      "durationSeconds": 2.208,
+      "bytes": 35756,
+      "decodeValid": true,
+      "peakAmplitude": 0.26298296451568604,
+      "phonemes": [
+        "wˌi ɑɹ ɹˈɛdi fɔɹ ðə tˈɛst."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-046",
+      "kind": "phrase",
+      "text": "be afraid of",
+      "speakText": "be afraid of",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-046-phrase-6e38d8a25c75d5695e61.mp3",
+      "sha256": "10a942876c69d421b6f6b3b2e0347d20ff9dacc77934274b137cd70174354433",
+      "textSha256": "3373d1b3fe61a77afc10933111c58b92befb02421471858e4539d739cc97eb92",
+      "durationSeconds": 1.896,
+      "bytes": 30764,
+      "decodeValid": true,
+      "peakAmplitude": 0.3629608452320099,
+      "phonemes": [
+        "bi əfɹˈAd ʌv"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-046",
+      "kind": "example",
+      "text": "My little brother is afraid of the dark.",
+      "speakText": "My little brother is afraid of the dark.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-046-example-a2ed3c67dbcef354d657.mp3",
+      "sha256": "4c5d4e439c8844fb0d4dd3e5a8ce28e8f39792f1ec1a6521b8a3d58542b5b507",
+      "textSha256": "90e969a5a0cb74b522047c8fd7c69c781f7c3dda4ee023d82047f9985dc40f17",
+      "durationSeconds": 3.48,
+      "bytes": 56108,
+      "decodeValid": true,
+      "peakAmplitude": 0.3913658857345581,
+      "phonemes": [
+        "mˌI lˈɪTᵊl bɹˈʌðəɹ ɪz əfɹˈAd ʌv ðə dˈɑɹk."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-047",
+      "kind": "phrase",
+      "text": "be proud of",
+      "speakText": "be proud of",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-047-phrase-c8f3266970d86e27d453.mp3",
+      "sha256": "17d2f173a1b97972610fea3aceeaf659de859d2fd0bf607e515472acca28e88e",
+      "textSha256": "a2332ae4c0bb4b7502ba8890fdd2bfbb95f235add95be10808491dc27d572987",
+      "durationSeconds": 1.704,
+      "bytes": 27692,
+      "decodeValid": true,
+      "peakAmplitude": 0.321897029876709,
+      "phonemes": [
+        "bi pɹˈWd ʌv"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-047",
+      "kind": "example",
+      "text": "We are proud of our team.",
+      "speakText": "We are proud of our team.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-047-example-6667afb1ebcd6d67d141.mp3",
+      "sha256": "299332f6c2f0e88ae82e1d505f75c0191e73827a76ceb008b342ff25991734cc",
+      "textSha256": "95dc70eff7d4b0d33306127a6bed969d0ea79c6982131b54f2399a6ab599cf4c",
+      "durationSeconds": 2.184,
+      "bytes": 35372,
+      "decodeValid": true,
+      "peakAmplitude": 0.3239692449569702,
+      "phonemes": [
+        "wˌi ɑɹ pɹˈWd ʌv ˌWəɹ tˈim."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-048",
+      "kind": "phrase",
+      "text": "be different from",
+      "speakText": "be different from",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-048-phrase-831f7ce77ce997200217.mp3",
+      "sha256": "18d71d2679465349258cd6c4c2df1fff8498ec6f59836bbf52d679ae4f8b1d1b",
+      "textSha256": "a797c039c36c37118a7ea5bee7b10da151a30be917c931ce6e8f173c869d4bb7",
+      "durationSeconds": 1.968,
+      "bytes": 31916,
+      "decodeValid": true,
+      "peakAmplitude": 0.4837006628513336,
+      "phonemes": [
+        "bi dˈɪfəɹənt fɹʌm"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-048",
+      "kind": "example",
+      "text": "My schoolbag is different from yours.",
+      "speakText": "My schoolbag is different from yours.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-048-example-3dcdbf65ab64fd77ae49.mp3",
+      "sha256": "04bfbd0bf47be2b029ca649a4c8980903f39114308777d85c2e805a532b25e76",
+      "textSha256": "44193d29bfe1cfae3db1436a622e54031963d32247059f84f2aac06a899caf1c",
+      "durationSeconds": 3.312,
+      "bytes": 53420,
+      "decodeValid": true,
+      "peakAmplitude": 0.479813814163208,
+      "phonemes": [
+        "mˌI skˈulbæɡ ɪz dˈɪfəɹənt fɹʌm jˈɔɹz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-049",
+      "kind": "phrase",
+      "text": "be similar to",
+      "speakText": "be similar to",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-049-phrase-be1601248ac9a78fcc28.mp3",
+      "sha256": "d7fb62866ee4af2fbfff00f3a939f6c5277a355e19446e94b36f9783203e8603",
+      "textSha256": "2e7f3498f006d27263b37361c5b9284a188122be763423524901c6e0fa3da4ed",
+      "durationSeconds": 2.064,
+      "bytes": 33452,
+      "decodeValid": true,
+      "peakAmplitude": 0.30489081144332886,
+      "phonemes": [
+        "bi sˈɪmᵊləɹ tu"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-049",
+      "kind": "example",
+      "text": "This picture is similar to that one.",
+      "speakText": "This picture is similar to that one.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-049-example-1a20b95f86de6e39de41.mp3",
+      "sha256": "38a86508d09251179aa55a9c2edbfcbdb6993da54003a0bc4ae3d027bec0f0e8",
+      "textSha256": "43bc4537f0a0de5556da5e92508e9e9f6a28d63a392d4347b94bf1b9bdf06bf4",
+      "durationSeconds": 2.88,
+      "bytes": 46508,
+      "decodeValid": true,
+      "peakAmplitude": 0.4208795428276062,
+      "phonemes": [
+        "ðˌɪs pˈɪkʧəɹ ɪz sˈɪmᵊləɹ tə ðˈæt wˈʌn."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-050",
+      "kind": "phrase",
+      "text": "talk about",
+      "speakText": "talk about",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-050-phrase-d3b1c3393dc684d48f82.mp3",
+      "sha256": "016a60adf2704d34007054becbb0c0d51b4200b3581f3a3f3a49aaaae6887c9e",
+      "textSha256": "227fb86dfc738efbea49cbb1d3a9a15ed9650ec1ed4b9a8f53d5426e38c8da4b",
+      "durationSeconds": 1.68,
+      "bytes": 27308,
+      "decodeValid": true,
+      "peakAmplitude": 0.4716375470161438,
+      "phonemes": [
+        "tˈɔk əbˈWt"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-050",
+      "kind": "example",
+      "text": "We talked about our weekend plans.",
+      "speakText": "We talked about our weekend plans.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-050-example-6606f286ca2b9d6291af.mp3",
+      "sha256": "8ee66e42c1b8f158f35225f78f909212d138efe7f7feabe0e0d8ed75ca55614b",
+      "textSha256": "b55714a3da59754e959663b9486f4de2b79f0e089c82e0327b7fd795ce56beb7",
+      "durationSeconds": 3.144,
+      "bytes": 50732,
+      "decodeValid": true,
+      "peakAmplitude": 0.5139466524124146,
+      "phonemes": [
+        "wˌi tˈɔkt əbˈWt ˌWəɹ wˈikˌɛnd plˈænz."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-051",
+      "kind": "phrase",
+      "text": "talk to",
+      "speakText": "talk to",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-051-phrase-4ccac63251ecbb6ad9ee.mp3",
+      "sha256": "1223de10eba409fc4c5006c74cdc71042b894aa82f2f32bf3115f4f7ee50a352",
+      "textSha256": "c5f3b116e4c5f38cf53329e7524f42dbfee628b5643f1f6e9402960025b41f8d",
+      "durationSeconds": 1.752,
+      "bytes": 28460,
+      "decodeValid": true,
+      "peakAmplitude": 0.3677194118499756,
+      "phonemes": [
+        "tˈɔk tu"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-051",
+      "kind": "example",
+      "text": "You can talk to your teacher after class.",
+      "speakText": "You can talk to your teacher after class.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-051-example-efd13053b2e0b6a164de.mp3",
+      "sha256": "3f76edc7ecc2c8c57cd4bbe90eb43634985966a1ed1de70e865fa7d9e1fc3c0f",
+      "textSha256": "193fea810f2db13cff1b9857e0db0a7ee99d32e76de01c1289f72d08b19cac6f",
+      "durationSeconds": 2.808,
+      "bytes": 45356,
+      "decodeValid": true,
+      "peakAmplitude": 0.3913763761520386,
+      "phonemes": [
+        "jˌu kæn tˈɔk tə jʊɹ tˈiʧəɹ ˈæftəɹ klˈæs."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-052",
+      "kind": "phrase",
+      "text": "ask for",
+      "speakText": "ask for",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-052-phrase-dbbc522ad3de6ff8ada4.mp3",
+      "sha256": "e88e3d05a8c7173443582c46d91388d6244636bd0ba819b6edb8d7f455d542a2",
+      "textSha256": "b702aca84f8270c40a07a454c0e5f3ee8b0c791e6f170533147c4d1579a2ec94",
+      "durationSeconds": 1.776,
+      "bytes": 28844,
+      "decodeValid": true,
+      "peakAmplitude": 0.3105430006980896,
+      "phonemes": [
+        "ˈæsk fɔɹ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-052",
+      "kind": "example",
+      "text": "Please ask for help if you need it.",
+      "speakText": "Please ask for help if you need it.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-052-example-e3b25aae97725d0a45e2.mp3",
+      "sha256": "ffc5f98a93b69c7b57d3b14f1ea44b565fa1fa60ca1b64486a2f084c4c60d637",
+      "textSha256": "b81dc5387b5fcb59152fab9a5b138045f9cc0222bfa2856011d3415482877541",
+      "durationSeconds": 3.0,
+      "bytes": 48428,
+      "decodeValid": true,
+      "peakAmplitude": 0.3936297297477722,
+      "phonemes": [
+        "plˈiz ˈæsk fɔɹ hˈɛlp ɪf ju nˈid ɪt."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-053",
+      "kind": "phrase",
+      "text": "thank somebody for doing something",
+      "speakText": "thank somebody for doing something",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-053-phrase-b45116f690c48b750266.mp3",
+      "sha256": "3c44a5dcbda816b64171ace499b851429b9d9aebdf49df9e36ba7482c95c51d5",
+      "textSha256": "e03f592478a37a7c07966cb4da1eb5c1f49b2baafd20b4ecec55a50c6cbcb445",
+      "durationSeconds": 2.424,
+      "bytes": 39212,
+      "decodeValid": true,
+      "peakAmplitude": 0.3108135461807251,
+      "phonemes": [
+        "θˈæŋk sˈʌmbədi fɔɹ dˈuɪŋ sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-053",
+      "kind": "example",
+      "text": "Thank you for helping me.",
+      "speakText": "Thank you for helping me.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-053-example-e939ca4c9922563424c6.mp3",
+      "sha256": "70fa8cda440971ce93a693bec50793073c80707eba3568a9094e046595a608ef",
+      "textSha256": "4abfc4cd385b168560d61c7002f1d9afabca4e0c98809addb7ff61491aafe855",
+      "durationSeconds": 2.112,
+      "bytes": 34220,
+      "decodeValid": true,
+      "peakAmplitude": 0.3706910014152527,
+      "phonemes": [
+        "θˈæŋk ju fɔɹ hˈɛlpɪŋ mˌi."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-054",
+      "kind": "phrase",
+      "text": "enjoy doing something",
+      "speakText": "enjoy doing something",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-054-phrase-13443b81186ed29cb1b3.mp3",
+      "sha256": "3426ae6265b97c7be0bc36b9541d8f337c28bfdb64400cc39ca8f1817c441865",
+      "textSha256": "d40b55e9e6002482f46151bcabbe8626f8b47bb1a4bb60ecbf470cee9433b7f9",
+      "durationSeconds": 2.424,
+      "bytes": 39212,
+      "decodeValid": true,
+      "peakAmplitude": 0.3771061897277832,
+      "phonemes": [
+        "ɪnʤˈY dˈuɪŋ sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-054",
+      "kind": "example",
+      "text": "I enjoy reading before bed.",
+      "speakText": "I enjoy reading before bed.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-054-example-60a58d685d7fe8bffe54.mp3",
+      "sha256": "b587c0f15710fb9ff5cc235fc5aa695306f5aa151459a829218fbb7bf1e3dffd",
+      "textSha256": "193a5d77443e7948e99eed6e2a4e512efe0cced5706fa7c1af76fa18d0afebdc",
+      "durationSeconds": 3.0,
+      "bytes": 48428,
+      "decodeValid": true,
+      "peakAmplitude": 0.4839908182621002,
+      "phonemes": [
+        "ˌI ɪnʤˈY ɹˈidɪŋ bəfˈɔɹ bˈɛd."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-055",
+      "kind": "phrase",
+      "text": "finish doing something",
+      "speakText": "finish doing something",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-055-phrase-f599680502ac4f173dd0.mp3",
+      "sha256": "dc217c43ce06c73b488253fae9d987e70bbed9208e08ac0ade778aea11875612",
+      "textSha256": "d6a4f4462474898f78c5c4f47c1d8cbabf685ea08a120ae8a293fb8b669fb185",
+      "durationSeconds": 2.04,
+      "bytes": 33068,
+      "decodeValid": true,
+      "peakAmplitude": 0.3246074914932251,
+      "phonemes": [
+        "fˈɪnəʃ dˈuɪŋ sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-055",
+      "kind": "example",
+      "text": "I finished writing the email.",
+      "speakText": "I finished writing the email.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-055-example-5a7677f3e44e9cd2b03b.mp3",
+      "sha256": "3d4afdcbb49ed285a42dbd94563d5818a16cf37b62c5cf54834b4de58f5428d5",
+      "textSha256": "5bc0f2de6db8bfa0511ebe641f6ef671206d9bb59f089e2d7445e3eab76faac9",
+      "durationSeconds": 2.304,
+      "bytes": 37292,
+      "decodeValid": true,
+      "peakAmplitude": 0.431721031665802,
+      "phonemes": [
+        "ˌI fˈɪnəʃt ɹˈITɪŋ ði ˈimˌAl."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-056",
+      "kind": "phrase",
+      "text": "practise doing something",
+      "speakText": "practise doing something",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-056-phrase-ae014349be143e92f439.mp3",
+      "sha256": "a1bf593f21cc8d4075664094e9723713a24fee9dc27d788e7287d6679f2e879e",
+      "textSha256": "5b7460dce21c481f5599a895b84911bb83250be78b96f09e47a706fec3261c72",
+      "durationSeconds": 2.328,
+      "bytes": 37676,
+      "decodeValid": true,
+      "peakAmplitude": 0.40615707635879517,
+      "phonemes": [
+        "pɹˈæktəs dˈuɪŋ sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-056",
+      "kind": "example",
+      "text": "We practise speaking English every day.",
+      "speakText": "We practise speaking English every day.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-056-example-df8ff7a3bc55904e1856.mp3",
+      "sha256": "6e09f4f4556fd8c60de25b0eca39d237fd3a68ec698445fd2190617a921817c3",
+      "textSha256": "5ab4e60f6bbfbc5326a8416b75d6328c855fc4ffecafe76d14fe10f0edc11c86",
+      "durationSeconds": 3.408,
+      "bytes": 54956,
+      "decodeValid": true,
+      "peakAmplitude": 0.4584576189517975,
+      "phonemes": [
+        "wˌi pɹˈæktəs spˈikɪŋ ˈɪŋɡlɪʃ ˈɛvəɹi dˈA."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-057",
+      "kind": "phrase",
+      "text": "want to do something",
+      "speakText": "want to do something",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-057-phrase-bd12f6bff54e0ceea2a1.mp3",
+      "sha256": "6013082d2bb6fb4fb1b8a414c0fc89687f269314878cfe89927fd7ce8903dfe7",
+      "textSha256": "f0c970aa00724f7ada4c37a8a077df4b7ba6868d6a1ddd82a571c51cb18db067",
+      "durationSeconds": 1.944,
+      "bytes": 31532,
+      "decodeValid": true,
+      "peakAmplitude": 0.32989299297332764,
+      "phonemes": [
+        "wˈɑnt tə dˈu sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-057",
+      "kind": "example",
+      "text": "I want to learn a new skill.",
+      "speakText": "I want to learn a new skill.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-057-example-4ad0b2f2755a3bfd2ac5.mp3",
+      "sha256": "c96f5b86ade8658d3ead1c8d3401d6068438aca2494bc3cec724d58ca658f584",
+      "textSha256": "6f9f67a940d6433c19faf2be5a95f409ec0b1c68c86f36cafd673478c50e4434",
+      "durationSeconds": 2.232,
+      "bytes": 36140,
+      "decodeValid": true,
+      "peakAmplitude": 0.5657691359519958,
+      "phonemes": [
+        "ˌI wˈɑnt tə lˈɜɹn ɐ nˈu skˈɪl."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-058",
+      "kind": "phrase",
+      "text": "need to do something",
+      "speakText": "need to do something",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-058-phrase-aad4787b0625dd94aebd.mp3",
+      "sha256": "54d8b9cc91c9a3754bdec0f0eff53e65f8a5e9ee005132f9341547314f78cc2c",
+      "textSha256": "a674d930eaf981ab3a30686f8f4ddf71ea93502a12cf560ecbfc2a4d87762c06",
+      "durationSeconds": 2.256,
+      "bytes": 36524,
+      "decodeValid": true,
+      "peakAmplitude": 0.46631067991256714,
+      "phonemes": [
+        "nˈid tə dˈu sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-058",
+      "kind": "example",
+      "text": "We need to leave early tomorrow.",
+      "speakText": "We need to leave early tomorrow.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-058-example-4b665b22e1ba25f58d11.mp3",
+      "sha256": "67a0177ea69892b3d3ccb340b798a458e8a8f55b214273c1e2decf2b930b52d1",
+      "textSha256": "e00b9887aa8d6343421533ccdfabfb03361c48a0e4fcaf8b7b1ce540b1904ae3",
+      "durationSeconds": 3.024,
+      "bytes": 48812,
+      "decodeValid": true,
+      "peakAmplitude": 0.40921247005462646,
+      "phonemes": [
+        "wˌi nˈid tə lˈiv ˈɜɹli təmˈɑɹO."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-059",
+      "kind": "phrase",
+      "text": "look forward to doing something",
+      "speakText": "look forward to doing something",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-059-phrase-2db1dce504f29bbc5132.mp3",
+      "sha256": "9b85b56a46dedb3debb21716a2e9a8e73b16e9dc90568f74d2754c571e47028d",
+      "textSha256": "e5dbdad5e27ac8ac7d65610e90dbef2f5dbd9d438e8b900646f210c5448f4302",
+      "durationSeconds": 2.256,
+      "bytes": 36524,
+      "decodeValid": true,
+      "peakAmplitude": 0.29916101694107056,
+      "phonemes": [
+        "lˈʊk fˈɔɹwəɹd tə dˈuɪŋ sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-059",
+      "kind": "example",
+      "text": "I am looking forward to seeing you.",
+      "speakText": "I am looking forward to seeing you.",
+      "voice": "af_heart",
+      "file": "audio/collocation-col-059-example-55bfccdc1bb02b715a36.mp3",
+      "sha256": "b7ec795c72e0bc080d8db4b83e65018c91c093cbbfb4740a8b880476ec0a69ff",
+      "textSha256": "030d736019e45b81e9df7953299c60dee2220f59034b5038a1ac35aab8106e62",
+      "durationSeconds": 2.664,
+      "bytes": 43052,
+      "decodeValid": true,
+      "peakAmplitude": 0.4702565670013428,
+      "phonemes": [
+        "ˌI ɐm lˈʊkɪŋ fˈɔɹwəɹd tə sˈiɪŋ ju."
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-060",
+      "kind": "phrase",
+      "text": "pay attention to something",
+      "speakText": "pay attention to something",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-060-phrase-f52339b196ab10a1e30a.mp3",
+      "sha256": "51bbc1cffc0126bcebe25effd7c26444188179134ecaeda28295a30278dbd5f2",
+      "textSha256": "89c9f3c176d68f1f1e17904b68a4c14bc110486f6afcbb50808164f872e7e47b",
+      "durationSeconds": 2.568,
+      "bytes": 41516,
+      "decodeValid": true,
+      "peakAmplitude": 0.35867467522621155,
+      "phonemes": [
+        "pˈA ətˈɛnʧən tə sˈʌmθˌɪŋ"
+      ],
+      "sampleRate": 24000
+    },
+    {
+      "id": "col-060",
+      "kind": "example",
+      "text": "Please pay attention to the road signs.",
+      "speakText": "Please pay attention to the road signs.",
+      "voice": "am_michael",
+      "file": "audio/collocation-col-060-example-6009fa8eab66d722a8d0.mp3",
+      "sha256": "a68ee6bc54691ab3d7231257e7c0f1466365f888448971d0a1f5713a3082ff83",
+      "textSha256": "40ee0bce22cc10cc9f7725ad1424afc1bb7e7249100988b2052ff75d4b6ae499",
+      "durationSeconds": 3.336,
+      "bytes": 53804,
+      "decodeValid": true,
+      "peakAmplitude": 0.324745774269104,
+      "phonemes": [
+        "plˈiz pˈA ətˈɛnʧən tə ðə ɹˈOd sˈInz."
+      ],
+      "sampleRate": 24000
+    }
+  ],
+  "metadata": {
+    "engine": "Kokoro-82M v1.0",
+    "package": "kokoro 0.9.4",
+    "accent": "en-US",
+    "speed": 0.9,
+    "sampleRate": 24000,
+    "codec": "MP3 128kbps mono",
+    "license": "Apache-2.0",
+    "modelSource": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "sourceSha256": "5239498e0610e0a361fee7ab6a7f4acff10da5b51cf7773f5388c77d0fd14cf8",
+    "voicePolicy": "Odd numeric entry IDs af_heart; even IDs am_michael. Phrase and example use same voice.",
+    "speakTextPolicy": "Exact canonical english and example.en; something/doing read verbatim as agreed with content author; no placeholders, truncation or notation.",
+    "perceptualAudit": false,
+    "offlineGeneration": true,
+    "entryCount": 60,
+    "fileCount": 120,
+    "sourceFile": "learning-bank.json",
+    "modelAssetsSha256": {
+      "kokoro-v1_0.pth": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+      "config.json": "5abb01e2403b072bf03d04fde160443e209d7a0dad49a423be15196b9b43c17f",
+      "voices/am_michael.pt": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+      "voices/af_heart.pt": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff"
+    },
+    "originalGenerationSourceSha256": "bfdf8786e4201791a0ed7bbedbaf2bc73da5e5809e1add653403be21d78eb7aa",
+    "finalTextAlignmentVerified": true
+  }
+}

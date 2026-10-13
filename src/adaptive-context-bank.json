@@ -1,0 +1,2926 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "title": "七上语境与结构原创补充题库",
+    "createdAt": "2026-10-05",
+    "questionCount": 96,
+    "conceptCount": 16,
+    "finiteBank": true,
+    "originalContent": true,
+    "runtimeLLMRequired": false,
+    "coverageZh": "16个模块内能力标签，每个6道，共96道。使用七上目标词及必要的小学基础词、少量由语境支持的拓展词；不是289词逐词全覆盖。",
+    "limitationsZh": [
+      "题库有限，做完后可以换组或复习，不能声称无限新题。",
+      "阅读含6篇原创短文，每篇4道题；完形含24篇独立原创迷你短文，每篇1个空，与阅读不共用文本。",
+      "同一篇短文的题目重复展示属于同材料不同考点，不应声称是新短文。",
+      "句子讲解为客观选择题判分，不判断自由口头或书面解释是否正确。",
+      "正确率只反映本题库表现，不能作为独立掌握或标准化评级。",
+      "已程序校验并作逐题编辑检查，未经独立教师实测。"
+    ],
+    "contentBasis": "目标词所属年级依据本地官方词库；短文、例句、选项与中文解释为原创。"
+  },
+  "concepts": [
+    {
+      "id": "ctx-preposition",
+      "label": "固定搭配中的介词",
+      "tipZh": "先认出完整搭配，再根据宾语确定介词。"
+    },
+    {
+      "id": "ctx-verb",
+      "label": "根据语境辨别动作",
+      "tipZh": "找到宾语和上下文提示，选择意思和搭配都合适的动作。"
+    },
+    {
+      "id": "ctx-subject",
+      "label": "学科词义与学习内容",
+      "tipZh": "根据正在学的内容判断学科，不只看某个熟悉单词。"
+    },
+    {
+      "id": "ctx-location",
+      "label": "空间关系短语",
+      "tipZh": "先明确两个物体的实际位置，再选择空间关系。"
+    },
+    {
+      "id": "read-detail",
+      "label": "定位明确细节",
+      "tipZh": "根据题干找到原文对应句，不把其他人物或物品的信息混在一起。"
+    },
+    {
+      "id": "read-time",
+      "label": "理解时间与先后",
+      "tipZh": "看清时间词和活动的对应关系，必要时做简单时间计算。"
+    },
+    {
+      "id": "read-reference",
+      "label": "判断代词指代",
+      "tipZh": "联系前后句，判断代词所指的人、物或群体。"
+    },
+    {
+      "id": "read-purpose",
+      "label": "理解人物行动目的",
+      "tipZh": "找到 because、to 或上下文中的原因，不能只凭常识猜测。"
+    },
+    {
+      "id": "cloze-agreement",
+      "label": "主语与 be 动词一致",
+      "tipZh": "先找主语，再判断单复数，选择 am、is 或 are。"
+    },
+    {
+      "id": "cloze-connector",
+      "label": "上下文逻辑关系",
+      "tipZh": "区分原因、结果、转折和选择；读完整的前后分句。"
+    },
+    {
+      "id": "cloze-timeprep",
+      "label": "时间介词",
+      "tipZh": "具体时刻用 at；星期或具体日期用 on；月份用 in。"
+    },
+    {
+      "id": "cloze-noun",
+      "label": "短文中的名词选择",
+      "tipZh": "用上下文提供的功能或动作线索判断物品或地点。"
+    },
+    {
+      "id": "parse-subject",
+      "label": "识别句子主语",
+      "tipZh": "先问“谁做这个动作”，找出主语。"
+    },
+    {
+      "id": "parse-verb",
+      "label": "识别谓语动词",
+      "tipZh": "找表示主语动作的动词；不要把时间词当动词。"
+    },
+    {
+      "id": "parse-object",
+      "label": "识别动作宾语",
+      "tipZh": "问“做这个动作涉及什么或谁”，找动词后的宾语。"
+    },
+    {
+      "id": "parse-adverbial",
+      "label": "识别时间状语",
+      "tipZh": "找出表示“什么时候”的完整部分，区别于地点信息。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "ctx-preposition-01",
+      "module": "context",
+      "conceptId": "ctx-preposition",
+      "prompt": "Mia is good ___ chess. She often wins.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "to"
+      ],
+      "answer": "at",
+      "explanationZh": "be good at 表示“擅长”，后面接擅长的活动。",
+      "distractorExplanations": {
+        "in": "good in 不是这里表示“擅长下棋”的目标搭配。",
+        "on": "on 不能组成 be good at 这一搭配。",
+        "to": "be good to 表示“对……好”，不是“擅长”。"
+      },
+      "wordId": "unit4-014"
+    },
+    {
+      "id": "ctx-preposition-02",
+      "module": "context",
+      "conceptId": "ctx-preposition",
+      "prompt": "Ben is interested ___ wildlife. He reads about insects.",
+      "options": [
+        "on",
+        "at",
+        "for",
+        "in"
+      ],
+      "answer": "in",
+      "explanationZh": "be interested in 表示“对……感兴趣”，这里谈的是野生动物。",
+      "distractorExplanations": {
+        "on": "interested 后表示兴趣对象用 in，不用 on。",
+        "at": "at 常出现在 good at 中，不能搬到 interested 后。",
+        "for": "for 表示目的等，不能构成 be interested in。"
+      },
+      "wordId": "unit5-020"
+    },
+    {
+      "id": "ctx-preposition-03",
+      "module": "context",
+      "conceptId": "ctx-preposition",
+      "prompt": "Can you help me ___ my geography homework?",
+      "options": [
+        "at",
+        "of",
+        "with",
+        "from"
+      ],
+      "answer": "with",
+      "explanationZh": "help somebody with something 表示“帮助某人做某事”。",
+      "distractorExplanations": {
+        "from": "from 表示来源，不连接 help 与所帮助的事情。",
+        "at": "at 不是 help somebody with something 的介词。",
+        "of": "of 表示所属等，这里需用 with 引出作业。"
+      },
+      "wordId": "unit4-011"
+    },
+    {
+      "id": "ctx-preposition-04",
+      "module": "context",
+      "conceptId": "ctx-preposition",
+      "prompt": "Please listen ___ the teacher before you start.",
+      "options": [
+        "in",
+        "to",
+        "of",
+        "at"
+      ],
+      "answer": "to",
+      "explanationZh": "listen to somebody 表示“听某人讲话”。",
+      "distractorExplanations": {
+        "of": "of 不用来连接 listen 与所听的人。",
+        "at": "listen 连接所听的人或内容时用 to。",
+        "in": "in 不用来引出 listen 的对象。"
+      },
+      "wordId": "unit4-013"
+    },
+    {
+      "id": "ctx-preposition-05",
+      "module": "context",
+      "conceptId": "ctx-preposition",
+      "prompt": "Our new classroom is different ___ the old one.",
+      "options": [
+        "from",
+        "of",
+        "with",
+        "by"
+      ],
+      "answer": "from",
+      "explanationZh": "different from 表示“与……不同”。",
+      "distractorExplanations": {
+        "of": "of 不能构成这里“与……不同”的搭配。",
+        "with": "with 不能替代 different from 中的 from。",
+        "by": "by 不能构成这里的比较搭配。"
+      },
+      "wordId": "unit3-041"
+    },
+    {
+      "id": "ctx-preposition-06",
+      "module": "context",
+      "conceptId": "ctx-preposition",
+      "prompt": "哪个短语表示“为聚会准备食物”？",
+      "options": [
+        "prepare food from the party",
+        "prepare food under the party",
+        "prepare food between the party",
+        "prepare food for the party"
+      ],
+      "answer": "prepare food for the party",
+      "explanationZh": "prepare something for... 表示“为……准备某物”；for 引出准备的目的。",
+      "distractorExplanations": {
+        "prepare food from the party": "from 表示来源，不能表达“为聚会”。",
+        "prepare food under the party": "under 表示在……下面，不能表达此处的用途。",
+        "prepare food between the party": "between 表示在两者或多者之间；此短语也缺少合适的对象。"
+      },
+      "wordId": "unit6-042"
+    },
+    {
+      "id": "ctx-verb-01",
+      "module": "context",
+      "conceptId": "ctx-verb",
+      "prompt": "We have a camera. Let’s ___ photos of the village.",
+      "options": [
+        "brush",
+        "spell",
+        "raise",
+        "take"
+      ],
+      "answer": "take",
+      "explanationZh": "相机用于拍照，take photos 是“拍照”。",
+      "distractorExplanations": {
+        "brush": "brush 表示刷，不能表示用相机拍照。",
+        "spell": "spell 表示拼写，不能和 photos 构成“拍照”。",
+        "raise": "raise 表示举起或提高，不表示拍照。"
+      },
+      "wordId": "unit5-029"
+    },
+    {
+      "id": "ctx-verb-02",
+      "module": "context",
+      "conceptId": "ctx-verb",
+      "prompt": "Before breakfast, I ___ my teeth.",
+      "options": [
+        "paint",
+        "collect",
+        "brush",
+        "count"
+      ],
+      "answer": "brush",
+      "explanationZh": "brush my teeth 是“刷牙”，符合早餐前的日常活动。",
+      "distractorExplanations": {
+        "count": "count 是数数，句中不是在数牙齿。",
+        "paint": "paint 是涂色或画画，不是日常清洁牙齿。",
+        "collect": "collect 是收集，不能表达刷牙。"
+      },
+      "wordId": "unit6-005"
+    },
+    {
+      "id": "ctx-verb-03",
+      "module": "context",
+      "conceptId": "ctx-verb",
+      "prompt": "The birthday candles are burning. Make a wish, then ___ them out.",
+      "options": [
+        "listen",
+        "blow",
+        "grow",
+        "join"
+      ],
+      "answer": "blow",
+      "explanationZh": "blow out 表示“吹灭”，与正在燃烧的生日蜡烛相配。",
+      "distractorExplanations": {
+        "grow": "grow 表示生长，不组成“吹灭”。",
+        "join": "join 表示加入，不能表示熄灭蜡烛。",
+        "listen": "listen 表示听，不能与 out 构成这里所需的意思。"
+      },
+      "wordId": "unit7-027"
+    },
+    {
+      "id": "ctx-verb-04",
+      "module": "context",
+      "conceptId": "ctx-verb",
+      "prompt": "The music club needs new members. I want to ___ it.",
+      "options": [
+        "join",
+        "spell",
+        "raise",
+        "brush"
+      ],
+      "answer": "join",
+      "explanationZh": "join a club 表示“加入俱乐部”。",
+      "distractorExplanations": {
+        "spell": "spell 是拼写，不表示成为成员。",
+        "raise": "raise 是举起、提升等，不表示加入。",
+        "brush": "brush 是刷，不表示参加俱乐部。"
+      },
+      "wordId": "unit5-002"
+    },
+    {
+      "id": "ctx-verb-05",
+      "module": "context",
+      "conceptId": "ctx-verb",
+      "prompt": "I cannot open the door without my key. I ___ to find it.",
+      "options": [
+        "paint",
+        "celebrate",
+        "climb",
+        "need"
+      ],
+      "answer": "need",
+      "explanationZh": "need to do 表示“需要做”，钥匙丢失使找到它成为必要。",
+      "distractorExplanations": {
+        "paint": "paint 表示画画，不能表达这里的需要。",
+        "celebrate": "celebrate 表示庆祝，不能表达找钥匙的必要性。",
+        "climb": "climb 表示攀爬，不构成这里的意思。"
+      },
+      "wordId": "starter2-005"
+    },
+    {
+      "id": "ctx-verb-06",
+      "module": "context",
+      "conceptId": "ctx-verb",
+      "prompt": "There are many names on the list. Please ___ your own name with a pen.",
+      "options": [
+        "rise",
+        "laugh",
+        "circle",
+        "hike"
+      ],
+      "answer": "circle",
+      "explanationZh": "circle 在这里是动词“圈出”，用笔圈出自己的名字。",
+      "distractorExplanations": {
+        "hike": "hike 是徒步，不是对名单上的名字做标记。",
+        "rise": "rise 是上升，不能以 your name 作这种动作的宾语。",
+        "laugh": "laugh 是笑，不能表达圈名字。"
+      },
+      "wordId": "starter3-009"
+    },
+    {
+      "id": "ctx-subject-01",
+      "module": "context",
+      "conceptId": "ctx-subject",
+      "prompt": "We learn about plants and animals in ___.",
+      "options": [
+        "IT",
+        "French",
+        "biology",
+        "history"
+      ],
+      "answer": "biology",
+      "explanationZh": "植物和动物是生物学的学习内容。",
+      "distractorExplanations": {
+        "history": "history 是历史，主要学习过去的人与事件。",
+        "IT": "IT 是信息技术；这里没有电脑或技术的提示。",
+        "French": "French 是法语；这里的重点是植物和动物。"
+      }
+    },
+    {
+      "id": "ctx-subject-02",
+      "module": "context",
+      "conceptId": "ctx-subject",
+      "prompt": "We use maps to learn about countries in ___.",
+      "options": [
+        "art",
+        "geography",
+        "music",
+        "PE"
+      ],
+      "answer": "geography",
+      "explanationZh": "地图和国家指向 geography（地理）。",
+      "distractorExplanations": {
+        "music": "music 是音乐，不以地图和国家为题中重点。",
+        "PE": "PE 是体育，与这里的地图学习不符。",
+        "art": "art 是美术，题目在学习国家而非绘画。"
+      }
+    },
+    {
+      "id": "ctx-subject-03",
+      "module": "context",
+      "conceptId": "ctx-subject",
+      "prompt": "We learn about life hundreds of years ago in ___.",
+      "options": [
+        "history",
+        "IT",
+        "PE",
+        "music"
+      ],
+      "answer": "history",
+      "explanationZh": "hundreds of years ago 指数百年前，符合历史课。",
+      "distractorExplanations": {
+        "IT": "IT 学信息技术，不是题中所说的过去生活。",
+        "PE": "PE 是体育课，不是研究数百年前的生活。",
+        "music": "music 是音乐；题中没有音乐学习的提示。"
+      }
+    },
+    {
+      "id": "ctx-subject-04",
+      "module": "context",
+      "conceptId": "ctx-subject",
+      "prompt": "Today we learn to write a simple computer program in ___.",
+      "options": [
+        "PE",
+        "geography",
+        "music",
+        "IT"
+      ],
+      "answer": "IT",
+      "explanationZh": "computer program（计算机程序）指向信息技术课。",
+      "distractorExplanations": {
+        "PE": "PE 是体育，不是学习写程序。",
+        "geography": "geography 是地理，题目重点是计算机程序。",
+        "music": "music 是音乐，题中没有作曲或乐器。"
+      }
+    },
+    {
+      "id": "ctx-subject-05",
+      "module": "context",
+      "conceptId": "ctx-subject",
+      "prompt": "Our teacher says “Bonjour” and teaches us to speak ___.",
+      "options": [
+        "history",
+        "PE",
+        "French",
+        "biology"
+      ],
+      "answer": "French",
+      "explanationZh": "Bonjour 是法语问候语，且 speak 后需要这里所学的语言。",
+      "distractorExplanations": {
+        "biology": "biology 是学科，不是此处能 speak 的语言。",
+        "history": "history 是历史，不是语言名称。",
+        "PE": "PE 是体育，不是语言名称。"
+      }
+    },
+    {
+      "id": "ctx-subject-06",
+      "module": "context",
+      "conceptId": "ctx-subject",
+      "prompt": "We practise with a violin and drums in ___ class.",
+      "options": [
+        "history",
+        "music",
+        "geography",
+        "IT"
+      ],
+      "answer": "music",
+      "explanationZh": "小提琴和鼓都是乐器，符合音乐课的练习。",
+      "distractorExplanations": {
+        "geography": "地理课的核心内容不是演奏乐器。",
+        "IT": "信息技术课的核心内容不是演奏乐器。",
+        "history": "这里是实际练习乐器，未涉及历史研究。"
+      }
+    },
+    {
+      "id": "ctx-location-01",
+      "module": "context",
+      "conceptId": "ctx-location",
+      "prompt": "图书馆和体育馆隔街相对。The library is ___ the gym.",
+      "options": [
+        "on",
+        "across from",
+        "inside",
+        "under"
+      ],
+      "answer": "across from",
+      "explanationZh": "across from 表示“在……对面”，隔街相对符合这一关系。",
+      "distractorExplanations": {
+        "inside": "inside 表示在内部，不是隔街相对。",
+        "under": "under 表示在下面，不是对面。",
+        "on": "on 表示在上面，不是隔街相对。"
+      }
+    },
+    {
+      "id": "ctx-location-02",
+      "module": "context",
+      "conceptId": "ctx-location",
+      "prompt": "我的座位紧挨着窗户。My seat is ___ the window.",
+      "options": [
+        "next to",
+        "far from",
+        "above",
+        "opposite"
+      ],
+      "answer": "next to",
+      "explanationZh": "next to 表示“紧挨着”。",
+      "distractorExplanations": {
+        "far from": "far from 表示离……远，与紧挨着相反。",
+        "above": "above 表示在上方，不表示紧挨着。",
+        "opposite": "opposite 表示在对面，不表示紧挨着。"
+      }
+    },
+    {
+      "id": "ctx-location-03",
+      "module": "context",
+      "conceptId": "ctx-location",
+      "prompt": "旗杆位于操场正中央。The flagpole is ___ the sports field.",
+      "options": [
+        "outside",
+        "above",
+        "behind",
+        "in the middle of"
+      ],
+      "answer": "in the middle of",
+      "explanationZh": "in the middle of 表示“在……中间”。",
+      "distractorExplanations": {
+        "outside": "outside 表示在外面，与正中央相反。",
+        "above": "above 表示在上方，不表示场地中央。",
+        "behind": "behind 表示在后面，不表示中央。"
+      }
+    },
+    {
+      "id": "ctx-location-04",
+      "module": "context",
+      "conceptId": "ctx-location",
+      "prompt": "老师面向同学，站在全班前面。The teacher is ___ the class.",
+      "options": [
+        "inside",
+        "on",
+        "in front of",
+        "under"
+      ],
+      "answer": "in front of",
+      "explanationZh": "in front of 表示“在……前面”。",
+      "distractorExplanations": {
+        "under": "under 表示在下面，与老师站在全班前面的意思不符。",
+        "inside": "inside 表示在内部，不表达此处的前后关系。",
+        "on": "on 表示在上面，不表示站在同学前面。"
+      }
+    },
+    {
+      "id": "ctx-location-05",
+      "module": "context",
+      "conceptId": "ctx-location",
+      "prompt": "书包在书桌下面。The schoolbag is ___ the desk.",
+      "options": [
+        "on",
+        "under",
+        "above",
+        "inside"
+      ],
+      "answer": "under",
+      "explanationZh": "under 表示“在……下面”。",
+      "distractorExplanations": {
+        "above": "above 是在上方，与下面相反。",
+        "inside": "inside 是在内部，不是桌子下面。",
+        "on": "on 是在上面，与下面不符。"
+      }
+    },
+    {
+      "id": "ctx-location-06",
+      "module": "context",
+      "conceptId": "ctx-location",
+      "prompt": "储物柜在教室最后面。The lockers are ___ the classroom.",
+      "options": [
+        "at the back of",
+        "above",
+        "outside",
+        "under"
+      ],
+      "answer": "at the back of",
+      "explanationZh": "at the back of 表示“在……后部”。",
+      "distractorExplanations": {
+        "above": "above 是在上方，不是教室后部。",
+        "outside": "outside 是在外面，不是教室里面的后部。",
+        "under": "under 是在下面，不表示后部。"
+      }
+    },
+    {
+      "id": "read-detail-01",
+      "module": "reading",
+      "conceptId": "read-detail",
+      "prompt": "Nina 带什么去学校？",
+      "options": [
+        "Her guitar",
+        "A violin",
+        "A camera",
+        "A drum"
+      ],
+      "answer": "Her guitar",
+      "explanationZh": "直接细节题：准确对应题目所问的人、物或位置。依据：“On Tuesday, she takes her guitar to school.”答案为 Her guitar。",
+      "distractorExplanations": {
+        "A violin": "文中依据是“On Tuesday, she takes her guitar to school.”；“A violin”与该信息不符或没有得到原文支持。",
+        "A camera": "文中依据是“On Tuesday, she takes her guitar to school.”；“A camera”与该信息不符或没有得到原文支持。",
+        "A drum": "文中依据是“On Tuesday, she takes her guitar to school.”；“A drum”与该信息不符或没有得到原文支持。"
+      },
+      "title": "A card for the club",
+      "passage": "Nina wants to join the music club. On Tuesday, she takes her guitar to school. The club meets at four, after her last class. Nina puts a name card on the guitar because two students have the same kind of guitar. She wants to find hers easily.",
+      "evidenceQuote": "On Tuesday, she takes her guitar to school."
+    },
+    {
+      "id": "read-time-01",
+      "module": "reading",
+      "conceptId": "read-time",
+      "prompt": "俱乐部什么时候开展活动？",
+      "options": [
+        "Before her last class",
+        "At two",
+        "On Monday morning",
+        "At four"
+      ],
+      "answer": "At four",
+      "explanationZh": "时间题：把原文中的时间和对应活动联系起来。依据：“The club meets at four, after her last class.”答案为 At four。",
+      "distractorExplanations": {
+        "Before her last class": "原文写 after her last class，是最后一节课之后。",
+        "At two": "two 指拥有同款吉他的学生人数，不是活动时间。",
+        "On Monday morning": "文中说的是星期二，且明确写 at four。"
+      },
+      "title": "A card for the club",
+      "passage": "Nina wants to join the music club. On Tuesday, she takes her guitar to school. The club meets at four, after her last class. Nina puts a name card on the guitar because two students have the same kind of guitar. She wants to find hers easily.",
+      "evidenceQuote": "The club meets at four, after her last class."
+    },
+    {
+      "id": "read-reference-01",
+      "module": "reading",
+      "conceptId": "read-reference",
+      "prompt": "“hers”指的是什么？",
+      "options": [
+        "The music club",
+        "Another student’s card",
+        "Nina’s guitar",
+        "Nina’s last class"
+      ],
+      "answer": "Nina’s guitar",
+      "explanationZh": "指代题：把代词换成答案，前后句意思连贯。依据：“She wants to find hers easily.”答案为 Nina’s guitar。",
+      "distractorExplanations": {
+        "Nina’s last class": "hers 在此代替 her guitar；课程不是她需要从同款物品中认出的东西。",
+        "The music club": "俱乐部不是可以用姓名卡标记并认出的吉他。",
+        "Another student’s card": "hers 表示 Nina 所有的物品，不是另一位学生的卡片。"
+      },
+      "title": "A card for the club",
+      "passage": "Nina wants to join the music club. On Tuesday, she takes her guitar to school. The club meets at four, after her last class. Nina puts a name card on the guitar because two students have the same kind of guitar. She wants to find hers easily.",
+      "evidenceQuote": "She wants to find hers easily."
+    },
+    {
+      "id": "read-purpose-01",
+      "module": "reading",
+      "conceptId": "read-purpose",
+      "prompt": "Nina 为什么在吉他上放一张姓名卡？",
+      "options": [
+        "To make the guitar louder",
+        "To know which guitar is hers",
+        "To change the club time",
+        "To learn a new song"
+      ],
+      "answer": "To know which guitar is hers",
+      "explanationZh": "目的题：依据原文明确给出的原因或目的。依据：“Nina puts a name card on the guitar because two students have the same kind of guitar.”答案为 To know which guitar is hers。",
+      "distractorExplanations": {
+        "To change the club time": "文中依据是“Nina puts a name card on the guitar because two students have the same kind of guitar.”；“To change the club time”与该信息不符或没有得到原文支持。",
+        "To learn a new song": "文中依据是“Nina puts a name card on the guitar because two students have the same kind of guitar.”；“To learn a new song”与该信息不符或没有得到原文支持。",
+        "To make the guitar louder": "文中依据是“Nina puts a name card on the guitar because two students have the same kind of guitar.”；“To make the guitar louder”与该信息不符或没有得到原文支持。"
+      },
+      "title": "A card for the club",
+      "passage": "Nina wants to join the music club. On Tuesday, she takes her guitar to school. The club meets at four, after her last class. Nina puts a name card on the guitar because two students have the same kind of guitar. She wants to find hers easily.",
+      "evidenceQuote": "Nina puts a name card on the guitar because two students have the same kind of guitar."
+    },
+    {
+      "id": "read-detail-02",
+      "module": "reading",
+      "conceptId": "read-detail",
+      "prompt": "他们在午饭前收了多少根胡萝卜？",
+      "options": [
+        "Eight",
+        "Four",
+        "Five",
+        "Twelve"
+      ],
+      "answer": "Twelve",
+      "explanationZh": "直接细节题：准确对应题目所问的人、物或位置。依据：“They collect twelve carrots before lunch and eight after lunch.”答案为 Twelve。",
+      "distractorExplanations": {
+        "Eight": "8 是午饭后采的数量，题目问午饭前。",
+        "Four": "4 是每位邻居得到的数量，不是午饭前采的数量。",
+        "Five": "5 是邻居人数，不是胡萝卜数量。"
+      },
+      "title": "The carrot count",
+      "passage": "Leo and his grandfather work in the yard on Saturday. They collect twelve carrots before lunch and eight after lunch. Leo puts them in a large box. His grandfather writes the total on the box. They count the carrots because each of their five neighbours will get four.",
+      "evidenceQuote": "They collect twelve carrots before lunch and eight after lunch."
+    },
+    {
+      "id": "read-time-02",
+      "module": "reading",
+      "conceptId": "read-time",
+      "prompt": "他们什么时候收了八根胡萝卜？",
+      "options": [
+        "On Sunday",
+        "Before breakfast",
+        "After lunch",
+        "Before lunch"
+      ],
+      "answer": "After lunch",
+      "explanationZh": "时间题：把原文中的时间和对应活动联系起来。依据：“They collect twelve carrots before lunch and eight after lunch.”答案为 After lunch。",
+      "distractorExplanations": {
+        "Before lunch": "午饭前采了12根，8根是在午饭后采的。",
+        "On Sunday": "故事发生在星期六，不是星期日。",
+        "Before breakfast": "原文没有提到早餐前，8根对应 after lunch。"
+      },
+      "title": "The carrot count",
+      "passage": "Leo and his grandfather work in the yard on Saturday. They collect twelve carrots before lunch and eight after lunch. Leo puts them in a large box. His grandfather writes the total on the box. They count the carrots because each of their five neighbours will get four.",
+      "evidenceQuote": "They collect twelve carrots before lunch and eight after lunch."
+    },
+    {
+      "id": "read-reference-02",
+      "module": "reading",
+      "conceptId": "read-reference",
+      "prompt": "“puts them”中的“them”指的是什么？",
+      "options": [
+        "The names",
+        "The carrots",
+        "The neighbours",
+        "The boxes"
+      ],
+      "answer": "The carrots",
+      "explanationZh": "指代题：把代词换成答案，前后句意思连贯。依据：“Leo puts them in a large box.”答案为 The carrots。",
+      "distractorExplanations": {
+        "The neighbours": "这里是把物品放进箱子，不能理解为把邻居放进去。",
+        "The boxes": "a large box 是放置地点，不是被放进去的 carrots。",
+        "The names": "上下文谈的是收集胡萝卜，没有提到把名字放进箱子。"
+      },
+      "title": "The carrot count",
+      "passage": "Leo and his grandfather work in the yard on Saturday. They collect twelve carrots before lunch and eight after lunch. Leo puts them in a large box. His grandfather writes the total on the box. They count the carrots because each of their five neighbours will get four.",
+      "evidenceQuote": "Leo puts them in a large box."
+    },
+    {
+      "id": "read-purpose-02",
+      "module": "reading",
+      "conceptId": "read-purpose",
+      "prompt": "他们为什么要数胡萝卜？",
+      "options": [
+        "To give each neighbour the same number",
+        "To find a missing key",
+        "To choose a new box",
+        "To know when lunch starts"
+      ],
+      "answer": "To give each neighbour the same number",
+      "explanationZh": "目的题：依据原文明确给出的原因或目的。依据：“They count the carrots because each of their five neighbours will get four.”答案为 To give each neighbour the same number。",
+      "distractorExplanations": {
+        "To find a missing key": "文中依据是“They count the carrots because each of their five neighbours will get four.”；“To find a missing key”与该信息不符或没有得到原文支持。",
+        "To choose a new box": "文中依据是“They count the carrots because each of their five neighbours will get four.”；“To choose a new box”与该信息不符或没有得到原文支持。",
+        "To know when lunch starts": "文中依据是“They count the carrots because each of their five neighbours will get four.”；“To know when lunch starts”与该信息不符或没有得到原文支持。"
+      },
+      "title": "The carrot count",
+      "passage": "Leo and his grandfather work in the yard on Saturday. They collect twelve carrots before lunch and eight after lunch. Leo puts them in a large box. His grandfather writes the total on the box. They count the carrots because each of their five neighbours will get four.",
+      "evidenceQuote": "They count the carrots because each of their five neighbours will get four."
+    },
+    {
+      "id": "read-detail-03",
+      "module": "reading",
+      "conceptId": "read-detail",
+      "prompt": "Ali 带来了什么？",
+      "options": [
+        "A lunch box",
+        "A birthday card",
+        "A map",
+        "A guitar"
+      ],
+      "answer": "A map",
+      "explanationZh": "直接细节题：准确对应题目所问的人、物或位置。依据：“Ali brings a map.”答案为 A map。",
+      "distractorExplanations": {
+        "A guitar": "文中依据是“Ali brings a map.”；“A guitar”与该信息不符或没有得到原文支持。",
+        "A lunch box": "文中依据是“Ali brings a map.”；“A lunch box”与该信息不符或没有得到原文支持。",
+        "A birthday card": "文中依据是“Ali brings a map.”；“A birthday card”与该信息不符或没有得到原文支持。"
+      },
+      "title": "A quiet place",
+      "passage": "At lunchtime, May goes to the library with her classmate Ali. They have a geography test on Friday. Today is Thursday. The dining hall is noisy, but the library is quiet. Ali brings a map. May looks at it and names five countries. They study there to prepare for the test.",
+      "evidenceQuote": "Ali brings a map."
+    },
+    {
+      "id": "read-time-03",
+      "module": "reading",
+      "conceptId": "read-time",
+      "prompt": "考试在什么时候？",
+      "options": [
+        "Next month",
+        "The next day",
+        "Today",
+        "Last Thursday"
+      ],
+      "answer": "The next day",
+      "explanationZh": "时间题：把原文中的时间和对应活动联系起来。依据：“They have a geography test on Friday. Today is Thursday.”答案为 The next day。今天是星期四，星期五就是第二天。",
+      "distractorExplanations": {
+        "Today": "今天是星期四，考试在星期五。",
+        "Last Thursday": "last Thursday 是上个星期四，原文没有这个时间。",
+        "Next month": "next month 是下个月，与星期五的考试不符。"
+      },
+      "title": "A quiet place",
+      "passage": "At lunchtime, May goes to the library with her classmate Ali. They have a geography test on Friday. Today is Thursday. The dining hall is noisy, but the library is quiet. Ali brings a map. May looks at it and names five countries. They study there to prepare for the test.",
+      "evidenceQuote": "They have a geography test on Friday. Today is Thursday."
+    },
+    {
+      "id": "read-reference-03",
+      "module": "reading",
+      "conceptId": "read-reference",
+      "prompt": "“looks at it”中的“it”指的是什么？",
+      "options": [
+        "The map",
+        "The test",
+        "The dining hall",
+        "The library"
+      ],
+      "answer": "The map",
+      "explanationZh": "指代题：把代词换成答案，前后句意思连贯。依据：“Ali brings a map. May looks at it and names five countries.”答案为 The map。",
+      "distractorExplanations": {
+        "The test": "it 接在 Ali brings a map 后，May 看地图并说出国家名。",
+        "The dining hall": "餐厅是嘈杂的地点，不是 May 用来辨认国家的东西。",
+        "The library": "图书馆是学习的地点，不是她正在看的地图。"
+      },
+      "title": "A quiet place",
+      "passage": "At lunchtime, May goes to the library with her classmate Ali. They have a geography test on Friday. Today is Thursday. The dining hall is noisy, but the library is quiet. Ali brings a map. May looks at it and names five countries. They study there to prepare for the test.",
+      "evidenceQuote": "Ali brings a map. May looks at it and names five countries."
+    },
+    {
+      "id": "read-purpose-03",
+      "module": "reading",
+      "conceptId": "read-purpose",
+      "prompt": "May 和 Ali 为什么在图书馆学习？",
+      "options": [
+        "To buy a map",
+        "To celebrate a birthday",
+        "To find lunch",
+        "To prepare for their geography test"
+      ],
+      "answer": "To prepare for their geography test",
+      "explanationZh": "目的题：依据原文明确给出的原因或目的。依据：“They study there to prepare for the test.”答案为 To prepare for their geography test。",
+      "distractorExplanations": {
+        "To buy a map": "文中依据是“They study there to prepare for the test.”；“To buy a map”与该信息不符或没有得到原文支持。",
+        "To celebrate a birthday": "文中依据是“They study there to prepare for the test.”；“To celebrate a birthday”与该信息不符或没有得到原文支持。",
+        "To find lunch": "文中依据是“They study there to prepare for the test.”；“To find lunch”与该信息不符或没有得到原文支持。"
+      },
+      "title": "A quiet place",
+      "passage": "At lunchtime, May goes to the library with her classmate Ali. They have a geography test on Friday. Today is Thursday. The dining hall is noisy, but the library is quiet. Ali brings a map. May looks at it and names five countries. They study there to prepare for the test.",
+      "evidenceQuote": "They study there to prepare for the test."
+    },
+    {
+      "id": "read-detail-04",
+      "module": "reading",
+      "conceptId": "read-detail",
+      "prompt": "Owen 把书放在哪里？",
+      "options": [
+        "In the yard",
+        "On the bookcase",
+        "On the floor",
+        "Under his seat"
+      ],
+      "answer": "On the bookcase",
+      "explanationZh": "直接细节题：准确对应题目所问的人、物或位置。依据：“Owen opens the windows and puts the books on the bookcase.”答案为 On the bookcase。",
+      "distractorExplanations": {
+        "On the floor": "地板是移动前的位置；题目问 Owen 把书放到哪里。",
+        "Under his seat": "原文没有说把书放到座位下面。",
+        "In the yard": "原文中的动作发生在教室，不是在院子里。"
+      },
+      "title": "The early team",
+      "passage": "Owen is on duty on Wednesday. He gets to school at seven thirty. His classmates arrive at eight. Owen opens the windows and puts the books on the bookcase. The books were on the floor. He moves them to keep the classroom tidy. Then he sits down to read.",
+      "evidenceQuote": "Owen opens the windows and puts the books on the bookcase."
+    },
+    {
+      "id": "read-time-04",
+      "module": "reading",
+      "conceptId": "read-time",
+      "prompt": "Owen 比同学们早到多久？",
+      "options": [
+        "Thirty minutes",
+        "Ten minutes",
+        "One hour",
+        "Two hours"
+      ],
+      "answer": "Thirty minutes",
+      "explanationZh": "时间题：把原文中的时间和对应活动联系起来。依据：“He gets to school at seven thirty. His classmates arrive at eight.”答案为 Thirty minutes。8:00 − 7:30 = 30 分钟。",
+      "distractorExplanations": {
+        "Ten minutes": "7:30 到 8:00 是30分钟，不是10分钟。",
+        "One hour": "7:30 再过一小时是8:30，超出了同学到校时间。",
+        "Two hours": "7:30 再过两小时是9:30，超出了同学到校时间。"
+      },
+      "title": "The early team",
+      "passage": "Owen is on duty on Wednesday. He gets to school at seven thirty. His classmates arrive at eight. Owen opens the windows and puts the books on the bookcase. The books were on the floor. He moves them to keep the classroom tidy. Then he sits down to read.",
+      "evidenceQuote": "He gets to school at seven thirty. His classmates arrive at eight."
+    },
+    {
+      "id": "read-reference-04",
+      "module": "reading",
+      "conceptId": "read-reference",
+      "prompt": "“moves them”中的“them”指的是什么？",
+      "options": [
+        "The windows",
+        "His classmates",
+        "The seats",
+        "The books"
+      ],
+      "answer": "The books",
+      "explanationZh": "指代题：把代词换成答案，前后句意思连贯。依据：“The books were on the floor. He moves them to keep the classroom tidy.”答案为 The books。",
+      "distractorExplanations": {
+        "The windows": "窗户是 opens 的宾语，后面两句明确继续谈 books。",
+        "His classmates": "同学还未到校；被移动的是地板上的书。",
+        "The seats": "文中没有说移动座位，前一句的对象是 books。"
+      },
+      "title": "The early team",
+      "passage": "Owen is on duty on Wednesday. He gets to school at seven thirty. His classmates arrive at eight. Owen opens the windows and puts the books on the bookcase. The books were on the floor. He moves them to keep the classroom tidy. Then he sits down to read.",
+      "evidenceQuote": "The books were on the floor. He moves them to keep the classroom tidy."
+    },
+    {
+      "id": "read-purpose-04",
+      "module": "reading",
+      "conceptId": "read-purpose",
+      "prompt": "Owen 为什么移动这些书？",
+      "options": [
+        "To prepare food",
+        "To change his seat",
+        "To make the classroom tidy",
+        "To count the windows"
+      ],
+      "answer": "To make the classroom tidy",
+      "explanationZh": "目的题：依据原文明确给出的原因或目的。依据：“He moves them to keep the classroom tidy.”答案为 To make the classroom tidy。",
+      "distractorExplanations": {
+        "To count the windows": "文中依据是“He moves them to keep the classroom tidy.”；“To count the windows”与该信息不符或没有得到原文支持。",
+        "To prepare food": "文中依据是“He moves them to keep the classroom tidy.”；“To prepare food”与该信息不符或没有得到原文支持。",
+        "To change his seat": "文中依据是“He moves them to keep the classroom tidy.”；“To change his seat”与该信息不符或没有得到原文支持。"
+      },
+      "title": "The early team",
+      "passage": "Owen is on duty on Wednesday. He gets to school at seven thirty. His classmates arrive at eight. Owen opens the windows and puts the books on the bookcase. The books were on the floor. He moves them to keep the classroom tidy. Then he sits down to read.",
+      "evidenceQuote": "He moves them to keep the classroom tidy."
+    },
+    {
+      "id": "read-detail-05",
+      "module": "reading",
+      "conceptId": "read-detail",
+      "prompt": "Lily 拍摄了什么？",
+      "options": [
+        "The new school gym",
+        "Grandma’s village",
+        "The dining hall",
+        "Her own bedroom"
+      ],
+      "answer": "The new school gym",
+      "explanationZh": "直接细节题：准确对应题目所问的人、物或位置。依据：“On Sunday morning, Lily takes photos of the new school gym.”答案为 The new school gym。",
+      "distractorExplanations": {
+        "Grandma’s village": "文中依据是“On Sunday morning, Lily takes photos of the new school gym.”；“Grandma’s village”与该信息不符或没有得到原文支持。",
+        "The dining hall": "文中依据是“On Sunday morning, Lily takes photos of the new school gym.”；“The dining hall”与该信息不符或没有得到原文支持。",
+        "Her own bedroom": "文中依据是“On Sunday morning, Lily takes photos of the new school gym.”；“Her own bedroom”与该信息不符或没有得到原文支持。"
+      },
+      "title": "Photos for Grandma",
+      "passage": "Lily’s grandma lives in another village. On Sunday morning, Lily takes photos of the new school gym. She sends the photos to Grandma that evening. Grandma cannot visit this week. Lily wants her to see the new building. Grandma writes back, ‘It looks great. Thank you!’",
+      "evidenceQuote": "On Sunday morning, Lily takes photos of the new school gym."
+    },
+    {
+      "id": "read-time-05",
+      "module": "reading",
+      "conceptId": "read-time",
+      "prompt": "Lily 什么时候发送照片？",
+      "options": [
+        "On Sunday morning",
+        "On Monday morning",
+        "On Saturday evening",
+        "On Sunday evening"
+      ],
+      "answer": "On Sunday evening",
+      "explanationZh": "时间题：把原文中的时间和对应活动联系起来。依据：“She sends the photos to Grandma that evening.”答案为 On Sunday evening。",
+      "distractorExplanations": {
+        "On Sunday morning": "早晨拍照，到了同一天晚上才发送；不要混淆两个动作。",
+        "On Monday morning": "that evening 指前文星期日的晚上，不是星期一。",
+        "On Saturday evening": "前文的日期是星期日；that evening 沿用这个日期。"
+      },
+      "title": "Photos for Grandma",
+      "passage": "Lily’s grandma lives in another village. On Sunday morning, Lily takes photos of the new school gym. She sends the photos to Grandma that evening. Grandma cannot visit this week. Lily wants her to see the new building. Grandma writes back, ‘It looks great. Thank you!’",
+      "evidenceQuote": "She sends the photos to Grandma that evening."
+    },
+    {
+      "id": "read-reference-05",
+      "module": "reading",
+      "conceptId": "read-reference",
+      "prompt": "“wants her to see”中的“her”指的是谁？",
+      "options": [
+        "Lily’s classmate",
+        "Lily’s teacher",
+        "Grandma",
+        "Lily"
+      ],
+      "answer": "Grandma",
+      "explanationZh": "指代题：把代词换成答案，前后句意思连贯。依据：“Grandma cannot visit this week. Lily wants her to see the new building.”答案为 Grandma。",
+      "distractorExplanations": {
+        "Lily": "Lily 是 wants 的主语；她自己已经看到了体育馆。",
+        "Lily’s classmate": "文中没有出现同学，前一句提到不能来的 Grandma。",
+        "Lily’s teacher": "文中没有出现老师，想让她看新建筑的人是 Grandma。"
+      },
+      "title": "Photos for Grandma",
+      "passage": "Lily’s grandma lives in another village. On Sunday morning, Lily takes photos of the new school gym. She sends the photos to Grandma that evening. Grandma cannot visit this week. Lily wants her to see the new building. Grandma writes back, ‘It looks great. Thank you!’",
+      "evidenceQuote": "Grandma cannot visit this week. Lily wants her to see the new building."
+    },
+    {
+      "id": "read-purpose-05",
+      "module": "reading",
+      "conceptId": "read-purpose",
+      "prompt": "Lily 为什么发送照片？",
+      "options": [
+        "To choose a village",
+        "To show Grandma the new building",
+        "To invite Grandma to dinner",
+        "To sell a camera"
+      ],
+      "answer": "To show Grandma the new building",
+      "explanationZh": "目的题：依据原文明确给出的原因或目的。依据：“Grandma cannot visit this week. Lily wants her to see the new building.”答案为 To show Grandma the new building。",
+      "distractorExplanations": {
+        "To invite Grandma to dinner": "文中依据是“Grandma cannot visit this week. Lily wants her to see the new building.”；“To invite Grandma to dinner”与该信息不符或没有得到原文支持。",
+        "To sell a camera": "文中依据是“Grandma cannot visit this week. Lily wants her to see the new building.”；“To sell a camera”与该信息不符或没有得到原文支持。",
+        "To choose a village": "文中依据是“Grandma cannot visit this week. Lily wants her to see the new building.”；“To choose a village”与该信息不符或没有得到原文支持。"
+      },
+      "title": "Photos for Grandma",
+      "passage": "Lily’s grandma lives in another village. On Sunday morning, Lily takes photos of the new school gym. She sends the photos to Grandma that evening. Grandma cannot visit this week. Lily wants her to see the new building. Grandma writes back, ‘It looks great. Thank you!’",
+      "evidenceQuote": "Grandma cannot visit this week. Lily wants her to see the new building."
+    },
+    {
+      "id": "read-detail-06",
+      "module": "reading",
+      "conceptId": "read-detail",
+      "prompt": "Kai 的朋友们最初把卡片放在哪里？",
+      "options": [
+        "On his desk",
+        "In the gym",
+        "Under a tree",
+        "In a drawer"
+      ],
+      "answer": "In a drawer",
+      "explanationZh": "直接细节题：准确对应题目所问的人、物或位置。依据：“His friends bring a card to school but keep it in a drawer.”答案为 In a drawer。",
+      "distractorExplanations": {
+        "On his desk": "桌子是后来送卡片的位置；题目中的 first 问最初存放处。",
+        "In the gym": "原文未提到体育馆。",
+        "Under a tree": "原文未提到树下。"
+      },
+      "title": "A surprise at break",
+      "passage": "It is Kai’s birthday. His friends bring a card to school but keep it in a drawer. At ten, Kai leaves the classroom to get some water. His friends put the card on his desk. He returns five minutes later and smiles. They hid the card because they wanted to surprise him.",
+      "evidenceQuote": "His friends bring a card to school but keep it in a drawer."
+    },
+    {
+      "id": "read-time-06",
+      "module": "reading",
+      "conceptId": "read-time",
+      "prompt": "Kai 几点回来？",
+      "options": [
+        "At ten thirty",
+        "At eleven",
+        "At ten oh five",
+        "At ten"
+      ],
+      "answer": "At ten oh five",
+      "explanationZh": "时间题：把原文中的时间和对应活动联系起来。依据：“At ten, Kai leaves the classroom to get some water. His friends put the card on his desk. He returns five minutes later and smiles.”答案为 At ten oh five。10:00 再过 5 分钟是 10:05。",
+      "distractorExplanations": {
+        "At ten": "10点是离开的时刻，回来是在5分钟之后。",
+        "At ten thirty": "five minutes 是5分钟，不是30分钟。",
+        "At eleven": "10点到11点是一小时，原文只过了5分钟。"
+      },
+      "title": "A surprise at break",
+      "passage": "It is Kai’s birthday. His friends bring a card to school but keep it in a drawer. At ten, Kai leaves the classroom to get some water. His friends put the card on his desk. He returns five minutes later and smiles. They hid the card because they wanted to surprise him.",
+      "evidenceQuote": "At ten, Kai leaves the classroom to get some water. His friends put the card on his desk. He returns five minutes later and smiles."
+    },
+    {
+      "id": "read-reference-06",
+      "module": "reading",
+      "conceptId": "read-reference",
+      "prompt": "最后一句中的“They”指的是谁？",
+      "options": [
+        "All the teachers",
+        "Kai’s friends",
+        "Kai and his teacher",
+        "Kai’s parents"
+      ],
+      "answer": "Kai’s friends",
+      "explanationZh": "指代题：把代词换成答案，前后句意思连贯。依据：“They hid the card because they wanted to surprise him.”答案为 Kai’s friends。",
+      "distractorExplanations": {
+        "Kai and his teacher": "藏卡片的是 Kai 的朋友；Kai 是收到惊喜的人。",
+        "Kai’s parents": "原文没有父母参与的描述。",
+        "All the teachers": "原文说 his friends，不是老师们。"
+      },
+      "title": "A surprise at break",
+      "passage": "It is Kai’s birthday. His friends bring a card to school but keep it in a drawer. At ten, Kai leaves the classroom to get some water. His friends put the card on his desk. He returns five minutes later and smiles. They hid the card because they wanted to surprise him.",
+      "evidenceQuote": "They hid the card because they wanted to surprise him."
+    },
+    {
+      "id": "read-purpose-06",
+      "module": "reading",
+      "conceptId": "read-purpose",
+      "prompt": "朋友们为什么把卡片藏起来？",
+      "options": [
+        "To give Kai a surprise",
+        "To keep Kai’s water cold",
+        "To stop Kai reading forever",
+        "To find another desk"
+      ],
+      "answer": "To give Kai a surprise",
+      "explanationZh": "目的题：依据原文明确给出的原因或目的。依据：“They hid the card because they wanted to surprise him.”答案为 To give Kai a surprise。",
+      "distractorExplanations": {
+        "To keep Kai’s water cold": "文中依据是“They hid the card because they wanted to surprise him.”；“To keep Kai’s water cold”与该信息不符或没有得到原文支持。",
+        "To stop Kai reading forever": "文中依据是“They hid the card because they wanted to surprise him.”；“To stop Kai reading forever”与该信息不符或没有得到原文支持。",
+        "To find another desk": "文中依据是“They hid the card because they wanted to surprise him.”；“To find another desk”与该信息不符或没有得到原文支持。"
+      },
+      "title": "A surprise at break",
+      "passage": "It is Kai’s birthday. His friends bring a card to school but keep it in a drawer. At ten, Kai leaves the classroom to get some water. His friends put the card on his desk. He returns five minutes later and smiles. They hid the card because they wanted to surprise him.",
+      "evidenceQuote": "They hid the card because they wanted to surprise him."
+    },
+    {
+      "id": "cloze-agreement-01",
+      "module": "cloze",
+      "conceptId": "cloze-agreement",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answer": "is",
+      "explanationZh": "主语 It 是第三人称单数，一般现在时用 is。rainy 描述天气。",
+      "distractorExplanations": {
+        "am": "am 只与 I 搭配。主语 It 是第三人称单数，一般现在时用 is。rainy 描述天气。",
+        "are": "are 与 you 或复数主语搭配。主语 It 是第三人称单数，一般现在时用 is。rainy 描述天气。",
+        "be": "be 是原形，不能独自充当此处一般现在时句子的谓语。主语 It 是第三人称单数，一般现在时用 is。rainy 描述天气。"
+      },
+      "title": "A rainy day",
+      "passage": "It ____ rainy today. Sara leaves her bike at home and walks to school with an umbrella.",
+      "completedPassage": "It is rainy today. Sara leaves her bike at home and walks to school with an umbrella.",
+      "passageId": "independent-cloze-agreement-01",
+      "blankIndex": 1,
+      "spokenFullText": "It is rainy today. Sara leaves her bike at home and walks to school with an umbrella.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-b98f872b9aedb8e4.mp3"
+    },
+    {
+      "id": "cloze-timeprep-01",
+      "module": "cloze",
+      "conceptId": "cloze-timeprep",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "on",
+        "of",
+        "at",
+        "in"
+      ],
+      "answer": "at",
+      "explanationZh": "six forty-five 是具体时刻，前面用 at。",
+      "distractorExplanations": {
+        "in": "in 常用于月份、年份等，不用于这里的具体时刻或星期表达。six forty-five 是具体时刻，前面用 at。",
+        "on": "on 用于星期或具体日期，不用于这里的时刻或月份。six forty-five 是具体时刻，前面用 at。",
+        "of": "of 不用来引出这里的时间。six forty-five 是具体时刻，前面用 at。"
+      },
+      "title": "Before the bus",
+      "passage": "Our bus leaves at seven. The driver asks us to be at the bus stop ____ six forty-five. That gives us fifteen minutes to get ready.",
+      "completedPassage": "Our bus leaves at seven. The driver asks us to be at the bus stop at six forty-five. That gives us fifteen minutes to get ready.",
+      "passageId": "independent-cloze-timeprep-01",
+      "blankIndex": 1,
+      "spokenFullText": "Our bus leaves at seven. The driver asks us to be at the bus stop at six forty-five. That gives us fifteen minutes to get ready.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-c3cfbdecdfe2afb4.mp3"
+    },
+    {
+      "id": "cloze-noun-01",
+      "module": "cloze",
+      "conceptId": "cloze-noun",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "eraser",
+        "guitar",
+        "bottle",
+        "carrot"
+      ],
+      "answer": "guitar",
+      "explanationZh": "six strings（六根弦）且能演奏，指向 guitar（吉他）。",
+      "distractorExplanations": {
+        "bottle": "“bottle”的含义与空格前后描述的物品特征不符。six strings（六根弦）且能演奏，指向 guitar（吉他）。",
+        "carrot": "“carrot”的含义与空格前后描述的物品特征不符。six strings（六根弦）且能演奏，指向 guitar（吉他）。",
+        "eraser": "“eraser”的含义与空格前后描述的物品特征不符。six strings（六根弦）且能演奏，指向 guitar（吉他）。"
+      },
+      "title": "An instrument to repair",
+      "passage": "Dad is fixing a ____. It has six strings, and one is broken. After he puts on a new string, he plays a short song.",
+      "completedPassage": "Dad is fixing a guitar. It has six strings, and one is broken. After he puts on a new string, he plays a short song.",
+      "passageId": "independent-cloze-noun-01",
+      "blankIndex": 1,
+      "spokenFullText": "Dad is fixing a guitar. It has six strings, and one is broken. After he puts on a new string, he plays a short song.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-72b97b8c07963c74.mp3"
+    },
+    {
+      "id": "cloze-connector-01",
+      "module": "cloze",
+      "conceptId": "cloze-connector",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "but",
+        "or",
+        "than",
+        "because"
+      ],
+      "answer": "because",
+      "explanationZh": "需要阳光是把植物放在窗边的原因，用 because。",
+      "distractorExplanations": {
+        "but": "but 表示转折，句中却是在说明前一动作的原因。需要阳光是把植物放在窗边的原因，用 because。",
+        "or": "or 表示选择，而前后并非供选择的两种情况。需要阳光是把植物放在窗边的原因，用 because。",
+        "than": "than 用于比较，这里没有比较结构。需要阳光是把植物放在窗边的原因，用 because。"
+      },
+      "title": "A plant by the window",
+      "passage": "We put the plant beside the window ____ it needs sunlight to grow. There is very little light in the corner.",
+      "completedPassage": "We put the plant beside the window because it needs sunlight to grow. There is very little light in the corner.",
+      "passageId": "independent-cloze-connector-01",
+      "blankIndex": 1,
+      "spokenFullText": "We put the plant beside the window because it needs sunlight to grow. There is very little light in the corner.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-7350a2520a9c80f2.mp3"
+    },
+    {
+      "id": "cloze-agreement-02",
+      "module": "cloze",
+      "conceptId": "cloze-agreement",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer": "are",
+      "explanationZh": "My brother and I 是两个人，为复数主语，用 are。",
+      "distractorExplanations": {
+        "is": "is 与第三人称单数主语搭配。My brother and I 是两个人，为复数主语，用 are。",
+        "am": "am 只与 I 搭配。My brother and I 是两个人，为复数主语，用 are。",
+        "be": "be 是原形，不能独自充当此处一般现在时句子的谓语。My brother and I 是两个人，为复数主语，用 are。"
+      },
+      "title": "Two new members",
+      "passage": "My brother and I ____ new members of the drama club. Today we learn to act out a short story about a farmer.",
+      "completedPassage": "My brother and I are new members of the drama club. Today we learn to act out a short story about a farmer.",
+      "passageId": "independent-cloze-agreement-02",
+      "blankIndex": 1,
+      "spokenFullText": "My brother and I are new members of the drama club. Today we learn to act out a short story about a farmer.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-b507df5c73738624.mp3"
+    },
+    {
+      "id": "cloze-timeprep-02",
+      "module": "cloze",
+      "conceptId": "cloze-timeprep",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "of",
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": "on",
+      "explanationZh": "具体到星期一的早晨，用 on Monday morning。",
+      "distractorExplanations": {
+        "at": "at 用于具体时刻等，不用于这里的星期或月份。具体到星期一的早晨，用 on Monday morning。",
+        "in": "in 常用于月份、年份等，不用于这里的具体时刻或星期表达。具体到星期一的早晨，用 on Monday morning。",
+        "of": "of 不用来引出这里的时间。具体到星期一的早晨，用 on Monday morning。"
+      },
+      "title": "The new term",
+      "passage": "Our new term begins ____ Monday morning. I pack my schoolbag the night before and check my new timetable.",
+      "completedPassage": "Our new term begins on Monday morning. I pack my schoolbag the night before and check my new timetable.",
+      "passageId": "independent-cloze-timeprep-02",
+      "blankIndex": 1,
+      "spokenFullText": "Our new term begins on Monday morning. I pack my schoolbag the night before and check my new timetable.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-02dd41bf2f228b6b.mp3"
+    },
+    {
+      "id": "cloze-noun-02",
+      "module": "cloze",
+      "conceptId": "cloze-noun",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "key",
+        "hat",
+        "drum",
+        "carrot"
+      ],
+      "answer": "key",
+      "explanationZh": "用来开门的物品是 key（钥匙）。",
+      "distractorExplanations": {
+        "hat": "“hat”的含义与空格前后描述的物品特征不符。用来开门的物品是 key（钥匙）。",
+        "drum": "“drum”的含义与空格前后描述的物品特征不符。用来开门的物品是 key（钥匙）。",
+        "carrot": "“carrot”的含义与空格前后描述的物品特征不符。用来开门的物品是 key（钥匙）。"
+      },
+      "title": "The locked locker",
+      "passage": "My locker is locked. I find its ____ in my coat pocket and use it to open the door. My tennis bat is still inside.",
+      "completedPassage": "My locker is locked. I find its key in my coat pocket and use it to open the door. My tennis bat is still inside.",
+      "passageId": "independent-cloze-noun-02",
+      "blankIndex": 1,
+      "spokenFullText": "My locker is locked. I find its key in my coat pocket and use it to open the door. My tennis bat is still inside.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-4461ac7884838f38.mp3"
+    },
+    {
+      "id": "cloze-connector-02",
+      "module": "cloze",
+      "conceptId": "cloze-connector",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "or",
+        "than",
+        "so",
+        "because"
+      ],
+      "answer": "so",
+      "explanationZh": "找不到帽子是原因，向校办公室求助是结果，用 so。",
+      "distractorExplanations": {
+        "because": "because 引出原因，会颠倒这里的因果关系，或把转折误当原因。找不到帽子是原因，向校办公室求助是结果，用 so。",
+        "or": "or 表示选择，而前后并非供选择的两种情况。找不到帽子是原因，向校办公室求助是结果，用 so。",
+        "than": "than 用于比较，这里没有比较结构。找不到帽子是原因，向校办公室求助是结果，用 so。"
+      },
+      "title": "A lost hat",
+      "passage": "I cannot find my hat, ____ I ask the school office for help. A teacher shows me a box of lost things.",
+      "completedPassage": "I cannot find my hat, so I ask the school office for help. A teacher shows me a box of lost things.",
+      "passageId": "independent-cloze-connector-02",
+      "blankIndex": 1,
+      "spokenFullText": "I cannot find my hat, so I ask the school office for help. A teacher shows me a box of lost things.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-8b9c52fff0d45c8d.mp3"
+    },
+    {
+      "id": "cloze-agreement-03",
+      "module": "cloze",
+      "conceptId": "cloze-agreement",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "are",
+        "be",
+        "am",
+        "is"
+      ],
+      "answer": "am",
+      "explanationZh": "主语是 I，be 动词用 am。",
+      "distractorExplanations": {
+        "is": "is 与第三人称单数主语搭配。主语是 I，be 动词用 am。",
+        "are": "are 与 you 或复数主语搭配。主语是 I，be 动词用 am。",
+        "be": "be 是原形，不能独自充当此处一般现在时句子的谓语。主语是 I，be 动词用 am。"
+      },
+      "title": "My first report",
+      "passage": "I ____ a school reporter this term. My first job is to ask three students about their favourite subjects.",
+      "completedPassage": "I am a school reporter this term. My first job is to ask three students about their favourite subjects.",
+      "passageId": "independent-cloze-agreement-03",
+      "blankIndex": 1,
+      "spokenFullText": "I am a school reporter this term. My first job is to ask three students about their favourite subjects.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-496cee788ab7197c.mp3"
+    },
+    {
+      "id": "cloze-timeprep-03",
+      "module": "cloze",
+      "conceptId": "cloze-timeprep",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "of"
+      ],
+      "answer": "in",
+      "explanationZh": "July 是月份，月份前用 in。",
+      "distractorExplanations": {
+        "at": "at 用于具体时刻等，不用于这里的星期或月份。July 是月份，月份前用 in。",
+        "on": "on 用于星期或具体日期，不用于这里的时刻或月份。July 是月份，月份前用 in。",
+        "of": "of 不用来引出这里的时间。July 是月份，月份前用 in。"
+      },
+      "title": "Summer visitors",
+      "passage": "My cousins usually visit us ____ July. We have no school then, and we can spend several days together.",
+      "completedPassage": "My cousins usually visit us in July. We have no school then, and we can spend several days together.",
+      "passageId": "independent-cloze-timeprep-03",
+      "blankIndex": 1,
+      "spokenFullText": "My cousins usually visit us in July. We have no school then, and we can spend several days together.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-b6c7b11cf15e3b66.mp3"
+    },
+    {
+      "id": "cloze-noun-03",
+      "module": "cloze",
+      "conceptId": "cloze-noun",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "key",
+        "bookcase",
+        "violin",
+        "cake"
+      ],
+      "answer": "cake",
+      "explanationZh": "生日语境中把蜡烛插在 cake（蛋糕）上。",
+      "distractorExplanations": {
+        "key": "“key”的含义与空格前后描述的物品特征不符。生日语境中把蜡烛插在 cake（蛋糕）上。",
+        "bookcase": "“bookcase”的含义与空格前后描述的物品特征不符。生日语境中把蜡烛插在 cake（蛋糕）上。",
+        "violin": "“violin”的含义与空格前后描述的物品特征不符。生日语境中把蜡烛插在 cake（蛋糕）上。"
+      },
+      "title": "A sweet celebration",
+      "passage": "We make a birthday ____ for our little cousin. We put cream and fruit on top, then add six candles.",
+      "completedPassage": "We make a birthday cake for our little cousin. We put cream and fruit on top, then add six candles.",
+      "passageId": "independent-cloze-noun-03",
+      "blankIndex": 1,
+      "spokenFullText": "We make a birthday cake for our little cousin. We put cream and fruit on top, then add six candles.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-fbf54b05e37f64dd.mp3"
+    },
+    {
+      "id": "cloze-connector-03",
+      "module": "cloze",
+      "conceptId": "cloze-connector",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "than",
+        "but",
+        "because",
+        "so"
+      ],
+      "answer": "but",
+      "explanationZh": "两个人喜欢的活动不同，前后形成对比，用 but。",
+      "distractorExplanations": {
+        "because": "because 引出原因，会颠倒这里的因果关系，或把转折误当原因。两个人喜欢的活动不同，前后形成对比，用 but。",
+        "so": "so 引出结果，而这里需要表现不同愿望的转折。两个人喜欢的活动不同，前后形成对比，用 but。",
+        "than": "than 用于比较，这里没有比较结构。两个人喜欢的活动不同，前后形成对比，用 but。"
+      },
+      "title": "Different hobbies",
+      "passage": "I enjoy painting, ____ my twin prefers hiking. We choose different school clubs, and both of us are happy.",
+      "completedPassage": "I enjoy painting, but my twin prefers hiking. We choose different school clubs, and both of us are happy.",
+      "passageId": "independent-cloze-connector-03",
+      "blankIndex": 1,
+      "spokenFullText": "I enjoy painting, but my twin prefers hiking. We choose different school clubs, and both of us are happy.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-05bd5f48f24c026f.mp3"
+    },
+    {
+      "id": "cloze-agreement-04",
+      "module": "cloze",
+      "conceptId": "cloze-agreement",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "be",
+        "is",
+        "are",
+        "am"
+      ],
+      "answer": "is",
+      "explanationZh": "The dining hall 是单数主语，用 is。",
+      "distractorExplanations": {
+        "are": "are 与 you 或复数主语搭配。The dining hall 是单数主语，用 is。",
+        "am": "am 只与 I 搭配。The dining hall 是单数主语，用 is。",
+        "be": "be 是原形，不能独自充当此处一般现在时句子的谓语。The dining hall 是单数主语，用 is。"
+      },
+      "title": "Room for everyone",
+      "passage": "The dining hall ____ large. There are enough seats for our whole grade, so no one needs to eat outside.",
+      "completedPassage": "The dining hall is large. There are enough seats for our whole grade, so no one needs to eat outside.",
+      "passageId": "independent-cloze-agreement-04",
+      "blankIndex": 1,
+      "spokenFullText": "The dining hall is large. There are enough seats for our whole grade, so no one needs to eat outside.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-cacaa03fa593627c.mp3"
+    },
+    {
+      "id": "cloze-timeprep-04",
+      "module": "cloze",
+      "conceptId": "cloze-timeprep",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "answer": "at",
+      "explanationZh": "twelve thirty 是具体时刻，用 at。",
+      "distractorExplanations": {
+        "on": "on 用于星期或具体日期，不用于这里的时刻或月份。twelve thirty 是具体时刻，用 at。",
+        "in": "in 常用于月份、年份等，不用于这里的具体时刻或星期表达。twelve thirty 是具体时刻，用 at。",
+        "of": "of 不用来引出这里的时间。twelve thirty 是具体时刻，用 at。"
+      },
+      "title": "The sports report",
+      "passage": "The school radio programme starts ____ twelve thirty. I finish my lunch early because I want to hear the sports news.",
+      "completedPassage": "The school radio programme starts at twelve thirty. I finish my lunch early because I want to hear the sports news.",
+      "passageId": "independent-cloze-timeprep-04",
+      "blankIndex": 1,
+      "spokenFullText": "The school radio programme starts at twelve thirty. I finish my lunch early because I want to hear the sports news.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-fbd2431a63dc85ea.mp3"
+    },
+    {
+      "id": "cloze-noun-04",
+      "module": "cloze",
+      "conceptId": "cloze-noun",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "guitar",
+        "flag",
+        "bottle",
+        "drawer"
+      ],
+      "answer": "bottle",
+      "explanationZh": "可装饮用水、有盖子且随身携带，指向 bottle（水瓶）。",
+      "distractorExplanations": {
+        "drawer": "“drawer”的含义与空格前后描述的物品特征不符。可装饮用水、有盖子且随身携带，指向 bottle（水瓶）。",
+        "guitar": "“guitar”的含义与空格前后描述的物品特征不符。可装饮用水、有盖子且随身携带，指向 bottle（水瓶）。",
+        "flag": "“flag”的含义与空格前后描述的物品特征不符。可装饮用水、有盖子且随身携带，指向 bottle（水瓶）。"
+      },
+      "title": "Water for the hike",
+      "passage": "Before our long hike, I fill a ____ with water and close its cap. It fits in the side pocket of my bag.",
+      "completedPassage": "Before our long hike, I fill a bottle with water and close its cap. It fits in the side pocket of my bag.",
+      "passageId": "independent-cloze-noun-04",
+      "blankIndex": 1,
+      "spokenFullText": "Before our long hike, I fill a bottle with water and close its cap. It fits in the side pocket of my bag.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-6d946ac8c5d2da3e.mp3"
+    },
+    {
+      "id": "cloze-connector-04",
+      "module": "cloze",
+      "conceptId": "cloze-connector",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "because",
+        "but",
+        "or",
+        "than"
+      ],
+      "answer": "because",
+      "explanationZh": "明天早晨有重要比赛，解释今晚早睡的原因，用 because。",
+      "distractorExplanations": {
+        "but": "but 表示转折，句中却是在说明前一动作的原因。明天早晨有重要比赛，解释今晚早睡的原因，用 because。",
+        "or": "or 表示选择，而前后并非供选择的两种情况。明天早晨有重要比赛，解释今晚早睡的原因，用 because。",
+        "than": "than 用于比较，这里没有比较结构。明天早晨有重要比赛，解释今晚早睡的原因，用 because。"
+      },
+      "title": "An early night",
+      "passage": "I go to bed early tonight ____ I have an important tennis game tomorrow morning. I want to feel ready for it.",
+      "completedPassage": "I go to bed early tonight because I have an important tennis game tomorrow morning. I want to feel ready for it.",
+      "passageId": "independent-cloze-connector-04",
+      "blankIndex": 1,
+      "spokenFullText": "I go to bed early tonight because I have an important tennis game tomorrow morning. I want to feel ready for it.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-1cccf979b14ed169.mp3"
+    },
+    {
+      "id": "cloze-agreement-05",
+      "module": "cloze",
+      "conceptId": "cloze-agreement",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "answer": "are",
+      "explanationZh": "The photos 是复数主语，用 are。",
+      "distractorExplanations": {
+        "is": "is 与第三人称单数主语搭配。The photos 是复数主语，用 are。",
+        "am": "am 只与 I 搭配。The photos 是复数主语，用 are。",
+        "be": "be 是原形，不能独自充当此处一般现在时句子的谓语。The photos 是复数主语，用 are。"
+      },
+      "title": "A class display",
+      "passage": "The photos ____ colourful. They show different wildflowers, and each student chooses one to draw.",
+      "completedPassage": "The photos are colourful. They show different wildflowers, and each student chooses one to draw.",
+      "passageId": "independent-cloze-agreement-05",
+      "blankIndex": 1,
+      "spokenFullText": "The photos are colourful. They show different wildflowers, and each student chooses one to draw.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-b7b9b29421816824.mp3"
+    },
+    {
+      "id": "cloze-timeprep-05",
+      "module": "cloze",
+      "conceptId": "cloze-timeprep",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "at",
+        "of",
+        "on",
+        "in"
+      ],
+      "answer": "on",
+      "explanationZh": "Saturday 是星期，用 on。",
+      "distractorExplanations": {
+        "in": "in 常用于月份、年份等，不用于这里的具体时刻或星期表达。Saturday 是星期，用 on。",
+        "at": "at 用于具体时刻等，不用于这里的星期或月份。Saturday 是星期，用 on。",
+        "of": "of 不用来引出这里的时间。Saturday 是星期，用 on。"
+      },
+      "title": "A nature walk",
+      "passage": "Our nature walk is ____ Saturday. We plan to look for insects beside the river and write down what we find.",
+      "completedPassage": "Our nature walk is on Saturday. We plan to look for insects beside the river and write down what we find.",
+      "passageId": "independent-cloze-timeprep-05",
+      "blankIndex": 1,
+      "spokenFullText": "Our nature walk is on Saturday. We plan to look for insects beside the river and write down what we find.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-12d87d02882bf554.mp3"
+    },
+    {
+      "id": "cloze-noun-05",
+      "module": "cloze",
+      "conceptId": "cloze-noun",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "guitar",
+        "goose",
+        "carrot",
+        "key"
+      ],
+      "answer": "goose",
+      "explanationZh": "有羽毛并在水里游的白色动物，在这些选项中是 goose（鹅）。",
+      "distractorExplanations": {
+        "carrot": "“carrot”的含义与空格前后描述的物品特征不符。有羽毛并在水里游的白色动物，在这些选项中是 goose（鹅）。",
+        "key": "“key”的含义与空格前后描述的物品特征不符。有羽毛并在水里游的白色动物，在这些选项中是 goose（鹅）。",
+        "guitar": "“guitar”的含义与空格前后描述的物品特征不符。有羽毛并在水里游的白色动物，在这些选项中是 goose（鹅）。"
+      },
+      "title": "A bird by the pond",
+      "passage": "A white ____ walks towards the pond. It has a long neck and feathers. Soon it is swimming beside two ducks.",
+      "completedPassage": "A white goose walks towards the pond. It has a long neck and feathers. Soon it is swimming beside two ducks.",
+      "passageId": "independent-cloze-noun-05",
+      "blankIndex": 1,
+      "spokenFullText": "A white goose walks towards the pond. It has a long neck and feathers. Soon it is swimming beside two ducks.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-4f79c86967665629.mp3"
+    },
+    {
+      "id": "cloze-connector-05",
+      "module": "cloze",
+      "conceptId": "cloze-connector",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "because",
+        "or",
+        "than",
+        "so"
+      ],
+      "answer": "so",
+      "explanationZh": "笔没有墨水是原因，借另一支笔是结果，用 so。",
+      "distractorExplanations": {
+        "because": "because 引出原因，会颠倒这里的因果关系，或把转折误当原因。笔没有墨水是原因，借另一支笔是结果，用 so。",
+        "or": "or 表示选择，而前后并非供选择的两种情况。笔没有墨水是原因，借另一支笔是结果，用 so。",
+        "than": "than 用于比较，这里没有比较结构。笔没有墨水是原因，借另一支笔是结果，用 so。"
+      },
+      "title": "An empty pen",
+      "passage": "My pen has no ink, ____ I borrow another one from a classmate. Now I can finish writing my notice.",
+      "completedPassage": "My pen has no ink, so I borrow another one from a classmate. Now I can finish writing my notice.",
+      "passageId": "independent-cloze-connector-05",
+      "blankIndex": 1,
+      "spokenFullText": "My pen has no ink, so I borrow another one from a classmate. Now I can finish writing my notice.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-c60451d9b2226cde.mp3"
+    },
+    {
+      "id": "cloze-agreement-06",
+      "module": "cloze",
+      "conceptId": "cloze-agreement",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "answer": "are",
+      "explanationZh": "My grandparents 是复数主语，用 are。",
+      "distractorExplanations": {
+        "is": "is 与第三人称单数主语搭配。My grandparents 是复数主语，用 are。",
+        "am": "am 只与 I 搭配。My grandparents 是复数主语，用 are。",
+        "be": "be 是原形，不能独自充当此处一般现在时句子的谓语。My grandparents 是复数主语，用 are。"
+      },
+      "title": "New neighbours",
+      "passage": "My grandparents ____ very friendly. They welcome their new neighbours with some hot tea and a plate of fruit.",
+      "completedPassage": "My grandparents are very friendly. They welcome their new neighbours with some hot tea and a plate of fruit.",
+      "passageId": "independent-cloze-agreement-06",
+      "blankIndex": 1,
+      "spokenFullText": "My grandparents are very friendly. They welcome their new neighbours with some hot tea and a plate of fruit.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-4f9a82cdd8205594.mp3"
+    },
+    {
+      "id": "cloze-timeprep-06",
+      "module": "cloze",
+      "conceptId": "cloze-timeprep",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "of",
+        "at",
+        "in",
+        "on"
+      ],
+      "answer": "at",
+      "explanationZh": "six 是具体时刻，用 at；in the evening 说明是在晚上。",
+      "distractorExplanations": {
+        "in": "in 常用于月份、年份等，不用于这里的具体时刻或星期表达。six 是具体时刻，用 at；in the evening 说明是在晚上。",
+        "on": "on 用于星期或具体日期，不用于这里的时刻或月份。six 是具体时刻，用 at；in the evening 说明是在晚上。",
+        "of": "of 不用来引出这里的时间。six 是具体时刻，用 at；in the evening 说明是在晚上。"
+      },
+      "title": "Dinner is ready",
+      "passage": "Mum asks everyone to come to the table ____ six. The food is ready, and we wash our hands before sitting down.",
+      "completedPassage": "Mum asks everyone to come to the table at six. The food is ready, and we wash our hands before sitting down.",
+      "passageId": "independent-cloze-timeprep-06",
+      "blankIndex": 1,
+      "spokenFullText": "Mum asks everyone to come to the table at six. The food is ready, and we wash our hands before sitting down.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-1a7ede02395f52fa.mp3"
+    },
+    {
+      "id": "cloze-noun-06",
+      "module": "cloze",
+      "conceptId": "cloze-noun",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "drawer",
+        "bottle",
+        "guitar",
+        "yard"
+      ],
+      "answer": "drawer",
+      "explanationZh": "能从书桌中拉开、用来放文具的部件是 drawer（抽屉）。",
+      "distractorExplanations": {
+        "bottle": "“bottle”的含义与空格前后描述的物品特征不符。能从书桌中拉开、用来放文具的部件是 drawer（抽屉）。",
+        "guitar": "“guitar”的含义与空格前后描述的物品特征不符。能从书桌中拉开、用来放文具的部件是 drawer（抽屉）。",
+        "yard": "“yard”的含义与空格前后描述的物品特征不符。能从书桌中拉开、用来放文具的部件是 drawer（抽屉）。"
+      },
+      "title": "Looking for a ruler",
+      "passage": "I pull open the ____ in my desk. My ruler is inside, under some paper. I take it out and return to my homework.",
+      "completedPassage": "I pull open the drawer in my desk. My ruler is inside, under some paper. I take it out and return to my homework.",
+      "passageId": "independent-cloze-noun-06",
+      "blankIndex": 1,
+      "spokenFullText": "I pull open the drawer in my desk. My ruler is inside, under some paper. I take it out and return to my homework.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-2bc775c65d7a4b12.mp3"
+    },
+    {
+      "id": "cloze-connector-06",
+      "module": "cloze",
+      "conceptId": "cloze-connector",
+      "prompt": "选择最合适的词补全短文。",
+      "options": [
+        "because",
+        "than",
+        "but",
+        "so"
+      ],
+      "answer": "but",
+      "explanationZh": "我想看电影，姐姐想下棋，两个愿望不同，用 but。",
+      "distractorExplanations": {
+        "so": "so 引出结果，而这里需要表现不同愿望的转折。我想看电影，姐姐想下棋，两个愿望不同，用 but。",
+        "because": "because 引出原因，会颠倒这里的因果关系，或把转折误当原因。我想看电影，姐姐想下棋，两个愿望不同，用 but。",
+        "than": "than 用于比较，这里没有比较结构。我想看电影，姐姐想下棋，两个愿望不同，用 but。"
+      },
+      "title": "Two choices",
+      "passage": "I would like to watch a film, ____ my sister would like to play chess. We decide to play one game before the film.",
+      "completedPassage": "I would like to watch a film, but my sister would like to play chess. We decide to play one game before the film.",
+      "passageId": "independent-cloze-connector-06",
+      "blankIndex": 1,
+      "spokenFullText": "I would like to watch a film, but my sister would like to play chess. We decide to play one game before the film.",
+      "audioPolicy": "afterSubmitOnly",
+      "audioFile": "audio/context-a5a921efe207a15b.mp3"
+    },
+    {
+      "id": "parse-subject-01",
+      "module": "analysis",
+      "conceptId": "parse-subject",
+      "prompt": "句子中，谁是执行动作的主语？",
+      "options": [
+        "My sister",
+        "plays",
+        "the guitar",
+        "at home"
+      ],
+      "answer": "My sister",
+      "explanationZh": "“My sister”是主语，说明谁做动作。全句译为：我姐姐每天晚上在家弹吉他。plays 是第三人称单数动词；play the guitar 中乐器前用 the。",
+      "distractorExplanations": {
+        "plays": "“plays”是谓语动词，表示动作，不是本题要求的成分。",
+        "the guitar": "“the guitar”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "at home": "“at home”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "My sister plays the guitar at home every evening.",
+      "translationZh": "我姐姐每天晚上在家弹吉他。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "My sister",
+          "explanationZh": "主语，说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "plays",
+          "explanationZh": "谓语动词，表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "the guitar",
+          "explanationZh": "宾语，是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "at home",
+          "explanationZh": "地点状语，说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "every evening",
+          "explanationZh": "时间状语，说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-b00544717a280c4b.mp3"
+    },
+    {
+      "id": "parse-verb-01",
+      "module": "analysis",
+      "conceptId": "parse-verb",
+      "prompt": "句子中的谓语动词是哪一项？",
+      "options": [
+        "Grandad",
+        "carrots",
+        "every spring",
+        "grows"
+      ],
+      "answer": "grows",
+      "explanationZh": "“grows”是谓语动词，表示动作。全句译为：爷爷每年春天在他的花园里种胡萝卜。",
+      "distractorExplanations": {
+        "Grandad": "“Grandad”是主语，说明谁做动作，不是本题要求的成分。",
+        "carrots": "“carrots”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "every spring": "“every spring”是时间状语，说明什么时候，不是本题要求的成分。"
+      },
+      "sentence": "Grandad grows carrots in his garden every spring.",
+      "translationZh": "爷爷每年春天在他的花园里种胡萝卜。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "Grandad",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "grows",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "carrots",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in his garden",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "every spring",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-11467d3aadd05735.mp3"
+    },
+    {
+      "id": "parse-object-01",
+      "module": "analysis",
+      "conceptId": "parse-object",
+      "prompt": "句子中，动作的宾语是哪一项？",
+      "options": [
+        "teaches",
+        "at the club",
+        "chess",
+        "My uncle"
+      ],
+      "answer": "chess",
+      "explanationZh": "“chess”是宾语，是动作涉及的对象。全句译为：我叔叔每逢星期日在俱乐部教下棋。",
+      "distractorExplanations": {
+        "My uncle": "“My uncle”是主语，说明谁做动作，不是本题要求的成分。",
+        "teaches": "“teaches”是谓语动词，表示动作，不是本题要求的成分。",
+        "at the club": "“at the club”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "My uncle teaches chess at the club on Sundays.",
+      "translationZh": "我叔叔每逢星期日在俱乐部教下棋。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "My uncle",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "teaches",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "chess",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "at the club",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "on Sundays",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-8a4e0dea4ae2889f.mp3"
+    },
+    {
+      "id": "parse-adverbial-01",
+      "module": "analysis",
+      "conceptId": "parse-adverbial",
+      "prompt": "哪一部分完整地说明动作发生的时间？",
+      "options": [
+        "in the office",
+        "before class",
+        "The science teacher",
+        "her lessons"
+      ],
+      "answer": "before class",
+      "explanationZh": "“before class”是时间状语，说明什么时候。全句译为：科学老师上课前在办公室备课。",
+      "distractorExplanations": {
+        "The science teacher": "“The science teacher”是主语，说明谁做动作，不是本题要求的成分。",
+        "her lessons": "“her lessons”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "in the office": "“in the office”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "The science teacher prepares her lessons in the office before class.",
+      "translationZh": "科学老师上课前在办公室备课。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "The science teacher",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "prepares",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "her lessons",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the office",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "before class",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-4cfd24e3e92c0142.mp3"
+    },
+    {
+      "id": "parse-subject-02",
+      "module": "analysis",
+      "conceptId": "parse-subject",
+      "prompt": "句子中，谁是执行动作的主语？",
+      "options": [
+        "read",
+        "books",
+        "in the library",
+        "The students"
+      ],
+      "answer": "The students",
+      "explanationZh": "“The students”是主语，说明谁做动作。全句译为：学生们午饭后在图书馆读书。The students 是复数主语，一般现在时中 read 用原形。",
+      "distractorExplanations": {
+        "read": "“read”是谓语动词，表示动作，不是本题要求的成分。",
+        "books": "“books”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "in the library": "“in the library”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "The students read books in the library after lunch.",
+      "translationZh": "学生们午饭后在图书馆读书。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "The students",
+          "explanationZh": "主语，说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "read",
+          "explanationZh": "谓语动词，表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "books",
+          "explanationZh": "宾语，是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the library",
+          "explanationZh": "地点状语，说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "after lunch",
+          "explanationZh": "时间状语，说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-b04f792ac75fbbd1.mp3"
+    },
+    {
+      "id": "parse-verb-02",
+      "module": "analysis",
+      "conceptId": "parse-verb",
+      "prompt": "句子中的谓语动词是哪一项？",
+      "options": [
+        "breakfast",
+        "at six",
+        "makes",
+        "My mother"
+      ],
+      "answer": "makes",
+      "explanationZh": "“makes”是谓语动词，表示动作。全句译为：我妈妈六点在厨房做早饭。",
+      "distractorExplanations": {
+        "My mother": "“My mother”是主语，说明谁做动作，不是本题要求的成分。",
+        "breakfast": "“breakfast”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "at six": "“at six”是时间状语，说明什么时候，不是本题要求的成分。"
+      },
+      "sentence": "My mother makes breakfast in the kitchen at six.",
+      "translationZh": "我妈妈六点在厨房做早饭。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "My mother",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "makes",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "breakfast",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the kitchen",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "at six",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-36b32df256744cc8.mp3"
+    },
+    {
+      "id": "parse-object-02",
+      "module": "analysis",
+      "conceptId": "parse-object",
+      "prompt": "句子中，动作的宾语是哪一项？",
+      "options": [
+        "in the dining hall",
+        "delicious noodles",
+        "We",
+        "eat"
+      ],
+      "answer": "delicious noodles",
+      "explanationZh": "“delicious noodles”是宾语，是动作涉及的对象。全句译为：我们午餐时间在食堂吃美味的面条。",
+      "distractorExplanations": {
+        "We": "“We”是主语，说明谁做动作，不是本题要求的成分。",
+        "eat": "“eat”是谓语动词，表示动作，不是本题要求的成分。",
+        "in the dining hall": "“in the dining hall”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "We eat delicious noodles in the dining hall at lunchtime.",
+      "translationZh": "我们午餐时间在食堂吃美味的面条。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "We",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "eat",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "delicious noodles",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the dining hall",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "at lunchtime",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-78bcc159bb013964.mp3"
+    },
+    {
+      "id": "parse-adverbial-02",
+      "module": "analysis",
+      "conceptId": "parse-adverbial",
+      "prompt": "哪一部分完整地说明动作发生的时间？",
+      "options": [
+        "before every meal",
+        "I",
+        "my hands",
+        "in the bathroom"
+      ],
+      "answer": "before every meal",
+      "explanationZh": "“before every meal”是时间状语，说明什么时候。全句译为：我每次吃饭前都在浴室洗手。",
+      "distractorExplanations": {
+        "I": "“I”是主语，说明谁做动作，不是本题要求的成分。",
+        "my hands": "“my hands”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "in the bathroom": "“in the bathroom”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "I wash my hands in the bathroom before every meal.",
+      "translationZh": "我每次吃饭前都在浴室洗手。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "I",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "wash",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "my hands",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the bathroom",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "before every meal",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-27b44ae68b97edd6.mp3"
+    },
+    {
+      "id": "parse-subject-03",
+      "module": "analysis",
+      "conceptId": "parse-subject",
+      "prompt": "句子中，谁是执行动作的主语？",
+      "options": [
+        "his teeth",
+        "in the bathroom",
+        "Ben",
+        "brushes"
+      ],
+      "answer": "Ben",
+      "explanationZh": "“Ben”是主语，说明谁做动作。全句译为：本早饭前在浴室刷牙。Ben 是第三人称单数，brush 变为 brushes；tooth 的复数是 teeth。",
+      "distractorExplanations": {
+        "brushes": "“brushes”是谓语动词，表示动作，不是本题要求的成分。",
+        "his teeth": "“his teeth”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "in the bathroom": "“in the bathroom”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "Ben brushes his teeth in the bathroom before breakfast.",
+      "translationZh": "本早饭前在浴室刷牙。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "Ben",
+          "explanationZh": "主语，说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "brushes",
+          "explanationZh": "谓语动词，表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "his teeth",
+          "explanationZh": "宾语，是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the bathroom",
+          "explanationZh": "地点状语，说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "before breakfast",
+          "explanationZh": "时间状语，说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-61ed03f9545b70c2.mp3"
+    },
+    {
+      "id": "parse-verb-03",
+      "module": "analysis",
+      "conceptId": "parse-verb",
+      "prompt": "句子中的谓语动词是哪一项？",
+      "options": [
+        "after school",
+        "collect",
+        "I",
+        "leaves"
+      ],
+      "answer": "collect",
+      "explanationZh": "“collect”是谓语动词，表示动作。全句译为：我放学后在公园收集树叶。",
+      "distractorExplanations": {
+        "I": "“I”是主语，说明谁做动作，不是本题要求的成分。",
+        "leaves": "“leaves”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "after school": "“after school”是时间状语，说明什么时候，不是本题要求的成分。"
+      },
+      "sentence": "I collect leaves in the park after school.",
+      "translationZh": "我放学后在公园收集树叶。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "I",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "collect",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "leaves",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the park",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "after school",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-11e184b424e90c17.mp3"
+    },
+    {
+      "id": "parse-object-03",
+      "module": "analysis",
+      "conceptId": "parse-object",
+      "prompt": "句子中，动作的宾语是哪一项？",
+      "options": [
+        "the trees",
+        "The gardener",
+        "counts",
+        "in the yard"
+      ],
+      "answer": "the trees",
+      "explanationZh": "“the trees”是宾语，是动作涉及的对象。全句译为：园丁每个月在院子里数树。",
+      "distractorExplanations": {
+        "The gardener": "“The gardener”是主语，说明谁做动作，不是本题要求的成分。",
+        "counts": "“counts”是谓语动词，表示动作，不是本题要求的成分。",
+        "in the yard": "“in the yard”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "The gardener counts the trees in the yard every month.",
+      "translationZh": "园丁每个月在院子里数树。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "The gardener",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "counts",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "the trees",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the yard",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "every month",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-ace8d6000756394a.mp3"
+    },
+    {
+      "id": "parse-adverbial-03",
+      "module": "analysis",
+      "conceptId": "parse-adverbial",
+      "prompt": "哪一部分完整地说明动作发生的时间？",
+      "options": [
+        "Our neighbours",
+        "fruit",
+        "outside their house",
+        "during the summer"
+      ],
+      "answer": "during the summer",
+      "explanationZh": "“during the summer”是时间状语，说明什么时候。全句译为：我们的邻居在夏季在他们家外面卖水果。",
+      "distractorExplanations": {
+        "Our neighbours": "“Our neighbours”是主语，说明谁做动作，不是本题要求的成分。",
+        "fruit": "“fruit”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "outside their house": "“outside their house”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "Our neighbours sell fruit outside their house during the summer.",
+      "translationZh": "我们的邻居在夏季在他们家外面卖水果。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "Our neighbours",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "sell",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "fruit",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "outside their house",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "during the summer",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-36e71df35cded748.mp3"
+    },
+    {
+      "id": "parse-subject-04",
+      "module": "analysis",
+      "conceptId": "parse-subject",
+      "prompt": "句子中，谁是执行动作的主语？",
+      "options": [
+        "at her house",
+        "We",
+        "celebrate",
+        "Grandma’s birthday"
+      ],
+      "answer": "We",
+      "explanationZh": "“We”是主语，说明谁做动作。全句译为：我们星期日在奶奶家庆祝她的生日。Grandma’s 表示“奶奶的”；on Sunday 是具体星期的时间表达。",
+      "distractorExplanations": {
+        "celebrate": "“celebrate”是谓语动词，表示动作，不是本题要求的成分。",
+        "Grandma’s birthday": "“Grandma’s birthday”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "at her house": "“at her house”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "We celebrate Grandma’s birthday at her house on Sunday.",
+      "translationZh": "我们星期日在奶奶家庆祝她的生日。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "We",
+          "explanationZh": "主语，说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "celebrate",
+          "explanationZh": "谓语动词，表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "Grandma’s birthday",
+          "explanationZh": "宾语，是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "at her house",
+          "explanationZh": "地点状语，说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "on Sunday",
+          "explanationZh": "时间状语，说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-55c9e8f1eb56578c.mp3"
+    },
+    {
+      "id": "parse-verb-04",
+      "module": "analysis",
+      "conceptId": "parse-verb",
+      "prompt": "句子中的谓语动词是哪一项？",
+      "options": [
+        "paint",
+        "The children",
+        "pictures",
+        "on Fridays"
+      ],
+      "answer": "paint",
+      "explanationZh": "“paint”是谓语动词，表示动作。全句译为：孩子们每逢星期五在美术教室画画。",
+      "distractorExplanations": {
+        "The children": "“The children”是主语，说明谁做动作，不是本题要求的成分。",
+        "pictures": "“pictures”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "on Fridays": "“on Fridays”是时间状语，说明什么时候，不是本题要求的成分。"
+      },
+      "sentence": "The children paint pictures in the art room on Fridays.",
+      "translationZh": "孩子们每逢星期五在美术教室画画。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "The children",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "paint",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "pictures",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the art room",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "on Fridays",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-23369a76839d3a6a.mp3"
+    },
+    {
+      "id": "parse-object-04",
+      "module": "analysis",
+      "conceptId": "parse-object",
+      "prompt": "句子中，动作的宾语是哪一项？",
+      "options": [
+        "A reporter",
+        "interviews",
+        "in the office",
+        "our head teacher"
+      ],
+      "answer": "our head teacher",
+      "explanationZh": "“our head teacher”是宾语，是动作涉及的对象。全句译为：一位记者今天下午在办公室采访我们的校长。",
+      "distractorExplanations": {
+        "A reporter": "“A reporter”是主语，说明谁做动作，不是本题要求的成分。",
+        "interviews": "“interviews”是谓语动词，表示动作，不是本题要求的成分。",
+        "in the office": "“in the office”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "A reporter interviews our head teacher in the office this afternoon.",
+      "translationZh": "一位记者今天下午在办公室采访我们的校长。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "A reporter",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "interviews",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "our head teacher",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the office",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "this afternoon",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-80699dba9b43b16a.mp3"
+    },
+    {
+      "id": "parse-adverbial-04",
+      "module": "analysis",
+      "conceptId": "parse-adverbial",
+      "prompt": "哪一部分完整地说明动作发生的时间？",
+      "options": [
+        "the news",
+        "in the living room",
+        "at seven thirty",
+        "My parents"
+      ],
+      "answer": "at seven thirty",
+      "explanationZh": "“at seven thirty”是时间状语，说明什么时候。全句译为：我父母七点半在客厅看新闻。",
+      "distractorExplanations": {
+        "My parents": "“My parents”是主语，说明谁做动作，不是本题要求的成分。",
+        "the news": "“the news”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "in the living room": "“in the living room”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "My parents watch the news in the living room at seven thirty.",
+      "translationZh": "我父母七点半在客厅看新闻。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "My parents",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "watch",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "the news",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the living room",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "at seven thirty",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-2146449a2652ad6f.mp3"
+    },
+    {
+      "id": "parse-subject-05",
+      "module": "analysis",
+      "conceptId": "parse-subject",
+      "prompt": "句子中，谁是执行动作的主语？",
+      "options": [
+        "Our teacher",
+        "checks",
+        "our homework",
+        "in the classroom"
+      ],
+      "answer": "Our teacher",
+      "explanationZh": "“Our teacher”是主语，说明谁做动作。全句译为：我们的老师每天早晨在教室检查我们的作业。Our teacher 是单数主语，check 要用 checks；homework 是不可数名词。",
+      "distractorExplanations": {
+        "checks": "“checks”是谓语动词，表示动作，不是本题要求的成分。",
+        "our homework": "“our homework”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "in the classroom": "“in the classroom”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "Our teacher checks our homework in the classroom every morning.",
+      "translationZh": "我们的老师每天早晨在教室检查我们的作业。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "Our teacher",
+          "explanationZh": "主语，说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "checks",
+          "explanationZh": "谓语动词，表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "our homework",
+          "explanationZh": "宾语，是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the classroom",
+          "explanationZh": "地点状语，说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "every morning",
+          "explanationZh": "时间状语，说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-2cfe796fc960aab7.mp3"
+    },
+    {
+      "id": "parse-verb-05",
+      "module": "analysis",
+      "conceptId": "parse-verb",
+      "prompt": "句子中的谓语动词是哪一项？",
+      "options": [
+        "Our class",
+        "the flag",
+        "every Monday",
+        "raises"
+      ],
+      "answer": "raises",
+      "explanationZh": "“raises”是谓语动词，表示动作。全句译为：我们班每个星期一在运动场升旗。",
+      "distractorExplanations": {
+        "Our class": "“Our class”是主语，说明谁做动作，不是本题要求的成分。",
+        "the flag": "“the flag”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "every Monday": "“every Monday”是时间状语，说明什么时候，不是本题要求的成分。"
+      },
+      "sentence": "Our class raises the flag on the sports field every Monday.",
+      "translationZh": "我们班每个星期一在运动场升旗。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "Our class",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "raises",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "the flag",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "on the sports field",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "every Monday",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-9ae0ccd32c8dc831.mp3"
+    },
+    {
+      "id": "parse-object-05",
+      "module": "analysis",
+      "conceptId": "parse-object",
+      "prompt": "句子中，动作的宾语是哪一项？",
+      "options": [
+        "buys",
+        "at the market",
+        "fresh vegetables",
+        "My cousin"
+      ],
+      "answer": "fresh vegetables",
+      "explanationZh": "“fresh vegetables”是宾语，是动作涉及的对象。全句译为：我的表亲每逢星期六早晨在市场买新鲜蔬菜。",
+      "distractorExplanations": {
+        "My cousin": "“My cousin”是主语，说明谁做动作，不是本题要求的成分。",
+        "buys": "“buys”是谓语动词，表示动作，不是本题要求的成分。",
+        "at the market": "“at the market”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "My cousin buys fresh vegetables at the market on Saturday mornings.",
+      "translationZh": "我的表亲每逢星期六早晨在市场买新鲜蔬菜。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "My cousin",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "buys",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "fresh vegetables",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "at the market",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "on Saturday mornings",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-933b6b76ead16d6d.mp3"
+    },
+    {
+      "id": "parse-adverbial-05",
+      "module": "analysis",
+      "conceptId": "parse-adverbial",
+      "prompt": "哪一部分完整地说明动作发生的时间？",
+      "options": [
+        "in the school hall",
+        "every Tuesday",
+        "The club members",
+        "their plans"
+      ],
+      "answer": "every Tuesday",
+      "explanationZh": "“every Tuesday”是时间状语，说明什么时候。全句译为：俱乐部成员每个星期二在学校礼堂讨论他们的计划。",
+      "distractorExplanations": {
+        "The club members": "“The club members”是主语，说明谁做动作，不是本题要求的成分。",
+        "their plans": "“their plans”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "in the school hall": "“in the school hall”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "The club members discuss their plans in the school hall every Tuesday.",
+      "translationZh": "俱乐部成员每个星期二在学校礼堂讨论他们的计划。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "The club members",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "discuss",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "their plans",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the school hall",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "every Tuesday",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-59c7c0a9027a64d5.mp3"
+    },
+    {
+      "id": "parse-subject-06",
+      "module": "analysis",
+      "conceptId": "parse-subject",
+      "prompt": "句子中，谁是执行动作的主语？",
+      "options": [
+        "take",
+        "photos",
+        "in the village",
+        "My friends"
+      ],
+      "answer": "My friends",
+      "explanationZh": "“My friends”是主语，说明谁做动作。全句译为：我的朋友们周末在村子里拍照。take photos 表示拍照；at weekends 是常见的英式周末表达。",
+      "distractorExplanations": {
+        "take": "“take”是谓语动词，表示动作，不是本题要求的成分。",
+        "photos": "“photos”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "in the village": "“in the village”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "My friends take photos in the village at weekends.",
+      "translationZh": "我的朋友们周末在村子里拍照。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "My friends",
+          "explanationZh": "主语，说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "take",
+          "explanationZh": "谓语动词，表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "photos",
+          "explanationZh": "宾语，是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the village",
+          "explanationZh": "地点状语，说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "at weekends",
+          "explanationZh": "时间状语，说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-b470e5dc8d312083.mp3"
+    },
+    {
+      "id": "parse-verb-06",
+      "module": "analysis",
+      "conceptId": "parse-verb",
+      "prompt": "句子中的谓语动词是哪一项？",
+      "options": [
+        "a new song",
+        "before the show",
+        "practises",
+        "The singer"
+      ],
+      "answer": "practises",
+      "explanationZh": "“practises”是谓语动词，表示动作。全句译为：这位歌手演出前在音乐教室练习一首新歌。",
+      "distractorExplanations": {
+        "The singer": "“The singer”是主语，说明谁做动作，不是本题要求的成分。",
+        "a new song": "“a new song”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "before the show": "“before the show”是时间状语，说明什么时候，不是本题要求的成分。"
+      },
+      "sentence": "The singer practises a new song in the music room before the show.",
+      "translationZh": "这位歌手演出前在音乐教室练习一首新歌。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "The singer",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "practises",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "a new song",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "in the music room",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "before the show",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-90f6471f6709f26c.mp3"
+    },
+    {
+      "id": "parse-object-06",
+      "module": "analysis",
+      "conceptId": "parse-object",
+      "prompt": "句子中，动作的宾语是哪一项？",
+      "options": [
+        "at home",
+        "French",
+        "The twins",
+        "practise"
+      ],
+      "answer": "French",
+      "explanationZh": "“French”是宾语，是动作涉及的对象。全句译为：这对双胞胎晚饭后在家练习法语。",
+      "distractorExplanations": {
+        "The twins": "“The twins”是主语，说明谁做动作，不是本题要求的成分。",
+        "practise": "“practise”是谓语动词，表示动作，不是本题要求的成分。",
+        "at home": "“at home”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "The twins practise French at home after dinner.",
+      "translationZh": "这对双胞胎晚饭后在家练习法语。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "The twins",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "practise",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "French",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "at home",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "after dinner",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-5a2bf9ffe76b7ac0.mp3"
+    },
+    {
+      "id": "parse-adverbial-06",
+      "module": "analysis",
+      "conceptId": "parse-adverbial",
+      "prompt": "哪一部分完整地说明动作发生的时间？",
+      "options": [
+        "after breakfast",
+        "My little brother",
+        "funny animals",
+        "at his desk"
+      ],
+      "answer": "after breakfast",
+      "explanationZh": "“after breakfast”是时间状语，说明什么时候。全句译为：我弟弟早饭后坐在书桌旁画有趣的动物。",
+      "distractorExplanations": {
+        "My little brother": "“My little brother”是主语，说明谁做动作，不是本题要求的成分。",
+        "funny animals": "“funny animals”是宾语，是动作涉及的对象，不是本题要求的成分。",
+        "at his desk": "“at his desk”是地点状语，说明在哪里，不是本题要求的成分。"
+      },
+      "sentence": "My little brother draws funny animals at his desk after breakfast.",
+      "translationZh": "我弟弟早饭后坐在书桌旁画有趣的动物。",
+      "steps": [
+        {
+          "labelZh": "主语",
+          "text": "My little brother",
+          "explanationZh": "说明谁做动作"
+        },
+        {
+          "labelZh": "谓语动词",
+          "text": "draws",
+          "explanationZh": "表示动作"
+        },
+        {
+          "labelZh": "宾语",
+          "text": "funny animals",
+          "explanationZh": "是动作涉及的对象"
+        },
+        {
+          "labelZh": "地点状语",
+          "text": "at his desk",
+          "explanationZh": "说明在哪里"
+        },
+        {
+          "labelZh": "时间状语",
+          "text": "after breakfast",
+          "explanationZh": "说明什么时候"
+        }
+      ],
+      "audioFile": "audio/context-4388a8d89962a23d.mp3"
+    }
+  ]
+}

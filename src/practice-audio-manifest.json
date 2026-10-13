@@ -1,0 +1,1320 @@
+{
+  "schemaVersion": 1,
+  "engine": "Kokoro-82M v1.0",
+  "accent": "en-US",
+  "speed": 0.9,
+  "sampleRate": 24000,
+  "codec": "MP3 128kbps mono",
+  "sourceSha256": "7bbaf30705b49449b4a0b55bc8ea237505f764704b704c456a2f0a367a5bf773",
+  "legacySourceSha256": "ad973b512dcc5bd3436edb01ee8c2a662a99d202b0eb0e9188cff3f24474dc50",
+  "license": "Apache-2.0",
+  "source": "https://huggingface.co/hexgrad/Kokoro-82M",
+  "perceptualAudit": false,
+  "questionFiles": {
+    "parse-subject-01": "audio/context-b00544717a280c4b.mp3",
+    "parse-verb-01": "audio/context-11467d3aadd05735.mp3",
+    "parse-object-01": "audio/context-8a4e0dea4ae2889f.mp3",
+    "parse-adverbial-01": "audio/context-4cfd24e3e92c0142.mp3",
+    "parse-subject-02": "audio/context-b04f792ac75fbbd1.mp3",
+    "parse-verb-02": "audio/context-36b32df256744cc8.mp3",
+    "parse-object-02": "audio/context-78bcc159bb013964.mp3",
+    "parse-adverbial-02": "audio/context-27b44ae68b97edd6.mp3",
+    "parse-subject-03": "audio/context-61ed03f9545b70c2.mp3",
+    "parse-verb-03": "audio/context-11e184b424e90c17.mp3",
+    "parse-object-03": "audio/context-ace8d6000756394a.mp3",
+    "parse-adverbial-03": "audio/context-36e71df35cded748.mp3",
+    "parse-subject-04": "audio/context-55c9e8f1eb56578c.mp3",
+    "parse-verb-04": "audio/context-23369a76839d3a6a.mp3",
+    "parse-object-04": "audio/context-80699dba9b43b16a.mp3",
+    "parse-adverbial-04": "audio/context-2146449a2652ad6f.mp3",
+    "parse-subject-05": "audio/context-2cfe796fc960aab7.mp3",
+    "parse-verb-05": "audio/context-9ae0ccd32c8dc831.mp3",
+    "parse-object-05": "audio/context-933b6b76ead16d6d.mp3",
+    "parse-adverbial-05": "audio/context-59c7c0a9027a64d5.mp3",
+    "parse-subject-06": "audio/context-b470e5dc8d312083.mp3",
+    "parse-verb-06": "audio/context-90f6471f6709f26c.mp3",
+    "parse-object-06": "audio/context-5a2bf9ffe76b7ac0.mp3",
+    "parse-adverbial-06": "audio/context-4388a8d89962a23d.mp3",
+    "cloze-agreement-01": "audio/context-b98f872b9aedb8e4.mp3",
+    "cloze-timeprep-01": "audio/context-c3cfbdecdfe2afb4.mp3",
+    "cloze-noun-01": "audio/context-72b97b8c07963c74.mp3",
+    "cloze-connector-01": "audio/context-7350a2520a9c80f2.mp3",
+    "cloze-agreement-02": "audio/context-b507df5c73738624.mp3",
+    "cloze-timeprep-02": "audio/context-02dd41bf2f228b6b.mp3",
+    "cloze-noun-02": "audio/context-4461ac7884838f38.mp3",
+    "cloze-connector-02": "audio/context-8b9c52fff0d45c8d.mp3",
+    "cloze-agreement-03": "audio/context-496cee788ab7197c.mp3",
+    "cloze-timeprep-03": "audio/context-b6c7b11cf15e3b66.mp3",
+    "cloze-noun-03": "audio/context-fbf54b05e37f64dd.mp3",
+    "cloze-connector-03": "audio/context-05bd5f48f24c026f.mp3",
+    "cloze-agreement-04": "audio/context-cacaa03fa593627c.mp3",
+    "cloze-timeprep-04": "audio/context-fbd2431a63dc85ea.mp3",
+    "cloze-noun-04": "audio/context-6d946ac8c5d2da3e.mp3",
+    "cloze-connector-04": "audio/context-1cccf979b14ed169.mp3",
+    "cloze-agreement-05": "audio/context-b7b9b29421816824.mp3",
+    "cloze-timeprep-05": "audio/context-12d87d02882bf554.mp3",
+    "cloze-noun-05": "audio/context-4f79c86967665629.mp3",
+    "cloze-connector-05": "audio/context-c60451d9b2226cde.mp3",
+    "cloze-agreement-06": "audio/context-4f9a82cdd8205594.mp3",
+    "cloze-timeprep-06": "audio/context-1a7ede02395f52fa.mp3",
+    "cloze-noun-06": "audio/context-2bc775c65d7a4b12.mp3",
+    "cloze-connector-06": "audio/context-a5a921efe207a15b.mp3"
+  },
+  "legacySentenceFiles": {
+    "phonics-pilot-structure-01": "audio/context-3b35b1f957a1c613.mp3",
+    "phonics-pilot-structure-02": "audio/context-ce8d4f00937edf44.mp3"
+  },
+  "entries": [
+    {
+      "id": "context-b00544717a280c4b",
+      "text": "My sister plays the guitar at home every evening.",
+      "textSha256": "b00544717a280c4ba1ad824edb2040ff513fdf5f9f8b8d9e4f5bfb244c8e8a1a",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-subject-01"
+      ],
+      "file": "audio/context-b00544717a280c4b.mp3",
+      "duration": 3.75,
+      "sha256": "1ff1e7b6cecb9e0ad023c42f376eb639d66d70aee86230a104ffd88b65ccd932",
+      "phonemes": [
+        "mˌI sˈɪstəɹ plˈAz ðə ɡətˈɑɹ æt hˈOm ˈɛvəɹi ˈivnɪŋ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04670676589012146,
+        "peak": 0.3906509280204773,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-11467d3aadd05735",
+      "text": "Grandad grows carrots in his garden every spring.",
+      "textSha256": "11467d3aadd05735e1669f15c3b1e51cd319d8bd70288618a5451f5b42af8e5c",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-verb-01"
+      ],
+      "file": "audio/context-11467d3aadd05735.mp3",
+      "duration": 4.025,
+      "sha256": "a6ce17531431714f0e20b9f55453b5b0fe469cb36e4e5744cb97f766a41ea761",
+      "phonemes": [
+        "ɡɹˈændæd ɡɹˈOz kˈɛɹəts ɪn hɪz ɡˈɑɹdən ˈɛvəɹi spɹˈɪŋ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03983299061655998,
+        "peak": 0.4126266539096832,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-8a4e0dea4ae2889f",
+      "text": "My uncle teaches chess at the club on Sundays.",
+      "textSha256": "8a4e0dea4ae2889fd04347f0f164d8cf72296dc41860468070f0d099d82782a9",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-object-01"
+      ],
+      "file": "audio/context-8a4e0dea4ae2889f.mp3",
+      "duration": 3.4,
+      "sha256": "90c369a01370d438ecdbba17586de4b593cd946b7635fceb32a0245448613857",
+      "phonemes": [
+        "mˌI ˈʌŋkəl tˈiʧᵻz ʧˈɛs æt ðə klˈʌb ˌɔn sˈʌndˌAz."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04587441682815552,
+        "peak": 0.33775633573532104,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-4cfd24e3e92c0142",
+      "text": "The science teacher prepares her lessons in the office before class.",
+      "textSha256": "4cfd24e3e92c0142018c247791e3d2d9df5e7a07f436f0b7fb2d535c801abfd2",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-adverbial-01"
+      ],
+      "file": "audio/context-4cfd24e3e92c0142.mp3",
+      "duration": 5.05,
+      "sha256": "a09ad8756f0c01a04f926efd13dc18dd13e4362d9f676e29f8345a446dd873a7",
+      "phonemes": [
+        "ðə sˈIəns tˈiʧəɹ pɹipˈɛɹz hɜɹ lˈɛsənz ɪn ði ˈɔfəs bəfˈɔɹ klˈæs."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03914083540439606,
+        "peak": 0.46051526069641113,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-b04f792ac75fbbd1",
+      "text": "The students read books in the library after lunch.",
+      "textSha256": "b04f792ac75fbbd1f631cece34cf5289570127bdb47c9f5680908eae0211beee",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-subject-02"
+      ],
+      "file": "audio/context-b04f792ac75fbbd1.mp3",
+      "duration": 4.2,
+      "sha256": "8d354f2a57e63fc9a25dbefde7fe2710f4f3693ef34dfad685779daaa974341e",
+      "phonemes": [
+        "ðə stˈudᵊnts ɹˈɛd bˈʊks ɪn ðə lˈIbɹˌɛɹi ˈæftəɹ lˈʌnʧ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04324733465909958,
+        "peak": 0.3516055643558502,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-36b32df256744cc8",
+      "text": "My mother makes breakfast in the kitchen at six.",
+      "textSha256": "36b32df256744cc880cae043dd87b4a0db821e219428e0de201fe2e646bb4d4d",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-verb-02"
+      ],
+      "file": "audio/context-36b32df256744cc8.mp3",
+      "duration": 3.6,
+      "sha256": "ebb2772971083213fc33aded9b127a14145f0fd9ec9e7ef8c74aee5adbe8bdc9",
+      "phonemes": [
+        "mˌI mˈʌðəɹ mˌAks bɹˈɛkfəst ɪn ðə kˈɪʧᵊn æt sˈɪks."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04491008073091507,
+        "peak": 0.526886522769928,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-78bcc159bb013964",
+      "text": "We eat delicious noodles in the dining hall at lunchtime.",
+      "textSha256": "78bcc159bb013964bdffe40dc0bb3ef0e2cf6a3a8f246466bd1b3aac4300f145",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-object-02"
+      ],
+      "file": "audio/context-78bcc159bb013964.mp3",
+      "duration": 4.025,
+      "sha256": "ae5c3595f33d1ac43ca530506784449af441de20961895897eba691845201558",
+      "phonemes": [
+        "wˌi ˈit dəlˈɪʃəs nˈudᵊlz ɪn ðə dˈInɪŋ hˈɔl æt lˈʌnʧtˌIm."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.047732144594192505,
+        "peak": 0.486686110496521,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-27b44ae68b97edd6",
+      "text": "I wash my hands in the bathroom before every meal.",
+      "textSha256": "27b44ae68b97edd6583e786cbe2763e4ea9892c1740cd456e79be844391c62fb",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-adverbial-02"
+      ],
+      "file": "audio/context-27b44ae68b97edd6.mp3",
+      "duration": 4.225,
+      "sha256": "37a14baf44c15d2166b59d9efcc7c6fa8009e8288ab1c37a85b5491f341b8ba2",
+      "phonemes": [
+        "ˌI wˈɔʃ mI hˈændz ɪn ðə bˈæθɹˌum bəfˈɔɹ ˈɛvəɹi mˈil."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.041432831436395645,
+        "peak": 0.5238290429115295,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-61ed03f9545b70c2",
+      "text": "Ben brushes his teeth in the bathroom before breakfast.",
+      "textSha256": "61ed03f9545b70c251a87e535102bfd20a49a2cd38e07fdd767ab4341b7f203b",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-subject-03"
+      ],
+      "file": "audio/context-61ed03f9545b70c2.mp3",
+      "duration": 3.9,
+      "sha256": "99e2778501752d2e58cd08209bfa089a5f2e52e4222065d87b1b749f0a1937bc",
+      "phonemes": [
+        "bˈɛn bɹˈʌʃᵻz hɪz tˈiθ ɪn ðə bˈæθɹˌum bəfˈɔɹ bɹˈɛkfəst."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04653901979327202,
+        "peak": 0.3337181806564331,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-11e184b424e90c17",
+      "text": "I collect leaves in the park after school.",
+      "textSha256": "11e184b424e90c176a7069cf42101fbca80b16eacb854dfe380f3dca77f174f7",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-verb-03"
+      ],
+      "file": "audio/context-11e184b424e90c17.mp3",
+      "duration": 3.375,
+      "sha256": "f3ad70a1bfcb325dcf1ad7a5a656049bbdbd34919f5845cfcffdd5d3950510fb",
+      "phonemes": [
+        "ˌI kəlˈɛkt lˈivz ɪn ðə pˈɑɹk ˈæftəɹ skˈul."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04157112166285515,
+        "peak": 0.4805721342563629,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-ace8d6000756394a",
+      "text": "The gardener counts the trees in the yard every month.",
+      "textSha256": "ace8d6000756394ac2f75bc7b2dac92c7de2626d315a65ba2565a11fc2e7f8a4",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-object-03"
+      ],
+      "file": "audio/context-ace8d6000756394a.mp3",
+      "duration": 3.7,
+      "sha256": "df0d294a93c4e6ac6fead19ee7abb12ccb6860b40973dbba9ecc232aad5cd9a6",
+      "phonemes": [
+        "ðə ɡˈɑɹdᵊnəɹ kˈWnts ðə tɹˈiz ɪn ðə jˈɑɹd ˈɛvəɹi mˈʌnθ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04756120964884758,
+        "peak": 0.39594078063964844,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-36e71df35cded748",
+      "text": "Our neighbours sell fruit outside their house during the summer.",
+      "textSha256": "36e71df35cded748ab0f18e6b05ab93dc4c2886ce60c12c167830ca387338b50",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-adverbial-03"
+      ],
+      "file": "audio/context-36e71df35cded748.mp3",
+      "duration": 4.55,
+      "sha256": "6f623ba4a2cff51468851f4008f2cccef3d981d44b5f35c7dabbd4c5e45f26c2",
+      "phonemes": [
+        "ˌWəɹ nˈAbəɹz sˈɛl fɹˈut ˌWtsˈId ðɛɹ hˈWs dˈʊɹɪŋ ðə sˈʌməɹ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03943078964948654,
+        "peak": 0.407662034034729,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-55c9e8f1eb56578c",
+      "text": "We celebrate Grandma’s birthday at her house on Sunday.",
+      "textSha256": "55c9e8f1eb56578cbdb42da6b39a958d26f3cfdbd6073f3277b72d750bf07627",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-subject-04"
+      ],
+      "file": "audio/context-55c9e8f1eb56578c.mp3",
+      "duration": 4.725,
+      "sha256": "ac04af239243ac0894bf90a2e691474be7806f4e7fb913eced782dc928f8d479",
+      "phonemes": [
+        "wˌi sˈɛləbɹˌAt ɡɹˈændmˌɑz bˈɜɹθdˌA æt hɜɹ hˈWs ˌɔn sˈʌndˌA."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03881905600428581,
+        "peak": 0.40286412835121155,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-23369a76839d3a6a",
+      "text": "The children paint pictures in the art room on Fridays.",
+      "textSha256": "23369a76839d3a6af9c57610401837597f16ef9c9a641d6d3da312e446a50377",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-verb-04"
+      ],
+      "file": "audio/context-23369a76839d3a6a.mp3",
+      "duration": 4.45,
+      "sha256": "7690303602779eb7854b157c23c7cebb5070384d626fabf7defeddadf8a7bf93",
+      "phonemes": [
+        "ðə ʧˈɪldɹᵊn pˈAnt pˈɪkʧəɹz ɪn ði ˈɑɹt ɹˈum ˌɔn fɹˈIdˌAz."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04102311283349991,
+        "peak": 0.42674681544303894,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-80699dba9b43b16a",
+      "text": "A reporter interviews our head teacher in the office this afternoon.",
+      "textSha256": "80699dba9b43b16a8712e6b34b2259a6ba155cee97acb40db2e419adeea2e55e",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-object-04"
+      ],
+      "file": "audio/context-80699dba9b43b16a.mp3",
+      "duration": 4.65,
+      "sha256": "1233eebf2cab8581fbc835d59e26a71d76af951b2bd8e08a19b666344e22e60a",
+      "phonemes": [
+        "ɐ ɹəpˈɔɹTəɹ ˈɪntəɹvjˌuz ˌWəɹ hˈɛd tˈiʧəɹ ɪn ði ˈɔfəs ðɪs ˌæftəɹnˈun."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.05053979158401489,
+        "peak": 0.43135201930999756,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-2146449a2652ad6f",
+      "text": "My parents watch the news in the living room at seven thirty.",
+      "textSha256": "2146449a2652ad6fcdfb06f0a9d81a3eb327ca9cbae9f477f45e0cc881dc4e8a",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-adverbial-04"
+      ],
+      "file": "audio/context-2146449a2652ad6f.mp3",
+      "duration": 4.6,
+      "sha256": "15879e24a178de85831cdeb503900b581d9115cbfe7b8eae6474af4130f77080",
+      "phonemes": [
+        "mˌI pˈɛɹᵊnts wˈɑʧ ðə nˈuz ɪn ðə lˈɪvɪŋ ɹˈum æt sˈɛvən θˈɜɹTi."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04016648605465889,
+        "peak": 0.5190021395683289,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-2cfe796fc960aab7",
+      "text": "Our teacher checks our homework in the classroom every morning.",
+      "textSha256": "2cfe796fc960aab77a2febfd0a9e637e9c4dc152b38f55a7f850156c1418776d",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-subject-05"
+      ],
+      "file": "audio/context-2cfe796fc960aab7.mp3",
+      "duration": 3.925,
+      "sha256": "66a47c3de17a7aee137987d3e43279e860dec0f6b11f2ab9204241ac635fd3a4",
+      "phonemes": [
+        "ˌWəɹ tˈiʧəɹ ʧˈɛks ˌWəɹ hˈOmwˌɜɹk ɪn ðə klˈæsɹˌum ˈɛvəɹi mˈɔɹnɪŋ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04742656648159027,
+        "peak": 0.504630982875824,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-9ae0ccd32c8dc831",
+      "text": "Our class raises the flag on the sports field every Monday.",
+      "textSha256": "9ae0ccd32c8dc831147766ca0074a180338cec6dd6da5e70a8f3b03a1ab5ce1b",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-verb-05"
+      ],
+      "file": "audio/context-9ae0ccd32c8dc831.mp3",
+      "duration": 4.975,
+      "sha256": "ea668b23ed75de645399ab062c84d6c1fbe518a95cbb47af46b45522c9403542",
+      "phonemes": [
+        "ˌWəɹ klˈæs ɹˈAzᵻz ðə flˈæɡ ˌɔn ðə spˈɔɹts fˈild ˈɛvəɹi mˈʌndˌA."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03794505447149277,
+        "peak": 0.5086343884468079,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-933b6b76ead16d6d",
+      "text": "My cousin buys fresh vegetables at the market on Saturday mornings.",
+      "textSha256": "933b6b76ead16d6d9304a22c6769bb3c6a23b1ab6c87d504b082e0ba039cca8d",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-object-05"
+      ],
+      "file": "audio/context-933b6b76ead16d6d.mp3",
+      "duration": 4.875,
+      "sha256": "68bdf6d4abda1b7eaf54a3c561ec05cf962b9c589c9c96423a1679d7a5af42b9",
+      "phonemes": [
+        "mˌI kˈʌzᵊn bˈIz fɹˈɛʃ vˈɛʤtəbəlz æt ðə mˈɑɹkət ˌɔn sˈæTəɹdˌA mˈɔɹnɪŋz."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.047043927013874054,
+        "peak": 0.3187865912914276,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-59c7c0a9027a64d5",
+      "text": "The club members discuss their plans in the school hall every Tuesday.",
+      "textSha256": "59c7c0a9027a64d54c19dcd24986cc9f0e5f1d82996535b88821ab87df9a9424",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-adverbial-05"
+      ],
+      "file": "audio/context-59c7c0a9027a64d5.mp3",
+      "duration": 5.35,
+      "sha256": "3218707a7e2bc3ca4f4c3104fcfcb852877fc1204589300c2fc38c0658765e93",
+      "phonemes": [
+        "ðə klˈʌb mˈɛmbəɹz dəskˈʌs ðɛɹ plˈænz ɪn ðə skˈul hˈɔl ˈɛvəɹi tˈuzdˌA."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04161633551120758,
+        "peak": 0.5044206976890564,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-b470e5dc8d312083",
+      "text": "My friends take photos in the village at weekends.",
+      "textSha256": "b470e5dc8d312083f171c0675f4c606036220b474a31c2b8c0ae84779818cde4",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-subject-06"
+      ],
+      "file": "audio/context-b470e5dc8d312083.mp3",
+      "duration": 4.0,
+      "sha256": "3b58e2aa5538927759113e22da172b7b5f05250d2a28822ab6e26df436536ccf",
+      "phonemes": [
+        "mˌI fɹˈɛndz tˈAk fˈOTOz ɪn ðə vˈɪlɪʤ æt wˈikˌɛndz."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.042487747967243195,
+        "peak": 0.598071813583374,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-90f6471f6709f26c",
+      "text": "The singer practises a new song in the music room before the show.",
+      "textSha256": "90f6471f6709f26cea1b3fd5d2a49ea64eb52c822cfa03aaac83200a9d84d11f",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-verb-06"
+      ],
+      "file": "audio/context-90f6471f6709f26c.mp3",
+      "duration": 5.35,
+      "sha256": "0e6f6ead0b921b2dd92526524e5246a2a134bc39df96651f8bea4d15681d20ba",
+      "phonemes": [
+        "ðə sˈɪŋəɹ pɹˈæktəsᵻz ɐ nˈu sˈɔŋ ɪn ðə mjˈuzɪk ɹˈum bəfˈɔɹ ðə ʃˈO."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.0387430265545845,
+        "peak": 0.33808350563049316,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-5a2bf9ffe76b7ac0",
+      "text": "The twins practise French at home after dinner.",
+      "textSha256": "5a2bf9ffe76b7ac0ac76a5ce9a685e634b445f4454b6861f260b1ee389f62738",
+      "kind": "sentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "parse-object-06"
+      ],
+      "file": "audio/context-5a2bf9ffe76b7ac0.mp3",
+      "duration": 3.375,
+      "sha256": "42274b9c70c2017ad0e089654cb967ce3eb265c3895c91cda3dc6392c23e4589",
+      "phonemes": [
+        "ðə twˈɪnz pɹˈæktəs fɹˈɛnʧ æt hˈOm ˈæftəɹ dˈɪnəɹ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.046447787433862686,
+        "peak": 0.3530711531639099,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-4388a8d89962a23d",
+      "text": "My little brother draws funny animals at his desk after breakfast.",
+      "textSha256": "4388a8d89962a23d7ea06588ac13fdb2e82222d751250180988f5718d9091182",
+      "kind": "sentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "parse-adverbial-06"
+      ],
+      "file": "audio/context-4388a8d89962a23d.mp3",
+      "duration": 5.175,
+      "sha256": "0bdaf79fe67ca8c48b3b1320fa849683e875042a273af9dc8d32194fd52c294d",
+      "phonemes": [
+        "mˌI lˈɪTᵊl bɹˈʌðəɹ dɹˈɔz fˈʌni ˈænəmᵊlz æt hɪz dˈɛsk ˈæftəɹ bɹˈɛkfəst."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03975014016032219,
+        "peak": 0.4203934967517853,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-b98f872b9aedb8e4",
+      "text": "It is rainy today. Sara leaves her bike at home and walks to school with an umbrella.",
+      "textSha256": "b98f872b9aedb8e4f49337b011ce10951769dc850641731dbc1d176883b61bd4",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-agreement-01"
+      ],
+      "file": "audio/context-b98f872b9aedb8e4.mp3",
+      "duration": 5.725,
+      "sha256": "6d7deccdff707f569e9b92b145bbdd6b1b3a16275cbd643c963fd3cea95335b2",
+      "phonemes": [
+        "ˌɪt ɪz ɹˈAni tədˈA. sˈɛɹə lˈivz hɜɹ bˈIk æt hˈOm ænd wˈɔks tə skˈul wɪð ɐn ˌʌmbɹˈɛlə."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04851241409778595,
+        "peak": 0.3719398081302643,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-c3cfbdecdfe2afb4",
+      "text": "Our bus leaves at seven. The driver asks us to be at the bus stop at six forty-five. That gives us fifteen minutes to get ready.",
+      "textSha256": "c3cfbdecdfe2afb4611ca89eee6324e9b907ae95d9bf28d09d7aa01041084d58",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-timeprep-01"
+      ],
+      "file": "audio/context-c3cfbdecdfe2afb4.mp3",
+      "duration": 10.125,
+      "sha256": "d6ec4d239f4c560c89891ff3c7d4293824cdde6299dc100aba1d1cb8283ee1cc",
+      "phonemes": [
+        "ˌWəɹ bˈʌs lˈivz æt sˈɛvən. ðə dɹˈIvəɹ ˈæsks ˌʌs tə bi æt ðə bˈʌs stˈɑp æt sˈɪks fˌɔɹTifˈIv. ðˈæt ɡˈɪvz ˌʌs fˌɪftˈin mˈɪnəts tə ɡɛt ɹˈɛdi."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.0423198901116848,
+        "peak": 0.47633644938468933,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-72b97b8c07963c74",
+      "text": "Dad is fixing a guitar. It has six strings, and one is broken. After he puts on a new string, he plays a short song.",
+      "textSha256": "72b97b8c07963c74eac42721e216e9a03e0983fb8a7899e4608d9536ffecfaac",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-noun-01"
+      ],
+      "file": "audio/context-72b97b8c07963c74.mp3",
+      "duration": 8.3,
+      "sha256": "07cfc04fa0e0f738584ab61eec87e3e714f6b029c7001a150844e2933781dd13",
+      "phonemes": [
+        "dˈæd ɪz fˈɪksɪŋ ɐ ɡətˈɑɹ. ˌɪt hæz sˈɪks stɹˈɪŋz, ænd wˈʌn ɪz bɹˈOkən. ˈæftəɹ hi pˌʊts ˌɔn ɐ nˈu stɹˈɪŋ, hi plˈAz ɐ ʃˈɔɹt sˈɔŋ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.050608403980731964,
+        "peak": 0.6584101319313049,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-7350a2520a9c80f2",
+      "text": "We put the plant beside the window because it needs sunlight to grow. There is very little light in the corner.",
+      "textSha256": "7350a2520a9c80f21761a6b9cb9a9d13f52d919d9a4f494c8004e635c8199b57",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-connector-01"
+      ],
+      "file": "audio/context-7350a2520a9c80f2.mp3",
+      "duration": 7.625,
+      "sha256": "10d5fdce1e76be91b96e64431d6a9e007ffa641ad00ccff25e52d423e390fa5e",
+      "phonemes": [
+        "wˌi pˌʊt ðə plˈænt bəsˈId ðə wˈɪndO bəkˈʌz ɪt nˈidz sˈʌnlˌIt tə ɡɹˈO. ðˌɛɹ ɪz vˈɛɹi lˈɪTᵊl lˈIt ɪn ðə kˈɔɹnəɹ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.040478624403476715,
+        "peak": 0.40645578503608704,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-b507df5c73738624",
+      "text": "My brother and I are new members of the drama club. Today we learn to act out a short story about a farmer.",
+      "textSha256": "b507df5c7373862463c2f7c53e5d96ba71507747d7dac282644ac75760647da3",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-agreement-02"
+      ],
+      "file": "audio/context-b507df5c73738624.mp3",
+      "duration": 7.2,
+      "sha256": "4f23aa41d37c1a70b9c8f1bbfd40103c1a8408ab4de76ecbfef57e51084cebc6",
+      "phonemes": [
+        "mˌI bɹˈʌðəɹ ænd ˌI ɑɹ nˈu mˈɛmbəɹz ʌv ðə dɹˈɑmə klˈʌb. tədˈA wi lˈɜɹn tʊ ˈækt ˈWt ɐ ʃˈɔɹt stˈɔɹi əbˈWt ɐ fˈɑɹməɹ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.049740009009838104,
+        "peak": 0.5921744704246521,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-02dd41bf2f228b6b",
+      "text": "Our new term begins on Monday morning. I pack my schoolbag the night before and check my new timetable.",
+      "textSha256": "02dd41bf2f228b6b726bf93dd37d313f847b678c5ec1a449710580a2fb9c5ab8",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-timeprep-02"
+      ],
+      "file": "audio/context-02dd41bf2f228b6b.mp3",
+      "duration": 8.15,
+      "sha256": "eb873c5caacb188cfbc4bfabde980d9c83559c3454adfeaa6168bc635ce5be40",
+      "phonemes": [
+        "ˌWəɹ nˈu tˈɜɹm bəɡˈɪnz ˌɔn mˈʌndˌA mˈɔɹnɪŋ. ˌI pˈæk mI skˈulbæɡ ðə nˈIt bəfˈɔɹ ænd ʧˈɛk mI nˈu tˈImtˌAbᵊl."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03926330432295799,
+        "peak": 0.5178019404411316,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-4461ac7884838f38",
+      "text": "My locker is locked. I find its key in my coat pocket and use it to open the door. My tennis bat is still inside.",
+      "textSha256": "4461ac7884838f384861cbacbb4b03b58a055193f5815035dc47660af925e958",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-noun-02"
+      ],
+      "file": "audio/context-4461ac7884838f38.mp3",
+      "duration": 8.1,
+      "sha256": "8c6708e2ef883c252e1d785e9d4bec7fff57a6700d22331725131fc31cf7c18f",
+      "phonemes": [
+        "mˌI lˈɑkəɹ ɪz lˈɑkt. ˌI fˈInd ɪts kˈi ɪn mI kˈOt pˈɑkət ænd jˈuz ɪt tʊ ˈOpᵊn ðə dˈɔɹ. mˌI tˈɛnəs bˈæt ɪz stˈɪl ɪnsˈId."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.05137766897678375,
+        "peak": 0.4147163927555084,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-8b9c52fff0d45c8d",
+      "text": "I cannot find my hat, so I ask the school office for help. A teacher shows me a box of lost things.",
+      "textSha256": "8b9c52fff0d45c8dbf784fbf114d6ec27cda3eace42d438c3a25638100fcf4e5",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-connector-02"
+      ],
+      "file": "audio/context-8b9c52fff0d45c8d.mp3",
+      "duration": 8.175,
+      "sha256": "b2ec7a9f224e0c8ce3aa275691b25e893e4284e01f0f434700cec8754522cd2f",
+      "phonemes": [
+        "ˌI kənˈɑt fˈInd mI hˈæt, sˌO ˌI ˈæsk ðə skˈul ˈɔfəs fɔɹ hˈɛlp. ɐ tˈiʧəɹ ʃˈOz mˌi ɐ bˈɑks ʌv lˈɔst θˈɪŋz."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03971080482006073,
+        "peak": 0.37522003054618835,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-496cee788ab7197c",
+      "text": "I am a school reporter this term. My first job is to ask three students about their favourite subjects.",
+      "textSha256": "496cee788ab7197c1c1bd9225a9ec215fe24b2e87732d560a83da666f54f9272",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-agreement-03"
+      ],
+      "file": "audio/context-496cee788ab7197c.mp3",
+      "duration": 6.925,
+      "sha256": "0ab97d718af55c24cd9ee208a49ad77888784bac19de0b5d4a7f8e300e88431b",
+      "phonemes": [
+        "ˌI ɐm ɐ skˈul ɹəpˈɔɹTəɹ ðɪs tˈɜɹm. mˌI fˈɜɹst ʤˈɑb ɪz tʊ ˈæsk θɹˈi stˈudᵊnts əbˈWt ðɛɹ fˈAvəɹət sˈʌbʤɛkts."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04932614788413048,
+        "peak": 0.4573497772216797,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-b6c7b11cf15e3b66",
+      "text": "My cousins usually visit us in July. We have no school then, and we can spend several days together.",
+      "textSha256": "b6c7b11cf15e3b6619f4c7af211bbe6529c799db1f7651b2a1e698803b94979b",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-timeprep-03"
+      ],
+      "file": "audio/context-b6c7b11cf15e3b66.mp3",
+      "duration": 7.9,
+      "sha256": "dcafbb7f15fccada06530d92f56c2fe6b2833466f72f20e442f2c9a9410ed7c3",
+      "phonemes": [
+        "mˌI kˈʌzᵊnz jˈuʒəwəli vˈɪzət ˌʌs ɪn ʤəlˈI. wˌi hæv nˈO skˈul ðˈɛn, ænd wi kæn spˈɛnd sˈɛvəɹəl dˈAz təɡˈɛðəɹ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.0412248857319355,
+        "peak": 0.5353476405143738,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-fbf54b05e37f64dd",
+      "text": "We make a birthday cake for our little cousin. We put cream and fruit on top, then add six candles.",
+      "textSha256": "fbf54b05e37f64dd68a5130bd0e9010ad7b5405feb689f73ade0b23a6d1ca9e5",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-noun-03"
+      ],
+      "file": "audio/context-fbf54b05e37f64dd.mp3",
+      "duration": 6.875,
+      "sha256": "090a01b7aa599a107965302537a7083e7301d6698246a9028bf6b1faf0cfba84",
+      "phonemes": [
+        "wˌi mˌAk ɐ bˈɜɹθdˌA kˈAk fɔɹ ˌWəɹ lˈɪTᵊl kˈʌzᵊn. wˌi pˌʊt kɹˈim ænd fɹˈut ˌɔn tˈɑp, ðˈɛn ˈæd sˈɪks kˈændᵊlz."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.05257008224725723,
+        "peak": 0.6109316945075989,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-05bd5f48f24c026f",
+      "text": "I enjoy painting, but my twin prefers hiking. We choose different school clubs, and both of us are happy.",
+      "textSha256": "05bd5f48f24c026f89b4e8890bbda0ddf7c9ae31316ba97fec13476b2c28eea3",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-connector-03"
+      ],
+      "file": "audio/context-05bd5f48f24c026f.mp3",
+      "duration": 7.775,
+      "sha256": "d2a6b0ea00ee354b98364c729c8263518a1a5500b9a5b7535a6692b20d746cb2",
+      "phonemes": [
+        "ˌI ɪnʤˈY pˈAntɪŋ, bˌʌt mI twˈɪn pɹifˈɜɹz hˈIkɪŋ. wˌi ʧˈuz dˈɪfəɹənt skˈul klˈʌbz, ænd bˈOθ ʌv ˌʌs ɑɹ hˈæpi."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04184575006365776,
+        "peak": 0.4962802827358246,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-cacaa03fa593627c",
+      "text": "The dining hall is large. There are enough seats for our whole grade, so no one needs to eat outside.",
+      "textSha256": "cacaa03fa593627c224134e739a1c5b9f3f6f32378eaf6d7149fbf4c0556eff6",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-agreement-04"
+      ],
+      "file": "audio/context-cacaa03fa593627c.mp3",
+      "duration": 6.525,
+      "sha256": "8dc18505ad9ec0891212648beb8198394a0bac66cf6beb3bce312df58b9916c4",
+      "phonemes": [
+        "ðə dˈInɪŋ hˈɔl ɪz lˈɑɹʤ. ðˌɛɹ ɑɹ ɪnˈʌf sˈits fɔɹ ˌWəɹ hˈOl ɡɹˈAd, sˌO nˈO wˈʌn nˈidz tʊ ˈit ˌWtsˈId."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.05049988999962807,
+        "peak": 0.35993653535842896,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-fbd2431a63dc85ea",
+      "text": "The school radio programme starts at twelve thirty. I finish my lunch early because I want to hear the sports news.",
+      "textSha256": "fbd2431a63dc85ea1cbe56f5267917f4379ae1a0e0f0fc3bde4e152157b8cff9",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-timeprep-04"
+      ],
+      "file": "audio/context-fbd2431a63dc85ea.mp3",
+      "duration": 8.45,
+      "sha256": "70e95a2ab01b00b222525ce84ae0a13c23c11779e06166a93b97be76cc520436",
+      "phonemes": [
+        "ðə skˈul ɹˈAdiO pɹˈOɡɹˌæm stˈɑɹts æt twˈɛlv θˈɜɹTi. ˌI fˈɪnəʃ mI lˈʌnʧ ˈɜɹli bəkˈʌz ˌI wˈɑnt tə hˈɪɹ ðə spˈɔɹts nˈuz."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03957158699631691,
+        "peak": 0.5186157822608948,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-6d946ac8c5d2da3e",
+      "text": "Before our long hike, I fill a bottle with water and close its cap. It fits in the side pocket of my bag.",
+      "textSha256": "6d946ac8c5d2da3e899fdae0ad41dc38dee76ada4116a4fac8d21fa0a5f22ee2",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-noun-04"
+      ],
+      "file": "audio/context-6d946ac8c5d2da3e.mp3",
+      "duration": 7.225,
+      "sha256": "2375c153ddb285d6e9b50ae37ce154efb09ea70c778d5e46afd4a92893c3006b",
+      "phonemes": [
+        "bəfˈɔɹ ˌWəɹ lˈɔŋ hˈIk, ˌI fˈɪl ɐ bˈɑTəl wɪð wˈɔTəɹ ænd klˈOz ɪts kˈæp. ˌɪt fˈɪts ɪn ðə sˈId pˈɑkət ʌv mI bˈæɡ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.05016666278243065,
+        "peak": 0.5011346936225891,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-1cccf979b14ed169",
+      "text": "I go to bed early tonight because I have an important tennis game tomorrow morning. I want to feel ready for it.",
+      "textSha256": "1cccf979b14ed169c75c76b890715a6336e3229c0fcd7f4afd14597b15074d99",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-connector-04"
+      ],
+      "file": "audio/context-1cccf979b14ed169.mp3",
+      "duration": 8.25,
+      "sha256": "7d418c739d3c3489a16748492e9202759f96d351bef8db95b95a83190f7b03a3",
+      "phonemes": [
+        "ˌI ɡˌO tə bˈɛd ˈɜɹli tənˈIt bəkˈʌz ˌI hæv ɐn ɪmpˈɔɹtᵊnt tˈɛnəs ɡˈAm təmˈɑɹO mˈɔɹnɪŋ. ˌI wˈɑnt tə fˈil ɹˈɛdi fɔɹ ɪt."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.040214866399765015,
+        "peak": 0.45696255564689636,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-b7b9b29421816824",
+      "text": "The photos are colourful. They show different wildflowers, and each student chooses one to draw.",
+      "textSha256": "b7b9b29421816824359cc52b9c66ca79176f10197c37a354110dacee37722d5b",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-agreement-05"
+      ],
+      "file": "audio/context-b7b9b29421816824.mp3",
+      "duration": 6.3,
+      "sha256": "4e59e9dcb45a9bd71059672e8033167ff06a5d7a753295b8e17b3c32bec5c954",
+      "phonemes": [
+        "ðə fˈOTOz ɑɹ kˈʌləɹfᵊl. ðˌA ʃˈO dˈɪfəɹənt wˈIldflˌWəɹz, ænd ˈiʧ stˈudᵊnt ʧˈuzᵻz wˈʌn tə dɹˈɔ."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04870238155126572,
+        "peak": 0.30244746804237366,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-12d87d02882bf554",
+      "text": "Our nature walk is on Saturday. We plan to look for insects beside the river and write down what we find.",
+      "textSha256": "12d87d02882bf5545ab92bdf18e6bdc7b4c39c09bd9bf8b47dab4ecdbdb642d0",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-timeprep-05"
+      ],
+      "file": "audio/context-12d87d02882bf554.mp3",
+      "duration": 8.2,
+      "sha256": "a6f2acb63eac688fa255c1e0bd732554726aef72e962d1ecce0fa871d8299130",
+      "phonemes": [
+        "ˌWəɹ nˈAʧəɹ wˈɔk ɪz ˌɔn sˈæTəɹdˌA. wˌi plˈæn tə lˈʊk fɔɹ ˈɪnsˌɛkts bəsˈId ðə ɹˈɪvəɹ ænd ɹˈIt dˌWn wˌʌt wi fˈInd."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04025617614388466,
+        "peak": 0.4295998811721802,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-4f79c86967665629",
+      "text": "A white goose walks towards the pond. It has a long neck and feathers. Soon it is swimming beside two ducks.",
+      "textSha256": "4f79c869676656294b4d30588cc856cd237c513f38097c5bf8ecb8a8d58f3abe",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-noun-05"
+      ],
+      "file": "audio/context-4f79c86967665629.mp3",
+      "duration": 7.275,
+      "sha256": "d34de5fe2a0dce4d8df44b671f230e045230a5698eda99d29d84c89970a619bc",
+      "phonemes": [
+        "ɐ wˈIt ɡˈus wˈɔks tˈɔɹdz ðə pˈɑnd. ˌɪt hæz ɐ lˈɔŋ nˈɛk ænd fˈɛðəɹz. sˈun ɪt ɪz swˈɪmɪŋ bəsˈId tˈu dˈʌks."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.051859647035598755,
+        "peak": 0.37501007318496704,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-c60451d9b2226cde",
+      "text": "My pen has no ink, so I borrow another one from a classmate. Now I can finish writing my notice.",
+      "textSha256": "c60451d9b2226cde9782a776473f16213451ebbd99b025bc1abdb84ef7783051",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-connector-05"
+      ],
+      "file": "audio/context-c60451d9b2226cde.mp3",
+      "duration": 8.05,
+      "sha256": "a3b072bbdc47e63486fb634f8c0ea8c1b39d4cd5e57610a3b37acf680f6b84ec",
+      "phonemes": [
+        "mˌI pˈɛn hæz nˈO ˈɪŋk, sˌO ˌI bˈɑɹO ənˈʌðəɹ wˈʌn fɹʌm ɐ klˈæsmˌAt. nˈW ˌI kæn fˈɪnəʃ ɹˈITɪŋ mI nˈOTəs."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.03955947980284691,
+        "peak": 0.4365963041782379,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-4f9a82cdd8205594",
+      "text": "My grandparents are very friendly. They welcome their new neighbours with some hot tea and a plate of fruit.",
+      "textSha256": "4f9a82cdd8205594ac1c114ab3c7ee6cd442b21ae19625d0d832a5c54cf04924",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-agreement-06"
+      ],
+      "file": "audio/context-4f9a82cdd8205594.mp3",
+      "duration": 6.925,
+      "sha256": "bae994ad4841ca140fe5836dc509b2997cd41571b493b768c3e23150f8838883",
+      "phonemes": [
+        "mˌI ɡɹˈændpˌɛɹənts ɑɹ vˈɛɹi fɹˈɛndli. ðˌA wˈɛlkəm ðɛɹ nˈu nˈAbəɹz wɪð sˌʌm hˈɑt tˈi ænd ɐ plˈAt ʌv fɹˈut."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.052179157733917236,
+        "peak": 0.4416778087615967,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-1a7ede02395f52fa",
+      "text": "Mum asks everyone to come to the table at six. The food is ready, and we wash our hands before sitting down.",
+      "textSha256": "1a7ede02395f52fae51c923776f0ca4ba0c5c2479a58c8cb5eaad427c2dc8cbc",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-timeprep-06"
+      ],
+      "file": "audio/context-1a7ede02395f52fa.mp3",
+      "duration": 8.95,
+      "sha256": "5fe2925b2ca1a3ced396dbe329dfafa9d58a30dabc21301a718c0c026524d5b9",
+      "phonemes": [
+        "mˈʌm ˈæsks ˈɛvɹiwən tə kˈʌm tə ðə tˈAbᵊl æt sˈɪks. ðə fˈud ɪz ɹˈɛdi, ænd wi wˈɔʃ ˌWəɹ hˈændz bəfˈɔɹ sˈɪTɪŋ dˌWn."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04195420444011688,
+        "peak": 0.42948007583618164,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-2bc775c65d7a4b12",
+      "text": "I pull open the drawer in my desk. My ruler is inside, under some paper. I take it out and return to my homework.",
+      "textSha256": "2bc775c65d7a4b12b20fea53fad7d722e5fe125e1b0245c4b08b62b4b067a82a",
+      "kind": "cloze",
+      "voice": "af_heart",
+      "sourceIds": [
+        "cloze-noun-06"
+      ],
+      "file": "audio/context-2bc775c65d7a4b12.mp3",
+      "duration": 8.05,
+      "sha256": "663bb6b7af3f44f731e5fd8a4b5f49ef0a0acf58e91f2cc93de98be04291b9bb",
+      "phonemes": [
+        "ˌI pˈʊl ˈOpᵊn ðə dɹˈɔɹ ɪn mI dˈɛsk. mˌI ɹˈuləɹ ɪz ɪnsˈId, ˈʌndəɹ sˌʌm pˈApəɹ. ˌI tˈAk ɪt ˈWt ænd ɹətˈɜɹn tə mI hˈOmwˌɜɹk."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.0499703623354435,
+        "peak": 0.401950865983963,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-a5a921efe207a15b",
+      "text": "I would like to watch a film, but my sister would like to play chess. We decide to play one game before the film.",
+      "textSha256": "a5a921efe207a15b0603ab5192e649307dfc481c820550de38a2944687da80b8",
+      "kind": "cloze",
+      "voice": "am_michael",
+      "sourceIds": [
+        "cloze-connector-06"
+      ],
+      "file": "audio/context-a5a921efe207a15b.mp3",
+      "duration": 8.5,
+      "sha256": "212736ffc56a502aecd5f5a79b118311afa944c3d0be4ce85fcfdcd6a9f932be",
+      "phonemes": [
+        "ˌI wʊd lˈIk tə wˈɑʧ ɐ fˈɪlm, bˌʌt mI sˈɪstəɹ wʊd lˈIk tə plˈA ʧˈɛs. wˌi dəsˈId tə plˈA wˈʌn ɡˈAm bəfˈɔɹ ðə fˈɪlm."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04110069200396538,
+        "peak": 0.5607969760894775,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-3b35b1f957a1c613",
+      "text": "When the bell rings, we start our first lesson.",
+      "textSha256": "3b35b1f957a1c6137066821a350eedb675b43024c8295a439b9d089637fe98f4",
+      "kind": "legacySentence",
+      "voice": "af_heart",
+      "sourceIds": [
+        "phonics-pilot-structure-01"
+      ],
+      "file": "audio/context-3b35b1f957a1c613.mp3",
+      "duration": 3.25,
+      "sha256": "16621ec57cc5c9e62379a2c6a10c7e56cab8faaaccc495b08f2325cf52e8d4a7",
+      "phonemes": [
+        "wˌɛn ðə bˈɛl ɹˈɪŋz, wi stˈɑɹt ˌWəɹ fˈɜɹst lˈɛsən."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.050289593636989594,
+        "peak": 0.3499249219894409,
+        "listeningReviewed": false
+      }
+    },
+    {
+      "id": "context-ce8d4f00937edf44",
+      "text": "Because we need more information, our teacher brings a picture book.",
+      "textSha256": "ce8d4f00937edf44ff9ae39804f1d9625ca771a18f600ca05ea7fbc97dc481ad",
+      "kind": "legacySentence",
+      "voice": "am_michael",
+      "sourceIds": [
+        "phonics-pilot-structure-02"
+      ],
+      "file": "audio/context-ce8d4f00937edf44.mp3",
+      "duration": 5.125,
+      "sha256": "fdf45150b2d574bf4e45ea97e5c8cef8a4bf38acc74dae8a6716699812a3d0ca",
+      "phonemes": [
+        "bəkˈʌz wi nˈid mˈɔɹ ˌɪnfəɹmˈAʃən, ˌWəɹ tˈiʧəɹ bɹˈɪŋz ɐ pˈɪkʧəɹ bˈʊk."
+      ],
+      "quality": {
+        "decoded": true,
+        "finiteWaveform": true,
+        "nonSilent": true,
+        "noClipping": true,
+        "rms": 0.04186104238033295,
+        "peak": 0.4777366816997528,
+        "listeningReviewed": false
+      }
+    }
+  ],
+  "failed": []
+}

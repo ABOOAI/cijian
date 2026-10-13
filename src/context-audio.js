@@ -1,0 +1,5 @@
+// Read only the visible example. Never substitute an answer or an option into a gap.
+export function sentenceSpeech(text){if(typeof text!=='string')return '';return text.replace(/_{2,}/g,' ... ').replace(/\s+/g,' ').trim();}
+export function contextExample(question){if(typeof question?.context==='string')return question.context; if(typeof question?.sentence==='string')return question.sentence;const prompt=question?.prompt;if(typeof prompt!=='string'||!/_{2,}/.test(prompt))return '';const start=prompt.search(/[A-Za-z]/);return start<0?'':prompt.slice(start);}
+export function contextSpeech(question){return sentenceSpeech(contextExample(question));}
+export function maskCustomExample(example,answer){if(typeof example!=='string'||!answer)return null;const escaped=String(answer).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');const pattern=new RegExp('(^|[^A-Za-z])('+escaped+')(?![A-Za-z])','gi');let count=0;const context=example.replace(pattern,(_m,before)=>{count++;return before+'____';});return count?{context,answer}:null;}

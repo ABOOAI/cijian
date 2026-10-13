@@ -1,0 +1,3475 @@
+{
+  "metadata": {
+    "id": "grade7-phonics-context-pilot-v1",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "2026-10-04.1",
+    "title": "七上20词拼读与语境试学包",
+    "accent": "en-US",
+    "createdAt": "2026-10-04",
+    "wordCount": 20,
+    "membershipSource": "grade7-upper-official-current.practice.json",
+    "membershipSourceSha256": "d974a67b9521bd7ecab19427544d3bb13d3ab5a5df4e00ee1dc96004ef7d0038",
+    "selectionScope": "Starter 1–3与Unit 1中的20个试学词；并非教材顺序的前20词。保留原289词库的稳定ID。",
+    "readingLevel": "A1-style short syntax with explicitly taught grade7 target vocabulary; not independently CEFR-certified",
+    "contentPolicy": "例句、题目、短文、中文解释均为本次原创；IPA为词典事实的简要记载，来源逐项标注。不复制参考网站课程或词典音频。",
+    "boundaryPolicyZh": "发音音节采用注明的单一词典美音划分，点号用于该词典的读音标记。拼写教学块另列；不当作词根、不当作排版断词、不当作唯一声学切分。连贯语流及不同词典的边界可能变化。",
+    "ipaNormalizationZh": "保留Cambridge所选US记音法，包括/ɑː/、/iː/及轻拍音/t̬/。原词典上标弱元音在普通JSON中展开为/ə/；bottle、circle和information的相应尾部也可能由成音节辅音实现，展开不表示必须夸张读出元音。",
+    "audioPolicyZh": "无经许可和审核的音节或整词录音。全部audioAvailable=false；只允许按完整单词调用en-US合成语音，必须标“合成朗读”。",
+    "validationStatus": "programmatic-checks-plus-editorial-review; no independent teacher/audio review",
+    "containsPersonalOrStudentData": false,
+    "fictionalScenarios": true,
+    "sourceAccessNoteZh": "本次通过网页工具返回的出版方页面索引文本核对IPA；原站部分直接请求返回403。未声称试听或获得词典音频许可。",
+    "counts": {
+      "entries": 20,
+      "wordContextExercises": 40,
+      "passages": 2,
+      "readingQuestions": 6,
+      "passageClozeQuestions": 6,
+      "sentenceWalkthroughs": 2,
+      "structureCheckQuestions": 2,
+      "totalQuestions": 54
+    },
+    "wordCountMethod": "English passage body only; split on whitespace; contractions and possessives count as one word.",
+    "releaseConstraintsZh": [
+      "未接录音、ASR或自动纠音；学习正确率不能等同发音已掌握。",
+      "彩色拼写块的类型须同时显示文字标签，不可只靠颜色。",
+      "IPA音节标记与拼写块不可共用一个错误的分割数组。",
+      "题目答案应在提交后再显示，阅读题的evidenceQuote用于反馈。",
+      "A1-style指短句与受控语言，目标词本身来自七上教材，未作独立CEFR认证。"
+    ]
+  },
+  "patternTypes": [
+    {
+      "id": "open",
+      "labelZh": "开音节拼写",
+      "descriptionZh": "这一类通常以单个元音字母结尾，常读长元音。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "closed",
+      "labelZh": "闭音节拼写",
+      "descriptionZh": "单个元音后有辅音收尾，常对应短元音。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "vowel-team",
+      "labelZh": "元音组合",
+      "descriptionZh": "多个字母共同表示元音，包括双元音；具体读音仍须核对。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "VCe",
+      "labelZh": "元音-辅音-不发音e",
+      "descriptionZh": "典型结构中前面的元音读长音，末尾e不另发音。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "r-controlled",
+      "labelZh": "元音+r",
+      "descriptionZh": "含ar、er、ir、or、ur等结构；元音读法受r影响。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "consonant-le",
+      "labelZh": "词尾辅音-le",
+      "descriptionZh": "词尾非重读结构，例如tle、cle；e不单独发音。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    },
+    {
+      "id": "schwa-exception",
+      "labelZh": "弱读／特殊",
+      "descriptionZh": "补充标签：用于弱读或不适合硬套六类的块；并非每个此类块都含/ə/。",
+      "sourceIds": [
+        "phonics-six-types",
+        "phonics-practice"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cambridge-ipa-guide",
+      "title": "Cambridge Dictionary: phonetic symbols and stress",
+      "url": "https://dictionary.cambridge.org/us/help/phonetics.html?platform=hootsuite",
+      "use": "IPA、重音和读音音节符号说明",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "phonics-six-types",
+      "title": "Moats & Tolman: Six Syllable Types (Reading Rockets / LETRS)",
+      "url": "https://www.readingrockets.org/topics/spelling-and-word-study/articles/six-syllable-types",
+      "use": "拼写教学分类及读音音节与书写分块的区别；本文件的逐词分块为原创教学应用",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "phonics-practice",
+      "title": "Reading Rockets: Phonics in Practice",
+      "url": "https://www.readingrockets.org/reading-101/reading-101-learning-modules/course-modules/phonics/practice",
+      "use": "元音组合与VCe区分、辅音-le教学定义",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "mw-boundaries",
+      "title": "Merriam-Webster Guide to Pronunciation",
+      "url": "https://www.merriam-webster.com/assets/mw/static/pdf/help/guide-to-pronunciation.pdf",
+      "use": "词头断词点不等于读音音节；连贯语流边界和弱元音可能变化",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-unit",
+      "title": "Cambridge Dictionary: unit (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/unit",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-greet",
+      "title": "Cambridge Dictionary: greet (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/greet",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-start",
+      "title": "Cambridge Dictionary: start (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/start",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-spell",
+      "title": "Cambridge Dictionary: spell (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/spell",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-bell",
+      "title": "Cambridge Dictionary: bell (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/bell",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-bottle",
+      "title": "Cambridge Dictionary: bottle (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/bottle",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-key",
+      "title": "Cambridge Dictionary: key (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/key",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-thing",
+      "title": "Cambridge Dictionary: thing (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/thing",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-fun",
+      "title": "Cambridge Dictionary: fun (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/fun",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-yard",
+      "title": "Cambridge Dictionary: yard (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/yard",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-goose",
+      "title": "Cambridge Dictionary: goose (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/goose",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-count",
+      "title": "Cambridge Dictionary: count (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/count",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-circle",
+      "title": "Cambridge Dictionary: circle (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/circle",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-each",
+      "title": "Cambridge Dictionary: each (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/each",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-grade",
+      "title": "Cambridge Dictionary: grade (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/grade",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-same",
+      "title": "Cambridge Dictionary: same (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/same",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-twin",
+      "title": "Cambridge Dictionary: twin (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/twin",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-need",
+      "title": "Cambridge Dictionary: need (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/need",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-information",
+      "title": "Cambridge Dictionary: information (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/information",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cambridge-hobby",
+      "title": "Cambridge Dictionary: hobby (US pronunciation)",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/hobby",
+      "use": "所选美音IPA、音节及重音；没有复制词典释义、例句或音频",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "entries": [
+    {
+      "id": "starter1-001",
+      "word": "unit",
+      "unitId": "starter1",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/ˈjuː.nɪt/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/juː/",
+            "stress": "primary",
+            "audioAvailable": false
+          },
+          {
+            "index": 2,
+            "ipa": "/nɪt/",
+            "stress": "unstressed",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 2,
+        "primaryStressSyllable": 1,
+        "secondaryStressSyllables": [],
+        "monosyllabic": false,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-unit",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "两个音节，第一音节重读；u不是表示“你”的词根。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "u",
+            "type": "open",
+            "explanationZh": "u在这里读/juː/，与字母u的名称相同。"
+          },
+          {
+            "text": "nit",
+            "type": "closed",
+            "explanationZh": "这一拼写块以辅音结尾，i读/ɪ/。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-unit"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "unit",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "（课本的）单元",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "the first unit",
+          "zh": "第一单元"
+        },
+        "example": {
+          "en": "We read the first unit after lunch.",
+          "zh": "午饭后我们读第一单元。"
+        },
+        "usageNoteZh": "这里指课本中的学习单元。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter1-001-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter1-001",
+          "context": "Our book has eight parts. We study the first ___ today.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "unit"
+            },
+            {
+              "id": "B",
+              "text": "bottle"
+            },
+            {
+              "id": "C",
+              "text": "goose"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "unit",
+          "explanationZh": "book has eight parts说明在说课本的学习部分，选unit（单元）。",
+          "originalContent": true
+        },
+        {
+          "id": "starter1-001-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter1-001",
+          "context": "We finish Unit 2 today. Unit 3 is our next lesson.",
+          "prompt": "这里的 unit 指什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "课本里的一个学习部分"
+            },
+            {
+              "id": "B",
+              "text": "一只装水的瓶子"
+            },
+            {
+              "id": "C",
+              "text": "一位新同学"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "课本里的一个学习部分",
+          "explanationZh": "句子把Unit 2、Unit 3和lesson联系起来，unit指学习单元。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter1-004",
+      "word": "greet",
+      "unitId": "starter1",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/ɡriːt/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/ɡriːt/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-greet",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "greet",
+            "type": "vowel-team",
+            "explanationZh": "ee在这个词中合起来读/iː/；gr不要插入额外元音。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-greet"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "greet",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "向……问好",
+        "partOfSpeech": "verb",
+        "collocation": {
+          "en": "greet a friend",
+          "zh": "向朋友问好"
+        },
+        "example": {
+          "en": "I greet my friend at the school gate.",
+          "zh": "我在校门口向朋友问好。"
+        },
+        "usageNoteZh": "greet后直接接人，不加to。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter1-004-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter1-004",
+          "context": "My new friend is at the door. I smile and ___ him.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "count"
+            },
+            {
+              "id": "B",
+              "text": "greet"
+            },
+            {
+              "id": "C",
+              "text": "spell"
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "greet",
+          "explanationZh": "friend在门口，smile提示友好地打招呼；greet him表示向他问好。",
+          "originalContent": true
+        },
+        {
+          "id": "starter1-004-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter1-004",
+          "context": "I greet Mia and say, \"Good morning!\"",
+          "prompt": "我做了什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "数出Mia的书"
+            },
+            {
+              "id": "B",
+              "text": "向Mia问早安"
+            },
+            {
+              "id": "C",
+              "text": "拼写Mia的名字"
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "向Mia问早安",
+          "explanationZh": "直接线索是say, \"Good morning!\"，因此greet是向人问好。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter1-006",
+      "word": "start",
+      "unitId": "starter1",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/stɑːrt/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/stɑːrt/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-start",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "start",
+            "type": "r-controlled",
+            "explanationZh": "ar在所选美音中读/ɑːr/；st连读，不拆成两个音节。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-start"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "start",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "开始",
+        "partOfSpeech": "verb",
+        "collocation": {
+          "en": "start a lesson",
+          "zh": "开始一节课"
+        },
+        "example": {
+          "en": "We start our English lesson at nine.",
+          "zh": "我们九点开始上英语课。"
+        },
+        "usageNoteZh": "start doing或start to do都可以表示开始做某事；本轮先练start + 名词。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter1-006-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter1-006",
+          "context": "The lesson begins at nine. Please be ready when we ___ at nine.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "sleep"
+            },
+            {
+              "id": "B",
+              "text": "leave"
+            },
+            {
+              "id": "C",
+              "text": "start"
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "start",
+          "explanationZh": "begins at nine说明九点开始，start和这里的begin对应。",
+          "originalContent": true
+        },
+        {
+          "id": "starter1-006-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter1-006",
+          "context": "We start the game at three and finish it at four.",
+          "prompt": "游戏什么时候开始？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "At two."
+            },
+            {
+              "id": "B",
+              "text": "At three."
+            },
+            {
+              "id": "C",
+              "text": "At four."
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "At three.",
+          "explanationZh": "start the game at three明确说明开始时间是三点，四点是结束时间。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter1-005",
+      "word": "spell",
+      "unitId": "starter1",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/spel/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/spel/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-spell",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "spell",
+            "type": "closed",
+            "explanationZh": "e读/e/，词尾ll只对应一个/l/音。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-spell"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "spell",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "拼写",
+        "partOfSpeech": "verb",
+        "collocation": {
+          "en": "spell a word",
+          "zh": "拼写一个单词"
+        },
+        "example": {
+          "en": "Can you spell this word for me?",
+          "zh": "你能给我拼一下这个单词吗？"
+        },
+        "usageNoteZh": "问拼写可用How do you spell ...?",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter1-005-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter1-005",
+          "context": "I know the word, but I cannot write its letters. Can you ___ it for me?",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "spell"
+            },
+            {
+              "id": "B",
+              "text": "drink"
+            },
+            {
+              "id": "C",
+              "text": "open"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "spell",
+          "explanationZh": "write its letters给出需要字母顺序的线索，因此选spell。",
+          "originalContent": true
+        },
+        {
+          "id": "starter1-005-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter1-005",
+          "context": "The teacher asks me to spell cat. I say, \"C-A-T.\"",
+          "prompt": "这里的 spell 是什么意思？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "把单词的字母依次说出来"
+            },
+            {
+              "id": "B",
+              "text": "大声模仿猫叫"
+            },
+            {
+              "id": "C",
+              "text": "画出一只猫"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "把单词的字母依次说出来",
+          "explanationZh": "回答是C-A-T这些字母，不是词义或图画，所以是拼写。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter1-009",
+      "word": "bell",
+      "unitId": "starter1",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/bel/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/bel/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-bell",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "bell",
+            "type": "closed",
+            "explanationZh": "e读/e/；双写ll不增加音节。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-bell"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "bell",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "铃；钟",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "the school bell",
+          "zh": "学校的铃"
+        },
+        "example": {
+          "en": "The school bell rings at eight.",
+          "zh": "学校的铃八点响。"
+        },
+        "usageNoteZh": "bell指铃本身，不是钟面上的时间。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter1-009-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter1-009",
+          "context": "It is time for class. We hear the school ___ ring.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "key"
+            },
+            {
+              "id": "B",
+              "text": "bell"
+            },
+            {
+              "id": "C",
+              "text": "bottle"
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "bell",
+          "explanationZh": "hear ... ring和上课场景指向学校的铃，选bell。",
+          "originalContent": true
+        },
+        {
+          "id": "starter1-009-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter1-009",
+          "context": "The bell rings, and we go into the classroom.",
+          "prompt": "是什么发出了铃声？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The classroom wall."
+            },
+            {
+              "id": "B",
+              "text": "The school bag."
+            },
+            {
+              "id": "C",
+              "text": "The bell."
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "The bell.",
+          "explanationZh": "句首The bell rings直接说明响声来自铃。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter2-001",
+      "word": "bottle",
+      "unitId": "starter2",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/ˈbɑː.t̬əl/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/bɑː/",
+            "stress": "primary",
+            "audioAvailable": false
+          },
+          {
+            "index": 2,
+            "ipa": "/t̬əl/",
+            "stress": "unstressed",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 2,
+        "primaryStressSyllable": 1,
+        "secondaryStressSyllables": [],
+        "monosyllabic": false,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-bottle",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "拼写教学用bot|tle，Cambridge所选美音音节为/bɑː/+/t̬əl/，两者边界不同。/t̬/表示美音的快速轻拍音；末尾可出现成音节的l。不要把两个t分别朗读。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "bot",
+            "type": "closed",
+            "explanationZh": "bot是闭音节拼写块；美音o读/ɑː/。拼读教学称“短o”，不等于IPA一定不标长度。"
+          },
+          {
+            "text": "tle",
+            "type": "consonant-le",
+            "explanationZh": "末尾tle是辅音-le拼写块，e不单独发音，第二音节轻读。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-bottle"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "bottle",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "瓶子",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "a bottle of water",
+          "zh": "一瓶水"
+        },
+        "example": {
+          "en": "I put a bottle of water in my bag.",
+          "zh": "我把一瓶水放进书包。"
+        },
+        "usageNoteZh": "a bottle of + 饮品；two bottles of water中的bottle要变复数。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter2-001-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter2-001",
+          "context": "I am thirsty. Please give me a ___ of water.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "grade"
+            },
+            {
+              "id": "B",
+              "text": "yard"
+            },
+            {
+              "id": "C",
+              "text": "bottle"
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "bottle",
+          "explanationZh": "a bottle of water是一瓶水，thirsty表示口渴。",
+          "originalContent": true
+        },
+        {
+          "id": "starter2-001-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter2-001",
+          "context": "There is water in the bottle, and its lid is blue.",
+          "prompt": "文中的 bottle 是什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "装水的容器"
+            },
+            {
+              "id": "B",
+              "text": "学校的年级"
+            },
+            {
+              "id": "C",
+              "text": "书上的圆圈"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "装水的容器",
+          "explanationZh": "water in the bottle和its lid（它的盖子）说明bottle是容器。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter2-003",
+      "word": "key",
+      "unitId": "starter2",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/kiː/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/kiː/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-key",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "key",
+            "type": "vowel-team",
+            "explanationZh": "ey在key中读/iː/；不能推广为所有ey都读同一个音。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-key"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "key",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "钥匙",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "the key to the door",
+          "zh": "门的钥匙"
+        },
+        "example": {
+          "en": "The key to the door is on the table.",
+          "zh": "门的钥匙在桌子上。"
+        },
+        "usageNoteZh": "表达“这扇门的钥匙”可用the key to the door。",
+        "originalContent": true,
+        "optionalSense": {
+          "meaningZh": "（练习的）参考答案",
+          "collocation": {
+            "en": "an answer key",
+            "zh": "一份参考答案"
+          },
+          "example": {
+            "en": "Check your work with the answer key.",
+            "zh": "用参考答案检查你的练习。"
+          },
+          "originalContent": true
+        }
+      },
+      "exercises": [
+        {
+          "id": "starter2-003-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter2-003",
+          "context": "The door is locked. I use my ___ to open it.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "key"
+            },
+            {
+              "id": "B",
+              "text": "hobby"
+            },
+            {
+              "id": "C",
+              "text": "goose"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "key",
+          "explanationZh": "locked和open the door说明要用钥匙。",
+          "originalContent": true
+        },
+        {
+          "id": "starter2-003-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter2-003",
+          "context": "The key is in my hand. I put it in the lock and open the door.",
+          "prompt": "文中的 key 是用来做什么的？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "To write a word."
+            },
+            {
+              "id": "B",
+              "text": "To open the door."
+            },
+            {
+              "id": "C",
+              "text": "To count books."
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "To open the door.",
+          "explanationZh": "put it in the lock and open the door说明钥匙的用途。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter2-004",
+      "word": "thing",
+      "unitId": "starter2",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/θɪŋ/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/θɪŋ/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-thing",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "thing",
+            "type": "closed",
+            "explanationZh": "i读/ɪ/；th读/θ/，ng合起来读/ŋ/，不是/n/再加/g/。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-thing"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "thing",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "东西；物品",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "my things",
+          "zh": "我的东西"
+        },
+        "example": {
+          "en": "My things are in the blue box.",
+          "zh": "我的东西在蓝色盒子里。"
+        },
+        "usageNoteZh": "可数名词；things可指多件物品。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter2-004-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter2-004",
+          "context": "A pencil is one ___. Two pencils are two things.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "student"
+            },
+            {
+              "id": "B",
+              "text": "thing"
+            },
+            {
+              "id": "C",
+              "text": "yard"
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "thing",
+          "explanationZh": "后句two things给出单复数对应；铅笔是一件物品。",
+          "originalContent": true
+        },
+        {
+          "id": "starter2-004-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter2-004",
+          "context": "My things are on the desk: a book, a pen, and a ruler.",
+          "prompt": "things 指的是什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "桌上的书、笔和尺子"
+            },
+            {
+              "id": "B",
+              "text": "房间里的三个人"
+            },
+            {
+              "id": "C",
+              "text": "今天的三节课"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "桌上的书、笔和尺子",
+          "explanationZh": "冒号后明确列出a book, a pen, and a ruler，都是物品。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter3-001",
+      "word": "fun",
+      "unitId": "starter3",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/fʌn/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/fʌn/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-fun",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "fun",
+            "type": "closed",
+            "explanationZh": "u在这个闭音节词中读/ʌ/。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-fun"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "fun",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "乐趣",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "have fun",
+          "zh": "玩得开心"
+        },
+        "example": {
+          "en": "We have fun with our friends after school.",
+          "zh": "放学后我们和朋友们玩得开心。"
+        },
+        "usageNoteZh": "have fun中的fun通常不可数，不说have a fun。",
+        "originalContent": true,
+        "optionalSense": {
+          "meaningZh": "有趣的",
+          "partOfSpeech": "adjective",
+          "collocation": {
+            "en": "a fun game",
+            "zh": "一个有趣的游戏"
+          },
+          "example": {
+            "en": "This is a fun game for our class.",
+            "zh": "这对我们班来说是个有趣的游戏。"
+          },
+          "originalContent": true
+        }
+      },
+      "exercises": [
+        {
+          "id": "starter3-001-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter3-001",
+          "context": "We laugh and enjoy the game. We have a lot of ___.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "keys"
+            },
+            {
+              "id": "B",
+              "text": "water"
+            },
+            {
+              "id": "C",
+              "text": "fun"
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "fun",
+          "explanationZh": "laugh和enjoy说明大家玩得开心，have a lot of fun表示得到很多乐趣。",
+          "originalContent": true
+        },
+        {
+          "id": "starter3-001-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter3-001",
+          "context": "The game is fun. We smile and want to play again.",
+          "prompt": "我们觉得这个游戏怎么样？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "It is enjoyable."
+            },
+            {
+              "id": "B",
+              "text": "It is too sad."
+            },
+            {
+              "id": "C",
+              "text": "It is the name of a book."
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "It is enjoyable.",
+          "explanationZh": "smile和want to play again表明游戏有趣、令人愉快。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter3-002",
+      "word": "yard",
+      "unitId": "starter3",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/jɑːrd/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/jɑːrd/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-yard",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "yard",
+            "type": "r-controlled",
+            "explanationZh": "ar读/ɑːr/；开头y读辅音/j/，不是字母名称。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-yard"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "yard",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "院子",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "in the yard",
+          "zh": "在院子里"
+        },
+        "example": {
+          "en": "Two cats are playing in the yard.",
+          "zh": "两只猫正在院子里玩。"
+        },
+        "usageNoteZh": "这里指房屋旁的户外地方。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter3-002-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter3-002",
+          "context": "We are outside the house. We play in the ___ beside it.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "yard"
+            },
+            {
+              "id": "B",
+              "text": "bottle"
+            },
+            {
+              "id": "C",
+              "text": "unit"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "yard",
+          "explanationZh": "outside the house和beside it说明是房屋旁的院子。",
+          "originalContent": true
+        },
+        {
+          "id": "starter3-002-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter3-002",
+          "context": "The dog runs in the yard behind our house.",
+          "prompt": "狗在哪里？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Inside a bottle."
+            },
+            {
+              "id": "B",
+              "text": "Outside, behind the house."
+            },
+            {
+              "id": "C",
+              "text": "In an English book."
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "Outside, behind the house.",
+          "explanationZh": "in the yard behind our house明确给出位置：房屋后面的院子里。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter3-004",
+      "word": "goose",
+      "unitId": "starter3",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/ɡuːs/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/ɡuːs/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-goose",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "goose",
+            "type": "vowel-team",
+            "explanationZh": "oo在这个词中读/uː/，末尾e不发音；这里用元音组合分析，不套单个元音的VCe规则。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-goose"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "goose",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "鹅",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "a white goose",
+          "zh": "一只白鹅"
+        },
+        "example": {
+          "en": "A white goose is near the small pond.",
+          "zh": "小池塘旁有一只白鹅。"
+        },
+        "usageNoteZh": "复数是geese；本轮主要练单数goose。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter3-004-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter3-004",
+          "context": "This large water bird has a long neck. It is a ___.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "bell"
+            },
+            {
+              "id": "B",
+              "text": "goose"
+            },
+            {
+              "id": "C",
+              "text": "key"
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "goose",
+          "explanationZh": "water bird和long neck是鸟的线索；三个选项中只有goose是鸟。",
+          "originalContent": true
+        },
+        {
+          "id": "starter3-004-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter3-004",
+          "context": "One goose walks beside the pond. It has white feathers.",
+          "prompt": "goose 指的是什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A school subject."
+            },
+            {
+              "id": "B",
+              "text": "A kind of fruit."
+            },
+            {
+              "id": "C",
+              "text": "A bird."
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "A bird.",
+          "explanationZh": "walks beside the pond和white feathers（白色羽毛）与鹅这种鸟相符。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter3-005",
+      "word": "count",
+      "unitId": "starter3",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/kaʊnt/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/kaʊnt/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-count",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "count",
+            "type": "vowel-team",
+            "explanationZh": "ou读双元音/aʊ/，合起来仍只有一个音节。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-count"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "count",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "数；数数",
+        "partOfSpeech": "verb",
+        "collocation": {
+          "en": "count to ten",
+          "zh": "数到十"
+        },
+        "example": {
+          "en": "My little brother can count to ten.",
+          "zh": "我弟弟会数到十。"
+        },
+        "usageNoteZh": "count the books是数这些书，count to ten是数到十。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter3-005-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter3-005",
+          "context": "I say \"one, two, three\" as I look at the books. I ___ them.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "greet"
+            },
+            {
+              "id": "B",
+              "text": "spell"
+            },
+            {
+              "id": "C",
+              "text": "count"
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "count",
+          "explanationZh": "one, two, three说明在数书的数量，选count。",
+          "originalContent": true
+        },
+        {
+          "id": "starter3-005-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter3-005",
+          "context": "Please count the red cards. Tell me how many there are.",
+          "prompt": "我应该弄清楚什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "红色卡片的数量"
+            },
+            {
+              "id": "B",
+              "text": "红色卡片上的单词怎么拼"
+            },
+            {
+              "id": "C",
+              "text": "红色卡片是谁买的"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "红色卡片的数量",
+          "explanationZh": "Tell me how many there are明确要求数量。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter3-009",
+      "word": "circle",
+      "unitId": "starter3",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/ˈsɝː.kəl/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/sɝː/",
+            "stress": "primary",
+            "audioAvailable": false
+          },
+          {
+            "index": 2,
+            "ipa": "/kəl/",
+            "stress": "unstressed",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 2,
+        "primaryStressSyllable": 1,
+        "secondaryStressSyllables": [],
+        "monosyllabic": false,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-circle",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "第一音节重读；末尾可用成音节的l实现，不能因此认定只有一个音节。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "cir",
+            "type": "r-controlled",
+            "explanationZh": "ir读/ɝː/；第一个c在i前读/s/。"
+          },
+          {
+            "text": "cle",
+            "type": "consonant-le",
+            "explanationZh": "cle是词尾辅音-le拼写块，读轻音节/kəl/，e不独立成音。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-circle"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "circle",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "圆；圆圈",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "draw a circle",
+          "zh": "画一个圆"
+        },
+        "example": {
+          "en": "Please draw a circle on this paper.",
+          "zh": "请在这张纸上画一个圆。"
+        },
+        "usageNoteZh": "也常作动词，表示用笔“圈出”。",
+        "originalContent": true,
+        "optionalSense": {
+          "meaningZh": "圈出",
+          "partOfSpeech": "verb",
+          "collocation": {
+            "en": "circle the answer",
+            "zh": "圈出答案"
+          },
+          "example": {
+            "en": "Read the question and circle the answer.",
+            "zh": "读题并圈出答案。"
+          },
+          "originalContent": true
+        }
+      },
+      "exercises": [
+        {
+          "id": "starter3-009-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter3-009",
+          "context": "This shape is round and has no corners. It is a ___.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "circle"
+            },
+            {
+              "id": "B",
+              "text": "key"
+            },
+            {
+              "id": "C",
+              "text": "bottle"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "circle",
+          "explanationZh": "round and has no corners（圆的，没有角）描述圆。",
+          "originalContent": true
+        },
+        {
+          "id": "starter3-009-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter3-009",
+          "context": "There are three answers. Please circle B with your pencil.",
+          "prompt": "你应该做什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Erase all three answers."
+            },
+            {
+              "id": "B",
+              "text": "Draw a line around B."
+            },
+            {
+              "id": "C",
+              "text": "Write a new question."
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "Draw a line around B.",
+          "explanationZh": "circle在这里是动作，with your pencil和B说明要把B圈出来。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "unit1-003",
+      "word": "each",
+      "unitId": "unit1",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/iːtʃ/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/iːtʃ/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-each",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "each",
+            "type": "vowel-team",
+            "explanationZh": "ea在此读/iː/，ch合起来读/tʃ/。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-each"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "each",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "每个",
+        "partOfSpeech": "determiner",
+        "collocation": {
+          "en": "each student",
+          "zh": "每个学生"
+        },
+        "example": {
+          "en": "Each student has a red card.",
+          "zh": "每个学生都有一张红色卡片。"
+        },
+        "usageNoteZh": "each后接可数名词单数；Each student作主语时通常配has等单数形式。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "unit1-003-context-01",
+          "kind": "context-cloze",
+          "wordId": "unit1-003",
+          "context": "There are four students and four cards, one card for ___ student.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "no"
+            },
+            {
+              "id": "B",
+              "text": "each"
+            },
+            {
+              "id": "C",
+              "text": "both"
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "each",
+          "explanationZh": "one card for ... student表示每人一张；each后接单数student，both不接单数。",
+          "originalContent": true
+        },
+        {
+          "id": "unit1-003-context-02",
+          "kind": "context-understanding",
+          "wordId": "unit1-003",
+          "context": "Each student has one apple. There are five students.",
+          "prompt": "有多少名学生有苹果？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "One."
+            },
+            {
+              "id": "B",
+              "text": "Four."
+            },
+            {
+              "id": "C",
+              "text": "Five."
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "Five.",
+          "explanationZh": "each表示每一个，因此五个学生都有苹果。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "unit1-008",
+      "word": "grade",
+      "unitId": "unit1",
+      "sourcePage": 106,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/ɡreɪd/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/ɡreɪd/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-grade",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "grade",
+            "type": "VCe",
+            "explanationZh": "a-d-e是VCe结构，a读/eɪ/，末尾e不发音。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-grade"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "grade",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "年级",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "the seventh grade",
+          "zh": "七年级"
+        },
+        "example": {
+          "en": "My sister is in the seventh grade.",
+          "zh": "我姐姐在读七年级。"
+        },
+        "usageNoteZh": "这里练美式常用说法the seventh grade；年级名称Grade 7也常见。",
+        "originalContent": true,
+        "optionalSense": {
+          "meaningZh": "成绩；分数等级",
+          "collocation": {
+            "en": "a good grade",
+            "zh": "一个好成绩"
+          },
+          "example": {
+            "en": "I get a good grade in English.",
+            "zh": "我的英语成绩很好。"
+          },
+          "originalContent": true
+        }
+      },
+      "exercises": [
+        {
+          "id": "unit1-008-context-01",
+          "kind": "context-cloze",
+          "wordId": "unit1-008",
+          "context": "I am a student in the seventh ___ at this school.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "bottle"
+            },
+            {
+              "id": "B",
+              "text": "hobby"
+            },
+            {
+              "id": "C",
+              "text": "grade"
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "grade",
+          "explanationZh": "student和seventh描述在校年级，选grade。",
+          "originalContent": true
+        },
+        {
+          "id": "unit1-008-context-02",
+          "kind": "context-understanding",
+          "wordId": "unit1-008",
+          "context": "My brother is in Grade 7, and I am in Grade 8.",
+          "prompt": "这里的 grade 是什么意思？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "年级"
+            },
+            {
+              "id": "B",
+              "text": "门上的钥匙"
+            },
+            {
+              "id": "C",
+              "text": "书里的图片"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "年级",
+          "explanationZh": "Grade 7和Grade 8指学生所处的年级。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "unit1-015",
+      "word": "same",
+      "unitId": "unit1",
+      "sourcePage": 107,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/seɪm/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/seɪm/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-same",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "same",
+            "type": "VCe",
+            "explanationZh": "a-m-e是VCe结构，a读/eɪ/，末尾e不发音。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-same"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "same",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "相同的",
+        "partOfSpeech": "adjective",
+        "collocation": {
+          "en": "the same class",
+          "zh": "同一个班"
+        },
+        "example": {
+          "en": "We are in the same class this year.",
+          "zh": "今年我们在同一个班。"
+        },
+        "usageNoteZh": "通常用the same；不要漏掉the。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "unit1-015-context-01",
+          "kind": "context-cloze",
+          "wordId": "unit1-015",
+          "context": "My bag is blue. Your bag is blue too. Our bags are the ___ color.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "same"
+            },
+            {
+              "id": "B",
+              "text": "different"
+            },
+            {
+              "id": "C",
+              "text": "first"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "same",
+          "explanationZh": "两只书包都是blue，因此颜色相同。",
+          "originalContent": true
+        },
+        {
+          "id": "unit1-015-context-02",
+          "kind": "context-understanding",
+          "wordId": "unit1-015",
+          "context": "Leo and I are in the same class, Class 2.",
+          "prompt": "哪一项是正确的？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Leo is in Class 1."
+            },
+            {
+              "id": "B",
+              "text": "We are both in Class 2."
+            },
+            {
+              "id": "C",
+              "text": "We are in two different classes."
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "We are both in Class 2.",
+          "explanationZh": "the same class, Class 2明确说明两人都在二班。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "unit1-016",
+      "word": "twin",
+      "unitId": "unit1",
+      "sourcePage": 107,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/twɪn/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/twɪn/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-twin",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "twin",
+            "type": "closed",
+            "explanationZh": "i读/ɪ/；tw是辅音连缀，不能在t和w之间加一个元音。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-twin"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "twin",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "双胞胎中的一个；双胞胎的",
+        "partOfSpeech": "noun/adjective",
+        "collocation": {
+          "en": "my twin sister",
+          "zh": "我的双胞胎姐姐或妹妹"
+        },
+        "example": {
+          "en": "My twin sister and I walk to school.",
+          "zh": "我的双胞胎姐姐（或妹妹）和我步行上学。"
+        },
+        "usageNoteZh": "twin sister中的twin修饰sister；a twin指双胞胎中的一个人。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "unit1-016-context-01",
+          "kind": "context-cloze",
+          "wordId": "unit1-016",
+          "context": "My sister and I have the same parents and were born on the same day. She is my ___ sister.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "school"
+            },
+            {
+              "id": "B",
+              "text": "twin"
+            },
+            {
+              "id": "C",
+              "text": "English"
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "twin",
+          "explanationZh": "相同父母且同一天出生这一情境描述双胞胎姐妹，twin sister符合。",
+          "originalContent": true
+        },
+        {
+          "id": "unit1-016-context-02",
+          "kind": "context-understanding",
+          "wordId": "unit1-016",
+          "context": "Ben and Dan are twins. They have the same mother and birthday.",
+          "prompt": "他们是什么关系？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Teacher and student."
+            },
+            {
+              "id": "B",
+              "text": "Father and son."
+            },
+            {
+              "id": "C",
+              "text": "Twin brothers."
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "Twin brothers.",
+          "explanationZh": "twins加上same mother and birthday表明两人是双胞胎兄弟。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "starter2-005",
+      "word": "need",
+      "unitId": "unit1",
+      "sourcePage": 107,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/niːd/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/niːd/",
+            "stress": "single",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 1,
+        "primaryStressSyllable": null,
+        "secondaryStressSyllables": [],
+        "monosyllabic": true,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-need",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "单音节词；词典不另标词内主重音位置。句中重音随语境而变。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "need",
+            "type": "vowel-team",
+            "explanationZh": "ee在这个词中读/iː/，整个词只有一个音节。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-need"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "need",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "需要",
+        "partOfSpeech": "verb",
+        "collocation": {
+          "en": "need help",
+          "zh": "需要帮助"
+        },
+        "example": {
+          "en": "I need help with this English word.",
+          "zh": "这个英语单词我需要别人帮忙。"
+        },
+        "usageNoteZh": "need + 名词；need to do表示需要做某事。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "starter2-005-context-01",
+          "kind": "context-cloze",
+          "wordId": "starter2-005",
+          "context": "I cannot finish this work alone. I ___ your help.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "count"
+            },
+            {
+              "id": "B",
+              "text": "spell"
+            },
+            {
+              "id": "C",
+              "text": "need"
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "need",
+          "explanationZh": "cannot ... alone说明不能独自完成，因此需要帮助。",
+          "originalContent": true
+        },
+        {
+          "id": "starter2-005-context-02",
+          "kind": "context-understanding",
+          "wordId": "starter2-005",
+          "context": "I need a pen because I want to write my name.",
+          "prompt": "我为什么需要一支笔？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "To write my name."
+            },
+            {
+              "id": "B",
+              "text": "To drink water."
+            },
+            {
+              "id": "C",
+              "text": "To open a door."
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "To write my name.",
+          "explanationZh": "because I want to write my name直接给出需要笔的原因。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "unit1-031",
+      "word": "information",
+      "unitId": "unit1",
+      "sourcePage": 107,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/ˌɪn.fɚˈmeɪ.ʃən/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/ɪn/",
+            "stress": "secondary",
+            "audioAvailable": false
+          },
+          {
+            "index": 2,
+            "ipa": "/fɚ/",
+            "stress": "unstressed",
+            "audioAvailable": false
+          },
+          {
+            "index": 3,
+            "ipa": "/meɪ/",
+            "stress": "primary",
+            "audioAvailable": false
+          },
+          {
+            "index": 4,
+            "ipa": "/ʃən/",
+            "stress": "unstressed",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 4,
+        "primaryStressSyllable": 3,
+        "secondaryStressSyllables": [
+          1
+        ],
+        "monosyllabic": false,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-information",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "按所选词典有四个音节，主重音在第三个、次重音在第一个。in|for|ma|tion仅是帮助解码的拼写块，不是四个词根。for含弱读的r色彩元音；tion尾部的ə可很弱。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "in",
+            "type": "closed",
+            "explanationZh": "in这一拼写块的i读/ɪ/，第一音节有次重音。"
+          },
+          {
+            "text": "for",
+            "type": "schwa-exception",
+            "explanationZh": "for在词中弱读/fɚ/，不要按独立单词for的强调读法硬拼。"
+          },
+          {
+            "text": "ma",
+            "type": "open",
+            "explanationZh": "ma以元音字母a结尾，这里读/meɪ/，也是主重音所在。"
+          },
+          {
+            "text": "tion",
+            "type": "schwa-exception",
+            "explanationZh": "tion在这里合起来读/ʃən/，不逐个念字母，也不机械拆成ti和on。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-information"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "information",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "信息",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "information about the school",
+          "zh": "关于这所学校的信息"
+        },
+        "example": {
+          "en": "This page has information about the school.",
+          "zh": "这一页有关于这所学校的信息。"
+        },
+        "usageNoteZh": "information通常不可数；说some information或a piece of information，不说an information。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "unit1-031-context-01",
+          "kind": "context-cloze",
+          "wordId": "unit1-031",
+          "context": "This page tells us the club name and meeting time. It gives us ___ about the club.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "information"
+            },
+            {
+              "id": "B",
+              "text": "bottles"
+            },
+            {
+              "id": "C",
+              "text": "geese"
+            }
+          ],
+          "correctChoiceId": "A",
+          "correctAnswer": "information",
+          "explanationZh": "club name和meeting time都是关于俱乐部的信息。",
+          "originalContent": true
+        },
+        {
+          "id": "unit1-031-context-02",
+          "kind": "context-understanding",
+          "wordId": "unit1-031",
+          "context": "The notice gives us information about the trip: its date, time, and place.",
+          "prompt": "哪一项是关于这次旅行的信息？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A new water bottle."
+            },
+            {
+              "id": "B",
+              "text": "The date, time, and place."
+            },
+            {
+              "id": "C",
+              "text": "A picture of my pet."
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "The date, time, and place.",
+          "explanationZh": "冒号后列出date, time, and place，说明具体信息是什么。",
+          "originalContent": true
+        }
+      ]
+    },
+    {
+      "id": "unit1-032",
+      "word": "hobby",
+      "unitId": "unit1",
+      "sourcePage": 107,
+      "pronunciation": {
+        "accent": "en-US",
+        "ipa": "/ˈhɑː.bi/",
+        "syllables": [
+          {
+            "index": 1,
+            "ipa": "/hɑː/",
+            "stress": "primary",
+            "audioAvailable": false
+          },
+          {
+            "index": 2,
+            "ipa": "/bi/",
+            "stress": "unstressed",
+            "audioAvailable": false
+          }
+        ],
+        "syllableCount": 2,
+        "primaryStressSyllable": 1,
+        "secondaryStressSyllables": [],
+        "monosyllabic": false,
+        "verificationStatus": "dictionary-transcription-checked",
+        "boundaryStatus": "one-dictionary-convention-not-unique-physical-boundary",
+        "sourceIds": [
+          "cambridge-hobby",
+          "cambridge-ipa-guide"
+        ],
+        "notesZh": "拼写教学用hob|by；所选Cambridge美音分为/hɑː/+/bi/，双写bb不读两次。by在这里不是介词by或词根。"
+      },
+      "teaching": {
+        "orthographicChunks": [
+          {
+            "text": "hob",
+            "type": "closed",
+            "explanationZh": "hob是闭音节拼写块，美音o读/ɑː/；教学中的“短o”是拼写类别名。"
+          },
+          {
+            "text": "by",
+            "type": "schwa-exception",
+            "explanationZh": "这里词尾非重读y读/i/，不是字母y的名称，也不是schwa /ə/。归入“弱读/特殊”提示。"
+          }
+        ],
+        "segmentationKind": "orthographic-teaching",
+        "isMorphemeAnalysis": false,
+        "verificationStatus": "editorial-application-of-cited-patterns",
+        "sourceIds": [
+          "phonics-six-types",
+          "phonics-practice",
+          "cambridge-hobby"
+        ]
+      },
+      "audioAvailable": false,
+      "audio": {
+        "syllableAudioAvailable": false,
+        "wholeWordRecordingAvailable": false,
+        "assets": [],
+        "licenseStatus": "no-licensed-audio-assets-included",
+        "fallback": "whole-word-synthesis-only",
+        "ttsLanguage": "en-US",
+        "ttsText": "hobby",
+        "ttsLabelZh": "整词合成朗读（设备语音）",
+        "syllableTtsAllowed": false,
+        "noteZh": "无已审核并获许可的分音节录音。音节仅作文字展示；不得把字母块TTS或重复整词伪装成音节音频。应选en-US语音；若设备无匹配语音，显示不可用，不静默换口音。"
+      },
+      "context": {
+        "meaningZh": "爱好",
+        "partOfSpeech": "noun",
+        "collocation": {
+          "en": "a favorite hobby",
+          "zh": "最喜欢的一项爱好"
+        },
+        "example": {
+          "en": "Drawing is my favorite hobby.",
+          "zh": "画画是我最喜欢的一项爱好。"
+        },
+        "usageNoteZh": "一个爱好是a hobby；多个爱好是hobbies。",
+        "originalContent": true
+      },
+      "exercises": [
+        {
+          "id": "unit1-032-context-01",
+          "kind": "context-cloze",
+          "wordId": "unit1-032",
+          "context": "I draw pictures in my free time because I enjoy it. Drawing is my ___.",
+          "prompt": "选择适合这个语境的单词",
+          "choices": [
+            {
+              "id": "A",
+              "text": "grade"
+            },
+            {
+              "id": "B",
+              "text": "hobby"
+            },
+            {
+              "id": "C",
+              "text": "key"
+            }
+          ],
+          "correctChoiceId": "B",
+          "correctAnswer": "hobby",
+          "explanationZh": "free time和enjoy说明是空闲时喜爱的活动，即爱好。",
+          "originalContent": true
+        },
+        {
+          "id": "unit1-032-context-02",
+          "kind": "context-understanding",
+          "wordId": "unit1-032",
+          "context": "Sara has a hobby. She makes small paper animals after school for fun.",
+          "prompt": "Sara 的爱好是什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Going to school."
+            },
+            {
+              "id": "B",
+              "text": "Finding her house key."
+            },
+            {
+              "id": "C",
+              "text": "Making paper animals."
+            }
+          ],
+          "correctChoiceId": "C",
+          "correctAnswer": "Making paper animals.",
+          "explanationZh": "makes small paper animals ... for fun直接说明Sara的爱好。",
+          "originalContent": true
+        }
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "phonics-pilot-reading-01",
+      "title": "A New Class",
+      "text": "My name is Ben. On Monday, I greet two new students in the school yard. Lucy is Lily's twin, and we are all in Grade Seven. The twins like different things, but they both like English. When the bell rings, we start our first lesson. Our teacher opens our book at Unit One and asks us to spell our names. Lily drops her key, so I pick it up. She says thank you. We smile because we are happy to be in the same class.",
+      "translationZh": "我叫本。星期一，我在学校的院子里向两名新同学打招呼。露西是莉莉的双胞胎姐妹，我们都在七年级。这对双胞胎喜欢不同的事物，但她们都喜欢英语。铃声响起时，我们开始了第一节课。老师把我们的书翻到第一单元，让我们拼写自己的名字。莉莉的钥匙掉了，我便把它捡起来。她说了声谢谢。我们笑了，因为能在同一个班，我们很高兴。",
+      "targetWords": [
+        "greet",
+        "yard",
+        "twin",
+        "grade",
+        "bell",
+        "start",
+        "unit",
+        "spell",
+        "key",
+        "same"
+      ],
+      "wordCount": 85,
+      "readingQuestions": [
+        {
+          "id": "phonics-pilot-reading-01-q1",
+          "question": "Ben 在哪里向新同学打招呼？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "In the classroom."
+            },
+            {
+              "id": "B",
+              "text": "In the school yard."
+            },
+            {
+              "id": "C",
+              "text": "In the library."
+            }
+          ],
+          "correctChoiceId": "B",
+          "explanationZh": "第二句直接说明，本在学校的院子里向新同学打招呼。",
+          "evidenceQuote": "On Monday, I greet two new students in the school yard.",
+          "originalContent": true,
+          "correctAnswer": "In the school yard."
+        },
+        {
+          "id": "phonics-pilot-reading-01-q2",
+          "question": "这对双胞胎都喜欢什么学科？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Art."
+            },
+            {
+              "id": "B",
+              "text": "Math."
+            },
+            {
+              "id": "C",
+              "text": "English."
+            }
+          ],
+          "correctChoiceId": "C",
+          "explanationZh": "文章说双胞胎喜欢的事物不同，但她们都喜欢英语。both 表示“两人都”。",
+          "evidenceQuote": "The twins like different things, but they both like English.",
+          "originalContent": true,
+          "correctAnswer": "English."
+        },
+        {
+          "id": "phonics-pilot-reading-01-q3",
+          "question": "Lily 为什么道谢？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Ben picks up her key."
+            },
+            {
+              "id": "B",
+              "text": "Ben gives her a new book."
+            },
+            {
+              "id": "C",
+              "text": "The teacher spells her name."
+            }
+          ],
+          "correctChoiceId": "A",
+          "explanationZh": "莉莉的钥匙掉了，本把它捡起来，因此她向本道谢。",
+          "evidenceQuote": "Lily drops her key, so I pick it up. She says thank you.",
+          "originalContent": true,
+          "correctAnswer": "Ben picks up her key."
+        }
+      ],
+      "clozeQuestions": [
+        {
+          "id": "phonics-pilot-reading-01-c1",
+          "sentence": "When the bell rings, we start our first lesson.",
+          "replaceableSpan": "bell",
+          "blankedSentence": "When the ____ rings, we start our first lesson.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "key"
+            },
+            {
+              "id": "B",
+              "text": "bell"
+            },
+            {
+              "id": "C",
+              "text": "unit"
+            }
+          ],
+          "correctChoiceId": "B",
+          "explanationZh": "rings 在这里表示“响起”；课堂开始前响起的是铃声，所以选 bell。",
+          "evidenceQuote": "When the bell rings, we start our first lesson.",
+          "originalContent": true,
+          "correctAnswer": "bell",
+          "wordId": "starter1-009"
+        },
+        {
+          "id": "phonics-pilot-reading-01-c2",
+          "sentence": "Our teacher opens our book at Unit One and asks us to spell our names.",
+          "replaceableSpan": "spell",
+          "blankedSentence": "Our teacher opens our book at Unit One and asks us to ____ our names.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "drink"
+            },
+            {
+              "id": "B",
+              "text": "close"
+            },
+            {
+              "id": "C",
+              "text": "spell"
+            }
+          ],
+          "correctChoiceId": "C",
+          "explanationZh": "老师让学生拼写名字；spell our names 表示“拼写我们的名字”。drink 和 close 都不符合这里的意思。",
+          "evidenceQuote": "Our teacher opens our book at Unit One and asks us to spell our names.",
+          "originalContent": true,
+          "correctAnswer": "spell",
+          "wordId": "starter1-005"
+        },
+        {
+          "id": "phonics-pilot-reading-01-c3",
+          "sentence": "Lily drops her key, so I pick it up.",
+          "replaceableSpan": "key",
+          "blankedSentence": "Lily drops her ____, so I pick it up.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "key"
+            },
+            {
+              "id": "B",
+              "text": "hobby"
+            },
+            {
+              "id": "C",
+              "text": "same"
+            }
+          ],
+          "correctChoiceId": "A",
+          "explanationZh": "key 表示“钥匙”，是可以掉落并被捡起来的物品。hobby 表示“爱好”；same 表示“相同的”。",
+          "evidenceQuote": "Lily drops her key, so I pick it up.",
+          "originalContent": true,
+          "correctAnswer": "key",
+          "wordId": "starter2-003"
+        }
+      ],
+      "originalContent": true,
+      "targetWordIds": [
+        "starter1-004",
+        "starter3-002",
+        "unit1-016",
+        "unit1-008",
+        "starter1-009",
+        "starter1-006",
+        "starter1-001",
+        "starter1-005",
+        "starter2-003",
+        "unit1-015",
+        "starter2-004"
+      ],
+      "targetOccurrences": [
+        {
+          "wordId": "starter1-004",
+          "surface": "greet"
+        },
+        {
+          "wordId": "starter3-002",
+          "surface": "yard"
+        },
+        {
+          "wordId": "unit1-016",
+          "surface": "twin"
+        },
+        {
+          "wordId": "unit1-008",
+          "surface": "Grade"
+        },
+        {
+          "wordId": "starter1-009",
+          "surface": "bell"
+        },
+        {
+          "wordId": "starter1-006",
+          "surface": "start"
+        },
+        {
+          "wordId": "starter1-001",
+          "surface": "Unit"
+        },
+        {
+          "wordId": "starter1-005",
+          "surface": "spell"
+        },
+        {
+          "wordId": "starter2-003",
+          "surface": "key"
+        },
+        {
+          "wordId": "unit1-015",
+          "surface": "same"
+        },
+        {
+          "wordId": "starter2-004",
+          "surface": "things",
+          "form": "plural"
+        }
+      ]
+    },
+    {
+      "id": "phonics-pilot-reading-02",
+      "title": "A Bird Lesson",
+      "text": "After lunch, our class stands in a circle in the yard. We talk about our hobbies. My hobby is watching birds. A white goose walks near us. Each student can see it. We count its feet, but we do not know what it eats. Because we need more information, our teacher brings a picture book. We learn that a goose eats plants. It looks at my water bottle, but I keep the bottle in my bag. Watching the goose is fun!",
+      "translationZh": "午饭后，我们班的同学在院子里站成一个圈，谈论各自的爱好。我的爱好是观察鸟。一只白鹅走到我们附近，每个同学都能看见它。我们数它的脚，但不知道它吃什么。因为我们需要更多信息，老师拿来一本图画书。我们了解到，鹅吃植物。它看着我的水瓶，但我把水瓶放在包里。观察这只鹅真有趣！",
+      "targetWords": [
+        "circle",
+        "yard",
+        "hobby",
+        "goose",
+        "each",
+        "count",
+        "need",
+        "information",
+        "bottle",
+        "fun"
+      ],
+      "wordCount": 81,
+      "readingQuestions": [
+        {
+          "id": "phonics-pilot-reading-02-q1",
+          "question": "作者的爱好是什么？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Reading picture books."
+            },
+            {
+              "id": "B",
+              "text": "Drawing trees."
+            },
+            {
+              "id": "C",
+              "text": "Watching birds."
+            }
+          ],
+          "correctChoiceId": "C",
+          "explanationZh": "作者直接说自己的爱好是观察鸟。",
+          "evidenceQuote": "My hobby is watching birds.",
+          "originalContent": true,
+          "correctAnswer": "Watching birds."
+        },
+        {
+          "id": "phonics-pilot-reading-02-q2",
+          "question": "老师为什么带来一本图画书？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The class needs more information."
+            },
+            {
+              "id": "B",
+              "text": "The class needs a water bottle."
+            },
+            {
+              "id": "C",
+              "text": "The class wants a new pet."
+            }
+          ],
+          "correctChoiceId": "A",
+          "explanationZh": "学生不知道鹅吃什么，需要更多信息，因此老师拿来图画书。Because 引出的部分说明原因。",
+          "evidenceQuote": "Because we need more information, our teacher brings a picture book.",
+          "originalContent": true,
+          "correctAnswer": "The class needs more information."
+        },
+        {
+          "id": "phonics-pilot-reading-02-q3",
+          "question": "作者把水瓶放在哪里？",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Near the goose."
+            },
+            {
+              "id": "B",
+              "text": "In the bag."
+            },
+            {
+              "id": "C",
+              "text": "Under the tree."
+            }
+          ],
+          "correctChoiceId": "B",
+          "explanationZh": "文章明确说作者把水瓶放在自己的包里。",
+          "evidenceQuote": "It looks at my water bottle, but I keep the bottle in my bag.",
+          "originalContent": true,
+          "correctAnswer": "In the bag."
+        }
+      ],
+      "clozeQuestions": [
+        {
+          "id": "phonics-pilot-reading-02-c1",
+          "sentence": "My hobby is watching birds.",
+          "replaceableSpan": "hobby",
+          "blankedSentence": "My ____ is watching birds.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "bottle"
+            },
+            {
+              "id": "B",
+              "text": "hobby"
+            },
+            {
+              "id": "C",
+              "text": "yard"
+            }
+          ],
+          "correctChoiceId": "B",
+          "explanationZh": "watching birds 是一项活动，可以作为爱好，所以选 hobby。bottle 是“瓶子”，yard 是“院子”。",
+          "evidenceQuote": "My hobby is watching birds.",
+          "originalContent": true,
+          "correctAnswer": "hobby",
+          "wordId": "unit1-032"
+        },
+        {
+          "id": "phonics-pilot-reading-02-c2",
+          "sentence": "Each student can see it.",
+          "replaceableSpan": "Each",
+          "blankedSentence": "____ student can see it.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Same"
+            },
+            {
+              "id": "B",
+              "text": "Fun"
+            },
+            {
+              "id": "C",
+              "text": "Each"
+            }
+          ],
+          "correctChoiceId": "C",
+          "explanationZh": "Each student 表示“每个学生”，符合全班同学都能看见鹅的语境。Same 和 Fun 不能在这里表达这个意思。",
+          "evidenceQuote": "Each student can see it.",
+          "originalContent": true,
+          "correctAnswer": "Each",
+          "wordId": "unit1-003"
+        },
+        {
+          "id": "phonics-pilot-reading-02-c3",
+          "sentence": "Because we need more information, our teacher brings a picture book.",
+          "replaceableSpan": "information",
+          "blankedSentence": "Because we need more ____, our teacher brings a picture book.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "information"
+            },
+            {
+              "id": "B",
+              "text": "bottles"
+            },
+            {
+              "id": "C",
+              "text": "keys"
+            }
+          ],
+          "correctChoiceId": "A",
+          "explanationZh": "前文说学生不知道鹅吃什么，因此他们需要的是更多信息。图画书可以提供 information。",
+          "evidenceQuote": "Because we need more information, our teacher brings a picture book.",
+          "originalContent": true,
+          "correctAnswer": "information",
+          "wordId": "unit1-031"
+        }
+      ],
+      "originalContent": true,
+      "targetWordIds": [
+        "starter3-009",
+        "starter3-002",
+        "unit1-032",
+        "starter3-004",
+        "unit1-003",
+        "starter3-005",
+        "starter2-005",
+        "unit1-031",
+        "starter2-001",
+        "starter3-001"
+      ],
+      "targetOccurrences": [
+        {
+          "wordId": "starter3-009",
+          "surface": "circle"
+        },
+        {
+          "wordId": "starter3-002",
+          "surface": "yard"
+        },
+        {
+          "wordId": "unit1-032",
+          "surface": "hobby"
+        },
+        {
+          "wordId": "starter3-004",
+          "surface": "goose"
+        },
+        {
+          "wordId": "unit1-003",
+          "surface": "Each"
+        },
+        {
+          "wordId": "starter3-005",
+          "surface": "count"
+        },
+        {
+          "wordId": "starter2-005",
+          "surface": "need"
+        },
+        {
+          "wordId": "unit1-031",
+          "surface": "information"
+        },
+        {
+          "wordId": "starter2-001",
+          "surface": "bottle"
+        },
+        {
+          "wordId": "starter3-001",
+          "surface": "fun"
+        }
+      ]
+    }
+  ],
+  "sentenceWalkthroughs": [
+    {
+      "id": "phonics-pilot-structure-01",
+      "sourcePassageId": "phonics-pilot-reading-01",
+      "sentence": "When the bell rings, we start our first lesson.",
+      "meaningZh": "铃声响起时，我们开始第一节课。",
+      "chunks": [
+        {
+          "text": "When the bell rings",
+          "roleZh": "时间部分：说明什么时候开始上课。the bell 是这部分的主语，rings 表示“响起”。",
+          "meaningZh": "当铃声响起时"
+        },
+        {
+          "text": "we",
+          "roleZh": "主语：说明是谁做这件事。",
+          "meaningZh": "我们"
+        },
+        {
+          "text": "start",
+          "roleZh": "谓语动词：说明做什么。",
+          "meaningZh": "开始"
+        },
+        {
+          "text": "our first lesson",
+          "roleZh": "宾语：说明开始的是什么。",
+          "meaningZh": "我们的第一节课"
+        }
+      ],
+      "mainMessageZh": "句子的主干是 we start our first lesson，意思是“我们开始第一节课”。前面的时间部分补充“什么时候”。",
+      "connectorExplanationZh": "when 表示“当……时”，把“铃声响起”和“开始上课”按时间联系起来。时间部分放在句首时，这里用逗号与后面的主干隔开。",
+      "checkQuestion": {
+        "id": "phonics-pilot-structure-01-check",
+        "question": "哪一部分告诉我们这节课什么时候开始？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "When the bell rings"
+          },
+          {
+            "id": "B",
+            "text": "we"
+          },
+          {
+            "id": "C",
+            "text": "our first lesson"
+          }
+        ],
+        "correctChoiceId": "A",
+        "explanationZh": "When the bell rings 表示“铃声响起时”，说明开始上课的时间；we 说明谁，our first lesson 说明开始什么。",
+        "evidenceQuote": "When the bell rings",
+        "originalContent": true,
+        "correctAnswer": "When the bell rings"
+      },
+      "originalContent": true
+    },
+    {
+      "id": "phonics-pilot-structure-02",
+      "sourcePassageId": "phonics-pilot-reading-02",
+      "sentence": "Because we need more information, our teacher brings a picture book.",
+      "meaningZh": "因为我们需要更多信息，老师拿来一本图画书。",
+      "chunks": [
+        {
+          "text": "Because we need more information",
+          "roleZh": "原因部分：说明老师为什么拿来图画书。we 是这部分的主语，need 表示“需要”，more information 说明需要什么。",
+          "meaningZh": "因为我们需要更多信息"
+        },
+        {
+          "text": "our teacher",
+          "roleZh": "主干的主语：说明谁采取行动。",
+          "meaningZh": "我们的老师"
+        },
+        {
+          "text": "brings",
+          "roleZh": "主干的谓语动词：说明“拿来”。主语是单数 teacher，因此用 brings。",
+          "meaningZh": "拿来"
+        },
+        {
+          "text": "a picture book",
+          "roleZh": "主干的宾语：说明拿来的是什么。",
+          "meaningZh": "一本图画书"
+        }
+      ],
+      "mainMessageZh": "句子的主干是 our teacher brings a picture book，意思是“老师拿来一本图画书”。前面的原因部分补充“为什么”。",
+      "connectorExplanationZh": "because 表示“因为”，引出“我们需要更多信息”这个原因。原因部分放在句首时，这里用逗号与后面的主干隔开。",
+      "checkQuestion": {
+        "id": "phonics-pilot-structure-02-check",
+        "question": "哪一部分告诉我们老师为什么带来一本图画书？",
+        "choices": [
+          {
+            "id": "A",
+            "text": "Because we need more information"
+          },
+          {
+            "id": "B",
+            "text": "our teacher"
+          },
+          {
+            "id": "C",
+            "text": "a picture book"
+          }
+        ],
+        "correctChoiceId": "A",
+        "explanationZh": "Because we need more information 表示“因为我们需要更多信息”，说明老师拿来图画书的原因；our teacher 说明谁，a picture book 说明拿来什么。",
+        "evidenceQuote": "Because we need more information",
+        "originalContent": true,
+        "correctAnswer": "Because we need more information"
+      },
+      "originalContent": true
+    }
+  ]
+}

@@ -1,0 +1,1651 @@
+{
+  "metadata": {
+    "title": "人教版七年级上册官方现行电子课本核对练习词库",
+    "edition": "义务教育教科书·英语·七年级上册；封面标注国家教材委员会专家委员会审核通过 2024",
+    "asOf": "2026-10-03",
+    "scope": "依据官方电子课本 Vocabulary in Each Unit（印刷页 106–112，PDF 第 115–121 页），覆盖 3 个 Starter Unit 和 7 个正式单元。纳入普通词、短语、常用缩写、地名、食物专名和节日名；排除人物姓名、姓氏及宠物名。不含 Vocabulary from Primary School，不代表全部课文词汇。",
+    "verification": "已逐页核对上述 7 页的全部词目、顺序和单元归属。word 字段使用适于练习的规范词形；教材中的替代词形、缩略形与标点形式见 aliases/textbookEntry。中文释义为独立练习简释，并非教材完整释义。",
+    "editionUncertainty": "此文件是截至核对日期国家中小学智慧教育平台提供的官方电子课本。封面审核年份为 2024；版权页未显示可确认的版次、印次日期。PDF 创建和修改元数据为 2026-07-16，不能据此断言为 2026 年印次，也不能保证与某一本纸书完全一致。",
+    "pronunciation": "未录入教材音标或原声音频。若使用设备语音合成，应标注为合成朗读。",
+    "idPolicy": "保留所有仍收录词目的旧 ID，包括跨单元移动词目。ID 是稳定键，不能通过前缀推断当前单元；当前单元以所属 units 项为准。新增词目在相应单元历史最大序号后分配，已删除 ID 不复用。",
+    "sources": [
+      {
+        "title": "国家中小学智慧教育平台：人教版英语七年级上册官方电子课本",
+        "url": "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&amp;contentId=33f98190-ed21-f303-9657-d29d792f27a9&amp;catalogType=tchMaterial&amp;subCatalog=tchMaterial",
+        "use": "全部纳入词目、顺序、单元归属及词表页码"
+      },
+      {
+        "title": "人民教育出版社：初中英语七年级上册数字配套资源",
+        "url": "https://www.pep.com.cn/zslth/yyptzy/czyy/7s/",
+        "use": "单元标题及官方配套资源入口"
+      }
+    ],
+    "sourceFingerprint": {
+      "algorithm": "SHA-256",
+      "sha256": "e416106aff7f95db4903ade2826a662d7dae871caac5df43425c0d408356b09a",
+      "pdfPageCount": 138,
+      "vocabularyPrintedPages": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "vocabularyPdfPages": [
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "pdfMetadataCreationDate": "2026-07-16T08:49:30+08:00",
+      "pdfMetadataModificationDate": "2026-07-16T08:49:30+08:00"
+    },
+    "totalWords": 289,
+    "unitCounts": {
+      "starter1": 15,
+      "starter2": 5,
+      "starter3": 9,
+      "unit1": 38,
+      "unit2": 30,
+      "unit3": 43,
+      "unit4": 32,
+      "unit5": 36,
+      "unit6": 42,
+      "unit7": 39
+    },
+    "revisionSummary": {
+      "previousCount": 277,
+      "currentCount": 289,
+      "addedCount": 18,
+      "removedCount": 6,
+      "movedCount": 11,
+      "phraseUpdatedCount": 1,
+      "retainedIds": 271
+    }
+  },
+  "units": [
+    {
+      "id": "starter1",
+      "title": "Starter Unit 1 · Hello!",
+      "words": [
+        {
+          "id": "starter1-001",
+          "word": "unit",
+          "meaning": "单元"
+        },
+        {
+          "id": "starter1-002",
+          "word": "starter unit",
+          "meaning": "过渡单元"
+        },
+        {
+          "id": "starter1-003",
+          "word": "section",
+          "meaning": "部分；区域"
+        },
+        {
+          "id": "starter1-004",
+          "word": "greet",
+          "meaning": "向……问好"
+        },
+        {
+          "id": "starter1-008",
+          "word": "oh",
+          "meaning": "哦；啊"
+        },
+        {
+          "id": "unit4-016",
+          "word": "everyone",
+          "meaning": "每个人"
+        },
+        {
+          "id": "starter1-006",
+          "word": "start",
+          "meaning": "开始"
+        },
+        {
+          "id": "starter1-007",
+          "word": "conversation",
+          "meaning": "交谈"
+        },
+        {
+          "id": "starter1-005",
+          "word": "spell",
+          "meaning": "拼写"
+        },
+        {
+          "id": "starter1-009",
+          "word": "bell",
+          "meaning": "铃；钟"
+        },
+        {
+          "id": "starter1-013",
+          "word": "PRC",
+          "meaning": "中华人民共和国"
+        },
+        {
+          "id": "starter1-010",
+          "word": "PLA",
+          "meaning": "中国人民解放军"
+        },
+        {
+          "id": "starter1-011",
+          "word": "VR",
+          "meaning": "虚拟现实"
+        },
+        {
+          "id": "starter1-015",
+          "word": "WHO",
+          "meaning": "世界卫生组织"
+        },
+        {
+          "id": "starter1-014",
+          "word": "UN",
+          "meaning": "联合国"
+        }
+      ]
+    },
+    {
+      "id": "starter2",
+      "title": "Starter Unit 2 · Keep Tidy!",
+      "words": [
+        {
+          "id": "starter2-001",
+          "word": "bottle",
+          "meaning": "瓶子"
+        },
+        {
+          "id": "starter2-002",
+          "word": "eraser",
+          "meaning": "橡皮"
+        },
+        {
+          "id": "starter2-003",
+          "word": "key",
+          "meaning": "钥匙；关键"
+        },
+        {
+          "id": "starter2-004",
+          "word": "thing",
+          "meaning": "东西；事情"
+        },
+        {
+          "id": "starter2-006",
+          "word": "you're welcome",
+          "meaning": "不用谢",
+          "textbookEntry": "You’re welcome.",
+          "aliases": [
+            "You're welcome."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starter3",
+      "title": "Starter Unit 3 · Welcome!",
+      "words": [
+        {
+          "id": "starter3-001",
+          "word": "fun",
+          "meaning": "乐趣；有趣的"
+        },
+        {
+          "id": "starter3-002",
+          "word": "yard",
+          "meaning": "院子"
+        },
+        {
+          "id": "starter3-003",
+          "word": "carrot",
+          "meaning": "胡萝卜"
+        },
+        {
+          "id": "starter3-004",
+          "word": "goose",
+          "meaning": "鹅"
+        },
+        {
+          "id": "starter3-005",
+          "word": "count",
+          "meaning": "数数"
+        },
+        {
+          "id": "starter3-006",
+          "word": "another",
+          "meaning": "另一个；又一个"
+        },
+        {
+          "id": "starter3-007",
+          "word": "else",
+          "meaning": "其他；另外"
+        },
+        {
+          "id": "starter3-009",
+          "word": "circle",
+          "meaning": "圈出；圆圈"
+        },
+        {
+          "id": "starter3-008",
+          "word": "look at",
+          "meaning": "看……"
+        }
+      ]
+    },
+    {
+      "id": "unit1",
+      "title": "Unit 1 · You and Me",
+      "words": [
+        {
+          "id": "unit1-001",
+          "word": "make friends",
+          "meaning": "交朋友"
+        },
+        {
+          "id": "unit1-002",
+          "word": "get to know",
+          "meaning": "认识；了解"
+        },
+        {
+          "id": "unit1-003",
+          "word": "each",
+          "meaning": "每个"
+        },
+        {
+          "id": "unit1-004",
+          "word": "other",
+          "meaning": "其他的；另外的人或物"
+        },
+        {
+          "id": "unit1-005",
+          "word": "each other",
+          "meaning": "彼此"
+        },
+        {
+          "id": "unit1-006",
+          "word": "full",
+          "meaning": "完整的；满的"
+        },
+        {
+          "id": "unit1-007",
+          "word": "full name",
+          "meaning": "全名"
+        },
+        {
+          "id": "unit1-008",
+          "word": "grade",
+          "meaning": "年级；等级"
+        },
+        {
+          "id": "unit1-009",
+          "word": "last name",
+          "meaning": "姓"
+        },
+        {
+          "id": "unit1-010",
+          "word": "classmate",
+          "meaning": "同班同学"
+        },
+        {
+          "id": "unit1-011",
+          "word": "class teacher",
+          "meaning": "班主任"
+        },
+        {
+          "id": "unit1-012",
+          "word": "first name",
+          "meaning": "名"
+        },
+        {
+          "id": "unit1-013",
+          "word": "mistake",
+          "meaning": "错误"
+        },
+        {
+          "id": "unit1-014",
+          "word": "country",
+          "meaning": "国家"
+        },
+        {
+          "id": "unit1-015",
+          "word": "same",
+          "meaning": "相同的"
+        },
+        {
+          "id": "unit1-016",
+          "word": "twin",
+          "meaning": "双胞胎中的一个"
+        },
+        {
+          "id": "unit1-019",
+          "word": "pot",
+          "meaning": "锅"
+        },
+        {
+          "id": "unit1-021",
+          "word": "tofu",
+          "meaning": "豆腐"
+        },
+        {
+          "id": "starter2-005",
+          "word": "need",
+          "meaning": "需要"
+        },
+        {
+          "id": "unit1-022",
+          "word": "parrot",
+          "meaning": "鹦鹉"
+        },
+        {
+          "id": "unit1-023",
+          "word": "guitar",
+          "meaning": "吉他"
+        },
+        {
+          "id": "unit1-024",
+          "word": "tennis",
+          "meaning": "网球"
+        },
+        {
+          "id": "unit1-028",
+          "word": "play the guitar",
+          "meaning": "弹吉他"
+        },
+        {
+          "id": "unit1-029",
+          "word": "would",
+          "meaning": "会；愿意；礼貌表达中的情态动词"
+        },
+        {
+          "id": "unit1-030",
+          "word": "would like to",
+          "meaning": "想要做……",
+          "textbookEntry": "would (’d) like to",
+          "aliases": [
+            "'d like to"
+          ]
+        },
+        {
+          "id": "unit1-031",
+          "word": "information",
+          "meaning": "信息"
+        },
+        {
+          "id": "unit1-032",
+          "word": "hobby",
+          "meaning": "爱好"
+        },
+        {
+          "id": "unit1-042",
+          "word": "re",
+          "meaning": "关于（邮件回复用语）"
+        },
+        {
+          "id": "unit1-033",
+          "word": "UK",
+          "meaning": "英国"
+        },
+        {
+          "id": "unit1-034",
+          "word": "US",
+          "meaning": "美国"
+        },
+        {
+          "id": "unit1-035",
+          "word": "hot pot",
+          "meaning": "火锅"
+        },
+        {
+          "id": "unit1-036",
+          "word": "Sydney",
+          "meaning": "悉尼"
+        },
+        {
+          "id": "unit1-037",
+          "word": "Australia",
+          "meaning": "澳大利亚"
+        },
+        {
+          "id": "unit1-038",
+          "word": "Mapo tofu",
+          "meaning": "麻婆豆腐"
+        },
+        {
+          "id": "unit1-039",
+          "word": "Beijing roast duck",
+          "meaning": "北京烤鸭"
+        },
+        {
+          "id": "unit1-040",
+          "word": "Singapore",
+          "meaning": "新加坡"
+        },
+        {
+          "id": "unit1-043",
+          "word": "the Great Wall",
+          "meaning": "长城"
+        },
+        {
+          "id": "unit1-041",
+          "word": "London",
+          "meaning": "伦敦"
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "title": "Unit 2 · We're Family!",
+      "words": [
+        {
+          "id": "unit2-001",
+          "word": "mean",
+          "meaning": "意思是；打算"
+        },
+        {
+          "id": "unit2-002",
+          "word": "husband",
+          "meaning": "丈夫"
+        },
+        {
+          "id": "unit2-003",
+          "word": "bat",
+          "meaning": "球棒；球拍"
+        },
+        {
+          "id": "unit2-004",
+          "word": "ping-pong bat",
+          "meaning": "乒乓球拍"
+        },
+        {
+          "id": "unit2-005",
+          "word": "play ping-pong",
+          "meaning": "打乒乓球"
+        },
+        {
+          "id": "unit2-007",
+          "word": "together",
+          "meaning": "一起"
+        },
+        {
+          "id": "unit2-006",
+          "word": "every day",
+          "meaning": "每天"
+        },
+        {
+          "id": "unit2-009",
+          "word": "spend",
+          "meaning": "花费时间或金钱"
+        },
+        {
+          "id": "unit2-010",
+          "word": "a lot of",
+          "meaning": "许多",
+          "acceptedAnswers": [
+            "a lot of",
+            "lots of"
+          ],
+          "textbookEntry": "a lot of / lots of",
+          "aliases": [
+            "lots of"
+          ]
+        },
+        {
+          "id": "unit1-027",
+          "word": "hey",
+          "meaning": "嘿；喂"
+        },
+        {
+          "id": "unit2-011",
+          "word": "really",
+          "meaning": "确实；很"
+        },
+        {
+          "id": "unit2-032",
+          "word": "member",
+          "meaning": "成员"
+        },
+        {
+          "id": "unit2-012",
+          "word": "activity",
+          "meaning": "活动"
+        },
+        {
+          "id": "unit2-013",
+          "word": "chess",
+          "meaning": "国际象棋"
+        },
+        {
+          "id": "unit2-014",
+          "word": "Chinese chess",
+          "meaning": "中国象棋"
+        },
+        {
+          "id": "unit1-020",
+          "word": "a lot",
+          "meaning": "很；非常"
+        },
+        {
+          "id": "unit2-033",
+          "word": "grandparent",
+          "meaning": "祖辈中的一位（祖父母或外祖父母）"
+        },
+        {
+          "id": "unit2-015",
+          "word": "funny",
+          "meaning": "滑稽的；奇怪的"
+        },
+        {
+          "id": "unit2-016",
+          "word": "laugh",
+          "meaning": "笑；笑声"
+        },
+        {
+          "id": "unit2-017",
+          "word": "different",
+          "meaning": "不同的"
+        },
+        {
+          "id": "unit2-019",
+          "word": "have fun",
+          "meaning": "玩得开心"
+        },
+        {
+          "id": "unit2-021",
+          "word": "hat",
+          "meaning": "帽子"
+        },
+        {
+          "id": "unit2-022",
+          "word": "handsome",
+          "meaning": "英俊的"
+        },
+        {
+          "id": "unit2-023",
+          "word": "knee",
+          "meaning": "膝盖"
+        },
+        {
+          "id": "unit2-024",
+          "word": "at night",
+          "meaning": "在夜间"
+        },
+        {
+          "id": "unit2-026",
+          "word": "grandchild",
+          "meaning": "孙子；孙女；外孙；外孙女"
+        },
+        {
+          "id": "unit2-027",
+          "word": "son",
+          "meaning": "儿子"
+        },
+        {
+          "id": "unit4-013",
+          "word": "listen to",
+          "meaning": "听……"
+        },
+        {
+          "id": "unit2-028",
+          "word": "next to",
+          "meaning": "紧挨着"
+        },
+        {
+          "id": "unit2-031",
+          "word": "Ireland",
+          "meaning": "爱尔兰"
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "title": "Unit 3 · My School",
+      "words": [
+        {
+          "id": "unit3-001",
+          "word": "hall",
+          "meaning": "大厅；礼堂"
+        },
+        {
+          "id": "unit3-002",
+          "word": "dining hall",
+          "meaning": "食堂；餐厅"
+        },
+        {
+          "id": "unit3-003",
+          "word": "in front of",
+          "meaning": "在……前面"
+        },
+        {
+          "id": "unit3-004",
+          "word": "building",
+          "meaning": "建筑物"
+        },
+        {
+          "id": "unit2-025",
+          "word": "in the middle of",
+          "meaning": "在……中间"
+        },
+        {
+          "id": "unit3-005",
+          "word": "across",
+          "meaning": "在……对面；横过"
+        },
+        {
+          "id": "unit3-006",
+          "word": "across from",
+          "meaning": "在……对面"
+        },
+        {
+          "id": "unit3-040",
+          "word": "centre",
+          "meaning": "中心",
+          "textbookEntry": "centre (= center)",
+          "aliases": [
+            "center"
+          ]
+        },
+        {
+          "id": "unit3-009",
+          "word": "gym",
+          "meaning": "体育馆；健身房",
+          "textbookEntry": "gym (= gymnasium)",
+          "aliases": [
+            "gymnasium"
+          ]
+        },
+        {
+          "id": "unit3-007",
+          "word": "field",
+          "meaning": "场地；田地"
+        },
+        {
+          "id": "unit3-008",
+          "word": "sports field",
+          "meaning": "运动场"
+        },
+        {
+          "id": "unit3-010",
+          "word": "office",
+          "meaning": "办公室"
+        },
+        {
+          "id": "unit3-011",
+          "word": "large",
+          "meaning": "大的"
+        },
+        {
+          "id": "unit3-012",
+          "word": "special",
+          "meaning": "特别的"
+        },
+        {
+          "id": "unit3-013",
+          "word": "smart",
+          "meaning": "聪明的；智能的"
+        },
+        {
+          "id": "unit3-014",
+          "word": "whiteboard",
+          "meaning": "白板"
+        },
+        {
+          "id": "unit3-015",
+          "word": "put up",
+          "meaning": "张贴；搭起；举起"
+        },
+        {
+          "id": "unit3-016",
+          "word": "important",
+          "meaning": "重要的"
+        },
+        {
+          "id": "unit3-017",
+          "word": "notice",
+          "meaning": "通知；注意到"
+        },
+        {
+          "id": "unit3-018",
+          "word": "locker",
+          "meaning": "带锁的储物柜"
+        },
+        {
+          "id": "unit3-019",
+          "word": "drawer",
+          "meaning": "抽屉"
+        },
+        {
+          "id": "unit3-020",
+          "word": "at the back of",
+          "meaning": "在……后面",
+          "textbookEntry": "at the back (of)",
+          "aliases": [
+            "at the back"
+          ]
+        },
+        {
+          "id": "unit3-021",
+          "word": "corner",
+          "meaning": "角落；拐角"
+        },
+        {
+          "id": "unit3-022",
+          "word": "bookcase",
+          "meaning": "书柜"
+        },
+        {
+          "id": "unit3-023",
+          "word": "screen",
+          "meaning": "屏幕"
+        },
+        {
+          "id": "unit3-024",
+          "word": "at school",
+          "meaning": "在学校"
+        },
+        {
+          "id": "unit3-041",
+          "word": "different from",
+          "meaning": "与……不同"
+        },
+        {
+          "id": "unit3-025",
+          "word": "modern",
+          "meaning": "现代的"
+        },
+        {
+          "id": "unit3-026",
+          "word": "do exercises",
+          "meaning": "做操"
+        },
+        {
+          "id": "unit3-027",
+          "word": "amazing",
+          "meaning": "令人惊叹的"
+        },
+        {
+          "id": "unit3-028",
+          "word": "raise",
+          "meaning": "举起；升起；提高"
+        },
+        {
+          "id": "unit3-029",
+          "word": "flag",
+          "meaning": "旗帜"
+        },
+        {
+          "id": "unit3-030",
+          "word": "most",
+          "meaning": "大多数；最多；最"
+        },
+        {
+          "id": "unit3-031",
+          "word": "change",
+          "meaning": "改变；变化"
+        },
+        {
+          "id": "unit3-032",
+          "word": "seat",
+          "meaning": "座位"
+        },
+        {
+          "id": "unit3-033",
+          "word": "delicious",
+          "meaning": "好吃的"
+        },
+        {
+          "id": "unit3-034",
+          "word": "How about",
+          "meaning": "……怎么样",
+          "textbookEntry": "How about ...?"
+        },
+        {
+          "id": "unit3-035",
+          "word": "yours",
+          "meaning": "你的；你们的；书信结尾署名前的用语"
+        },
+        {
+          "id": "unit3-042",
+          "word": "send",
+          "meaning": "发送；寄送"
+        },
+        {
+          "id": "unit3-036",
+          "word": "similar",
+          "meaning": "相似的"
+        },
+        {
+          "id": "unit3-037",
+          "word": "similar to",
+          "meaning": "与……相似"
+        },
+        {
+          "id": "unit3-038",
+          "word": "sound",
+          "meaning": "听起来；声音"
+        },
+        {
+          "id": "unit3-039",
+          "word": "bye for now",
+          "meaning": "先说再见"
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "title": "Unit 4 · My Favourite Subject",
+      "words": [
+        {
+          "id": "unit4-001",
+          "word": "biology",
+          "meaning": "生物学"
+        },
+        {
+          "id": "unit4-002",
+          "word": "IT",
+          "meaning": "信息技术",
+          "textbookEntry": "IT (= information technology)",
+          "aliases": [
+            "information technology"
+          ]
+        },
+        {
+          "id": "unit4-003",
+          "word": "geography",
+          "meaning": "地理学"
+        },
+        {
+          "id": "unit4-004",
+          "word": "history",
+          "meaning": "历史"
+        },
+        {
+          "id": "unit4-005",
+          "word": "boring",
+          "meaning": "无聊的"
+        },
+        {
+          "id": "unit4-006",
+          "word": "useful",
+          "meaning": "有用的"
+        },
+        {
+          "id": "unit4-007",
+          "word": "exciting",
+          "meaning": "令人兴奋的"
+        },
+        {
+          "id": "unit4-008",
+          "word": "past",
+          "meaning": "过去；过去的；在……之后"
+        },
+        {
+          "id": "unit4-009",
+          "word": "good with",
+          "meaning": "善于应对……"
+        },
+        {
+          "id": "unit4-010",
+          "word": "number",
+          "meaning": "数字；号码"
+        },
+        {
+          "id": "unit4-011",
+          "word": "help sb with",
+          "meaning": "帮助某人做某事",
+          "acceptedAnswers": [
+            "help sb with",
+            "help somebody with",
+            "help someone with"
+          ]
+        },
+        {
+          "id": "unit4-012",
+          "word": "reason",
+          "meaning": "原因"
+        },
+        {
+          "id": "unit4-014",
+          "word": "good at",
+          "meaning": "擅长……"
+        },
+        {
+          "id": "unit4-015",
+          "word": "remember",
+          "meaning": "记得"
+        },
+        {
+          "id": "unit4-017",
+          "word": "as",
+          "meaning": "作为；像；当……时"
+        },
+        {
+          "id": "unit4-018",
+          "word": "AM",
+          "meaning": "上午",
+          "acceptedAnswers": [
+            "AM",
+            "a.m.",
+            "am"
+          ],
+          "textbookEntry": "AM (= a.m.)",
+          "aliases": [
+            "a.m."
+          ]
+        },
+        {
+          "id": "unit4-019",
+          "word": "PM",
+          "meaning": "下午",
+          "acceptedAnswers": [
+            "PM",
+            "p.m.",
+            "pm"
+          ],
+          "textbookEntry": "PM (= p.m.)",
+          "aliases": [
+            "p.m."
+          ]
+        },
+        {
+          "id": "unit4-020",
+          "word": "French",
+          "meaning": "法语；法国的"
+        },
+        {
+          "id": "unit4-021",
+          "word": "excellent",
+          "meaning": "出色的"
+        },
+        {
+          "id": "unit4-022",
+          "word": "instrument",
+          "meaning": "乐器；工具"
+        },
+        {
+          "id": "unit4-023",
+          "word": "singer",
+          "meaning": "歌手"
+        },
+        {
+          "id": "unit4-024",
+          "word": "future",
+          "meaning": "未来"
+        },
+        {
+          "id": "unit4-025",
+          "word": "in the future",
+          "meaning": "在将来"
+        },
+        {
+          "id": "unit4-026",
+          "word": "term",
+          "meaning": "学期"
+        },
+        {
+          "id": "unit4-027",
+          "word": "work out",
+          "meaning": "算出；解决"
+        },
+        {
+          "id": "unit4-028",
+          "word": "problem",
+          "meaning": "问题；难题"
+        },
+        {
+          "id": "unit4-029",
+          "word": "in class",
+          "meaning": "在课堂上"
+        },
+        {
+          "id": "unit4-030",
+          "word": "magic",
+          "meaning": "魔法；神奇的"
+        },
+        {
+          "id": "unit4-031",
+          "word": "life",
+          "meaning": "生活；生命"
+        },
+        {
+          "id": "unit4-032",
+          "word": "scientist",
+          "meaning": "科学家"
+        },
+        {
+          "id": "unit1-017",
+          "word": "both",
+          "meaning": "两者都"
+        },
+        {
+          "id": "unit4-033",
+          "word": "Canada",
+          "meaning": "加拿大"
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "title": "Unit 5 · Fun Clubs",
+      "words": [
+        {
+          "id": "unit5-001",
+          "word": "club",
+          "meaning": "社团；俱乐部"
+        },
+        {
+          "id": "unit5-002",
+          "word": "join",
+          "meaning": "加入"
+        },
+        {
+          "id": "unit5-003",
+          "word": "choose",
+          "meaning": "选择"
+        },
+        {
+          "id": "unit5-004",
+          "word": "drama",
+          "meaning": "戏剧"
+        },
+        {
+          "id": "unit5-005",
+          "word": "play Chinese chess",
+          "meaning": "下中国象棋"
+        },
+        {
+          "id": "unit5-006",
+          "word": "feeling",
+          "meaning": "感受；情感"
+        },
+        {
+          "id": "unit5-007",
+          "word": "news",
+          "meaning": "新闻；消息"
+        },
+        {
+          "id": "unit5-008",
+          "word": "musical",
+          "meaning": "音乐的；有音乐才能的"
+        },
+        {
+          "id": "unit5-009",
+          "word": "musical instrument",
+          "meaning": "乐器"
+        },
+        {
+          "id": "unit5-010",
+          "word": "exactly",
+          "meaning": "准确地；正是如此"
+        },
+        {
+          "id": "unit2-018",
+          "word": "violin",
+          "meaning": "小提琴"
+        },
+        {
+          "id": "unit5-011",
+          "word": "drum",
+          "meaning": "鼓"
+        },
+        {
+          "id": "unit5-012",
+          "word": "ability",
+          "meaning": "能力"
+        },
+        {
+          "id": "unit5-013",
+          "word": "paint",
+          "meaning": "用颜料画；刷漆；油漆"
+        },
+        {
+          "id": "unit5-014",
+          "word": "climb",
+          "meaning": "攀爬"
+        },
+        {
+          "id": "unit1-026",
+          "word": "even",
+          "meaning": "甚至"
+        },
+        {
+          "id": "unit5-015",
+          "word": "more",
+          "meaning": "更多"
+        },
+        {
+          "id": "unit5-016",
+          "word": "act",
+          "meaning": "表演；行动"
+        },
+        {
+          "id": "unit5-017",
+          "word": "act out",
+          "meaning": "把……表演出来"
+        },
+        {
+          "id": "unit5-018",
+          "word": "at home",
+          "meaning": "在家"
+        },
+        {
+          "id": "unit5-019",
+          "word": "interested",
+          "meaning": "感兴趣的"
+        },
+        {
+          "id": "unit5-020",
+          "word": "interested in",
+          "meaning": "对……感兴趣"
+        },
+        {
+          "id": "unit5-021",
+          "word": "nature",
+          "meaning": "大自然"
+        },
+        {
+          "id": "unit2-029",
+          "word": "hike",
+          "meaning": "徒步旅行"
+        },
+        {
+          "id": "unit5-022",
+          "word": "beef",
+          "meaning": "牛肉"
+        },
+        {
+          "id": "unit5-023",
+          "word": "soon",
+          "meaning": "很快；不久"
+        },
+        {
+          "id": "unit5-024",
+          "word": "than",
+          "meaning": "比"
+        },
+        {
+          "id": "unit5-025",
+          "word": "more than",
+          "meaning": "多于"
+        },
+        {
+          "id": "unit5-026",
+          "word": "mind",
+          "meaning": "头脑；心思"
+        },
+        {
+          "id": "unit5-027",
+          "word": "fall",
+          "meaning": "落下；跌倒；进入某种状态；秋天"
+        },
+        {
+          "id": "unit5-028",
+          "word": "fall in love with",
+          "meaning": "爱上……"
+        },
+        {
+          "id": "unit5-029",
+          "word": "take photos",
+          "meaning": "拍照",
+          "acceptedAnswers": [
+            "take photos",
+            "take a photo"
+          ]
+        },
+        {
+          "id": "unit5-030",
+          "word": "collect",
+          "meaning": "收集"
+        },
+        {
+          "id": "unit5-031",
+          "word": "insect",
+          "meaning": "昆虫"
+        },
+        {
+          "id": "unit5-032",
+          "word": "discover",
+          "meaning": "发现"
+        },
+        {
+          "id": "unit5-033",
+          "word": "wildlife",
+          "meaning": "野生生物"
+        }
+      ]
+    },
+    {
+      "id": "unit6",
+      "title": "Unit 6 · A Day in the Life",
+      "words": [
+        {
+          "id": "unit6-001",
+          "word": "make use of",
+          "meaning": "利用……"
+        },
+        {
+          "id": "unit6-038",
+          "word": "quarter",
+          "meaning": "十五分钟；四分之一"
+        },
+        {
+          "id": "unit6-002",
+          "word": "shower",
+          "meaning": "淋浴；淋浴器"
+        },
+        {
+          "id": "unit6-003",
+          "word": "take a shower",
+          "meaning": "洗淋浴"
+        },
+        {
+          "id": "unit6-004",
+          "word": "get dressed",
+          "meaning": "穿好衣服"
+        },
+        {
+          "id": "unit6-005",
+          "word": "brush",
+          "meaning": "刷；刷子"
+        },
+        {
+          "id": "unit6-006",
+          "word": "tooth",
+          "meaning": "牙齿"
+        },
+        {
+          "id": "unit6-007",
+          "word": "duty",
+          "meaning": "职责；值班"
+        },
+        {
+          "id": "unit6-008",
+          "word": "on duty",
+          "meaning": "值班"
+        },
+        {
+          "id": "unit6-009",
+          "word": "usually",
+          "meaning": "通常"
+        },
+        {
+          "id": "unit6-010",
+          "word": "get up",
+          "meaning": "起床；站起来"
+        },
+        {
+          "id": "unit6-011",
+          "word": "reporter",
+          "meaning": "记者"
+        },
+        {
+          "id": "unit6-012",
+          "word": "around",
+          "meaning": "大约；周围"
+        },
+        {
+          "id": "unit6-013",
+          "word": "homework",
+          "meaning": "家庭作业"
+        },
+        {
+          "id": "unit6-014",
+          "word": "go to bed",
+          "meaning": "上床睡觉"
+        },
+        {
+          "id": "unit6-015",
+          "word": "saying",
+          "meaning": "格言；谚语"
+        },
+        {
+          "id": "unit6-016",
+          "word": "rise",
+          "meaning": "升起；起床；增加"
+        },
+        {
+          "id": "unit6-017",
+          "word": "stay",
+          "meaning": "停留；保持"
+        },
+        {
+          "id": "unit6-018",
+          "word": "routine",
+          "meaning": "常规"
+        },
+        {
+          "id": "unit6-019",
+          "word": "restaurant",
+          "meaning": "餐馆"
+        },
+        {
+          "id": "unit6-020",
+          "word": "housework",
+          "meaning": "家务"
+        },
+        {
+          "id": "unit6-021",
+          "word": "while",
+          "meaning": "一会儿；当……的时候"
+        },
+        {
+          "id": "unit6-022",
+          "word": "weekend",
+          "meaning": "周末"
+        },
+        {
+          "id": "unit6-039",
+          "word": "at weekends",
+          "meaning": "在周末"
+        },
+        {
+          "id": "unit6-023",
+          "word": "daily",
+          "meaning": "每日的"
+        },
+        {
+          "id": "unit6-024",
+          "word": "daily routine",
+          "meaning": "日常安排"
+        },
+        {
+          "id": "unit6-025",
+          "word": "only",
+          "meaning": "仅仅"
+        },
+        {
+          "id": "unit6-026",
+          "word": "break",
+          "meaning": "休息；弄坏"
+        },
+        {
+          "id": "unit6-027",
+          "word": "Finnish",
+          "meaning": "芬兰语；芬兰的"
+        },
+        {
+          "id": "unit6-028",
+          "word": "finish",
+          "meaning": "完成；结束"
+        },
+        {
+          "id": "unit6-029",
+          "word": "hockey",
+          "meaning": "曲棍球"
+        },
+        {
+          "id": "unit6-030",
+          "word": "ice hockey",
+          "meaning": "冰球"
+        },
+        {
+          "id": "unit6-031",
+          "word": "already",
+          "meaning": "已经"
+        },
+        {
+          "id": "unit6-032",
+          "word": "dark",
+          "meaning": "黑暗的；深色的"
+        },
+        {
+          "id": "unit6-033",
+          "word": "outside",
+          "meaning": "在外面；外部的"
+        },
+        {
+          "id": "unit6-040",
+          "word": "part",
+          "meaning": "部分"
+        },
+        {
+          "id": "unit6-041",
+          "word": "everyday",
+          "meaning": "日常的"
+        },
+        {
+          "id": "unit6-034",
+          "word": "prepare",
+          "meaning": "准备"
+        },
+        {
+          "id": "unit6-042",
+          "word": "prepare sth for",
+          "meaning": "为……准备某物"
+        },
+        {
+          "id": "unit6-035",
+          "word": "Helsinki",
+          "meaning": "赫尔辛基"
+        },
+        {
+          "id": "unit6-036",
+          "word": "Finland",
+          "meaning": "芬兰"
+        },
+        {
+          "id": "unit6-037",
+          "word": "home economics",
+          "meaning": "家政学"
+        }
+      ]
+    },
+    {
+      "id": "unit7",
+      "title": "Unit 7 · Happy Birthday!",
+      "words": [
+        {
+          "id": "unit7-001",
+          "word": "celebrate",
+          "meaning": "庆祝"
+        },
+        {
+          "id": "unit7-002",
+          "word": "surprise",
+          "meaning": "惊喜；使惊讶"
+        },
+        {
+          "id": "unit7-003",
+          "word": "something",
+          "meaning": "某事；某物"
+        },
+        {
+          "id": "unit7-004",
+          "word": "sale",
+          "meaning": "出售"
+        },
+        {
+          "id": "unit7-005",
+          "word": "kilo",
+          "meaning": "千克",
+          "textbookEntry": "kilo (= kilogram, kilogramme)",
+          "aliases": [
+            "kilogram",
+            "kilogramme"
+          ]
+        },
+        {
+          "id": "unit7-006",
+          "word": "yogurt",
+          "meaning": "酸奶",
+          "acceptedAnswers": [
+            "yogurt",
+            "yoghurt"
+          ],
+          "textbookEntry": "yogurt (= yoghurt)",
+          "aliases": [
+            "yoghurt"
+          ]
+        },
+        {
+          "id": "unit7-007",
+          "word": "total",
+          "meaning": "总数；总的"
+        },
+        {
+          "id": "unit7-008",
+          "word": "price",
+          "meaning": "价格"
+        },
+        {
+          "id": "unit7-009",
+          "word": "balloon",
+          "meaning": "气球"
+        },
+        {
+          "id": "unit7-010",
+          "word": "chocolate",
+          "meaning": "巧克力"
+        },
+        {
+          "id": "unit7-011",
+          "word": "pizza",
+          "meaning": "比萨饼"
+        },
+        {
+          "id": "unit7-012",
+          "word": "list",
+          "meaning": "清单；列出"
+        },
+        {
+          "id": "unit7-013",
+          "word": "own",
+          "meaning": "自己的"
+        },
+        {
+          "id": "unit7-014",
+          "word": "example",
+          "meaning": "例子"
+        },
+        {
+          "id": "unit7-015",
+          "word": "for example",
+          "meaning": "例如"
+        },
+        {
+          "id": "unit7-016",
+          "word": "language",
+          "meaning": "语言"
+        },
+        {
+          "id": "unit7-017",
+          "word": "international",
+          "meaning": "国际的"
+        },
+        {
+          "id": "unit7-018",
+          "word": "mark",
+          "meaning": "标记；纪念；评分"
+        },
+        {
+          "id": "unit7-020",
+          "word": "national",
+          "meaning": "国家的；民族的"
+        },
+        {
+          "id": "unit7-021",
+          "word": "found",
+          "meaning": "创立"
+        },
+        {
+          "id": "unit7-022",
+          "word": "meaningful",
+          "meaning": "有意义的"
+        },
+        {
+          "id": "unit7-023",
+          "word": "make a wish",
+          "meaning": "许愿"
+        },
+        {
+          "id": "unit7-036",
+          "word": "celebration",
+          "meaning": "庆祝活动"
+        },
+        {
+          "id": "unit1-025",
+          "word": "post",
+          "meaning": "帖子；发布；邮寄"
+        },
+        {
+          "id": "unit7-037",
+          "word": "contact",
+          "meaning": "联系；接触"
+        },
+        {
+          "id": "unit7-038",
+          "word": "symbol",
+          "meaning": "象征；符号"
+        },
+        {
+          "id": "unit7-039",
+          "word": "take a photo",
+          "meaning": "拍一张照片"
+        },
+        {
+          "id": "unit7-024",
+          "word": "village",
+          "meaning": "村庄"
+        },
+        {
+          "id": "unit7-025",
+          "word": "grow",
+          "meaning": "生长；成长"
+        },
+        {
+          "id": "unit7-026",
+          "word": "blow",
+          "meaning": "吹"
+        },
+        {
+          "id": "unit7-027",
+          "word": "blow out",
+          "meaning": "吹灭"
+        },
+        {
+          "id": "unit7-028",
+          "word": "enjoy",
+          "meaning": "喜欢；享受"
+        },
+        {
+          "id": "unit7-029",
+          "word": "height",
+          "meaning": "高度；身高"
+        },
+        {
+          "id": "unit7-030",
+          "word": "later",
+          "meaning": "后来；稍后"
+        },
+        {
+          "id": "unit7-031",
+          "word": "next time",
+          "meaning": "下次"
+        },
+        {
+          "id": "unit7-032",
+          "word": "whom",
+          "meaning": "谁；who 的宾格"
+        },
+        {
+          "id": "unit7-033",
+          "word": "National Day",
+          "meaning": "国庆节"
+        },
+        {
+          "id": "unit7-034",
+          "word": "CPC Founding Day",
+          "meaning": "中国共产党建党纪念日"
+        },
+        {
+          "id": "unit7-035",
+          "word": "PLA Day",
+          "meaning": "中国人民解放军建军节"
+        }
+      ]
+    }
+  ]
+}
