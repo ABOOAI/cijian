@@ -66,6 +66,7 @@ jobs:
         run: |
           npm install --ignore-scripts --no-audit --no-fund
           npm test
+          mkdir -p evidence
           for file in tests/dom-*.mjs; do node "$file"; done
           npm run build
       - name: Commit expanded project
