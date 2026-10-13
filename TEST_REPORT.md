@@ -51,7 +51,7 @@ Date: 2026-10-05. User-reported VR playback failure inspected from screenshot.
 
 # Continuous context practice release 4.4
 
-Date: 2026-10-05. Same Site/audience; no login or model API added. Existing browser-local word records are retained.
+Date: 2026-10-05. No login or model API added. Existing browser-local word records are retained.
 
 - Four modules offer finite original new-question rounds and immediate per-option Chinese feedback. Wrong concepts are prioritized using unseen variants; two consecutive independent correct answers clear that concept's current remediation. Seen-question review cannot validate mastery. Exhausted banks remain explicitly unresolved, with no forced infinite loop.
 - 96 questions, 16 concepts, six variants/concept. Reading has six passages; cloze has 24 separate one-blank mini-passages, distinct from all reading material; analysis has 24 distinct example sentences. Old shared reading/cloze reference exercises are not exposed in the cloze route.
@@ -83,7 +83,7 @@ Date: 2026-10-04. Only the two user-prioritized changes are in this release; acc
 
 # Kokoro release 4.1 validation
 
-Date: 2026-10-04. Existing Site, same public audience and URL; no progress schema change.
+Date: 2026-10-04. No progress schema change.
 
 ## New audio release checks
 - 289/289 static whole-word/full-phrase MP3 assets. 145 af_heart female and 144 am_michael male, alternating by canonical corpus order and permanently keyed to word ID.
@@ -107,7 +107,7 @@ Date: 2026-10-04. Based on official live v3 source 0a91a07ba0b713554c3941a2dd381
 - Static JavaScript syntax and output byte parity checked by build-static.mjs.
 
 ## Browser/visual limits
-An isolated Chromium launch failed because this execution environment denies the process socket. An approved retry had the same result. The cloud browser rejected the local preview address, and this executor has no supervised Sites preview service. No restriction was bypassed, public tunnel created, or production-site browser opened.
+An isolated Chromium launch failed because this execution environment denies the process socket. An approved retry had the same result. The cloud browser rejected the local preview address, and the test environment has no supported preview service. No restriction was bypassed, public tunnel created, or production-site browser opened.
 
 Accordingly, the DOM checks are NOT browser rendering, 1024/1440/1920 visual verification, actual audio playback, or screenshot evidence. Desktop CSS targets these widths and was statically reviewed, but this release has no completed real-browser visual acceptance or screenshots. The prepared browser-v4.mjs suite remains for a future environment that supports it. The site should be checked visually on the user's desktop after publication.
 

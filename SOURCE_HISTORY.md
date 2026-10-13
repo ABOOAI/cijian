@@ -1,8 +1,7 @@
-# 词间 · Desktop learning workspace 4.3
+# 词间功能演进记录
 
-Existing Site: appgprj_6ac0e75ad0f88191b6830586ec03911a. Keep its current public audience and URL.
 
-Static, dependency-free browser app. `npm run build` copies the public artifacts into `dist`; `.openai/hosting.json` is the unchanged Site identity. `npm test` runs core and compatibility tests. `npm start` serves the local development checkout, where permitted.
+Static, dependency-free browser app. `npm run build` copies the public artifacts into `dist`; `npm test` runs core and compatibility tests. `npm start` serves the local development checkout, where permitted.
 
 ## Architecture
 - `src/vocabulary.js`, `vocabulary-data.json`, `memory-hints.json`: official 289-word grade-seven upper dataset and original memory guidance.
@@ -13,7 +12,7 @@ Static, dependency-free browser app. `npm run build` copies the public artifacts
 
 Storage is device-local. V1 overall records are preserved, copied into `legacy`, and conservatively assigned a compatibility review queue. No transfer of mastery into unseen skills. The current state key is `word-garden.workspace.v2`; custom vocabulary is separately `word-garden.custom.v1`.
 
-See TEST_REPORT.md for tested behavior and the explicit missing browser/visual validation. The DOM harness uses a QA-only external JSDOM installation, not a site dependency; point its import at an available jsdom install if rerunning elsewhere.
+See TEST_REPORT.md for tested behavior and the explicit missing browser/visual validation. 当前仓库使用锁定的jsdom开发依赖；运行测试前请执行npm ci。
 
 ## Kokoro audio 4.1
 
@@ -92,7 +91,7 @@ Static Kokoro preparation covers current/next sentence, next word and current ph
 Directly restoring a graded answer within an unfinished word practice session starts the same60-second foreground activity window as entering the question. Viewing the answer explanation is included; periodic rendering still cannot extend idle time.
 
 ### User-facing release version policy
-From the next published release, use1.11.0, then increment the final decimal digit exactly once per successful public release:1.11.1 through1.11.9, then1.12.0,1.12.1, and so on. Draft source saves, undeployed versions, failed deployment attempts and retries do not consume a user-facing version. Keep the package version, visible footer and current release note consistent. Sites saved-version numbers are separate internal sequence IDs. Never use display-version comparison to clear or migrate learning progress; preserve storage schemas and stable IDs independently.
+From the next published release, use1.11.0, then increment the final decimal digit exactly once per successful public release:1.11.1 through1.11.9, then1.12.0,1.12.1, and so on. Draft source saves, undeployed versions, failed deployment attempts and retries do not consume a user-facing version. Keep the package version, visible footer and current release note consistent. Never use display-version comparison to clear or migrate learning progress; preserve storage schemas and stable IDs independently.
 
 ### Clear answer feedback (1.11.1)
 Expected answer stays above the learner input. Matching characters are green in both rows; incorrect input is red, with neutral emphasis for the expected replacement. Empty bordered cells represent real spaces. Error type summaries distinguish replacement, omitted/extra characters and transposition without dense per-character labels. All word, sentence and phrase result panels use explicit outcome states, large symbol-plus-text titles, strong borders and polite status announcements. Sentence incorrect results no longer inherit the old green default panel. This follows W3C guidance on clear textual error identification and recognizable feedback, without claiming a universal dyslexia preference or clinical benefit.
