@@ -1,0 +1,67 @@
+name: Restore audited project snapshot
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  restore:
+    if: github.repository == 'ABOOAI/cijian'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+      - name: Verify and safely expand original snapshot
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import pathlib, json, hashlib, zipfile, stat, shutil
+          root=pathlib.Path.cwd()
+          manifest=root/'BACKUP_MANIFEST.json'
+          assert hashlib.sha256(manifest.read_bytes()).hexdigest()=='f2e12d94007a70e30f3afd1d44146801dffe5f59fb1795203a233de63979d79c'
+          data=json.loads(manifest.read_text())
+          assert data['sourceCommit']=='fbe2b6c1372c491d81daff42cb42556b5f774b5e'
+          allowed={'src','audio','dictionary','tests'}
+          rootfiles={'.gitignore','README.md','TEST_REPORT.md','BACKUP_RESTORE.md','build-static.mjs','index.html','package.json','server.mjs','styles.css'}
+          seen=set(); total=0
+          for i,item in enumerate(data['archives'],1):
+              assert item['file']==f'cijian-1.11.3-part-{i:02}.zip'
+              p=root/item['file']; raw=p.read_bytes()
+              assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256']
+              with zipfile.ZipFile(p) as z:
+                  assert len(z.infolist())==item['fileCount']
+                  for info in z.infolist():
+                      rel=pathlib.PurePosixPath(info.filename)
+                      assert not rel.is_absolute() and '..' not in rel.parts and '\\' not in info.filename
+                      assert info.filename not in seen and (rel.parts[0] in allowed or str(rel) in rootfiles)
+                      assert not info.is_dir() and not stat.S_ISLNK(info.external_attr >> 16)
+                      assert info.file_size<2000000
+                      seen.add(info.filename); total+=info.file_size
+          assert len(seen)==2273 and sum(x.endswith('.mp3') for x in seen)==1023 and total<90000000
+          archive=root/'backups'/'1.11.3';archive.mkdir(parents=True,exist_ok=True)
+          shutil.copy2(root/'README.md',archive/'README.md')
+          for item in data['archives']:
+              p=root/item['file']
+              with zipfile.ZipFile(p) as z:
+                  for info in z.infolist():
+                      dest=root/info.filename;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(z.read(info))
+              shutil.move(str(p),str(archive/p.name))
+          shutil.move(str(manifest),str(archive/manifest.name))
+          shutil.copy2(root/'README.md',root/'SOURCE_HISTORY.md')
+          (root/'README.md').write_text('# 词间英语学习中心\n\n完整可开发项目，应用版本 1.11.3。源码展开自已发布版本 fbe2b6c1372c491d81daff42cb42556b5f774b5e。\n\n## 开发与运行\n\n需要 Node.js 20 或更新的受支持版本。核心运行无外部 npm 依赖。\n\n    npm test\n    npm run build\n    npm start\n\n打开 http://127.0.0.1:4173 。dist 是可托管的静态构建；不要直接 file:// 打开。\n\n## 目录\n\n- src：应用逻辑、711词词库、句子与搭配题库\n- audio：全部1,023个静态MP3及许可\n- dictionary：词典数据和许可\n- tests：核心测试及可选DOM/浏览器测试\n- backups/1.11.3：原始完整快照、校验清单和恢复说明\n\nDOM测试保留原QA环境的jsdom绝对导入路径，跨环境重跑时需要按TEST_REPORT.md配置。浏览器测试需要可用Chromium。核心npm test无此依赖。\n\n学习进度和自定义内容保存在浏览器；切换域名不会自动迁移。自定义朗读依赖设备语音，本地翻译取决于浏览器支持。没有后台账号或付费API。\n\n公开仓库不包含密码、令牌或个人学习进度。历史版本说明见SOURCE_HISTORY.md。本站前端是静态应用，适合GitHub Pages；启用托管应另按部署配置完成。\n',encoding='utf-8')
+          with (root/'.gitignore').open('a') as f:f.write('\ndist/\n.env\n.env.*\n')
+          print('Verified and restored 2273 files, including 1023 MP3s')
+          PY
+      - name: Test and build
+        run: |
+          npm test
+          npm run build
+      - name: Commit expanded project
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          touch .nojekyll
+          git add -A
+          git commit -m "Expand verified Cijian 1.11.3 snapshot into full project"
+          git push origin HEAD:main
