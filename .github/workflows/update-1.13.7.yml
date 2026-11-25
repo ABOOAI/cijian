@@ -1,6 +1,7 @@
 name: Complete Cijian 1.13.7 backup
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
