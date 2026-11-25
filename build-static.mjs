@@ -4,7 +4,9 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 
 const root=path.dirname(fileURLToPath(import.meta.url));
-const publicFiles=['index.html','styles.css','src/app.js','src/phrases.js','src/phrases-ui.js','src/phrases-bank.json','src/phrases-audio.json','src/answer-focus.js','src/spelling-diff.js','src/practice-novelty.js','src/fresh-practice/generator.mjs','src/fresh-practice/catalog.mjs','src/fresh-practice/context.mjs','src/fresh-practice/reading.mjs','src/fresh-practice/cloze.mjs','src/enter-practice.js','src/queue-policy.js','src/custom-sentences.js','src/local-translation.js','src/practice-timer.js','src/practice-time-ui.js','src/sentence-dictation.js','src/sentence-dictation.json','src/review-timing.js','src/correction.js','src/correction-ui.js','src/syllable-correction-manifest.json','src/mastery.js','src/context-audio.js','src/context-audio-manifest.json','src/adaptive.js','src/adaptive-ui.js','src/adaptive-context-bank.json','src/practice-audio-manifest.json','src/engine.js','src/storage.js','src/vocabulary.js','src/vocabulary-data.json','src/supplemental-vocabulary.json','src/memory-hints.json','src/scheduler.js','src/custom-words.js','src/phonics-context-pilot.json','src/audio.js','src/audio-manifest.json','src/dictionary.js','src/interactions.js','dictionary/manifest.json','dictionary/LICENSE.txt'];
+const publicFiles=['src/pagination.js','src/learning-backup.js','src/backup-ui.js','src/cloud-sync.js','src/supabase-config.js','src/backup-validation.js','index.html','styles.css','src/app.js','src/custom-kokoro.js','src/kokoro-worker.js','src/sentence-tracking.js','src/custom-learning.js','src/daily-insights.js','src/daily-insights-ui.js','src/phrases.js','src/phrases-ui.js','src/phrases-bank.json','src/phrases-audio.json','src/answer-focus.js','src/spelling-diff.js','src/practice-novelty.js','src/fresh-practice/generator.mjs','src/fresh-practice/catalog.mjs','src/fresh-practice/context.mjs','src/fresh-practice/reading.mjs','src/fresh-practice/cloze.mjs','src/enter-practice.js','src/queue-policy.js','src/custom-sentences.js','src/local-translation.js','src/practice-timer.js','src/practice-time-ui.js','src/sentence-dictation.js','src/sentence-dictation.json','src/review-timing.js','src/correction.js','src/correction-ui.js','src/syllable-correction-manifest.json','src/mastery.js','src/context-audio.js','src/context-audio-manifest.json','src/adaptive.js','src/adaptive-ui.js','src/adaptive-context-bank.json','src/practice-audio-manifest.json','src/engine.js','src/storage.js','src/vocabulary.js','src/vocabulary-data.json','src/supplemental-vocabulary.json','src/memory-hints.json','src/scheduler.js','src/custom-words.js','src/phonics-context-pilot.json','src/audio.js','src/audio-manifest.json','src/dictionary.js','src/interactions.js','dictionary/manifest.json','dictionary/LICENSE.txt'];
+publicFiles.push('src/letter-audio.js',...[...'abcdefghijklmnopqrstuvwxyz'].map(letter=>`audio/letter-${letter}.mp3`));
+publicFiles.push('src/cloud-storage.js','src/auth-gate.js','src/supabase-client.js');
 const manifest=JSON.parse(await fs.readFile(path.join(root,'src/audio-manifest.json'),'utf8'));
 const original=JSON.parse(await fs.readFile(path.join(root,'src/vocabulary-data.json'),'utf8')),supplement=JSON.parse(await fs.readFile(path.join(root,'src/supplemental-vocabulary.json'),'utf8'));
 const expected=original.units.flatMap(u=>u.words).map(w=>w.id).concat(supplement.words.map(w=>w.id));
@@ -21,11 +23,16 @@ for(const item of sentenceBank.groups.flatMap(g=>g.items)){if(!/^audio\/sentence
 const phraseAudio=JSON.parse(await fs.readFile(path.join(root,'src/phrases-audio.json'),'utf8'));for(const file of [...Object.values(phraseAudio.phraseFiles),...Object.values(phraseAudio.exampleFiles)]){if(!/^audio\/collocation-[a-zA-Z0-9_-]+\.mp3$/.test(file))throw new Error('Invalid phrase audio');publicFiles.push(file);}
 publicFiles.push('audio/LICENSE.txt');
 for(const folder of ['shards','lemmas'])for(const file of await fs.readdir(path.join(root,'dictionary',folder))){if(!/^[a-z_]{1,2}\.json$/.test(file))throw new Error('Invalid dictionary shard');publicFiles.push(`dictionary/${folder}/${file}`);}
-for(const relative of publicFiles) {
-  const input=path.join(root,relative),output=path.join(root,'dist',relative);
+async function vendorFiles(folder){for(const entry of await fs.readdir(path.join(root,folder),{withFileTypes:true})){const file=folder+'/'+entry.name;if(entry.isDirectory())await vendorFiles(file);else{if((await fs.stat(path.join(root,file))).size>25*1024*1024)throw new Error('Kokoro asset exceeds static size limit: '+file);publicFiles.push(file);}}}
+await vendorFiles('vendor/kokoro');
+async function copyVerified(source,target=source) {
+  const input=path.join(root,source),output=path.join(root,'dist',target);
   await fs.mkdir(path.dirname(output),{recursive:true});
   await fs.copyFile(input,output);
   const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
-  if(digest(await fs.readFile(input))!==digest(await fs.readFile(output))) throw new Error(`静态文件校验失败：${relative}`);
+  if(digest(await fs.readFile(input))!==digest(await fs.readFile(output))) throw new Error(`静态文件校验失败：${target}`);
 }
-console.log(JSON.stringify({directory:path.join(root,'dist'),count:publicFiles.length,audioFiles:manifest.entries.length,verified:true}));
+for(const relative of publicFiles)await copyVerified(relative);
+await copyVerified('node_modules/@supabase/supabase-js/dist/umd/supabase.js','vendor/supabase/supabase.js');
+await copyVerified('node_modules/@supabase/supabase-js/LICENSE','vendor/supabase/LICENSE');
+console.log(JSON.stringify({directory:path.join(root,'dist'),count:publicFiles.length+2,audioFiles:manifest.entries.length,verified:true}));

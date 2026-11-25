@@ -1,0 +1,184 @@
+{
+  "A": {
+    "ipa": "eɪ",
+    "filename": "letter-a.mp3",
+    "duration_ms": 1300,
+    "sha256": "32bdb3789bf06476c8784e262663550f1e00818b5879f1a408d90e101cd5101c",
+    "sample_count": 31200
+  },
+  "B": {
+    "ipa": "biː",
+    "filename": "letter-b.mp3",
+    "duration_ms": 1375,
+    "sha256": "a4883e6cbdfae4bc455adddb8e86b30da1c363909ed3c7effe4e11e49abde88d",
+    "sample_count": 33000
+  },
+  "C": {
+    "ipa": "siː",
+    "filename": "letter-c.mp3",
+    "duration_ms": 1325,
+    "sha256": "3342514978b165211fcc4e0718c7cfc0c727387ab15b754acc8dc0c0f1d3d87c",
+    "sample_count": 31800
+  },
+  "D": {
+    "ipa": "diː",
+    "filename": "letter-d.mp3",
+    "duration_ms": 1350,
+    "sha256": "2bda86828685617f664c31991a8a9f170afd068787a416184832ddddb1e2e05e",
+    "sample_count": 32400
+  },
+  "E": {
+    "ipa": "iː",
+    "filename": "letter-e.mp3",
+    "duration_ms": 1325,
+    "sha256": "0fee5cf5e5b321799e159056d8b819d3c4c4d1fc0585c0e6f16bbbf235aab70c",
+    "sample_count": 31800
+  },
+  "F": {
+    "ipa": "ɛf",
+    "filename": "letter-f.mp3",
+    "duration_ms": 1300,
+    "sha256": "4d0f417985d8f6716f2fc12ede3f48fcef16611a407bf873a9d5dc61b21dc40f",
+    "sample_count": 31200
+  },
+  "G": {
+    "ipa": "dʒiː",
+    "filename": "letter-g.mp3",
+    "duration_ms": 1450,
+    "sha256": "35eb9b59e57c07631d4b689e92ef0906efdfe72b0ab61fd0688bca48d9255326",
+    "sample_count": 34800
+  },
+  "H": {
+    "ipa": "eɪtʃ",
+    "filename": "letter-h.mp3",
+    "duration_ms": 1300,
+    "sha256": "2089581f587294573b73490fb1e828d68754c7c16de6619461c9952a05738b2d",
+    "sample_count": 31200
+  },
+  "I": {
+    "ipa": "aɪ",
+    "filename": "letter-i.mp3",
+    "duration_ms": 1325,
+    "sha256": "c509d44e427b58a07bac3486e3cb35ee79b08f451644d348956c7b3e084063b7",
+    "sample_count": 31800
+  },
+  "J": {
+    "ipa": "dʒeɪ",
+    "filename": "letter-j.mp3",
+    "duration_ms": 1400,
+    "sha256": "fe887bf2473fea2de7641b00d25f472f07233a993135e6dae229a01d9c3a0bf1",
+    "sample_count": 33600
+  },
+  "K": {
+    "ipa": "keɪ",
+    "filename": "letter-k.mp3",
+    "duration_ms": 1325,
+    "sha256": "1fd1b1e6f0c2f0a7d4df145e091dcfd86b3a126c6e5f6451f22fec22cd8a5648",
+    "sample_count": 31800
+  },
+  "L": {
+    "ipa": "ɛl",
+    "filename": "letter-l.mp3",
+    "duration_ms": 1300,
+    "sha256": "110c811dac46369f085cff6963c2a11a2fd5c90679b322f91aa9461f732daaf3",
+    "sample_count": 31200
+  },
+  "M": {
+    "ipa": "ɛm",
+    "filename": "letter-m.mp3",
+    "duration_ms": 1350,
+    "sha256": "a84e2022015ce8307d16c26356867dff56625cdd943b5eb89d026b328adc0d68",
+    "sample_count": 32400
+  },
+  "N": {
+    "ipa": "ɛn",
+    "filename": "letter-n.mp3",
+    "duration_ms": 1325,
+    "sha256": "02b2ec97ed2c8df9e6a6496ecacdc0632fd10950dc336d189c0c491d9073402a",
+    "sample_count": 31800
+  },
+  "O": {
+    "ipa": "oʊ",
+    "filename": "letter-o.mp3",
+    "duration_ms": 1325,
+    "sha256": "fa40d67c911a89b5012e7a03eea13a0ea6e1ad56e9eba90d747c7cf523f99d41",
+    "sample_count": 31800
+  },
+  "P": {
+    "ipa": "piː",
+    "filename": "letter-p.mp3",
+    "duration_ms": 1350,
+    "sha256": "df30c26e6dddc1bb5eb1604ce93102b21c6980b9c8ea8cc7d97c993b01475eaf",
+    "sample_count": 32400
+  },
+  "Q": {
+    "ipa": "kjuː",
+    "filename": "letter-q.mp3",
+    "duration_ms": 1375,
+    "sha256": "dbfb7bb3229541ba28fe43e979ba33d94e3bf1dad2541347e31d909b4d23617d",
+    "sample_count": 33000
+  },
+  "R": {
+    "ipa": "ɑɹ",
+    "filename": "letter-r.mp3",
+    "duration_ms": 1375,
+    "sha256": "af433e932c4bf53ba1abe6a0f35c4a507fd3511ab57c429d48c7fd6cb13711ce",
+    "sample_count": 33000
+  },
+  "S": {
+    "ipa": "ɛs",
+    "filename": "letter-s.mp3",
+    "duration_ms": 1300,
+    "sha256": "e263af159aa35e5c278f90b8925b22afab23fca61473dcb1970cccbb242121ca",
+    "sample_count": 31200
+  },
+  "T": {
+    "ipa": "tiː",
+    "filename": "letter-t.mp3",
+    "duration_ms": 1375,
+    "sha256": "1f588d092a267b6e1d2f96a0c44c224177c245c9bd57b0b8b0acaf0fce3b516e",
+    "sample_count": 33000
+  },
+  "U": {
+    "ipa": "juː",
+    "filename": "letter-u.mp3",
+    "duration_ms": 1350,
+    "sha256": "46f64bda6d85a7e1ff84f3d86e616df42a5ba5b06474725340bcbcedcc29603f",
+    "sample_count": 32400
+  },
+  "V": {
+    "ipa": "viː",
+    "filename": "letter-v.mp3",
+    "duration_ms": 1325,
+    "sha256": "4005b0087f52ce60d82a8ffe643c69d93e4c2730ba5397b8a634e60cb25d2039",
+    "sample_count": 31800
+  },
+  "W": {
+    "ipa": "ˈdʌbəljuː",
+    "filename": "letter-w.mp3",
+    "duration_ms": 1625,
+    "sha256": "05b32c62bffdbb0b9fdaebefe3aee151ca49c0aeb18febbb70dfade6bf7eb8ce",
+    "sample_count": 39000
+  },
+  "X": {
+    "ipa": "ɛks",
+    "filename": "letter-x.mp3",
+    "duration_ms": 1275,
+    "sha256": "90091bb0f7dcbc036861799c361d35809a00e986006424c8d0cdacf1799dec2b",
+    "sample_count": 30600
+  },
+  "Y": {
+    "ipa": "waɪ",
+    "filename": "letter-y.mp3",
+    "duration_ms": 1375,
+    "sha256": "ce796727d276c564dc868531f28f0bd216b1833b7cb89e987e5219c2feea4365",
+    "sample_count": 33000
+  },
+  "Z": {
+    "ipa": "ziː",
+    "filename": "letter-z.mp3",
+    "duration_ms": 1350,
+    "sha256": "a6eecbe68c7b6a971018305435cf9b56903c100ecd33cf348d1c1428df89f518",
+    "sample_count": 32400
+  }
+}

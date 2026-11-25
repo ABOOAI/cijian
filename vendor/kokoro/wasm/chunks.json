@@ -1,0 +1,16 @@
+{
+  "bytes": 21596019,
+  "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39",
+  "chunks": [
+    {
+      "file": "ort-wasm-0.bin",
+      "bytes": 16777216,
+      "sha256": "9d41eaeb98b753f4fb40fd7ab6d37d86f37f31b08f78446a8a83327beb7f68f0"
+    },
+    {
+      "file": "ort-wasm-1.bin",
+      "bytes": 4818803,
+      "sha256": "b870ce8426a85ac994ef80359c3a01cd79d01ae49cf19f8a98d24810bbc7b4f4"
+    }
+  ]
+}

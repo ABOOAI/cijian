@@ -1,0 +1,36 @@
+{
+  "bytes": 92361116,
+  "sha256": "fbae9257e1e05ffc727e951ef9b9c98418e6d79f1c9b6b13bd59f5c9028a1478",
+  "chunks": [
+    {
+      "file": "model-q8-0.bin",
+      "bytes": 16777216,
+      "sha256": "d99847a1379f6d2d3cbc8fb85ac996f641fa5f3f0d3ff71a18a9bb1e12f1c23a"
+    },
+    {
+      "file": "model-q8-1.bin",
+      "bytes": 16777216,
+      "sha256": "9ab9f372ac69724d6014b58fe04294b5479eb0375b4d520e092f0a6b8ee3b3ed"
+    },
+    {
+      "file": "model-q8-2.bin",
+      "bytes": 16777216,
+      "sha256": "f7e42547850f650f05622ce3a8ddb072550df0f1a966095b7a71212cc26ffb37"
+    },
+    {
+      "file": "model-q8-3.bin",
+      "bytes": 16777216,
+      "sha256": "5ce432e839c47461fbb16f35f0d59b6314641c8aac7a07ad78506ff5e4cebf92"
+    },
+    {
+      "file": "model-q8-4.bin",
+      "bytes": 16777216,
+      "sha256": "f5362dcbd4a4997ac3e72ed0b4ed7ae2d769d64c356611755199b2e407eb3700"
+    },
+    {
+      "file": "model-q8-5.bin",
+      "bytes": 8475036,
+      "sha256": "6a38f960b86121c94c201cab83953f49a0b42f238e63b66c7739f76c0b123ad9"
+    }
+  ]
+}

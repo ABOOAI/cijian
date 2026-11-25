@@ -19,7 +19,7 @@ for (const word of vocabularyWords) {
     throw new Error(`记忆提示内容未匹配（${word.id}），请刷新重试。`);
   }
 }
-const supplementResponse=await fetch(new URL('./supplemental-vocabulary.json',import.meta.url));
+const supplementResponse=await fetch(new URL('./supplemental-vocabulary.json?v=1.13.7',import.meta.url));
 if(!supplementResponse.ok)throw new Error('补充词库读取失败，请刷新重试。');
 const supplement=await supplementResponse.json();
 if(supplement.schemaVersion!==1||!Array.isArray(supplement.words)||!Array.isArray(supplement.groups))throw new Error('补充词库格式不正确。');
@@ -40,7 +40,7 @@ export const BOOK = {
   status,
   shortLabel: isOfficialList ? '官方现行七上词表' : '2024新版练习词库',
   coverageLabel: '单元词表 + 小学词汇 + 数词、月份、星期',
-  scope:`单元词表${vocabularyWords.length}词项，另含小学词汇、数词、月份和星期${supplement.words.length}词项。小学词独立位于预备单元，原课本单元仅保留来源信息；未纳入其他Reference类别。`,
+  scope:`单元词表${vocabularyWords.length}词项，另含小学词汇、数词、月份和星期${supplement.words.length}词项。全部小学词保留在预备单元，第121–125页的246词也可在对应单元的独立「小学词汇」入口练习，两处共用学习记录；未纳入其他Reference类别。`,
   pronunciation:'补充词表保留教材英式音标；整词朗读为Kokoro美音合成，二者可能不同。未编造未核对的音节分解。',
   totalWords:vocabularyWords.length+supplement.words.length,
   originalUnitWords:vocabularyWords.length,

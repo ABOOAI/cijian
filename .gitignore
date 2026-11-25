@@ -2,8 +2,5 @@ evidence/
 .sites-runtime/
 .sites-artifacts/
 node_modules/
-*.log
-
 dist/
-.env
-.env.*
+*.log

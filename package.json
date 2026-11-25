@@ -1,15 +1,18 @@
 {
   "name": "word-garden-local",
-  "version": "1.11.3",
+  "version": "1.13.7",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node build-static.mjs",
     "start": "node server.mjs",
-    "test": "node --test tests/engine.test.mjs tests/vocabulary.test.mjs tests/scheduler-v4.test.mjs tests/audio.test.mjs tests/dictionary.test.mjs tests/interactions.test.mjs tests/adaptive.test.mjs tests/supplement.test.mjs tests/context-audio.test.mjs tests/mastery.test.mjs tests/instructions.test.mjs tests/correction.test.mjs tests/sentence-dictation.test.mjs tests/practice-timer.test.mjs tests/custom-sentences.test.mjs tests/queue-policy.test.mjs tests/practice-novelty.test.mjs tests/spelling-diff.test.mjs tests/answer-focus.test.mjs tests/phrases.test.mjs",
+    "test": "node --test tests/letter-audio.test.mjs tests/auth-gate.test.mjs tests/cloud-storage.test.mjs tests/custom-kokoro.test.mjs tests/custom-sentence-save.test.mjs tests/custom-learning.test.mjs tests/custom-us-audio.test.mjs tests/custom-learning-integration.test.mjs tests/engine.test.mjs tests/vocabulary.test.mjs tests/scheduler-v4.test.mjs tests/audio.test.mjs tests/dictionary.test.mjs tests/interactions.test.mjs tests/adaptive.test.mjs tests/supplement.test.mjs tests/context-audio.test.mjs tests/mastery.test.mjs tests/instructions.test.mjs tests/correction.test.mjs tests/sentence-dictation.test.mjs tests/practice-timer.test.mjs tests/custom-sentences.test.mjs tests/queue-policy.test.mjs tests/practice-novelty.test.mjs tests/spelling-diff.test.mjs tests/answer-focus.test.mjs tests/phrases.test.mjs tests/custom-phrases-ui.test.mjs tests/daily-insights.test.mjs tests/daily-insights-ui.test.mjs tests/daily-insights-integration.test.mjs tests/relearn-center.test.mjs tests/sentence-replay.test.mjs tests/adaptive-replay.test.mjs tests/phrases-replay.test.mjs tests/mastered-review-integration.test.mjs tests/backup-validation.test.mjs tests/learning-backup.test.mjs tests/cloud-sync.test.mjs tests/backup-ui-integration.test.mjs tests/pagination-integration.test.mjs tests/secondary-pagination.test.mjs tests/unit-cycle-integration.test.mjs",
     "test:browser": "node tests/browser-v4.mjs"
   },
+  "dependencies": {
+    "@supabase/supabase-js": "2.119.0"
+  },
   "devDependencies": {
-    "jsdom": "26.1.0"
+    "jsdom": "^26.1.0"
   }
 }

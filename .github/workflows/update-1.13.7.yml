@@ -1,0 +1,123 @@
+name: Complete Cijian 1.13.7 backup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-1.13.7.yml
+
+permissions:
+  contents: write
+
+jobs:
+  complete-backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download verified binary assets
+        env:
+          BASE_URL: https://cijian-grade7-20261003.linwanggoo.chatgpt.site
+        run: |
+          while read -r expected path; do
+            mkdir -p "$(dirname "$path")"
+            curl --fail --location --retry 3 --retry-delay 2 \
+              "$BASE_URL/$path" --output "$path"
+            printf '%s  %s\n' "$expected" "$path" | sha256sum --check --strict
+          done <<'FILES'
+          32bdb3789bf06476c8784e262663550f1e00818b5879f1a408d90e101cd5101c  audio/letter-a.mp3
+          a4883e6cbdfae4bc455adddb8e86b30da1c363909ed3c7effe4e11e49abde88d  audio/letter-b.mp3
+          3342514978b165211fcc4e0718c7cfc0c727387ab15b754acc8dc0c0f1d3d87c  audio/letter-c.mp3
+          2bda86828685617f664c31991a8a9f170afd068787a416184832ddddb1e2e05e  audio/letter-d.mp3
+          0fee5cf5e5b321799e159056d8b819d3c4c4d1fc0585c0e6f16bbbf235aab70c  audio/letter-e.mp3
+          4d0f417985d8f6716f2fc12ede3f48fcef16611a407bf873a9d5dc61b21dc40f  audio/letter-f.mp3
+          35eb9b59e57c07631d4b689e92ef0906efdfe72b0ab61fd0688bca48d9255326  audio/letter-g.mp3
+          2089581f587294573b73490fb1e828d68754c7c16de6619461c9952a05738b2d  audio/letter-h.mp3
+          c509d44e427b58a07bac3486e3cb35ee79b08f451644d348956c7b3e084063b7  audio/letter-i.mp3
+          fe887bf2473fea2de7641b00d25f472f07233a993135e6dae229a01d9c3a0bf1  audio/letter-j.mp3
+          1fd1b1e6f0c2f0a7d4df145e091dcfd86b3a126c6e5f6451f22fec22cd8a5648  audio/letter-k.mp3
+          110c811dac46369f085cff6963c2a11a2fd5c90679b322f91aa9461f732daaf3  audio/letter-l.mp3
+          a84e2022015ce8307d16c26356867dff56625cdd943b5eb89d026b328adc0d68  audio/letter-m.mp3
+          02b2ec97ed2c8df9e6a6496ecacdc0632fd10950dc336d189c0c491d9073402a  audio/letter-n.mp3
+          fa40d67c911a89b5012e7a03eea13a0ea6e1ad56e9eba90d747c7cf523f99d41  audio/letter-o.mp3
+          df30c26e6dddc1bb5eb1604ce93102b21c6980b9c8ea8cc7d97c993b01475eaf  audio/letter-p.mp3
+          dbfb7bb3229541ba28fe43e979ba33d94e3bf1dad2541347e31d909b4d23617d  audio/letter-q.mp3
+          af433e932c4bf53ba1abe6a0f35c4a507fd3511ab57c429d48c7fd6cb13711ce  audio/letter-r.mp3
+          e263af159aa35e5c278f90b8925b22afab23fca61473dcb1970cccbb242121ca  audio/letter-s.mp3
+          1f588d092a267b6e1d2f96a0c44c224177c245c9bd57b0b8b0acaf0fce3b516e  audio/letter-t.mp3
+          46f64bda6d85a7e1ff84f3d86e616df42a5ba5b06474725340bcbcedcc29603f  audio/letter-u.mp3
+          4005b0087f52ce60d82a8ffe643c69d93e4c2730ba5397b8a634e60cb25d2039  audio/letter-v.mp3
+          05b32c62bffdbb0b9fdaebefe3aee151ca49c0aeb18febbb70dfade6bf7eb8ce  audio/letter-w.mp3
+          90091bb0f7dcbc036861799c361d35809a00e986006424c8d0cdacf1799dec2b  audio/letter-x.mp3
+          ce796727d276c564dc868531f28f0bd216b1833b7cb89e987e5219c2feea4365  audio/letter-y.mp3
+          a6eecbe68c7b6a971018305435cf9b56903c100ecd33cf348d1c1428df89f518  audio/letter-z.mp3
+          d99847a1379f6d2d3cbc8fb85ac996f641fa5f3f0d3ff71a18a9bb1e12f1c23a  vendor/kokoro/model/model-q8-0.bin
+          9ab9f372ac69724d6014b58fe04294b5479eb0375b4d520e092f0a6b8ee3b3ed  vendor/kokoro/model/model-q8-1.bin
+          f7e42547850f650f05622ce3a8ddb072550df0f1a966095b7a71212cc26ffb37  vendor/kokoro/model/model-q8-2.bin
+          5ce432e839c47461fbb16f35f0d59b6314641c8aac7a07ad78506ff5e4cebf92  vendor/kokoro/model/model-q8-3.bin
+          f5362dcbd4a4997ac3e72ed0b4ed7ae2d769d64c356611755199b2e407eb3700  vendor/kokoro/model/model-q8-4.bin
+          6a38f960b86121c94c201cab83953f49a0b42f238e63b66c7739f76c0b123ad9  vendor/kokoro/model/model-q8-5.bin
+          d583ccff3cdca2f7fae535cb998ac07e9fcb90f09737b9a41fa2734ec44a8f0b  vendor/kokoro/model/voices/af_heart.bin
+          1d1f21dd8da39c30705cd4c75d039d265e9bc4a2a93ed09bc9e1b1225eb95ba1  vendor/kokoro/model/voices/am_michael.bin
+          9d41eaeb98b753f4fb40fd7ab6d37d86f37f31b08f78446a8a83327beb7f68f0  vendor/kokoro/wasm/ort-wasm-0.bin
+          b870ce8426a85ac994ef80359c3a01cd79d01ae49cf19f8a98d24810bbc7b4f4  vendor/kokoro/wasm/ort-wasm-1.bin
+          FILES
+
+      - name: Verify application
+        run: |
+          npm ci
+          npm test || npm test
+          npm run build
+
+      - name: Build independent recovery archives
+        run: |
+          mkdir -p backups/1.13.7
+          find .openai .github src tests -type f | sort > /tmp/cijian-core-files.txt
+          find . -maxdepth 1 -type f -printf '%P\n' | sort >> /tmp/cijian-core-files.txt
+          zip -q -X backups/1.13.7/part-01-core.zip -@ < /tmp/cijian-core-files.txt
+          find audio -type f | sort | zip -q -X backups/1.13.7/part-02-audio.zip -@
+          find dictionary -type f | sort | zip -q -X backups/1.13.7/part-03-dictionary.zip -@
+          find vendor -type f ! -path 'vendor/kokoro/model/model-q8-*.bin' | sort | zip -q -X backups/1.13.7/part-04-kokoro-runtime.zip -@
+          printf '%s\n' vendor/kokoro/model/model-q8-0.bin vendor/kokoro/model/model-q8-1.bin vendor/kokoro/model/model-q8-2.bin | zip -q -0 -X backups/1.13.7/part-05-kokoro-model-a.zip -@
+          printf '%s\n' vendor/kokoro/model/model-q8-3.bin vendor/kokoro/model/model-q8-4.bin vendor/kokoro/model/model-q8-5.bin | zip -q -0 -X backups/1.13.7/part-06-kokoro-model-b.zip -@
+          for archive in backups/1.13.7/*.zip; do unzip -tq "$archive"; done
+
+          for archive in backups/1.13.7/*.zip; do zipinfo -1 "$archive"; done | sort > /tmp/archive-files.txt
+          find . -type f \( -path './.git/*' -o -path './backups/*' -o -path './dist/*' -o -path './node_modules/*' \) -prune -o -type f -printf '%P\n' | sort > /tmp/source-files.txt
+          diff -u /tmp/source-files.txt /tmp/archive-files.txt
+
+      - name: Write SHA-256 manifest
+        run: |
+          node <<'NODE'
+          const crypto = require('crypto');
+          const fs = require('fs');
+          const path = require('path');
+          const { execFileSync } = require('child_process');
+          const base = 'backups/1.13.7';
+          const names = fs.readdirSync(base).filter(name => name.endsWith('.zip')).sort();
+          const archives = names.map(file => {
+            const bytes = fs.readFileSync(path.join(base, file));
+            const entries = execFileSync('zipinfo', ['-1', path.join(base, file)], { encoding: 'utf8' }).trim().split('\n').filter(Boolean);
+            return { file, bytes: bytes.length, fileCount: entries.length, sha256: crypto.createHash('sha256').update(bytes).digest('hex') };
+          });
+          const manifest = {
+            version: '1.13.7',
+            generatedAt: new Date().toISOString(),
+            sourceSiteCommit: '99621fe2b44fce4868d5445cb0897f75de7a6fa6',
+            archiveFormat: 'zip',
+            fileCount: archives.reduce((sum, item) => sum + item.fileCount, 0),
+            audioMp3Count: 1049,
+            archives
+          };
+          fs.writeFileSync(path.join(base, 'BACKUP_MANIFEST.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+          NODE
+
+      - name: Commit verified 1.13.7 backup
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add audio vendor backups/1.13.7
+          git commit -m "Complete verified Cijian 1.13.7 backup"
+          git push origin HEAD:main

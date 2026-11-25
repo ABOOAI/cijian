@@ -9,11 +9,11 @@ export function audioEntryMap(manifest){
  }
  return out;
 }
-export function createAudioController({AudioCtor=globalThis.Audio,synthesis=globalThis.speechSynthesis,UtteranceCtor=globalThis.SpeechSynthesisUtterance,fetchImpl=null,urlAPI=globalThis.URL,timeoutMs=15000,maxCached=48,onPlaybackState=()=>{}}={}){
- let token=0,active=null,voiceCleanup=null;const cache=new Map(),pending=new Map(),denied=new Map();
+export function createAudioController({AudioCtor=globalThis.Audio,synthesis=globalThis.speechSynthesis,UtteranceCtor=globalThis.SpeechSynthesisUtterance,fetchImpl=null,urlAPI=globalThis.URL,timeoutMs=15000,speechEndTimeoutMs=null,maxCached=48,onPlaybackState=()=>{}}={}){
+ let token=0,active=null,voiceCleanup=null,generatedURL=null;const cache=new Map(),pending=new Map(),denied=new Map();
  const buffered=typeof fetchImpl==='function'&&typeof urlAPI?.createObjectURL==='function';
- function stop(){onPlaybackState('idle');token++;voiceCleanup?.();voiceCleanup=null;if(active){active.onended=null;active.onerror=null;active.onplaying=null;active.onwaiting=null;active.onstalled=null;try{active.pause();active.currentTime=0;}catch{}active=null;}try{synthesis?.cancel();}catch{}}
- const errorMessage=e=>e?.name==='NotAllowedError'?'浏览器阻止播放，请再次点击朗读按钮。':e?.name==='AbortError'?'音频加载超时，请检查网络后点击重试。':e?.name==='TypeError'?'网络未能取得音频，请检查连接后重试。':e?.name==='NotSupportedError'?'浏览器未能识别音频格式，请重试或选择设备朗读。':e?.message||'音频未能播放，请重试。';
+ function stop(){onPlaybackState('idle');token++;voiceCleanup?.();voiceCleanup=null;if(active){active.onended=null;active.onerror=null;active.onplaying=null;active.onwaiting=null;active.onstalled=null;try{active.pause();active.currentTime=0;}catch{}active=null;}try{synthesis?.cancel();}catch{}if(generatedURL){urlAPI.revokeObjectURL(generatedURL);generatedURL=null;}}
+ const errorMessage=e=>e?.name==='NotAllowedError'?'浏览器阻止播放，请再次点击朗读按钮。':e?.name==='AbortError'?'音频加载超时，请检查网络后点击重试。':e?.name==='TypeError'?'网络未能取得音频，请检查连接后重试。':e?.name==='NotSupportedError'?'浏览器未能识别音频格式，请重试。':e?.message||'音频未能播放，请重试。';
  function evict(){for(const [key,item] of cache){if(cache.size<=maxCached)break;if(active?.src===item.objectURL)continue;urlAPI.revokeObjectURL(item.objectURL);cache.delete(key);}}
  async function prepareFile(url,{retry=false}={}){
   if(!buffered)return url;
@@ -31,20 +31,52 @@ export function createAudioController({AudioCtor=globalThis.Audio,synthesis=glob
   stop();onPlaybackState('loading');const t=token;let reported=false;
   const fail=message=>{if(t!==token||reported)return;reported=true;onPlaybackState('idle');onError(message);};
   if(typeof AudioCtor!=='function'){fail('音频播放器不可用。');return false;}
-  let a,startTimer;try{let source=url;if(buffered){onLoading('正在加载 Kokoro 美音…');const cached=cache.get(url);if(cached){cache.delete(url);cache.set(url,cached);source=cached.objectURL;}else source=await prepareFile(url,{retry});if(t!==token)return false;}
-   a=new AudioCtor(source);active=a;a.preload='auto';a.onplaying=()=>{if(t===token&&active===a)onPlaybackState('playing');};a.onwaiting=a.onstalled=()=>{if(t===token&&active===a)onPlaybackState('loading');};a.onended=()=>{if(t===token&&active===a){active=null;onPlaybackState('idle');onComplete();}};a.onerror=()=>{if(t===token&&active===a){active=null;fail(a.error?.code===3?'浏览器无法解码这段音频，请重试或选择设备朗读。':a.error?.code===4?'浏览器未能识别音频格式，请重试或选择设备朗读。':'音频未能加载，请重试或选择设备朗读。');}};
+  let a,startTimer;try{let source=url;if(buffered&&!String(url).startsWith('blob:')){onLoading('正在加载 Kokoro 美音…');const cached=cache.get(url);if(cached){cache.delete(url);cache.set(url,cached);source=cached.objectURL;}else source=await prepareFile(url,{retry});if(t!==token)return false;}
+   a=new AudioCtor(source);active=a;a.preload='auto';a.onplaying=()=>{if(t===token&&active===a)onPlaybackState('playing');};a.onwaiting=a.onstalled=()=>{if(t===token&&active===a)onPlaybackState('loading');};a.onended=()=>{if(t===token&&active===a){active=null;onPlaybackState('idle');onComplete();}};a.onerror=()=>{if(t===token&&active===a){active=null;fail(a.error?.code===3?'浏览器无法解码这段音频，请重试。':a.error?.code===4?'浏览器未能识别音频格式，请重试。':'音频未能加载，请重试。');}};
    await Promise.race([a.play(),new Promise((_,reject)=>{startTimer=setTimeout(()=>reject(new Error('音频已下载，但播放启动超时，请点击朗读重试。')),timeoutMs);})]);clearTimeout(startTimer);if(t===token&&active===a){onPlaybackState('playing');onStart();return true;}return false;
   }catch(e){clearTimeout(startTimer);if(a){try{a.pause();}catch{}a.onended=a.onerror=a.onplaying=a.onwaiting=a.onstalled=null;}if(t===token){if(active===a)active=null;fail(errorMessage(e));}return false;}
  }
+ async function playBlob(blob,options={}){
+  if(typeof urlAPI?.createObjectURL!=='function'){options.onError?.('浏览器无法播放本机生成的音频。');return false;}
+  const url=urlAPI.createObjectURL(blob);
+  const release=()=>{if(generatedURL===url)generatedURL=null;urlAPI.revokeObjectURL(url);};
+  const result=playFile(url,{...options,onComplete:()=>{release();options.onComplete?.();},onError:message=>{release();options.onError?.(message);}});
+  generatedURL=url;
+  const started=await result;if(!started)release();return started;
+ }
  function playSpeech(text,{requireUS=false,onComplete=()=>{},onError=()=>{},onStart=()=>{},onLoading=()=>{}}={}){
-  stop();onPlaybackState('loading');const t=token;if(!synthesis||typeof UtteranceCtor!=='function'){onPlaybackState('idle');onError('此浏览器不支持设备合成朗读，可跳过听音题。');return false;}
-  const voices=()=>synthesis.getVoices().filter(v=>requireUS?/^en[-_]US$/i.test(v.lang):/^en(?:[-_]|$)/i.test(v.lang));
-  const speak=()=>{if(t!==token)return false;const available=voices();if(!available.length)return false;voiceCleanup?.();voiceCleanup=null;
-   let settled=false;const u=new UtteranceCtor(/^[A-Z]{2,5}$/.test(text)?text.split('').join(' '):text);u.voice=available.find(v=>/^en[-_]US$/i.test(v.lang))||available[0];u.lang=u.voice.lang;u.rate=.85;u.onstart=()=>{if(t===token)onPlaybackState('playing');};u.onpause=()=>{if(t===token)onPlaybackState('loading');};u.onresume=()=>{if(t===token)onPlaybackState('playing');};u.onend=()=>{if(t===token&&!settled){settled=true;onPlaybackState('idle');onComplete();}};u.onerror=()=>{if(t===token&&!settled){settled=true;onPlaybackState('idle');onError('设备声音未能播放，可重试或跳过。');}};try{synthesis.resume?.();synthesis.speak(u);onStart();return true;}catch{settled=true;onPlaybackState('idle');onError('设备声音未能播放，可跳过。');return false;}};
-  if(voices().length)return speak();const unavailable=()=>{onPlaybackState('idle');onError(requireUS?'此试学词使用美音。设备没有可用的 en-US 声音，可跳过听音题。':'设备没有英语声音，可跳过听音题，或安装英语语音包。');};
+  stop();onPlaybackState('loading');const t=token;let speaking=false,settled=false,started=false,startTimer,endTimer;
+  const alive=()=>t===token&&!settled;
+  const clear=()=>{clearTimeout(startTimer);clearTimeout(endTimer);};
+  const fail=message=>{if(!alive())return;settled=true;clear();voiceCleanup?.();voiceCleanup=null;try{synthesis?.cancel();}catch{}onPlaybackState('idle');onError(message);};
+  if(!synthesis||typeof UtteranceCtor!=='function'){fail('此浏览器不支持设备合成朗读，可跳过听音题。');return false;}
+  const voices=()=>{try{return synthesis.getVoices().filter(v=>requireUS?/^en[-_]US$/i.test(v.lang):/^en(?:[-_]|$)/i.test(v.lang));}catch{return [];}};
+  const speak=()=>{if(!alive()||speaking)return false;const available=voices();if(!available.length)return false;voiceCleanup?.();voiceCleanup=null;speaking=true;
+   try{
+    const u=new UtteranceCtor(/^[A-Z]{2,5}$/.test(text)?text.split('').join(' '):text);u.voice=available.find(v=>/^en[-_]US$/i.test(v.lang))||available[0];u.lang=u.voice.lang;u.rate=.85;
+    voiceCleanup=clear;
+    u.onstart=()=>{if(!alive()||started)return;started=true;clearTimeout(startTimer);onPlaybackState('playing');onStart();};
+    u.onpause=()=>{if(alive()&&started)onPlaybackState('loading');};u.onresume=()=>{if(alive()&&started)onPlaybackState('playing');};
+    u.onend=()=>{if(!alive())return;if(!started){fail('设备未确认朗读开始，听音题未解锁。请点击朗读重试。');return;}settled=true;clear();voiceCleanup=null;onPlaybackState('idle');onComplete();};
+    u.onerror=e=>fail(e?.error==='not-allowed'?'浏览器阻止设备朗读，请再次点击朗读按钮。':'设备声音未能播放，可重试或跳过。');
+    startTimer=setTimeout(()=>fail('设备朗读启动超时，听音题未解锁。请点击朗读重试。'),timeoutMs);
+    // A voice service can report start but never end. Bound the entire request,
+    // allowing longer sentences enough time at the deliberately slower rate.
+    endTimer=setTimeout(()=>fail('设备朗读未能完整结束，听音题未解锁。请重试或跳过。'),speechEndTimeoutMs??Math.max(timeoutMs*2,String(text).length*200+15000));
+    startTimer.unref?.();endTimer.unref?.();
+    synthesis.resume?.();synthesis.speak(u);return !settled;
+   }catch{fail('设备声音未能播放，可重试或跳过。');return false;}
+  };
+  if(voices().length)return speak();
+  const unavailable=()=>fail(requireUS?'设备没有可用的 en-US 美音声音。请安装英语（美国）语音包后重试，或跳过听音题。':'设备没有英语声音，可跳过听音题，或安装英语语音包。');
   if(typeof synthesis.addEventListener!=='function'){unavailable();return false;}
-  onLoading('正在等待设备加载英语声音…');const changed=()=>{speak();};synthesis.addEventListener('voiceschanged',changed);const timer=setTimeout(()=>{voiceCleanup?.();voiceCleanup=null;if(t===token&&!speak())unavailable();},3000);voiceCleanup=()=>{clearTimeout(timer);synthesis.removeEventListener?.('voiceschanged',changed);};return true;
+  onLoading(requireUS?'正在等待设备加载 en-US 美音声音…':'正在等待设备加载英语声音…');
+  const changed=()=>{speak();};
+  const timer=setTimeout(()=>{if(!alive()||speaking)return;voiceCleanup?.();voiceCleanup=null;if(!speak())unavailable();},Math.min(3000,timeoutMs));timer.unref?.();
+  voiceCleanup=()=>{clearTimeout(timer);synthesis.removeEventListener?.('voiceschanged',changed);};
+  try{synthesis.addEventListener('voiceschanged',changed);}catch{fail('设备声音列表无法加载，请重试或跳过听音题。');return false;}
+  return true;
  }
  function prefetchFile(url){if(!cache.has(url)&&!pending.has(url)&&pending.size>=2)return Promise.resolve(null);return prepareFile(url);}
- return {stop,playFile,playSpeech,prepareFile,prefetchFile};
+ return {stop,playFile,playBlob,playSpeech,prepareFile,prefetchFile};
 }

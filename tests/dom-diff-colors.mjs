@@ -1,4 +1,4 @@
-import {JSDOM} from 'jsdom';
+import {JSDOM} from '/workspace/shared/vocabulary-qa/node_modules/jsdom/lib/api.js';
 import {readFile} from 'node:fs/promises';import assert from 'node:assert/strict';
 import {renderSentenceDictation} from '../src/sentence-dictation.js';
 import {spellingDiffHTML,spellingComparison} from '../src/spelling-diff.js';

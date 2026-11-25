@@ -1,0 +1,46 @@
+{
+  "version": "1.13.7",
+  "generatedAt": "2026-11-25T14:37:25Z",
+  "sourceSiteCommit": "99621fe2b44fce4868d5445cb0897f75de7a6fa6",
+  "archiveFormat": "zip",
+  "fileCount": 2371,
+  "audioMp3Count": 1049,
+  "archives": [
+    {
+      "file": "part-01-core.zip",
+      "bytes": 929409,
+      "fileCount": 155,
+      "sha256": "8999d7218eb4966e337805828a049e8ad134ce65d4584d5c5f8a12ad9864b6bc"
+    },
+    {
+      "file": "part-02-audio.zip",
+      "bytes": 35541218,
+      "fileCount": 1051,
+      "sha256": "c32c8a8bd079f9cafadd4a84648e314edf6cea140c8d2f28e066f9e1f587f021"
+    },
+    {
+      "file": "part-03-dictionary.zip",
+      "bytes": 14322120,
+      "fileCount": 1142,
+      "sha256": "2392791cdb3a4c131b6d0a166af930471a2011a0cdb0d212652eb45ea38dabfd"
+    },
+    {
+      "file": "part-04-kokoro-runtime.zip",
+      "bytes": 6971539,
+      "fileCount": 17,
+      "sha256": "478784887ce950d8ca87e55beab5c3a2d5f3e09948395bc05549b1cbdd697f4d"
+    },
+    {
+      "file": "part-05-kokoro-model-a.zip",
+      "bytes": 50332258,
+      "fileCount": 3,
+      "sha256": "74cfb63f1b03fe74d289609aaaeb923624e96c1550916578f6a4bcfeb947d09f"
+    },
+    {
+      "file": "part-06-kokoro-model-b.zip",
+      "bytes": 42030078,
+      "fileCount": 3,
+      "sha256": "f8a870ff25cd4f6fe7f083dd13f4141cfad87d27668f12dbe0f3d01d185f7a88"
+    }
+  ]
+}

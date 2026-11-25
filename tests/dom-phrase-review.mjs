@@ -11,7 +11,7 @@ import * as localTranslationModule from '../src/local-translation.js';
 import * as practiceTimerModule from '../src/practice-timer.js';
 import * as practiceTimeUIModule from '../src/practice-time-ui.js';
 import * as sentenceDictationModule from '../src/sentence-dictation.js';
-import {JSDOM,VirtualConsole} from 'jsdom';
+import {JSDOM,VirtualConsole} from '/workspace/shared/vocabulary-qa/node_modules/jsdom/lib/api.js';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';import path from 'node:path';import {webcrypto} from 'node:crypto';import assert from 'node:assert/strict';
 import * as reviewTimingModule from '../src/review-timing.js';
 import * as correctionModule from '../src/correction.js';

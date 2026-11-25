@@ -51,7 +51,7 @@ Date: 2026-10-05. User-reported VR playback failure inspected from screenshot.
 
 # Continuous context practice release 4.4
 
-Date: 2026-10-05. No login or model API added. Existing browser-local word records are retained.
+Date: 2026-10-05. Same Site/audience; no login or model API added. Existing browser-local word records are retained.
 
 - Four modules offer finite original new-question rounds and immediate per-option Chinese feedback. Wrong concepts are prioritized using unseen variants; two consecutive independent correct answers clear that concept's current remediation. Seen-question review cannot validate mastery. Exhausted banks remain explicitly unresolved, with no forced infinite loop.
 - 96 questions, 16 concepts, six variants/concept. Reading has six passages; cloze has 24 separate one-blank mini-passages, distinct from all reading material; analysis has 24 distinct example sentences. Old shared reading/cloze reference exercises are not exposed in the cloze route.
@@ -83,7 +83,7 @@ Date: 2026-10-04. Only the two user-prioritized changes are in this release; acc
 
 # Kokoro release 4.1 validation
 
-Date: 2026-10-04. No progress schema change.
+Date: 2026-10-04. Existing Site, same public audience and URL; no progress schema change.
 
 ## New audio release checks
 - 289/289 static whole-word/full-phrase MP3 assets. 145 af_heart female and 144 am_michael male, alternating by canonical corpus order and permanently keyed to word ID.
@@ -107,7 +107,7 @@ Date: 2026-10-04. Based on official live v3 source 0a91a07ba0b713554c3941a2dd381
 - Static JavaScript syntax and output byte parity checked by build-static.mjs.
 
 ## Browser/visual limits
-An isolated Chromium launch failed because this execution environment denies the process socket. An approved retry had the same result. The cloud browser rejected the local preview address, and the test environment has no supported preview service. No restriction was bypassed, public tunnel created, or production-site browser opened.
+An isolated Chromium launch failed because this execution environment denies the process socket. An approved retry had the same result. The cloud browser rejected the local preview address, and this executor has no supervised Sites preview service. No restriction was bypassed, public tunnel created, or production-site browser opened.
 
 Accordingly, the DOM checks are NOT browser rendering, 1024/1440/1920 visual verification, actual audio playback, or screenshot evidence. Desktop CSS targets these widths and was statically reviewed, but this release has no completed real-browser visual acceptance or screenshots. The prepared browser-v4.mjs suite remains for a future environment that supports it. The site should be checked visually on the user's desktop after publication.
 
@@ -218,3 +218,141 @@ Actual Chromium QA was attempted again; its debugging endpoint did not start wit
 - All135 unit tests passed; all25 DOM suites passed with obsolete +5/deduction assertions updated to the new user rule. Final focused scoring suite17 tests passed. Additional actual DOM strength checks prove legacy25→35 in the same skill, duplicate-submit protection, wrong-after-reload remains35, initial10, custom-word10, visible feedback and stored totals.11 focused strength checks passed.
 - Existing100 still exits automatic/due/wrong-book queues and never decays or reactivates after a manual mistake. Hints/immediate copy/three correction rounds remain0 credit and0 penalty. Primary/main/custom isolation and complete task-center flows retained.
 - Build verified2213 files. No new real-browser visual or human-listening verification is claimed; this update changes scoring and rules text only.
+
+## 1.11.4 custom expressions and immediate practice (2026-10-21)
+- Verified original Sites source: project appgprj_6ac0e75ad0f88191b6830586ec03911a, saved version30, commit fbe2b6c1372c491d81daff42cb42556b5f774b5e. Fresh checkout was clean; no prior local files or personal browser storage were modified.
+- Final npm test:152 passed,0 failed. Includes15 phrase-core tests and12 custom-editor DOM tests. QA-only JSDOM is outside the Site; tests/qa-dom.mjs uses WORD_GARDEN_JSDOM or an installed jsdom package. No application dependency was added.
+- Real isolated Chrome browser:31 checks passed,0 runtime errors. Covers dictionary/manual meanings; blank/duplicate validation; save-only and Enter-save-and-study; refresh; all four supplied learning skills; three corrections without extra credit; wrong history; due review; finite context exhaustion; separate browser profiles; legacy blank meanings and accepted variants; unrelated custom-word storage preservation; quota failure rollback and retained draft. Device speech completion is mocked for deterministic gating; voice quality was not assessed.
+- Desktop screenshot checked at1366x900: clear two-column entry fields, visible focus, primary/secondary actions, no horizontal overflow. Evidence remains in ignored evidence/custom-phrase-editor.png and evidence/custom-phrases-browser.json, outside the deployed static file list.
+- Browser regression found and fixed blur-triggered lookup moving the save button between pointerdown/up. Explicit lookup and submit-time lookup remain. The local server now serves existing .mjs imports with JavaScript MIME type. The Sites build helper's Windows npm shim failed; direct npm run build succeeded and verified2213 public files, including711 word audio files. Final build repeated after the last UI repair.
+- Hosting identity and storage keys/schema are unchanged. This app still has no login/account synchronization: isolation is by browser profile and origin. No personal learning records are in source/artifacts. User-supplied matching examples enable finite context exercises; missing examples or new transfer scenes are not fabricated.
+
+## 1.11.5 direct homepage expression entry (2026-10-21)
+- The user confirmed the live footer already read 1.11.4; the issue was that the changed form was inside the management screen while the phrase landing page looked unchanged. Public HTML/scripts matched the deployed source, with must-revalidate/max-age=0 caching.
+- The phrase landing page now shows the shared English/Chinese entry form before filters and lists. Existing lookup, validation, immediate learning and management/edit behavior are reused. No storage schema, progress or Site identity changes.
+- Full npm test passed 157/157 before the final targeted fixes; the affected custom-UI suite then passed 19/19 including two additional regressions. The final changes also address filtering after a persistence rollback and prevent list pagination/filtering from pulling focus to the homepage form.
+- Actual Chrome through CUA on a new localhost port verified the visible two-column form and initial English focus, ECDICT lookup, manual Chinese correction, save-only with list display, refresh retention, Enter starting the existing lesson, and a correct meaning answer increasing strength from 0 to 10. Reload retained both synthetic entries and the strength value. No console errors were observed. Tests used localhost only; no test entries were added to production.
+- npm run build succeeded, verifying 2213 public files and 711 word audio assets. The 1.11.4 full correction/review/audio-gating results remain applicable; this follow-up does not modify the learning engine.
+
+## 1.11.6 今日学情（2026-10-21）
+
+- 基线是原 Sites 第 32 版、应用 1.11.5，源提交 `273411dafc354373b4d928797e6deda7c8eb0032`；工作树初始无未提交修改。继续同一个 `appgprj_6ac0e75ad0f88191b6830586ec03911a` 项目，原网址与 public 权限不变，不发布 GitHub Pages。
+- 核实旧数据边界：单词最多保留 16 条强度事件，句子保留最近结果，三轮订正没有完整历史；搭配和语境保留部分带时间事件。旧记录不足以得到统一完整的今日首答率，因此不导入旧题次，新版起单独采集；已有每日总时长保留。
+- 全套 `npm test`：188/188 通过，无失败、无跳过。包括新增 18 项统计/持久化测试、7 项真实 app 的 DOM 集成测试、4 项展示测试。覆盖零学习、单模式、首错及完整三轮订正关联、提示/自评排除、听力/搭配/句子分类、刷新幂等、跨日/时区、独立存储、多标签页、格式损坏/配额/读取失败、导航不改成绩、旧键字节保留和既有时长读取。DOM 音频使用确定性替身，不声称人工试听。
+- 本地隔离 Chrome：15 项检查通过，无运行时异常。覆盖 1024/1366/1920 桌面无页面横向溢出、入口、实际焦点与回车提交、首错和订正分离、刷新持久化、复习只导航、原固定搭配首页输入仍可见。检查了桌面截图。使用全新测试配置及 localhost，不读取用户日常浏览器资料、不清理用户存储、不添加生产测试词条。
+- 构建验证 2215 个静态文件，包含 711 个单词音频。个人数据、测试配置和截图均不在发布白名单；证据位于忽略的 `evidence/daily-insights-browser.json` 和 `evidence/daily-insights-desktop.png`。
+- 规则复核：音频播放和重绘不生成作答事件；单词/搭配本轮首答、句子/语境原模式首次记录与订正分开；订正不进入首答分母。所有分析是本机透明规则，没有外部 AI 请求或数据上传。
+
+## 1.11.7 custom learning update — 2026-10-30
+
+Base verified against official Sites version 33 / source 73953a7f1f5bdc9d6054adfc6899160a4acd7416 (live deployment succeeded), not an old local backup.
+
+- `npm test`: 220 tests passed, 0 failed (QA JSDOM installed outside the Site).
+- New adapter tests: original IDs/data preservation, no retroactive credit, English-edit/archive, removal and Chinese/group preservation.
+- Real-app integration: all five modes, common +10 scoring and scheduler, no duplicate award after reload, Enter/held Enter and focus, long sentences, missing en-US voice locking audio-only submission, transactional storage failure rollback and safe retry.
+- Speech tests: only real start/end events count; strict US voice selection, no-voice/start/end errors, cancellation/stale events, repeated voice discovery.
+- Sentence save tests: false/throw failures preserve original data/drafts on editing and deletion.
+- Existing textbook, phrase, correction, scheduler, keyboard, daily-insight and vocabulary suites remained green.
+- Browser preview: actual custom sentence authoring/save and navigation inspected. Real device voice availability and sound quality are environment-dependent and cannot be inferred from mocked speech tests. No remote speech provider was installed or claimed.
+
+## 1.11.8 discoverability and sentence-first correction — 2026-10-30
+
+User screenshot confirmed 1.11.7 was loaded, but the sidebar lacked a separate “自定义句子” item. The prior in-page management link was insufficiently discoverable. Added a stable sidebar route and per-sentence practice/audio controls, reusing the original sentence data and 1.11.7 scoring implementation.
+
+`npm test`: 223 passed, 0 failed. New real-app coverage verifies direct sidebar add form, creating a complete sentence (no word splitting), five modes from both existing and new entries, reload/deep-link recovery, return navigation, old progress preservation, and no unrelated phrase storage creation. Real preview also confirmed the original previously saved sentence remains present and new sentence authoring works in the independent route.
+
+## 1.11.9 — Independent sentence tracker
+
+- Full Node suite: 229 tests passed, including 6 new real-app JSDOM integration tests for the sentence tracker.
+- Covered: sidebar/deep-link entry; one progress list; 50 built-ins + existing custom sentences; preservation of original word/legacy sentence data; all five practice modes; recorded-audio completion gates without device voices; normalization; +10 and duplicate/reload protection; return route; 30-minute cooldown; retained other-skill obligations; distinct word/sentence review-all queue ownership; 100% automatic exclusion and manual wrong answer without score loss.
+- Build verifies matching source/output artifacts and every existing canonical, sentence and phrase audio path.
+- Managed cloud-browser preview: checked new entry and range/queues; original sentence recording reached playback completion and enabled dictation submission; submitted full sentence and observed 0% → 10% correct feedback; checked screenshot. This verifies actual playback lifecycle, not a subjective audio-quality audit or every user's device voice availability.
+
+## 1.12.0 — Genuine local Kokoro for custom content
+
+- Full Node/JSDOM suite: 240 passing tests, including 9 new controller tests and 2 additional real-app integration checks. QA dependency installed outside source; run with `WORD_GARDEN_JSDOM=/tmp/cijian-kokoro-qa/node_modules/jsdom/lib/api.js npm test`.
+- Coverage: stable alternating voices across reload/text edit, generated-audio cache reuse, actual player-ended gate, cancellation/stale worker and player callbacks, failed/invalid/timeout generation, no automatic speech fallback, explicit en-US device fallback, all pre-existing scoring/storage/route regressions.
+- Managed Chromium preview, real self-hosted q8 model/WASM (not mocks): saved an arbitrary full custom sentence, generated female af_heart audio and observed playback ending; replay started immediately from cache. Added a separate custom word, observed male am_michael generation and disabled submission until audio completion; submitted correct dictation and observed 0% → 10%. Navigating away during playback cancels it. These are playback lifecycle checks, not a blanket pronunciation/human-quality audit.
+- Asset validation: pinned model/runtime chunks recombine to original SHA-256 digests; all vendor artifacts below25 MiB static limit. No personal learner records or generated user WAVs are packaged in source.
+
+## 1.12.1 — Kokoro-only playback
+
+- Audited every UI playback caller: no application call to device playSpeech, speechSynthesis or SpeechSynthesisUtterance, and no device-fallback control remains. The unused legacy low-level speech method retains its historical unit tests but is not wired into the application; the application explicitly passes null synthesis and utterance constructors.
+- All prerecorded manifest families identify Kokoro-82M American English, including syllable clips. Existing MP3s and assignments are unchanged.
+- Added integration coverage for custom phrase + example Kokoro generation, same-entry voice stability, no device fallback, stopped/stale playback and failure retry while grading remains locked. Updated the earlier device-fallback expectations to the new Kokoro-only requirement.
+- Node suite runs with QA-only JSDOM under /tmp; no test dependency is shipped. Initial run lacked JSDOM (180 passing, six test-file import failures); installing the isolated QA dependency resolved that environment issue.
+- Static build verifies 2,242 assets with byte checks, including 711 canonical whole-word recordings. Release/import cache keys updated to 1.12.1 for changed modules.
+- Browser QA uses isolated localhost preview data. Custom phrase playback has been observed progressing through Kokoro initialization to completed playback. This is a functional playback check, not a human listening review of all utterances or a guarantee for every browser/device.
+
+- Final automated result: 242 tests passed, zero failed/skipped. The new multi-playback integration waits for the second audio element before firing its completion event, avoiding a stale mock callback race. Phrase Stop now immediately displays 已停止。
+
+## 1.12.3 · Replay and sentence center (2026-11-04)
+- Aggregate `npm test`: 264 passed, zero failed (QA-only jsdom from /tmp/cijian-qa; no runtime dependency added).
+- New regression suites cover same-scope replay, fresh drafts/answers, unchanged credit and schedules, archived history, reload, repeated clicks, completed reading passage order, and no silent overwrite of pending work from the sentence center.
+- Browser QA: task-style sentence center renders, textbook sentence memory starts, five-item round completes with replay next to return action. Replay restarts the same first sentence. Full all-mode behavioral coverage is via DOM/engine tests; no exhaustive audio listening or mobile device test claimed.
+- Static build validates 2,242 assets including all 711 canonical word recordings. Public access and project ID preserved.
+
+## 1.12.4 verification
+- Latest published source 1.12.3 was opened and synchronized before editing. Current public audience and original Site identity are preserved.
+- Existing 264 npm tests passed with QA-only jsdom. New actual-app integration tests exercise all four mastered practice modes, complete >15 queues, scope and sentence exclusion, saved/reloaded progress, pending confirmations, Kokoro completion/error gating, unchanged 100% mastery, and complete schedule pagination with bounds/back/scope and sentence-page isolation.
+- Managed browser QA: actual new local lesson introduced 9 scheduled abilities; first page showed 6 and next page 3, previous restored page 1. Verified the sixth card, four mode choices, empty-state disabling, matching visual styles, top/bottom page controls and table containment at 1165×747. Browser QA used isolated local preview, not the user's production learning store.
+- Existing 711 canonical audio assets and local Kokoro paths were not edited. No claim of new perceptual audio QA. Preview input came from synthetic local practice only.
+- Static build validates all 2242 deployed file copies. Version labels do not clear or migrate learning data.
+
+## 1.12.5: complete learning backup and shared list pagination (2026-11-07)
+
+- Combined command: `WORD_GARDEN_JSDOM=/tmp/mastered-review-qa/node_modules/jsdom/lib/api.js npm test`.
+- Result: **346 tests passed, 0 failed** (279 existing tests, 47 backup/validation/UI tests, 20 pagination tests).
+- `node build-static.mjs`: 2246 public files verified by SHA-256 source/output comparison, including all 711 canonical word audio assets.
+- Backup validation covers version/time/necessary payload fields; known legacy stores in a versioned envelope; absent historical optional fields; unsupported/raw fragments; malformed JSON; unsafe prototype keys; excessive nesting/text/UTF-8 size; nested correction/session/draft shape; invalid phrase IDs; adaptive/word/phrase active reference catalogs.
+- Backup behavior covers export/import round trips; stable-ID deduplication; repeated-import idempotence; local content/progress coherence; exact-copy adaptive attempt deduplication without treating question IDs as attempt IDs; no addition of cumulative scheduler, error, mastery, time or star counters; completion/draft/correction preservation; replace confirmation; unrelated localStorage preservation; and stale-tab write refusal.
+- Fault injection tests fail each staged write and pointer write for both legacy and already-restored storage. Original live records remain byte-identical on failed staging or pointer commits. Ordinary failures, interrupted cleanup and changes after preview are also covered. Real browser quota exhaustion was not induced; it is covered by deterministic Storage fault injection.
+- Actual app DOM integration exports all real saved stores, validates/cancels/rejects files without altering learning records, checks overwrite cancel/accept, reloads imported words/sentences/phrases/settings/drafts, retains real word and phrase corrections/completed sessions, and proves nonempty answer events do not duplicate after repeat import.
+- CUA browser QA on the supported local Sites preview: downloaded a real JSON backup; selected that file; saw correct backup timestamp/counts/mode/impact; opened and cancelled the overwrite confirmation; safely merged the same file; observed the post-import reload and explicit no-duplicate result. Visually checked the settings backup section. Following integration, checked the 343-item preparatory list renders 58 pages and changes page 1 to 2 with correct 7–12 range and focus.
+- Pagination worker additionally verified preparatory last-page jump, phrase bidirectional controls/focus, independent sentence tracking lists, and cloze 128-passage pagination in CUA. Automated tests cover full list access, boundaries, search/filter resets, page history, independent lists, and no first-10 truncation in daily priorities.
+- No application errors were observed in the tested UI flows. The browser's extension emitted unrelated metadata errors. Separate mobile-viewport/device QA was not available through the supported browser API; responsive CSS is retained, but no mobile-device pass is claimed.
+- Learning data is localStorage only in this version. No application learning IndexedDB exists. Cache API models/audio are regenerable and intentionally excluded; stable voice assignments are backed up. Import needs spare storage for staging and asks the learner to close other Cijian tabs.
+
+## 1.12.6: optional Supabase cloud sync (2026-11-11)
+
+- Full regression command with isolated QA JSDOM: **351 tests passed, 0 failed**. Static build verified **2,250** copied public files by SHA-256, including 711 canonical word recordings and the pinned Supabase browser client.
+- Added browser-safe Supabase email-link authentication and an explicit local-first sync control; anonymous/local learning remains available.
+- The production table and RLS policies are user-owned by `auth.uid()`. Source contains only the public project URL and publishable key; no Supabase secret, service-role key or database password is used.
+- Sync reuses the validated `cijian-learning-backup` envelope and safe merge rules. It uploads the complete merged snapshot before committing cloud-only records through the existing atomic localStorage generation switch. Timestamp-conditional updates refuse concurrent cloud overwrites.
+- Added focused tests for first backup creation, cloud/local union, same-ID local precedence, invalid-cloud fail-closed behavior and concurrent-write refusal before local commit. Existing JSON file backup remains independent.
+
+## 1.12.7: required accounts and cloud-only progress (2026-11-11)
+
+- Full regression command with isolated QA JSDOM: **355 tests passed, 0 failed**.
+- Static build verified **2,253** copied public files by SHA-256, including all 711 canonical word recordings, the pinned Supabase browser client, login gate and cloud-only storage adapter.
+- New gate coverage proves signed-out visitors see the login screen rather than the learning UI, username/password authentication uses the reserved internal account identity, and only a successful session initializes account storage and loads the application.
+- New storage coverage proves initial hydration comes from the authenticated user's RLS row, two accounts remain independent, no browser learning store is shared, successful changes reach the correct account, and failed writes remain visibly retryable without false success.
+- Existing JSON tests remain green. Cloud-mode restore now waits for the restored snapshot to reach Supabase before reload. Sign-out similarly flushes pending learning changes before ending the session.
+- Production application code has no localStorage learning fallback. A local adapter remains reachable only on `.invalid` QA origins so the established real-app regression harness can exercise the learning UI without a production account.
+- Old browser-local records are neither read nor deleted in production. This release does not silently migrate them to the first account.
+
+## 1.12.8: responsive current-device sign-out (2026-11-11)
+
+- Full regression: **357 tests passed, 0 failed**. Static build verified **2,253** copied public files by SHA-256, including all 711 canonical word recordings.
+- Account storage ignores byte-identical writes and removal of absent learning keys, preventing settings flushes from manufacturing an unnecessary Supabase update.
+- Sign-out keeps the final cloud flush, replaces the settings view with an explicit progress screen, and uses Supabase's local scope. The local `SIGNED_OUT` event releases the page without waiting for the best-effort remote refresh-token revocation request; other devices remain signed in.
+- Focused regression coverage verifies redundant writes do not enter a pending/saving state and that current-device sign-out resolves from the local event even when the remote request remains pending.
+
+## 1.12.9: five-minute cloud batches and large-history performance (2026-11-12)
+
+- Full regression: **360 tests passed, 0 failed**. Static build verified **2,253** copied public files by SHA-256, including all 711 canonical word recordings.
+- Automatic account uploads are fixed five-minute batches; later mutations do not postpone the first scheduled batch. Backgrounding, page exit, account exit, manual retry and JSON restore retain their immediate flush paths.
+- A slow request no longer loops continuously behind per-second effective-time changes. Flush captures a bounded starting revision; changes arriving during that request remain pending for the next batch.
+- Account-memory key enumeration is indexed, daily insight snapshots reuse their validated event cache, ordinary cloud writes avoid full backup validation/merge, and the 15-second timer no longer reconstructs the current page.
+- Synthetic 20,000-event diagnostics reduced account snapshot enumeration from about 2.7 seconds to about 22 milliseconds, immediate in-memory flush preparation from about 4.3 seconds to about 73 milliseconds, and daily report opening to about 211 milliseconds on this executor. These are diagnostic timings, not guarantees for every device or network.
+
+
+## 1.13.0 · 单元循环验证（2026-11-17）
+
+- 从 Sites 最新 v46 源码 dc4dc6881e5c6fd8dd2955427947b1ff077ccfb9 打开并修改；未使用旧 GitHub checkout。
+- 用户截图已通过 Library 在当前环境读取并检查像素，确认目标为「教材与单元」及第3单元43/43。
+- 新增9项实际 app DOM 集成测试，全站369项回归测试通过；最终应用版本标记与导入路径调整后，登录/云端存储/备份/单元循环69项针对性测试通过。
+- 验证所有教材与补充单元完整词集；第3单元43词215步骤；100%、未来到期、暂缓词；同单元续练与刷新；切换取消与历史保留；下一轮新ID和同日+10；提示和三轮纠错不加分；重复提交及重复备份导入去重。
+- 浏览器检查电脑1180px窗口及390px手机iframe（内容宽375px）：43/43已学单元可进入全43词，下一步和暂停后续练正确；手机任务页与练习页无横向溢出。测试使用隔离的合成进度，不连接或修改真实用户账号。
+- 手机导航改为横向滚动，卡片和学习布局响应屏幕尺寸；保留电脑布局。
+- 本地QA页面在打包前删除。未验证真实用户账号登录后的线上端到端云保存，既有云端逻辑通过回归测试，未改写真实学习数据。
