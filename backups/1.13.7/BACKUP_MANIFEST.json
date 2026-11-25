@@ -1,6 +1,6 @@
 {
   "version": "1.13.7",
-  "generatedAt": "2026-11-25T14:47:26.179Z",
+  "generatedAt": "2026-11-25T14:48:47.433Z",
   "sourceSiteCommit": "99621fe2b44fce4868d5445cb0897f75de7a6fa6",
   "archiveFormat": "zip",
   "fileCount": 2372,
@@ -8,39 +8,39 @@
   "archives": [
     {
       "file": "part-01-core.zip",
-      "bytes": 924747,
+      "bytes": 924755,
       "fileCount": 156,
-      "sha256": "66b8825c92d9e221bf1a526ebcce0c9c481d6b4f46737a121b78d0034b98cb6c"
+      "sha256": "8570eb9cd93b31f2e6ca0d523844867752f8c0da18af41ee7af6d5893d8ab476"
     },
     {
       "file": "part-02-audio.zip",
       "bytes": 35486566,
       "fileCount": 1051,
-      "sha256": "7f78f185c2460bdaae575961698b78a8c23aadafd3cc602c666a287feb396404"
+      "sha256": "91e56bf00d1b6d8a61492ce3e16151d8439cb951e4fea8aab0025f9ecaf64c2a"
     },
     {
       "file": "part-03-dictionary.zip",
       "bytes": 14262736,
       "fileCount": 1142,
-      "sha256": "d7e96c59f271aed31ea9aa237f2aa2a3c41c1c0376dca3d1d38e29d3d10f999e"
+      "sha256": "3a509d3283391db8217d59c4d64620c077a4e732c6633f9104d4598a72807965"
     },
     {
       "file": "part-04-kokoro-runtime.zip",
       "bytes": 6970655,
       "fileCount": 17,
-      "sha256": "e50e4d9286f3b42fff8ea02ebc64af0222bfcea1ecf419950272e0b2fb98bf19"
+      "sha256": "c341dec1528dac80735ad4176da56bd167788b5b4a2b36f4195f883ad1f0af5c"
     },
     {
       "file": "part-05-kokoro-model-a.zip",
       "bytes": 50332102,
       "fileCount": 3,
-      "sha256": "e58bf91fdd224f672eaf863c6c900da05c6279e36ec4180e713fec6ed8e5fd9a"
+      "sha256": "6046666cdee4ca94421d6c9d7452fee237ddb1013beedede7ce276de18000900"
     },
     {
       "file": "part-06-kokoro-model-b.zip",
       "bytes": 42029922,
       "fileCount": 3,
-      "sha256": "d598b3c1ffbd13b6e0a8c570f33d67f6db4cd66c46f7ceba21afd315d8d7658e"
+      "sha256": "74506740c2c26c603691e047833eeea22da383c75bc24dc81059bc9f22563e0a"
     }
   ]
 }
